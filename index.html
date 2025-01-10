@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- ECharts -->
+    <script src="dist/echarts.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="p-3">
+      <h1>Encuesta Economías Creativas</h1>
+      <div class="tabs">
+        <div class="tab active" onclick="alert('Pestaña 1 activada')">Dashboard</div>
+        <div class="tab" onclick="alert('Pestaña 2 activada')">Tabla dinámica</div>
+        <div class="tab" onclick="alert('Pestaña 2 activada')">Datos</div>
+
+      </div>
+    </header>
+
+    <div class="container-fluid my-3" style="height: 100vh">
+        <!-- Fila 1 (Dos columnas 50-50) -->
+        <div class="row h-50" style="min-height: 80vh">
+          <!-- Columna 1 (gráfico) -->
+          <div class="col-md-6" style="min-height: 100%">
+            <h2>Nacional</h2>
+          
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Territorio</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Gráfico</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Datos</button>
+              </li>
+            </ul>
+          
+            <!-- Tab content -->
+            <div class="tab-content" id="myTabContent" style="height: calc(100% - 50px);">
+              <!-- Tab 1: Mapa -->
+              <div class="tab-pane fade show active h-100" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                <iframe id="mapa" src="www/mapa.html" class="w-100 h-100" style="border: none;"></iframe>
+              </div>
+          
+              <!-- Tab 2: Gráfico -->
+              <div class="tab-pane fade h-100" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                <iframe id="grafico" src="www/grafico.html" class="w-100 h-100" style="border: none;"></iframe>
+              </div>
+          
+              <!-- Tab 3: Datos -->
+              <div class="tab-pane fade h-100" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                <iframe id="datos" src="www/datos.html" class="w-100 h-100" style="border: none;"></iframe>
+              </div>
+            </div>
+          </div>
+          
+      
+          <!-- Columna 2 (selectores + iframe) -->
+          <div class="col-md-6 d-flex flex-column" style="min-height: 100%">
+            <h2>Características generales</h2> 
+            <!-- Barra de selectores -->
+            <div class="bg-primary text-white p-3 clearfix">
+              <!-- Selector 2: Variable de interés -->
+              <div style="float: left; width: 48%; margin-right: 2%">
+                <label for="selectorGeneralesInteres" style="display: block">Variable de interés:</label>
+                <select id="selectorGeneralesInteres" class="form-select form-select-sm" style="width: 100%" onchange="updateGenerales()">
+                  <option value="genero">Género</option>
+                  <option value="numero_trabajadores">Tamaño Número trabajadores totales</option>
+                  <option value="ventas_anuales">Tamaño Ventas anuales</option>
+                  <option value="exportaciones">Exportaciones</option>
+                  <option value="financiamiento">Financiamiento</option>
+                  <option value="internacionalizacion">Internacionalización</option>
+                </select>
+              </div>
+
+              <!-- Selector 1: Nivel de análisis -->
+              <div style="float: left; width: 48%">
+                <label for="selectorTecnoAnalisis" style="display: block">Nivel de análisis:</label>
+                <select id="selectorTecnoAnalisis" class="form-select form-select-sm" style="width: 100%" onchange="updateGenerales()">
+                  <option value="nacional">Nacional</option>
+                  <option value="regiones">Regiones</option>
+                  <option value="cadena_productiva">Cadena Productiva</option>
+                </select>
+              </div>
+            </div>
+      
+            <!-- Contenedor que crece para el iframe -->
+            <div class="flex-grow-1 bg-white">
+              <iframe id="dynamicIframe2" src="www/nacional_agrupacion_tecnocreativa.html" class="w-100 h-100" style="border: none"></iframe>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Fila 2 (columna completa) -->
+        <div class="row h-50 mt-3" style="min-height: 80vh">
+          <!-- Columna 2 (selectores + iframe) -->
+          <div class="col-12 bg-light border d-flex flex-column" style="height: 100%"> 
+            <h2>Características tecnocreativas</h2> 
+            <!-- Barra de selectores -->
+            <div class="bg-primary text-white p-3 clearfix">
+              <!-- Selector 2: Variable de interés -->
+              <div style="float: left; width: 48%; margin-right: 2%">
+                <label for="selector2b" style="display: block">Variable de interés:</label>
+                <select id="selector2b" class="form-select form-select-sm" style="width: 100%" onchange="updateTecnoCreativas()">
+                  <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa</option>
+                  <option value="uso_de_tecnologia">Uso de tecnología</option>
+                  <option value="herramientas_diferenciacion">Herramientas de diferenciación</option>
+                  <option value="interaccion_otros_sectores">Interacción con otros sectores</option>
+                  <option value="tendencias_tecnocreativas">Tendencias tecnocreativas</option>
+                  <option value="brechas_drivers">Brechas y drivers</option>
+                </select>
+              </div>
+      
+              <!-- Selector 1: Nivel de análisis -->
+              <div style="float: left; width: 48%">
+                <label for="selector1b" style="display: block">Nivel de análisis:</label>
+                <select id="selector1b" class="form-select form-select-sm" style="width: 100%" onchange="updateTecnoCreativas()">
+                  <option value="nacional">Nacional</option>
+                  <option value="regiones">Regiones</option>
+                  <option value="cadena_productiva">Cadena Productiva</option>
+                </select>
+              </div>
+            </div>
+      
+            <!-- Contenedor que crece para el iframe -->
+            <div class="flex-grow-1 bg-white">
+              <iframe id="dynamicIframe3" src="www/nacional_agrupacion_tecnocreativa.html" class="w-100 h-100" style="border: none"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- Modal -->
+    <div class="modal fade" id="zoomModal" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="zoomModalLabel">Vista ampliada</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Contenedor del gráfico en el modal -->
+            <div id="modalContent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
