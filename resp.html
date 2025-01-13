@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Economías Creativas</title>
+    <title>Interactive Dashboard</title>
     <style>
         .tabs {
             display: flex;
@@ -42,51 +42,20 @@
     <!-- Tab 2: Tabla dinámica -->
     <div id="tab2" class="tab-content">
         <h2>Tabla Dinámica</h2>
-        <div style="margin-bottom: 20px;">
-            <!-- Selector 2: Variable de interés -->
-            <div style="float: left; width: 48%; margin-right: 2%">
-                <label for="selectorTablaDin1" style="display: block">Variable de interés:</label>
-                <select id="selectorTablaDin1" class="form-select form-select-sm" style="width: 100%" onchange="updateTable()">
-                    <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa</option>
-                    <option value="uso_de_tecnologia">Uso de tecnología</option>
-                    <option value="herramientas_diferenciacion">Herramientas de diferenciación</option>
-                    <option value="interaccion_otros_sectores">Interacción con otros sectores</option>
-                    <option value="tendencias_tecnocreativas">Tendencias tecnocreativas</option>
-                    <option value="brechas_drivers">Brechas y drivers</option>
-                </select>
-            </div>
-
-            <!-- Selector 1: Nivel de análisis -->
-            <div style="float: left; width: 48%">
-                <label for="selectorTablaDin2" style="display: block">Nivel de análisis:</label>
-                <select id="selectorTablaDin2" class="form-select form-select-sm" style="width: 100%" onchange="updateTable()">
-                    <option value="nacional">Nacional</option>
-                    <option value="region_resumida">Regiones</option>
-                    <option value="cadena_productiva">Cadena Productiva</option>
-                </select>
-            </div>
-        </div>
-        <div style="clear: both;"></div>
-
         <div class="table-responsive">
-            <table id="dynamicTable" class="table table-striped table-bordered" style="width: 100%">
-                <thead>
-                    <tr>
-                        <th>Agrupación</th>
-                        <th>Cantidad</th>
-                        <th>Porcentaje</th>
-                    </tr>
-                </thead>
-                <tbody id="tableBody">
-                </tbody>
-            </table>
+          <table id="dynamicTable" class="table table-striped table-bordered" style="width: 100%">
+            <thead>
+              <tr id="tableHeaders"></tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+          </table>
         </div>
-        <button class="download-btn" onclick="downloadTable()">Descargar Tabla</button>
-
     </div>
 
-    <div id="tab1" class="tab-content active">
-    <div class="container-fluid my-3" style="height: 100vh">
+
+
+    <div class="container-fluid my-3" style="height: 100vh"  id="tab1" class="tab-content active">
         <!-- Fila 1 (Dos columnas 50-50) -->
         <div class="row h-50" style="min-height: 80vh">
           <!-- Columna 1 (gráfico) -->
@@ -96,20 +65,32 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="tabmapa-tab" data-bs-toggle="tab" data-bs-target="#tabmapa" type="button" role="tab" aria-controls="tabmapa" aria-selected="true">Territorio</button>
+                <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Territorio</button>
               </li>
-
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Gráfico</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Datos</button>
+              </li>
             </ul>
           
             <!-- Tab content -->
-            <div  class="tab-content active"   id="myTabContent" style="height: calc(100% - 50px);">
+            <div class="tab-content.active" id="myTabContent" style="height: calc(100% - 50px);">
               <!-- Tab 1: Mapa -->
-              <div class="tab-pane fade show active h-100" id="tabmapa" role="tabpanel" aria-labelledby="tabmapa-tab">
+              <div class="tab-pane fade show active h-100" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
                 <iframe id="mapa" src="www/mapa.html" class="w-100 h-100" style="border: none;"></iframe>
               </div>
           
               <!-- Tab 2: Gráfico -->
-        
+              <div class="tab-pane fade h-100" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                <iframe id="grafico" src="www/grafico.html" class="w-100 h-100" style="border: none;"></iframe>
+              </div>
+          
+              <!-- Tab 3: Datos -->
+              <div class="tab-pane fade h-100" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                <iframe id="datos" src="www/datos.html" class="w-100 h-100" style="border: none;"></iframe>
+              </div>
             </div>
           </div>
           
@@ -188,6 +169,7 @@
           </div>
         </div>
       </div>
+    </div>
       
 
     <!-- Modal -->
@@ -217,7 +199,6 @@
             document.querySelector(`[onclick="openTab('${tabId}')"]`).classList.add('active');
             document.getElementById(tabId).classList.add('active');
         }
-
 
         // Función para cargar la tabla dinámica desde datos_seleccionados.csv
         async function loadDynamicTable() {
@@ -251,100 +232,6 @@
         // Cargar la tabla dinámica cuando se abra la pestaña DOS
         document.querySelector('[onclick="openTab(\'tab2\')"]').addEventListener('click', loadDynamicTable);
 
-        async function loadDynamicTable() {
-            const response = await fetch('datos_seleccionados.csv');
-            const data = await response.text();
-
-            const rows = data.split('\n').filter(row => row.trim() !== '');
-            const headers = rows[0].split(',');
-
-            // Guardar datos para filtrado
-            window.tableData = rows.slice(1).map(row => {
-                const values = row.split(',');
-                return headers.reduce((acc, header, index) => {
-                    acc[header] = values[index];
-                    return acc;
-                }, {});
-            });
-
-            updateTable();
-        }
-
-        function updateTable() {
-            const level = document.getElementById('selectorTablaDin2').value;
-            const variable = document.getElementById('selectorTablaDin1').value;
-
-            let groupedData;
-            if (level === "nacional") {
-                // Agrupar solo por la variable a nivel nacional
-                groupedData = window.tableData.reduce((acc, row) => {
-                    const key = row[variable];
-                    if (!key) return acc;
-                    if (!acc[key]) {
-                        acc[key] = { count: 0 };
-                    }
-                    acc[key].count += 1;
-                    return acc;
-                }, {});
-            } else {
-                // Agrupar por nivel y variable simultáneamente
-                groupedData = window.tableData.reduce((acc, row) => {
-                    const key = `${row[level]} - ${row[variable]}`;
-                    if (!row[variable] || !row[level]) return acc;
-                    if (!acc[key]) {
-                        acc[key] = { count: 0 };
-                    }
-                    acc[key].count += 1;
-                    return acc;
-                }, {});
-            }
-
-            const total = Object.values(groupedData).reduce((sum, group) => sum + group.count, 0);
-
-            const tableBody = document.getElementById('tableBody');
-            tableBody.innerHTML = '';
-
-            Object.entries(groupedData).forEach(([key, { count }]) => {
-                const tr = document.createElement('tr');
-
-                const tdKey = document.createElement('td');
-                tdKey.textContent = key;
-                tr.appendChild(tdKey);
-
-                const tdCount = document.createElement('td');
-                tdCount.textContent = count;
-                tr.appendChild(tdCount);
-
-                const tdPercentage = document.createElement('td');
-                tdPercentage.textContent = ((count / total) * 100).toFixed(2) + '%';
-                tr.appendChild(tdPercentage);
-
-                tableBody.appendChild(tr);
-            });
-        }
-        function downloadTable() {
-            const table = document.getElementById('dynamicTable');
-            const rows = Array.from(table.rows);
-
-            // Convertir filas de la tabla a CSV
-            const csvContent = rows.map(row => {
-                return Array.from(row.cells).map(cell => cell.textContent).join(',');
-            }).join('\n');
-
-            // Crear un enlace para descargar el CSV
-            const blob = new Blob([csvContent], { type: 'text/csv' });
-            const url = URL.createObjectURL(blob);
-
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'tabla_dinamica.csv';
-            a.click();
-
-            URL.revokeObjectURL(url);
-        }
-
-
-        document.querySelector('[onclick="openTab(\'tab2\')"]').addEventListener('click', loadDynamicTable);
-        </script>
+    </script>
   </body>
 </html>

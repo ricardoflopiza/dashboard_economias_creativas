@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+  <title>Chile Map Zoom</title>
+  <style>
+    #map {
+      width: 100%;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    // Datos replicados de regiones_df
+    const data = [
+      { id: "01", name: "Tarapacá", value: 0 },
+      { id: "02", name: "Antofagasta", value: 2 },
+      { id: "03", name: "Atacama", value: 1 },
+      { id: "04", name: "Coquimbo", value: 0 },
+      { id: "05", name: "Valparaíso", value: 28 },
+      { id: "06", name: "O'Higgins", value: 3 },
+      { id: "07", name: "Maule", value: 2 },
+      { id: "08", name: "Biobío", value: 9 },
+      { id: "09", name: "Araucanía", value: 9 },
+      { id: "10", name: "Los Lagos", value: 1 },
+      { id: "11", name: "Aysén", value: 4 },
+      { id: "12", name: "Magallanes", value: 4 },
+      { id: "13", name: "RM", value: 82 },
+      { id: "14", name: "Los Ríos", value: 4 },
+      { id: "15", name: "Arica", value: 3 },
+      { id: "16", name: "Ñuble", value: 0 },
+    ];
+
+    // Cargar el archivo GeoJSON desde la carpeta raíz
+    const geoJsonPath = "/regiones.geojson";
+
+    fetch(geoJsonPath)
+      .then(response => response.json())
+      .then(regionesGeoJSON => {
+        // Inicializar el mapa con ECharts
+        const chart = echarts.init(document.getElementById('map'));
+
+        echarts.registerMap('chile', regionesGeoJSON);
+
+        const option = {
+          title: {
+            text: 'Distribución Regional en Chile',
+            left: 'center',
+          },
+          tooltip: {
+            trigger: 'item',
+            formatter: '{b}: {c}',
+          },
+          visualMap: {
+            min: 0,
+            max: 100, // Ajustar de acuerdo a los datos reales
+            text: ['Alto', 'Bajo'],
+            realtime: true,
+            calculable: true,
+            inRange: {
+              color: ['#f2f0f7', '#2b8cbe'],
+            },
+            right: '5%',
+            top: 'middle',
+          },
+          series: [
+            {
+              type: 'map',
+              map: 'chile',
+              roam: true,
+              data: data.map(d => ({ name: d.name, value: d.value })),
+              emphasis: {
+                label: {
+                  show: true,
+                },
+              },
+            },
+          ],
+        };
+
+        chart.setOption(option);
+
+        // Evento para hacer zoom en la región seleccionada
+        chart.on('click', function (params) {
+          if (params.name) {
+            console.log("Región seleccionada:", params.name);
+
+            // Actualizar opciones para enfocar en la región seleccionada
+            const selectedRegion = data.find(region => region.name === params.name);
+
+            if (selectedRegion) {
+              chart.setOption({
+                series: [
+                  {
+                    type: 'map',
+                    map: 'chile',
+                    zoom: 4, // Nivel de zoom
+                    center: params.event.event.coord, // Coordenadas del evento clic
+                    data: data.map(d => ({
+                      name: d.name,
+                      value: d.name === params.id ? true : 0
+                    }))
+                  }
+                ]
+              });
+            }
+          }
+        });
+      })
+      .catch(error => {
+        console.error("Error cargando el archivo GeoJSON:", error);
+      });
+  </script>
+</body>
+</html>
