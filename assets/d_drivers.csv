@@ -1,0 +1,294 @@
+id,region,cadena_productiva,tipo_empresa,drivers
+30,Arica,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+30,Arica,Contenidos creativos,Empresa,Disponibilidad de software a precios competitivos
+30,Arica,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+72,Arica,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+72,Arica,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+72,Arica,Servicios creativos,Empresa,Expansión de mercados internacionales
+97,Arica,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+97,Arica,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+97,Arica,Experiencias creativas,Empresa,Formación de talento especializado
+73,Antofagasta,Experiencias creativas,Empresa,Disponibilidad de capital privado para inversión
+138,Atacama,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+138,Atacama,Bienes creativos,Empresa,Disponibilidad de capital privado para inversión
+138,Atacama,Bienes creativos,Empresa,Expansión de mercados internacionales
+8,Valparaíso,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+11,Valparaíso,Servicios creativos,Empresa,Disponibilidad de hardware a precios competitivos
+11,Valparaíso,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+12,Valparaíso,Contenidos creativos,Empresa,Disponibilidad de hardware a precios competitivos
+12,Valparaíso,Contenidos creativos,Empresa,Expansión de mercados internacionales
+12,Valparaíso,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+20,Valparaíso,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+20,Valparaíso,Servicios creativos,Empresa,Expansión de mercados internacionales
+20,Valparaíso,Servicios creativos,Empresa,Formación de talento especializado
+21,Valparaíso,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+32,Valparaíso,Experiencias creativas,Profesional independiente,Apoyo gubernamental e incentivos
+32,Valparaíso,Experiencias creativas,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+52,Valparaíso,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+52,Valparaíso,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+53,Valparaíso,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+53,Valparaíso,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+69,Valparaíso,Bienes creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+69,Valparaíso,Bienes creativos,Profesional independiente,Disponibilidad de capital privado para inversión
+69,Valparaíso,Bienes creativos,Profesional independiente,Disponibilidad de hardware a precios competitivos
+71,Valparaíso,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+71,Valparaíso,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+71,Valparaíso,Servicios creativos,Empresa,Disponibilidad de hardware a precios competitivos
+84,Valparaíso,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+84,Valparaíso,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+84,Valparaíso,Contenidos creativos,Empresa,Formación de talento especializado
+92,Valparaíso,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+92,Valparaíso,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+92,Valparaíso,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+103,Valparaíso,Contenidos creativos,Profesional independiente,Apoyo gubernamental e incentivos
+103,Valparaíso,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+103,Valparaíso,Contenidos creativos,Profesional independiente,Expansión de mercados internacionales
+113,Valparaíso,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+114,Valparaíso,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+114,Valparaíso,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+114,Valparaíso,Servicios creativos,Empresa,Formación de talento especializado
+117,Valparaíso,Servicios creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+117,Valparaíso,Servicios creativos,Profesional independiente,Fibra óptica y conectividad de alta velocidad
+120,Valparaíso,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+120,Valparaíso,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+120,Valparaíso,Bienes creativos,Empresa,Formación de talento especializado
+126,Valparaíso,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+126,Valparaíso,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+126,Valparaíso,Bienes creativos,Empresa,Expansión de mercados internacionales
+129,Valparaíso,Bienes creativos,Profesional independiente,Apoyo gubernamental e incentivos
+129,Valparaíso,Bienes creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+129,Valparaíso,Bienes creativos,Profesional independiente,Formación de talento especializado
+131,Valparaíso,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+135,Valparaíso,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+135,Valparaíso,Servicios creativos,Empresa,Expansión de mercados internacionales
+135,Valparaíso,Servicios creativos,Empresa,Formación de talento especializado
+3,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+3,RM,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+5,RM,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+5,RM,Contenidos creativos,Profesional independiente,Disponibilidad de capital privado para inversión
+5,RM,Contenidos creativos,Profesional independiente,Disponibilidad de software a precios competitivos
+7,RM,Servicios creativos,Empresa,Disponibilidad de hardware a precios competitivos
+7,RM,Servicios creativos,Empresa,Expansión de mercados internacionales
+7,RM,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+13,RM,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+13,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+13,RM,Servicios creativos,Empresa,Disponibilidad de capital privado para inversión
+14,RM,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+14,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+14,RM,Servicios creativos,Empresa,Disponibilidad de capital privado para inversión
+15,RM,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+15,RM,Contenidos creativos,Profesional independiente,Disponibilidad de capital privado para inversión
+16,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+16,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+16,RM,Contenidos creativos,Empresa,Formación de talento especializado
+17,RM,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+17,RM,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+17,RM,Bienes creativos,Empresa,Formación de talento especializado
+18,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+19,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+19,RM,Servicios creativos,Empresa,Expansión de mercados internacionales
+19,RM,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+24,RM,Bienes creativos,Profesional independiente,Apoyo gubernamental e incentivos
+25,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+25,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+25,RM,Contenidos creativos,Empresa,Formación de talento especializado
+26,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+26,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+26,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+28,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+28,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+28,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+29,RM,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+29,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+29,RM,Servicios creativos,Empresa,Formación de talento especializado
+36,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+36,RM,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+38,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+38,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+42,RM,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+42,RM,Bienes creativos,Empresa,Expansión de mercados internacionales
+42,RM,Bienes creativos,Empresa,Formación de talento especializado
+45,RM,Contenidos creativos,Profesional independiente,Apoyo gubernamental e incentivos
+45,RM,Contenidos creativos,Profesional independiente,Disponibilidad de hardware a precios competitivos
+45,RM,Contenidos creativos,Profesional independiente,Disponibilidad de software a precios competitivos
+46,RM,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+46,RM,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+46,RM,Bienes creativos,Empresa,Disponibilidad de capital privado para inversión
+47,RM,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+48,RM,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+48,RM,Experiencias creativas,Empresa,Fibra óptica y conectividad de alta velocidad
+48,RM,Experiencias creativas,Empresa,Formación de talento especializado
+49,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+49,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+49,RM,Contenidos creativos,Empresa,Disponibilidad de software a precios competitivos
+50,RM,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+55,RM,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+55,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+55,RM,Servicios creativos,Empresa,Disponibilidad de capital privado para inversión
+56,RM,Bienes creativos,Profesional independiente,Fibra óptica y conectividad de alta velocidad
+58,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+58,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+58,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+62,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+62,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+62,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+63,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+63,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+63,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+64,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+64,RM,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+65,RM,Experiencias creativas,Profesional independiente,Disponibilidad de software a precios competitivos
+78,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+78,RM,Servicios creativos,Empresa,Formación de talento especializado
+80,RM,Contenidos creativos,Profesional independiente,Disponibilidad de software a precios competitivos
+83,RM,Bienes creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+83,RM,Bienes creativos,Profesional independiente,Disponibilidad de hardware a precios competitivos
+83,RM,Bienes creativos,Profesional independiente,Fibra óptica y conectividad de alta velocidad
+86,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+87,RM,Experiencias creativas,Profesional independiente,Apoyo gubernamental e incentivos
+87,RM,Experiencias creativas,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+87,RM,Experiencias creativas,Profesional independiente,Expansión de mercados internacionales
+88,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+88,RM,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+88,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+89,RM,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+89,RM,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+89,RM,Experiencias creativas,Empresa,Disponibilidad de software a precios competitivos
+90,RM,Experiencias creativas,Profesional independiente,Apoyo gubernamental e incentivos
+90,RM,Experiencias creativas,Profesional independiente,Expansión de mercados internacionales
+93,RM,Experiencias creativas,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+94,RM,Servicios creativos,Profesional independiente,Apoyo gubernamental e incentivos
+94,RM,Servicios creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+94,RM,Servicios creativos,Profesional independiente,Formación de talento especializado
+96,RM,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+96,RM,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+96,RM,Experiencias creativas,Empresa,Disponibilidad de capital privado para inversión
+98,RM,Experiencias creativas,Profesional independiente,Apoyo gubernamental e incentivos
+98,RM,Experiencias creativas,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+99,RM,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+100,RM,Experiencias creativas,Empresa,Disponibilidad de capital privado para inversión
+101,RM,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+101,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+101,RM,Servicios creativos,Empresa,Disponibilidad de capital privado para inversión
+102,RM,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+102,RM,Experiencias creativas,Empresa,Expansión de mercados internacionales
+102,RM,Experiencias creativas,Empresa,Formación de talento especializado
+105,RM,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+105,RM,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+105,RM,Experiencias creativas,Empresa,Formación de talento especializado
+106,RM,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+106,RM,Bienes creativos,Empresa,Expansión de mercados internacionales
+109,RM,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+109,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+109,RM,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+110,RM,Experiencias creativas,Empresa,Expansión de mercados internacionales
+110,RM,Experiencias creativas,Empresa,Fibra óptica y conectividad de alta velocidad
+110,RM,Experiencias creativas,Empresa,Formación de talento especializado
+112,RM,Servicios creativos,Empresa,Disponibilidad de software a precios competitivos
+112,RM,Servicios creativos,Empresa,Formación de talento especializado
+119,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+119,RM,Servicios creativos,Empresa,Disponibilidad de software a precios competitivos
+119,RM,Servicios creativos,Empresa,Expansión de mercados internacionales
+122,RM,Contenidos creativos,Empresa,Formación de talento especializado
+124,RM,Experiencias creativas,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+124,RM,Experiencias creativas,Profesional independiente,Disponibilidad de capital privado para inversión
+124,RM,Experiencias creativas,Profesional independiente,Expansión de mercados internacionales
+125,RM,Servicios creativos,Empresa,Disponibilidad de capital privado para inversión
+125,RM,Servicios creativos,Empresa,Disponibilidad de hardware a precios competitivos
+125,RM,Servicios creativos,Empresa,Formación de talento especializado
+127,RM,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+127,RM,Experiencias creativas,Empresa,Disponibilidad de capital privado para inversión
+127,RM,Experiencias creativas,Empresa,Expansión de mercados internacionales
+128,RM,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+130,RM,Contenidos creativos,Profesional independiente,Apoyo gubernamental e incentivos
+130,RM,Contenidos creativos,Profesional independiente,Disponibilidad de hardware a precios competitivos
+130,RM,Contenidos creativos,Profesional independiente,Disponibilidad de software a precios competitivos
+132,RM,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+132,RM,Bienes creativos,Empresa,Disponibilidad de hardware a precios competitivos
+132,RM,Bienes creativos,Empresa,Disponibilidad de software a precios competitivos
+133,RM,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+133,RM,Servicios creativos,Empresa,Expansión de mercados internacionales
+136,RM,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+136,RM,Contenidos creativos,Empresa,Expansión de mercados internacionales
+136,RM,Contenidos creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+139,RM,Contenidos creativos,Profesional independiente,Apoyo gubernamental e incentivos
+139,RM,Contenidos creativos,Profesional independiente,Expansión de mercados internacionales
+139,RM,Contenidos creativos,Profesional independiente,Formación de talento especializado
+67,O'Higgins,Bienes creativos,Empresa,Disponibilidad de hardware a precios competitivos
+67,O'Higgins,Bienes creativos,Empresa,Disponibilidad de software a precios competitivos
+67,O'Higgins,Bienes creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+43,Maule,Contenidos creativos,Empresa,Apoyo gubernamental e incentivos
+43,Maule,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+43,Maule,Contenidos creativos,Empresa,Disponibilidad de capital privado para inversión
+70,Maule,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+70,Maule,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+70,Maule,Experiencias creativas,Empresa,Formación de talento especializado
+6,Biobío,Contenidos creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+6,Biobío,Contenidos creativos,Empresa,Disponibilidad de software a precios competitivos
+6,Biobío,Contenidos creativos,Empresa,Formación de talento especializado
+41,Biobío,Experiencias creativas,Profesional independiente,Apoyo gubernamental e incentivos
+41,Biobío,Experiencias creativas,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+41,Biobío,Experiencias creativas,Profesional independiente,Formación de talento especializado
+61,Biobío,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+61,Biobío,Servicios creativos,Empresa,Expansión de mercados internacionales
+111,Biobío,Bienes creativos,Empresa,Disponibilidad de hardware a precios competitivos
+115,Biobío,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+115,Biobío,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+115,Biobío,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+118,Biobío,Bienes creativos,Empresa,Disponibilidad de capital privado para inversión
+118,Biobío,Bienes creativos,Empresa,Disponibilidad de software a precios competitivos
+118,Biobío,Bienes creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+137,Biobío,Bienes creativos,Empresa,Disponibilidad de hardware a precios competitivos
+137,Biobío,Bienes creativos,Empresa,Expansión de mercados internacionales
+27,Araucanía,Contenidos creativos,Profesional independiente,Apoyo gubernamental e incentivos
+27,Araucanía,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+27,Araucanía,Contenidos creativos,Profesional independiente,Formación de talento especializado
+37,Araucanía,Experiencias creativas,Empresa,Apoyo gubernamental e incentivos
+37,Araucanía,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+37,Araucanía,Experiencias creativas,Empresa,Fibra óptica y conectividad de alta velocidad
+40,Araucanía,Contenidos creativos,Profesional independiente,Apoyo gubernamental e incentivos
+40,Araucanía,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+40,Araucanía,Contenidos creativos,Profesional independiente,Formación de talento especializado
+44,Araucanía,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+66,Araucanía,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+66,Araucanía,Bienes creativos,Empresa,Disponibilidad de capital privado para inversión
+66,Araucanía,Bienes creativos,Empresa,Formación de talento especializado
+81,Araucanía,Bienes creativos,Profesional independiente,Disponibilidad de hardware a precios competitivos
+81,Araucanía,Bienes creativos,Profesional independiente,Fibra óptica y conectividad de alta velocidad
+116,Araucanía,Servicios creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+116,Araucanía,Servicios creativos,Profesional independiente,Expansión de mercados internacionales
+116,Araucanía,Servicios creativos,Profesional independiente,Formación de talento especializado
+121,Araucanía,Experiencias creativas,Profesional independiente,Formación de talento especializado
+39,Los Ríos,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+39,Los Ríos,Experiencias creativas,Empresa,Disponibilidad de hardware a precios competitivos
+39,Los Ríos,Experiencias creativas,Empresa,Disponibilidad de software a precios competitivos
+82,Los Ríos,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+82,Los Ríos,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+82,Los Ríos,Bienes creativos,Empresa,Formación de talento especializado
+134,Los Lagos,Experiencias creativas,Empresa,Colaboración entre industrias creativas y tecnológicas
+134,Los Lagos,Experiencias creativas,Empresa,Disponibilidad de hardware a precios competitivos
+134,Los Lagos,Experiencias creativas,Empresa,Disponibilidad de software a precios competitivos
+4,Aysén,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+4,Aysén,Bienes creativos,Empresa,Disponibilidad de hardware a precios competitivos
+4,Aysén,Bienes creativos,Empresa,Disponibilidad de software a precios competitivos
+51,Aysén,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+51,Aysén,Bienes creativos,Empresa,Expansión de mercados internacionales
+95,Aysén,Servicios creativos,Empresa,Apoyo gubernamental e incentivos
+95,Aysén,Servicios creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+95,Aysén,Servicios creativos,Empresa,Fibra óptica y conectividad de alta velocidad
+123,Aysén,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+123,Aysén,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+123,Aysén,Bienes creativos,Empresa,Disponibilidad de software a precios competitivos
+10,Magallanes,Contenidos creativos,Empresa,Disponibilidad de software a precios competitivos
+59,Magallanes,Servicios creativos,Empresa,Disponibilidad de software a precios competitivos
+59,Magallanes,Servicios creativos,Empresa,Formación de talento especializado
+79,Magallanes,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+79,Magallanes,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+91,Magallanes,Bienes creativos,Empresa,Apoyo gubernamental e incentivos
+91,Magallanes,Bienes creativos,Empresa,Colaboración entre industrias creativas y tecnológicas
+91,Magallanes,Bienes creativos,Empresa,Formación de talento especializado
+9,Extranjero,Servicios creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+9,Extranjero,Servicios creativos,Profesional independiente,Formación de talento especializado
+31,Extranjero,Experiencias creativas,Profesional independiente,Expansión de mercados internacionales
+57,Extranjero,Contenidos creativos,Profesional independiente,Colaboración entre industrias creativas y tecnológicas
+57,Extranjero,Contenidos creativos,Profesional independiente,Disponibilidad de capital privado para inversión

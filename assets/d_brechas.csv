@@ -1,0 +1,283 @@
+id,region,cadena_productiva,tipo_empresa,brechas
+30,Arica,Contenidos creativos,Empresa,Acceso a financiamiento
+30,Arica,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+30,Arica,Contenidos creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+72,Arica,Servicios creativos,Empresa,Acceso a financiamiento
+72,Arica,Servicios creativos,Empresa,Falta de infraestructura
+97,Arica,Experiencias creativas,Empresa,Acceso a financiamiento
+97,Arica,Experiencias creativas,Empresa,Escasez de talento
+73,Antofagasta,Experiencias creativas,Empresa,Información y tendencias de Mercado
+138,Atacama,Bienes creativos,Empresa,Acceso a financiamiento
+138,Atacama,Bienes creativos,Empresa,Dificultades para exportar
+138,Atacama,Bienes creativos,Empresa,Falta de infraestructura
+8,Valparaíso,Bienes creativos,Empresa,Acceso a financiamiento
+8,Valparaíso,Bienes creativos,Empresa,Falta de infraestructura
+11,Valparaíso,Servicios creativos,Empresa,Acceso a financiamiento
+12,Valparaíso,Contenidos creativos,Empresa,Acceso a financiamiento
+12,Valparaíso,Contenidos creativos,Empresa,Brechas geográficas y de conectividad
+12,Valparaíso,Contenidos creativos,Empresa,Escasez de talento
+20,Valparaíso,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+20,Valparaíso,Servicios creativos,Empresa,Información y tendencias de Mercado
+20,Valparaíso,Servicios creativos,Empresa,Regulaciones y normativas
+21,Valparaíso,Servicios creativos,Empresa,Acceso a financiamiento
+21,Valparaíso,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+21,Valparaíso,Servicios creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+32,Valparaíso,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+32,Valparaíso,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+32,Valparaíso,Experiencias creativas,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+52,Valparaíso,Experiencias creativas,Empresa,Acceso a financiamiento
+52,Valparaíso,Experiencias creativas,Empresa,Acceso a nuevas tecnologías
+52,Valparaíso,Experiencias creativas,Empresa,Información y tendencias de Mercado
+53,Valparaíso,Servicios creativos,Empresa,Brechas geográficas y de conectividad
+53,Valparaíso,Servicios creativos,Empresa,Información y tendencias de Mercado
+53,Valparaíso,Servicios creativos,Empresa,Regulaciones y normativas
+69,Valparaíso,Bienes creativos,Profesional independiente,Acceso a financiamiento
+69,Valparaíso,Bienes creativos,Profesional independiente,Falta de infraestructura
+69,Valparaíso,Bienes creativos,Profesional independiente,Información y tendencias de Mercado
+71,Valparaíso,Servicios creativos,Empresa,Acceso a financiamiento
+71,Valparaíso,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+71,Valparaíso,Servicios creativos,Empresa,Falta de infraestructura
+84,Valparaíso,Contenidos creativos,Empresa,Acceso a financiamiento
+84,Valparaíso,Contenidos creativos,Empresa,Brechas de género
+84,Valparaíso,Contenidos creativos,Empresa,Falta de infraestructura
+92,Valparaíso,Servicios creativos,Empresa,Acceso a financiamiento
+92,Valparaíso,Servicios creativos,Empresa,Dificultades para exportar
+92,Valparaíso,Servicios creativos,Empresa,Regulaciones y normativas
+103,Valparaíso,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+103,Valparaíso,Contenidos creativos,Profesional independiente,Dificultades para exportar
+113,Valparaíso,Bienes creativos,Empresa,Acceso a financiamiento
+113,Valparaíso,Bienes creativos,Empresa,Falta de infraestructura
+114,Valparaíso,Servicios creativos,Empresa,Acceso a financiamiento
+117,Valparaíso,Servicios creativos,Profesional independiente,Acceso a financiamiento
+117,Valparaíso,Servicios creativos,Profesional independiente,Acceso a nuevas tecnologías
+117,Valparaíso,Servicios creativos,Profesional independiente,Falta de infraestructura
+126,Valparaíso,Bienes creativos,Empresa,Acceso a financiamiento
+126,Valparaíso,Bienes creativos,Empresa,Acceso a nuevas tecnologías
+126,Valparaíso,Bienes creativos,Empresa,Información y tendencias de Mercado
+129,Valparaíso,Bienes creativos,Profesional independiente,Acceso a financiamiento
+129,Valparaíso,Bienes creativos,Profesional independiente,Falta de infraestructura
+129,Valparaíso,Bienes creativos,Profesional independiente,Regulaciones y normativas
+131,Valparaíso,Servicios creativos,Empresa,Acceso a financiamiento
+131,Valparaíso,Servicios creativos,Empresa,Información y tendencias de Mercado
+135,Valparaíso,Servicios creativos,Empresa,Dificultades para exportar
+135,Valparaíso,Servicios creativos,Empresa,Regulaciones y normativas
+3,RM,Servicios creativos,Empresa,Brechas geográficas y de conectividad
+5,RM,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+7,RM,Servicios creativos,Empresa,Acceso a financiamiento
+7,RM,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+7,RM,Servicios creativos,Empresa,Regulaciones y normativas
+13,RM,Servicios creativos,Empresa,Acceso a financiamiento
+13,RM,Servicios creativos,Empresa,Brechas geográficas y de conectividad
+13,RM,Servicios creativos,Empresa,Falta de infraestructura
+14,RM,Servicios creativos,Empresa,Acceso a financiamiento
+14,RM,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+14,RM,Servicios creativos,Empresa,Regulaciones y normativas
+15,RM,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+16,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+16,RM,Contenidos creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+16,RM,Contenidos creativos,Empresa,Información y tendencias de Mercado
+17,RM,Bienes creativos,Empresa,Acceso a financiamiento
+17,RM,Bienes creativos,Empresa,Dificultades para exportar
+17,RM,Bienes creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+18,RM,Servicios creativos,Empresa,Acceso a financiamiento
+18,RM,Servicios creativos,Empresa,Escasez de talento
+19,RM,Servicios creativos,Empresa,Barreras tecnológicas
+19,RM,Servicios creativos,Empresa,Información y tendencias de Mercado
+19,RM,Servicios creativos,Empresa,Regulaciones y normativas
+24,RM,Bienes creativos,Profesional independiente,Información y tendencias de Mercado
+25,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+25,RM,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+25,RM,Contenidos creativos,Empresa,Escasez de talento
+26,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+26,RM,Contenidos creativos,Empresa,Brechas geográficas y de conectividad
+26,RM,Contenidos creativos,Empresa,Información y tendencias de Mercado
+28,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+29,RM,Servicios creativos,Empresa,Acceso a financiamiento
+29,RM,Servicios creativos,Empresa,Brechas de género
+29,RM,Servicios creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+36,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+36,RM,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+36,RM,Contenidos creativos,Empresa,Falta de infraestructura
+38,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+38,RM,Contenidos creativos,Empresa,Falta de infraestructura
+38,RM,Contenidos creativos,Empresa,Información y tendencias de Mercado
+42,RM,Bienes creativos,Empresa,Acceso a financiamiento
+42,RM,Bienes creativos,Empresa,Falta de infraestructura
+42,RM,Bienes creativos,Empresa,Regulaciones y normativas
+45,RM,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+45,RM,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+45,RM,Contenidos creativos,Profesional independiente,Falta de infraestructura
+46,RM,Bienes creativos,Empresa,Acceso a financiamiento
+46,RM,Bienes creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+46,RM,Bienes creativos,Empresa,Información y tendencias de Mercado
+47,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+47,RM,Experiencias creativas,Empresa,Escasez de talento
+48,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+48,RM,Experiencias creativas,Empresa,Acceso a nuevas tecnologías
+48,RM,Experiencias creativas,Empresa,Falta de infraestructura
+49,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+49,RM,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+49,RM,Contenidos creativos,Empresa,Brechas geográficas y de conectividad
+50,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+50,RM,Contenidos creativos,Empresa,Regulaciones y normativas
+55,RM,Servicios creativos,Empresa,Acceso a financiamiento
+56,RM,Bienes creativos,Profesional independiente,Acceso a financiamiento
+58,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+58,RM,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+58,RM,Contenidos creativos,Empresa,Dificultades para exportar
+62,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+62,RM,Contenidos creativos,Empresa,Barreras tecnológicas
+62,RM,Contenidos creativos,Empresa,Escasez de talento
+63,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+64,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+65,RM,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+78,RM,Servicios creativos,Empresa,Acceso a financiamiento
+78,RM,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+78,RM,Servicios creativos,Empresa,Falta de infraestructura
+80,RM,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+80,RM,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+86,RM,Servicios creativos,Empresa,Acceso a financiamiento
+87,RM,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+87,RM,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+87,RM,Experiencias creativas,Profesional independiente,Brechas de género
+88,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+88,RM,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+89,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+89,RM,Experiencias creativas,Empresa,Dificultades para exportar
+90,RM,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+90,RM,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+90,RM,Experiencias creativas,Profesional independiente,Falta de infraestructura
+93,RM,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+93,RM,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+93,RM,Experiencias creativas,Profesional independiente,Falta de infraestructura
+94,RM,Servicios creativos,Profesional independiente,Acceso a financiamiento
+94,RM,Servicios creativos,Profesional independiente,Acceso a nuevas tecnologías
+94,RM,Servicios creativos,Profesional independiente,Barreras tecnológicas
+96,RM,Experiencias creativas,Empresa,Barreras tecnológicas
+96,RM,Experiencias creativas,Empresa,Brechas geográficas y de conectividad
+96,RM,Experiencias creativas,Empresa,Regulaciones y normativas
+98,RM,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+98,RM,Experiencias creativas,Profesional independiente,Dificultades para exportar
+98,RM,Experiencias creativas,Profesional independiente,Falta de infraestructura
+99,RM,Bienes creativos,Empresa,Acceso a financiamiento
+99,RM,Bienes creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+99,RM,Bienes creativos,Empresa,Información y tendencias de Mercado
+100,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+100,RM,Experiencias creativas,Empresa,Información y tendencias de Mercado
+101,RM,Servicios creativos,Empresa,Acceso a financiamiento
+101,RM,Servicios creativos,Empresa,Regulaciones y normativas
+102,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+102,RM,Experiencias creativas,Empresa,Brechas geográficas y de conectividad
+102,RM,Experiencias creativas,Empresa,Brechas de género
+105,RM,Experiencias creativas,Empresa,Brechas geográficas y de conectividad
+105,RM,Experiencias creativas,Empresa,Brechas de género
+105,RM,Experiencias creativas,Empresa,Falta de infraestructura
+106,RM,Bienes creativos,Empresa,Acceso a nuevas tecnologías
+106,RM,Bienes creativos,Empresa,Brechas geográficas y de conectividad
+106,RM,Bienes creativos,Empresa,Información y tendencias de Mercado
+109,RM,Servicios creativos,Empresa,Dificultades para exportar
+109,RM,Servicios creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+109,RM,Servicios creativos,Empresa,Información y tendencias de Mercado
+110,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+110,RM,Experiencias creativas,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+110,RM,Experiencias creativas,Empresa,Regulaciones y normativas
+112,RM,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+112,RM,Servicios creativos,Empresa,Barreras tecnológicas
+112,RM,Servicios creativos,Empresa,Falta de infraestructura
+119,RM,Servicios creativos,Empresa,Acceso a financiamiento
+119,RM,Servicios creativos,Empresa,Información y tendencias de Mercado
+119,RM,Servicios creativos,Empresa,Regulaciones y normativas
+122,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+124,RM,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+124,RM,Experiencias creativas,Profesional independiente,Barreras tecnológicas
+124,RM,Experiencias creativas,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+125,RM,Servicios creativos,Empresa,Acceso a financiamiento
+125,RM,Servicios creativos,Empresa,Acceso a nuevas tecnologías
+125,RM,Servicios creativos,Empresa,Dificultad para aprender e implementar nuevos conocimientos
+127,RM,Experiencias creativas,Empresa,Acceso a financiamiento
+128,RM,Contenidos creativos,Empresa,Acceso a financiamiento
+128,RM,Contenidos creativos,Empresa,Información y tendencias de Mercado
+130,RM,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+130,RM,Contenidos creativos,Profesional independiente,Barreras tecnológicas
+133,RM,Servicios creativos,Empresa,Dificultades para exportar
+133,RM,Servicios creativos,Empresa,Información y tendencias de Mercado
+136,RM,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+136,RM,Contenidos creativos,Empresa,Escasez de talento
+136,RM,Contenidos creativos,Empresa,Regulaciones y normativas
+139,RM,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+139,RM,Contenidos creativos,Profesional independiente,Barreras tecnológicas
+139,RM,Contenidos creativos,Profesional independiente,Escasez de talento
+43,Maule,Contenidos creativos,Empresa,Acceso a financiamiento
+43,Maule,Contenidos creativos,Empresa,Dificultades para exportar
+43,Maule,Contenidos creativos,Empresa,Regulaciones y normativas
+70,Maule,Experiencias creativas,Empresa,Acceso a financiamiento
+70,Maule,Experiencias creativas,Empresa,Acceso a nuevas tecnologías
+70,Maule,Experiencias creativas,Empresa,Escasez de talento
+6,Biobío,Contenidos creativos,Empresa,Acceso a financiamiento
+6,Biobío,Contenidos creativos,Empresa,Escasez de talento
+6,Biobío,Contenidos creativos,Empresa,Información y tendencias de Mercado
+41,Biobío,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+61,Biobío,Servicios creativos,Empresa,Acceso a financiamiento
+111,Biobío,Bienes creativos,Empresa,Acceso a financiamiento
+115,Biobío,Servicios creativos,Empresa,Acceso a financiamiento
+115,Biobío,Servicios creativos,Empresa,Barreras tecnológicas
+115,Biobío,Servicios creativos,Empresa,Información y tendencias de Mercado
+118,Biobío,Bienes creativos,Empresa,Acceso a nuevas tecnologías
+118,Biobío,Bienes creativos,Empresa,Brechas geográficas y de conectividad
+118,Biobío,Bienes creativos,Empresa,Escasez de talento
+137,Biobío,Bienes creativos,Empresa,Acceso a financiamiento
+137,Biobío,Bienes creativos,Empresa,Información y tendencias de Mercado
+137,Biobío,Bienes creativos,Empresa,Regulaciones y normativas
+27,Araucanía,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+37,Araucanía,Experiencias creativas,Empresa,Acceso a financiamiento
+37,Araucanía,Experiencias creativas,Empresa,Falta de infraestructura
+40,Araucanía,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+40,Araucanía,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+40,Araucanía,Contenidos creativos,Profesional independiente,Regulaciones y normativas
+44,Araucanía,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+44,Araucanía,Contenidos creativos,Profesional independiente,Brechas geográficas y de conectividad
+44,Araucanía,Contenidos creativos,Profesional independiente,Información y tendencias de Mercado
+66,Araucanía,Bienes creativos,Empresa,Barreras tecnológicas
+81,Araucanía,Bienes creativos,Profesional independiente,Dificultades para exportar
+81,Araucanía,Bienes creativos,Profesional independiente,Falta de infraestructura
+81,Araucanía,Bienes creativos,Profesional independiente,Regulaciones y normativas
+116,Araucanía,Servicios creativos,Profesional independiente,Acceso a financiamiento
+116,Araucanía,Servicios creativos,Profesional independiente,Brechas geográficas y de conectividad
+116,Araucanía,Servicios creativos,Profesional independiente,Dificultades para exportar
+121,Araucanía,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+121,Araucanía,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+121,Araucanía,Experiencias creativas,Profesional independiente,Brechas de género
+39,Los Ríos,Experiencias creativas,Empresa,Acceso a financiamiento
+82,Los Ríos,Bienes creativos,Empresa,Acceso a financiamiento
+82,Los Ríos,Bienes creativos,Empresa,Brechas geográficas y de conectividad
+82,Los Ríos,Bienes creativos,Empresa,Falta de infraestructura
+134,Los Lagos,Experiencias creativas,Empresa,Acceso a financiamiento
+134,Los Lagos,Experiencias creativas,Empresa,Falta de infraestructura
+134,Los Lagos,Experiencias creativas,Empresa,Información y tendencias de Mercado
+4,Aysén,Bienes creativos,Empresa,Acceso a financiamiento
+4,Aysén,Bienes creativos,Empresa,Acceso a nuevas tecnologías
+4,Aysén,Bienes creativos,Empresa,Falta de infraestructura
+51,Aysén,Bienes creativos,Empresa,Acceso a financiamiento
+51,Aysén,Bienes creativos,Empresa,Brechas geográficas y de conectividad
+51,Aysén,Bienes creativos,Empresa,Escasez de talento
+95,Aysén,Servicios creativos,Empresa,Acceso a financiamiento
+95,Aysén,Servicios creativos,Empresa,Brechas geográficas y de conectividad
+95,Aysén,Servicios creativos,Empresa,Información y tendencias de Mercado
+123,Aysén,Bienes creativos,Empresa,Acceso a nuevas tecnologías
+123,Aysén,Bienes creativos,Empresa,Brechas geográficas y de conectividad
+10,Magallanes,Contenidos creativos,Empresa,Acceso a financiamiento
+10,Magallanes,Contenidos creativos,Empresa,Acceso a nuevas tecnologías
+10,Magallanes,Contenidos creativos,Empresa,Barreras tecnológicas
+59,Magallanes,Servicios creativos,Empresa,Escasez de talento
+59,Magallanes,Servicios creativos,Empresa,Falta de infraestructura
+79,Magallanes,Bienes creativos,Empresa,Acceso a financiamiento
+79,Magallanes,Bienes creativos,Empresa,Falta de infraestructura
+79,Magallanes,Bienes creativos,Empresa,Regulaciones y normativas
+91,Magallanes,Bienes creativos,Empresa,Acceso a financiamiento
+91,Magallanes,Bienes creativos,Empresa,Dificultades para exportar
+91,Magallanes,Bienes creativos,Empresa,Información y tendencias de Mercado
+9,Extranjero,Servicios creativos,Profesional independiente,Acceso a financiamiento
+9,Extranjero,Servicios creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+31,Extranjero,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+57,Extranjero,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+57,Extranjero,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos

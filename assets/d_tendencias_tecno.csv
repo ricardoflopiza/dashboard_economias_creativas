@@ -1,0 +1,314 @@
+id,region,cadena_productiva,tipo_empresa,tendencia
+30,Arica,Contenidos creativos,Empresa,Servicios creativos
+72,Arica,Servicios creativos,Empresa,Computación o programación creativa
+72,Arica,Servicios creativos,Empresa,Robótica
+72,Arica,Servicios creativos,Empresa,Servicios creativos
+97,Arica,Experiencias creativas,Empresa,Computación o programación creativa
+97,Arica,Experiencias creativas,Empresa,Cultura y entretenimiento
+97,Arica,Experiencias creativas,Empresa,Servicios creativos
+54,Antofagasta,Servicios creativos,Profesional independiente,Contenido para redes sociales
+54,Antofagasta,Servicios creativos,Profesional independiente,Cultura y entretenimiento
+54,Antofagasta,Servicios creativos,Profesional independiente,Nuevos medios
+54,Antofagasta,Servicios creativos,Profesional independiente,Servicios creativos
+73,Antofagasta,Experiencias creativas,Empresa,Música
+138,Atacama,Bienes creativos,Empresa,Cultura y entretenimiento
+138,Atacama,Bienes creativos,Empresa,Música
+138,Atacama,Bienes creativos,Empresa,Nuevos medios
+8,Valparaíso,Bienes creativos,Empresa,Ninguna de las anteriores
+20,Valparaíso,Servicios creativos,Empresa,Computación o programación creativa
+20,Valparaíso,Servicios creativos,Empresa,Contenido para redes sociales
+20,Valparaíso,Servicios creativos,Empresa,Juegos interactivos
+20,Valparaíso,Servicios creativos,Empresa,Nuevos medios
+20,Valparaíso,Servicios creativos,Empresa,Servicios creativos
+21,Valparaíso,Servicios creativos,Empresa,Computación o programación creativa
+21,Valparaíso,Servicios creativos,Empresa,Nuevos medios
+21,Valparaíso,Servicios creativos,Empresa,Servicios creativos
+32,Valparaíso,Experiencias creativas,Profesional independiente,Nuevos medios
+52,Valparaíso,Experiencias creativas,Empresa,Servicios creativos
+53,Valparaíso,Servicios creativos,Empresa,Data science
+68,Valparaíso,Contenidos creativos,Profesional independiente,Contenido para redes sociales
+68,Valparaíso,Contenidos creativos,Profesional independiente,Servicios creativos
+69,Valparaíso,Bienes creativos,Profesional independiente,Servicios creativos
+71,Valparaíso,Servicios creativos,Empresa,Contenido para redes sociales
+71,Valparaíso,Servicios creativos,Empresa,Cultura y entretenimiento
+71,Valparaíso,Servicios creativos,Empresa,Música
+84,Valparaíso,Contenidos creativos,Empresa,Cultura y entretenimiento
+84,Valparaíso,Contenidos creativos,Empresa,Juegos interactivos
+84,Valparaíso,Contenidos creativos,Empresa,Nuevos medios
+92,Valparaíso,Servicios creativos,Empresa,Computación o programación creativa
+92,Valparaíso,Servicios creativos,Empresa,Cultura y entretenimiento
+92,Valparaíso,Servicios creativos,Empresa,Servicios creativos
+103,Valparaíso,Contenidos creativos,Profesional independiente,Contenido para redes sociales
+103,Valparaíso,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+103,Valparaíso,Contenidos creativos,Profesional independiente,Servicios creativos
+113,Valparaíso,Bienes creativos,Empresa,Computación o programación creativa
+113,Valparaíso,Bienes creativos,Empresa,Nuevos medios
+114,Valparaíso,Servicios creativos,Empresa,Computación o programación creativa
+114,Valparaíso,Servicios creativos,Empresa,Juegos interactivos
+114,Valparaíso,Servicios creativos,Empresa,Servicios creativos
+117,Valparaíso,Servicios creativos,Profesional independiente,Computación o programación creativa
+117,Valparaíso,Servicios creativos,Profesional independiente,Juegos interactivos
+117,Valparaíso,Servicios creativos,Profesional independiente,Nuevos medios
+120,Valparaíso,Bienes creativos,Empresa,Cultura y entretenimiento
+126,Valparaíso,Bienes creativos,Empresa,Cultura y entretenimiento
+126,Valparaíso,Bienes creativos,Empresa,Nuevos medios
+126,Valparaíso,Bienes creativos,Empresa,Servicios creativos
+129,Valparaíso,Bienes creativos,Profesional independiente,Cultura y entretenimiento
+129,Valparaíso,Bienes creativos,Profesional independiente,Data science
+129,Valparaíso,Bienes creativos,Profesional independiente,Juegos interactivos
+129,Valparaíso,Bienes creativos,Profesional independiente,Servicios creativos
+131,Valparaíso,Servicios creativos,Empresa,Juegos interactivos
+135,Valparaíso,Servicios creativos,Empresa,Música
+135,Valparaíso,Servicios creativos,Empresa,Servicios creativos
+2,RM,Servicios creativos,Profesional independiente,Computación o programación creativa
+2,RM,Servicios creativos,Profesional independiente,Juegos interactivos
+3,RM,Servicios creativos,Empresa,Computación o programación creativa
+3,RM,Servicios creativos,Empresa,Cultura y entretenimiento
+3,RM,Servicios creativos,Empresa,Fintech
+13,RM,Servicios creativos,Empresa,Juegos interactivos
+13,RM,Servicios creativos,Empresa,Servicios creativos
+14,RM,Servicios creativos,Empresa,Data science
+14,RM,Servicios creativos,Empresa,Servicios creativos
+15,RM,Contenidos creativos,Profesional independiente,Data science
+15,RM,Contenidos creativos,Profesional independiente,Nuevos medios
+15,RM,Contenidos creativos,Profesional independiente,Wearables
+16,RM,Contenidos creativos,Empresa,Juegos interactivos
+16,RM,Contenidos creativos,Empresa,Servicios creativos
+17,RM,Bienes creativos,Empresa,Cultura y entretenimiento
+17,RM,Bienes creativos,Empresa,Fintech
+18,RM,Servicios creativos,Empresa,Computación o programación creativa
+18,RM,Servicios creativos,Empresa,Wearables
+19,RM,Servicios creativos,Empresa,Computación o programación creativa
+19,RM,Servicios creativos,Empresa,Servicios creativos
+22,RM,Servicios creativos,Profesional independiente,Cultura y entretenimiento
+22,RM,Servicios creativos,Profesional independiente,Música
+23,RM,Experiencias creativas,Empresa,Computación o programación creativa
+23,RM,Experiencias creativas,Empresa,Contenido para redes sociales
+23,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+24,RM,Bienes creativos,Profesional independiente,Música
+25,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+25,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+25,RM,Contenidos creativos,Empresa,Nuevos medios
+26,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+26,RM,Contenidos creativos,Empresa,Nuevos medios
+26,RM,Contenidos creativos,Empresa,Servicios creativos
+28,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+33,RM,Servicios creativos,Empresa,Cultura y entretenimiento
+33,RM,Servicios creativos,Empresa,Nuevos medios
+33,RM,Servicios creativos,Empresa,Servicios creativos
+34,RM,Contenidos creativos,Empresa,Data science
+35,RM,Contenidos creativos,Empresa,Computación o programación creativa
+35,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+35,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+35,RM,Contenidos creativos,Empresa,Juegos interactivos
+35,RM,Contenidos creativos,Empresa,Nuevos medios
+35,RM,Contenidos creativos,Empresa,Servicios creativos
+36,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+36,RM,Contenidos creativos,Empresa,Música
+36,RM,Contenidos creativos,Empresa,Servicios creativos
+38,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+38,RM,Contenidos creativos,Empresa,Servicios creativos
+42,RM,Bienes creativos,Empresa,Contenido para redes sociales
+42,RM,Bienes creativos,Empresa,Nuevos medios
+42,RM,Bienes creativos,Empresa,Servicios creativos
+45,RM,Contenidos creativos,Profesional independiente,Contenido para redes sociales
+46,RM,Bienes creativos,Empresa,Computación o programación creativa
+46,RM,Bienes creativos,Empresa,Cultura y entretenimiento
+46,RM,Bienes creativos,Empresa,Nuevos medios
+47,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+48,RM,Experiencias creativas,Empresa,Computación o programación creativa
+48,RM,Experiencias creativas,Empresa,Contenido para redes sociales
+48,RM,Experiencias creativas,Empresa,Música
+49,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+49,RM,Contenidos creativos,Empresa,Nuevos medios
+50,RM,Contenidos creativos,Empresa,Ninguna de las anteriores
+55,RM,Servicios creativos,Empresa,Ninguna de las anteriores
+56,RM,Bienes creativos,Profesional independiente,Contenido para redes sociales
+56,RM,Bienes creativos,Profesional independiente,Editorial
+56,RM,Bienes creativos,Profesional independiente,Servicios creativos
+58,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+58,RM,Contenidos creativos,Empresa,Fintech
+58,RM,Contenidos creativos,Empresa,Juegos interactivos
+60,RM,Contenidos creativos,Empresa,Computación o programación creativa
+60,RM,Contenidos creativos,Empresa,Juegos interactivos
+60,RM,Contenidos creativos,Empresa,Música
+60,RM,Contenidos creativos,Empresa,Servicios creativos
+62,RM,Contenidos creativos,Empresa,Computación o programación creativa
+62,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+62,RM,Contenidos creativos,Empresa,Juegos interactivos
+63,RM,Contenidos creativos,Empresa,Editorial
+64,RM,Contenidos creativos,Empresa,Computación o programación creativa
+64,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+65,RM,Experiencias creativas,Profesional independiente,Juegos interactivos
+76,RM,Bienes creativos,Empresa,Ninguna de las anteriores
+80,RM,Contenidos creativos,Profesional independiente,Ninguna de las anteriores
+85,RM,Bienes creativos,Empresa,Cultura y entretenimiento
+86,RM,Servicios creativos,Empresa,Computación o programación creativa
+86,RM,Servicios creativos,Empresa,Nuevos medios
+86,RM,Servicios creativos,Empresa,Servicios creativos
+87,RM,Experiencias creativas,Profesional independiente,Computación o programación creativa
+87,RM,Experiencias creativas,Profesional independiente,Contenido para redes sociales
+87,RM,Experiencias creativas,Profesional independiente,Cultura y entretenimiento
+88,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+88,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+88,RM,Contenidos creativos,Empresa,Editorial
+88,RM,Contenidos creativos,Empresa,Nuevos medios
+88,RM,Contenidos creativos,Empresa,Servicios creativos
+89,RM,Experiencias creativas,Empresa,Computación o programación creativa
+89,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+89,RM,Experiencias creativas,Empresa,Nuevos medios
+89,RM,Experiencias creativas,Empresa,Servicios creativos
+90,RM,Experiencias creativas,Profesional independiente,Cultura y entretenimiento
+93,RM,Experiencias creativas,Profesional independiente,Cultura y entretenimiento
+93,RM,Experiencias creativas,Profesional independiente,Juegos interactivos
+93,RM,Experiencias creativas,Profesional independiente,Nuevos medios
+94,RM,Servicios creativos,Profesional independiente,Computación o programación creativa
+94,RM,Servicios creativos,Profesional independiente,Juegos interactivos
+94,RM,Servicios creativos,Profesional independiente,Nuevos medios
+94,RM,Servicios creativos,Profesional independiente,Servicios creativos
+96,RM,Experiencias creativas,Empresa,Computación o programación creativa
+96,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+96,RM,Experiencias creativas,Empresa,Nuevos medios
+96,RM,Experiencias creativas,Empresa,Servicios creativos
+98,RM,Experiencias creativas,Profesional independiente,Cultura y entretenimiento
+98,RM,Experiencias creativas,Profesional independiente,Nuevos medios
+99,RM,Bienes creativos,Empresa,Cultura y entretenimiento
+99,RM,Bienes creativos,Empresa,Música
+99,RM,Bienes creativos,Empresa,Nuevos medios
+99,RM,Bienes creativos,Empresa,Servicios creativos
+100,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+100,RM,Experiencias creativas,Empresa,Música
+101,RM,Servicios creativos,Empresa,Cultura y entretenimiento
+101,RM,Servicios creativos,Empresa,Juegos interactivos
+101,RM,Servicios creativos,Empresa,Servicios creativos
+102,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+102,RM,Experiencias creativas,Empresa,Juegos interactivos
+102,RM,Experiencias creativas,Empresa,Servicios creativos
+104,RM,Bienes creativos,Profesional independiente,Computación o programación creativa
+105,RM,Experiencias creativas,Empresa,Computación o programación creativa
+105,RM,Experiencias creativas,Empresa,Contenido para redes sociales
+105,RM,Experiencias creativas,Empresa,Robótica
+106,RM,Bienes creativos,Empresa,Cultura y entretenimiento
+106,RM,Bienes creativos,Empresa,Data science
+107,RM,Servicios creativos,Empresa,Ninguna de las anteriores
+109,RM,Servicios creativos,Empresa,Servicios creativos
+110,RM,Experiencias creativas,Empresa,Computación o programación creativa
+110,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+110,RM,Experiencias creativas,Empresa,Nuevos medios
+112,RM,Servicios creativos,Empresa,Ninguna de las anteriores
+119,RM,Servicios creativos,Empresa,Contenido para redes sociales
+119,RM,Servicios creativos,Empresa,Editorial
+122,RM,Contenidos creativos,Empresa,Ninguna de las anteriores
+124,RM,Experiencias creativas,Profesional independiente,Computación o programación creativa
+124,RM,Experiencias creativas,Profesional independiente,Cultura y entretenimiento
+125,RM,Servicios creativos,Empresa,Contenido para redes sociales
+125,RM,Servicios creativos,Empresa,Cultura y entretenimiento
+125,RM,Servicios creativos,Empresa,Servicios creativos
+127,RM,Experiencias creativas,Empresa,Cultura y entretenimiento
+127,RM,Experiencias creativas,Empresa,Nuevos medios
+128,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+128,RM,Contenidos creativos,Empresa,Editorial
+128,RM,Contenidos creativos,Empresa,Servicios creativos
+130,RM,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+130,RM,Contenidos creativos,Profesional independiente,Editorial
+130,RM,Contenidos creativos,Profesional independiente,Nuevos medios
+132,RM,Bienes creativos,Empresa,Computación o programación creativa
+132,RM,Bienes creativos,Empresa,Cultura y entretenimiento
+132,RM,Bienes creativos,Empresa,Juegos interactivos
+132,RM,Bienes creativos,Empresa,Nuevos medios
+133,RM,Servicios creativos,Empresa,Computación o programación creativa
+133,RM,Servicios creativos,Empresa,Nuevos medios
+133,RM,Servicios creativos,Empresa,Servicios creativos
+136,RM,Contenidos creativos,Empresa,Contenido para redes sociales
+136,RM,Contenidos creativos,Empresa,Cultura y entretenimiento
+136,RM,Contenidos creativos,Empresa,Editorial
+136,RM,Contenidos creativos,Empresa,Nuevos medios
+139,RM,Contenidos creativos,Profesional independiente,Data science
+139,RM,Contenidos creativos,Profesional independiente,Nuevos medios
+139,RM,Contenidos creativos,Profesional independiente,Wearables
+67,O'Higgins,Bienes creativos,Empresa,Computación o programación creativa
+67,O'Higgins,Bienes creativos,Empresa,Juegos interactivos
+67,O'Higgins,Bienes creativos,Empresa,Nuevos medios
+77,O'Higgins,Servicios creativos,Profesional independiente,Robótica
+43,Maule,Contenidos creativos,Empresa,Computación o programación creativa
+70,Maule,Experiencias creativas,Empresa,Cultura y entretenimiento
+70,Maule,Experiencias creativas,Empresa,Servicios creativos
+1,Biobío,Bienes creativos,Empresa,Cultura y entretenimiento
+1,Biobío,Bienes creativos,Empresa,Juegos interactivos
+1,Biobío,Bienes creativos,Empresa,Servicios creativos
+6,Biobío,Contenidos creativos,Empresa,Juegos interactivos
+6,Biobío,Contenidos creativos,Empresa,Música
+6,Biobío,Contenidos creativos,Empresa,Servicios creativos
+41,Biobío,Experiencias creativas,Profesional independiente,Servicios creativos
+61,Biobío,Servicios creativos,Empresa,Computación o programación creativa
+61,Biobío,Servicios creativos,Empresa,Juegos interactivos
+61,Biobío,Servicios creativos,Empresa,Nuevos medios
+108,Biobío,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+108,Biobío,Contenidos creativos,Profesional independiente,Editorial
+108,Biobío,Contenidos creativos,Profesional independiente,Servicios creativos
+111,Biobío,Bienes creativos,Empresa,Computación o programación creativa
+111,Biobío,Bienes creativos,Empresa,Servicios creativos
+115,Biobío,Servicios creativos,Empresa,Computación o programación creativa
+115,Biobío,Servicios creativos,Empresa,Contenido para redes sociales
+115,Biobío,Servicios creativos,Empresa,Servicios creativos
+118,Biobío,Bienes creativos,Empresa,Contenido para redes sociales
+118,Biobío,Bienes creativos,Empresa,Música
+137,Biobío,Bienes creativos,Empresa,Contenido para redes sociales
+137,Biobío,Bienes creativos,Empresa,Data science
+137,Biobío,Bienes creativos,Empresa,Editorial
+137,Biobío,Bienes creativos,Empresa,Nuevos medios
+27,Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
+37,Araucanía,Experiencias creativas,Empresa,Nuevos medios
+37,Araucanía,Experiencias creativas,Empresa,Servicios creativos
+40,Araucanía,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+40,Araucanía,Contenidos creativos,Profesional independiente,Música
+40,Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
+44,Araucanía,Contenidos creativos,Profesional independiente,Computación o programación creativa
+44,Araucanía,Contenidos creativos,Profesional independiente,Contenido para redes sociales
+44,Araucanía,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+44,Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
+66,Araucanía,Bienes creativos,Empresa,Servicios creativos
+81,Araucanía,Bienes creativos,Profesional independiente,Servicios creativos
+116,Araucanía,Servicios creativos,Profesional independiente,Contenido para redes sociales
+116,Araucanía,Servicios creativos,Profesional independiente,Editorial
+116,Araucanía,Servicios creativos,Profesional independiente,Juegos interactivos
+116,Araucanía,Servicios creativos,Profesional independiente,Servicios creativos
+121,Araucanía,Experiencias creativas,Profesional independiente,Nuevos medios
+39,Los Ríos,Experiencias creativas,Empresa,Computación o programación creativa
+39,Los Ríos,Experiencias creativas,Empresa,Cultura y entretenimiento
+39,Los Ríos,Experiencias creativas,Empresa,Juegos interactivos
+39,Los Ríos,Experiencias creativas,Empresa,Nuevos medios
+39,Los Ríos,Experiencias creativas,Empresa,Servicios creativos
+75,Los Ríos,Bienes creativos,Empresa,Servicios creativos
+134,Los Lagos,Experiencias creativas,Empresa,Cultura y entretenimiento
+134,Los Lagos,Experiencias creativas,Empresa,Nuevos medios
+134,Los Lagos,Experiencias creativas,Empresa,Servicios creativos
+4,Aysén,Bienes creativos,Empresa,Computación o programación creativa
+4,Aysén,Bienes creativos,Empresa,Servicios creativos
+51,Aysén,Bienes creativos,Empresa,Computación o programación creativa
+51,Aysén,Bienes creativos,Empresa,Contenido para redes sociales
+51,Aysén,Bienes creativos,Empresa,Cultura y entretenimiento
+51,Aysén,Bienes creativos,Empresa,Fintech
+51,Aysén,Bienes creativos,Empresa,Servicios creativos
+95,Aysén,Servicios creativos,Empresa,Cultura y entretenimiento
+95,Aysén,Servicios creativos,Empresa,Nuevos medios
+95,Aysén,Servicios creativos,Empresa,Servicios creativos
+123,Aysén,Bienes creativos,Empresa,Servicios creativos
+10,Magallanes,Contenidos creativos,Empresa,Computación o programación creativa
+59,Magallanes,Servicios creativos,Empresa,Computación o programación creativa
+59,Magallanes,Servicios creativos,Empresa,Cultura y entretenimiento
+59,Magallanes,Servicios creativos,Empresa,Fintech
+79,Magallanes,Bienes creativos,Empresa,Contenido para redes sociales
+91,Magallanes,Bienes creativos,Empresa,Juegos interactivos
+91,Magallanes,Bienes creativos,Empresa,Nuevos medios
+91,Magallanes,Bienes creativos,Empresa,Servicios creativos
+9,Extranjero,Servicios creativos,Profesional independiente,Computación o programación creativa
+9,Extranjero,Servicios creativos,Profesional independiente,Data science
+9,Extranjero,Servicios creativos,Profesional independiente,Juegos interactivos
+9,Extranjero,Servicios creativos,Profesional independiente,Nuevos medios
+31,Extranjero,Experiencias creativas,Profesional independiente,Contenido para redes sociales
+31,Extranjero,Experiencias creativas,Profesional independiente,Cultura y entretenimiento
+31,Extranjero,Experiencias creativas,Profesional independiente,Música
+31,Extranjero,Experiencias creativas,Profesional independiente,Nuevos medios
+31,Extranjero,Experiencias creativas,Profesional independiente,Servicios creativos
+57,Extranjero,Contenidos creativos,Profesional independiente,Cultura y entretenimiento

@@ -1,0 +1,66 @@
+<!-- Tab 2: Tabla dinámica -->
+<div style="margin-bottom: 20px;">
+    <!-- Selector 2: Variable de interés -->
+    <div style="float: left; width: 48%; margin-right: 2%">
+        <label for="selectorTablaDin1" style="display: block">Variable de interés:</label>
+        <select id="selectorTablaDin1" class="form-select form-select-sm" style="width: 100%">
+            <optgroup label="Características Generales">
+                <option value="cadena_productiva">Cadena Productiva</option>
+                <option value="tipo_empresa">Tipo de Empresa</option>
+                <option value="cadena_productiva">Cadena Productiva</option>
+                <option value="genero">Género</option>
+                <option value="tamano_empresa_num_trab">Tamaño de Empresa</option>
+                <option value="rango_ventas">Rango de Ventas</option>
+                <option value="exportaciones">Exportaciones</option>
+                <option value="porc_exportaciones">Porcentaje de Exportaciones</option>
+                <option value="financiamiento">Fuentes de Financiamiento</option>
+                <option value="internacionalizacion">Internacionalización</option>
+            </optgroup>
+            <optgroup label="Características Tecnocreativas">
+                <option value="agrupacion_tecnocreativa">Agrupación Tecnocreativa</option>
+                <option value="tecnologias">Uso de Tecnología</option>
+                <option value="herramientas_diferenciacion">Herramientas de Diferenciación</option>
+                <option value="interaccion">Interacción con otros Sectores</option>
+                <option value="tendencias">Tendencias Tecnocreativas</option>
+                <option value="brechas">Brechas y Drivers</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <!-- Selector 1: Nivel de análisis -->
+    <div style="float: left; width: 48%">
+        <label for="selectorTablaDin2" style="display: block">Nivel de análisis:</label>
+        <select id="selectorTablaDin2" class="form-select form-select-sm" style="width: 100%">
+            <option value="nacional">Nacional</option>
+            <option value="region">Regiones</option>
+            <option value="cadena_productiva">Cadena Productiva</option>
+            <option value="tipo_empresa">Tipo empresa</option>
+        </select>
+    </div>
+</div>
+<div style="clear: both;"></div>
+
+
+        <div class="table-responsive">
+            <table id="dynamicTable" class="table table-striped table-bordered" style="width: 100%">
+                <thead>
+                    <tr>
+                        <th>Agrupación</th>
+                        <th>Cantidad</th>
+                        <th>Porcentaje</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+        <button class="download-btn" onclick="downloadTable()">Descargar Tabla</button>
+<script>
+
+  // Cargar el Dashboard por defecto al cargar la página
+  window.onload = () => {
+    loadTabContent('tabla_dinamica.html','tabla.js'); // Cargar automáticamente el contenido del Dashboard
+  };
+
+
+</script>

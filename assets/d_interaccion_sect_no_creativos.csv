@@ -1,0 +1,481 @@
+v362_id,region,cadena_productiva,tipo_empresa,interaccion
+30,Arica,Contenidos creativos,Empresa,Agro-Tech
+30,Arica,Contenidos creativos,Empresa,Ciencia y tecnología
+30,Arica,Contenidos creativos,Empresa,Educación
+30,Arica,Contenidos creativos,Empresa,Energía renovable
+30,Arica,Contenidos creativos,Empresa,Innovación
+72,Arica,Servicios creativos,Empresa,Agro-Tech
+72,Arica,Servicios creativos,Empresa,Ciencia y tecnología
+72,Arica,Servicios creativos,Empresa,Innovación
+97,Arica,Experiencias creativas,Empresa,Educación
+97,Arica,Experiencias creativas,Empresa,Turismo
+97,Arica,Experiencias creativas,Empresa,Patrimonio Cultural
+73,Antofagasta,Experiencias creativas,Empresa,Educación
+138,Atacama,Bienes creativos,Empresa,Ciencia y tecnología
+138,Atacama,Bienes creativos,Empresa,Comunicaciones
+138,Atacama,Bienes creativos,Empresa,Educación
+138,Atacama,Bienes creativos,Empresa,Innovación
+138,Atacama,Bienes creativos,Empresa,Minería
+138,Atacama,Bienes creativos,Empresa,Turismo
+8,Valparaíso,Bienes creativos,Empresa,Innovación
+11,Valparaíso,Servicios creativos,Empresa,Agro-Tech
+11,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
+11,Valparaíso,Servicios creativos,Empresa,Minería
+12,Valparaíso,Contenidos creativos,Empresa,Ciencia y tecnología
+12,Valparaíso,Contenidos creativos,Empresa,Construcción y desarrollo urbano
+12,Valparaíso,Contenidos creativos,Empresa,Educación
+12,Valparaíso,Contenidos creativos,Empresa,Energía no renovable
+12,Valparaíso,Contenidos creativos,Empresa,Innovación
+12,Valparaíso,Contenidos creativos,Empresa,Minería
+12,Valparaíso,Contenidos creativos,Empresa,Retail
+12,Valparaíso,Contenidos creativos,Empresa,Salud
+12,Valparaíso,Contenidos creativos,Empresa,Transporte
+12,Valparaíso,Contenidos creativos,Empresa,Financiero: banca y seguros
+20,Valparaíso,Servicios creativos,Empresa,Educación
+21,Valparaíso,Servicios creativos,Empresa,Construcción y desarrollo urbano
+32,Valparaíso,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+52,Valparaíso,Experiencias creativas,Empresa,Ciencia y tecnología
+52,Valparaíso,Experiencias creativas,Empresa,Comunicaciones
+52,Valparaíso,Experiencias creativas,Empresa,Educación
+53,Valparaíso,Servicios creativos,Empresa,Agro-Tech
+53,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
+53,Valparaíso,Servicios creativos,Empresa,Educación
+53,Valparaíso,Servicios creativos,Empresa,Innovación
+53,Valparaíso,Servicios creativos,Empresa,Medioambiente y desastres naturales
+53,Valparaíso,Servicios creativos,Empresa,Turismo
+69,Valparaíso,Bienes creativos,Profesional independiente,Educación
+71,Valparaíso,Servicios creativos,Empresa,Comunicaciones
+84,Valparaíso,Contenidos creativos,Empresa,Ciencia y tecnología
+84,Valparaíso,Contenidos creativos,Empresa,Educación
+84,Valparaíso,Contenidos creativos,Empresa,Energía renovable
+84,Valparaíso,Contenidos creativos,Empresa,Innovación
+84,Valparaíso,Contenidos creativos,Empresa,Medioambiente y desastres naturales
+84,Valparaíso,Contenidos creativos,Empresa,Transporte
+92,Valparaíso,Servicios creativos,Empresa,Construcción y desarrollo urbano
+92,Valparaíso,Servicios creativos,Empresa,Educación
+92,Valparaíso,Servicios creativos,Empresa,Innovación
+103,Valparaíso,Contenidos creativos,Profesional independiente,Ciencia y tecnología
+103,Valparaíso,Contenidos creativos,Profesional independiente,Comunicaciones
+103,Valparaíso,Contenidos creativos,Profesional independiente,Educación
+103,Valparaíso,Contenidos creativos,Profesional independiente,Innovación
+103,Valparaíso,Contenidos creativos,Profesional independiente,Medioambiente y desastres naturales
+103,Valparaíso,Contenidos creativos,Profesional independiente,Turismo
+113,Valparaíso,Bienes creativos,Empresa,Ciencia y tecnología
+113,Valparaíso,Bienes creativos,Empresa,Comunicaciones
+113,Valparaíso,Bienes creativos,Empresa,Construcción y desarrollo urbano
+113,Valparaíso,Bienes creativos,Empresa,Educación
+113,Valparaíso,Bienes creativos,Empresa,Innovación
+114,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
+114,Valparaíso,Servicios creativos,Empresa,Comunicaciones
+114,Valparaíso,Servicios creativos,Empresa,Educación
+114,Valparaíso,Servicios creativos,Empresa,Innovación
+114,Valparaíso,Servicios creativos,Empresa,Turismo
+117,Valparaíso,Servicios creativos,Profesional independiente,Ciencia y tecnología
+117,Valparaíso,Servicios creativos,Profesional independiente,Comunicaciones
+117,Valparaíso,Servicios creativos,Profesional independiente,Innovación
+120,Valparaíso,Bienes creativos,Empresa,Ciencia y tecnología
+120,Valparaíso,Bienes creativos,Empresa,Comunicaciones
+120,Valparaíso,Bienes creativos,Empresa,Educación
+120,Valparaíso,Bienes creativos,Empresa,Energía renovable
+120,Valparaíso,Bienes creativos,Empresa,Innovación
+120,Valparaíso,Bienes creativos,Empresa,Transporte
+126,Valparaíso,Bienes creativos,Empresa,Ciencia y tecnología
+126,Valparaíso,Bienes creativos,Empresa,Comunicaciones
+126,Valparaíso,Bienes creativos,Empresa,Energía no renovable
+126,Valparaíso,Bienes creativos,Empresa,Innovación
+126,Valparaíso,Bienes creativos,Empresa,Inversión social
+126,Valparaíso,Bienes creativos,Empresa,Medioambiente y desastres naturales
+126,Valparaíso,Bienes creativos,Empresa,Salud
+129,Valparaíso,Bienes creativos,Profesional independiente,Ciencia y tecnología
+129,Valparaíso,Bienes creativos,Profesional independiente,Educación
+129,Valparaíso,Bienes creativos,Profesional independiente,Innovación
+129,Valparaíso,Bienes creativos,Profesional independiente,Inversión social
+129,Valparaíso,Bienes creativos,Profesional independiente,Retail
+131,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
+131,Valparaíso,Servicios creativos,Empresa,Educación
+131,Valparaíso,Servicios creativos,Empresa,Innovación
+135,Valparaíso,Servicios creativos,Empresa,Comunicaciones
+135,Valparaíso,Servicios creativos,Empresa,Educación
+135,Valparaíso,Servicios creativos,Empresa,Energía renovable
+135,Valparaíso,Servicios creativos,Empresa,Inversión social
+135,Valparaíso,Servicios creativos,Empresa,Turismo
+3,RM,Servicios creativos,Empresa,Comunicaciones
+3,RM,Servicios creativos,Empresa,Retail
+7,RM,Servicios creativos,Empresa,Ciencia y tecnología
+7,RM,Servicios creativos,Empresa,Comunicaciones
+7,RM,Servicios creativos,Empresa,Inversión social
+7,RM,Servicios creativos,Empresa,Medioambiente y desastres naturales
+7,RM,Servicios creativos,Empresa,Turismo
+13,RM,Servicios creativos,Empresa,Ciencia y tecnología
+13,RM,Servicios creativos,Empresa,Educación
+14,RM,Servicios creativos,Empresa,Salud
+15,RM,Contenidos creativos,Profesional independiente,Educación
+15,RM,Contenidos creativos,Profesional independiente,Seguridad ciudadana
+16,RM,Contenidos creativos,Empresa,Ciencia y tecnología
+16,RM,Contenidos creativos,Empresa,Construcción y desarrollo urbano
+16,RM,Contenidos creativos,Empresa,Educación
+16,RM,Contenidos creativos,Empresa,Energía no renovable
+16,RM,Contenidos creativos,Empresa,Energía renovable
+16,RM,Contenidos creativos,Empresa,Innovación
+16,RM,Contenidos creativos,Empresa,Minería
+16,RM,Contenidos creativos,Empresa,Retail
+16,RM,Contenidos creativos,Empresa,Salud
+17,RM,Bienes creativos,Empresa,Ciencia y tecnología
+17,RM,Bienes creativos,Empresa,Comunicaciones
+17,RM,Bienes creativos,Empresa,Educación
+17,RM,Bienes creativos,Empresa,Fintech
+17,RM,Bienes creativos,Empresa,Innovación
+18,RM,Servicios creativos,Empresa,Ciencia y tecnología
+18,RM,Servicios creativos,Empresa,Innovación
+18,RM,Servicios creativos,Empresa,Minería
+19,RM,Servicios creativos,Empresa,Ciencia y tecnología
+19,RM,Servicios creativos,Empresa,Comunicaciones
+19,RM,Servicios creativos,Empresa,Educación
+19,RM,Servicios creativos,Empresa,Innovación
+19,RM,Servicios creativos,Empresa,Minería
+19,RM,Servicios creativos,Empresa,Retail
+19,RM,Servicios creativos,Empresa,Salud
+19,RM,Servicios creativos,Empresa,Turismo
+24,RM,Bienes creativos,Profesional independiente,Educación
+25,RM,Contenidos creativos,Empresa,Agro-Tech
+25,RM,Contenidos creativos,Empresa,Construcción y desarrollo urbano
+25,RM,Contenidos creativos,Empresa,Educación
+25,RM,Contenidos creativos,Empresa,Fintech
+25,RM,Contenidos creativos,Empresa,Minería
+25,RM,Contenidos creativos,Empresa,Retail
+25,RM,Contenidos creativos,Empresa,Turismo
+26,RM,Contenidos creativos,Empresa,Ciencia y tecnología
+26,RM,Contenidos creativos,Empresa,Comunicaciones
+26,RM,Contenidos creativos,Empresa,Inversión social
+26,RM,Contenidos creativos,Empresa,Turismo
+28,RM,Contenidos creativos,Empresa,Comunicaciones
+28,RM,Contenidos creativos,Empresa,Retail
+28,RM,Contenidos creativos,Empresa,Salud
+36,RM,Contenidos creativos,Empresa,Comunicaciones
+38,RM,Contenidos creativos,Empresa,Comunicaciones
+38,RM,Contenidos creativos,Empresa,Educación
+42,RM,Bienes creativos,Empresa,Ciencia y tecnología
+42,RM,Bienes creativos,Empresa,Comunicaciones
+42,RM,Bienes creativos,Empresa,Construcción y desarrollo urbano
+42,RM,Bienes creativos,Empresa,Educación
+42,RM,Bienes creativos,Empresa,Innovación
+42,RM,Bienes creativos,Empresa,Inversión social
+42,RM,Bienes creativos,Empresa,Seguridad ciudadana
+42,RM,Bienes creativos,Empresa,Turismo
+46,RM,Bienes creativos,Empresa,Ciencia y tecnología
+46,RM,Bienes creativos,Empresa,Comunicaciones
+46,RM,Bienes creativos,Empresa,Educación
+46,RM,Bienes creativos,Empresa,Innovación
+46,RM,Bienes creativos,Empresa,Medioambiente y desastres naturales
+46,RM,Bienes creativos,Empresa,Salud
+46,RM,Bienes creativos,Empresa,Transporte
+47,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+47,RM,Experiencias creativas,Empresa,Comunicaciones
+47,RM,Experiencias creativas,Empresa,Educación
+48,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+48,RM,Experiencias creativas,Empresa,Comunicaciones
+48,RM,Experiencias creativas,Empresa,Educación
+48,RM,Experiencias creativas,Empresa,Innovación
+48,RM,Experiencias creativas,Empresa,Salud
+48,RM,Experiencias creativas,Empresa,Turismo
+49,RM,Contenidos creativos,Empresa,Ciencia y tecnología
+49,RM,Contenidos creativos,Empresa,Educación
+49,RM,Contenidos creativos,Empresa,Turismo
+55,RM,Servicios creativos,Empresa,Comunicaciones
+56,RM,Bienes creativos,Profesional independiente,Comunicaciones
+56,RM,Bienes creativos,Profesional independiente,Educación
+56,RM,Bienes creativos,Profesional independiente,Innovación
+56,RM,Bienes creativos,Profesional independiente,Retail
+58,RM,Contenidos creativos,Empresa,Agro-Tech
+58,RM,Contenidos creativos,Empresa,Educación
+58,RM,Contenidos creativos,Empresa,Fintech
+58,RM,Contenidos creativos,Empresa,Inversión social
+63,RM,Contenidos creativos,Empresa,Educación
+63,RM,Contenidos creativos,Empresa,Innovación
+65,RM,Experiencias creativas,Profesional independiente,Salud
+78,RM,Servicios creativos,Empresa,Comunicaciones
+78,RM,Servicios creativos,Empresa,Educación
+80,RM,Contenidos creativos,Profesional independiente,Construcción y desarrollo urbano
+80,RM,Contenidos creativos,Profesional independiente,Retail
+80,RM,Contenidos creativos,Profesional independiente,Arquitectura e interiorismo
+83,RM,Bienes creativos,Profesional independiente,Ciencia y tecnología
+83,RM,Bienes creativos,Profesional independiente,Educación
+83,RM,Bienes creativos,Profesional independiente,Salud
+86,RM,Servicios creativos,Empresa,Energía renovable
+87,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+87,RM,Experiencias creativas,Profesional independiente,Comunicaciones
+87,RM,Experiencias creativas,Profesional independiente,Educación
+88,RM,Contenidos creativos,Empresa,Ciencia y tecnología
+88,RM,Contenidos creativos,Empresa,Comunicaciones
+88,RM,Contenidos creativos,Empresa,Educación
+88,RM,Contenidos creativos,Empresa,Innovación
+88,RM,Contenidos creativos,Empresa,Inversión social
+88,RM,Contenidos creativos,Empresa,Medioambiente y desastres naturales
+88,RM,Contenidos creativos,Empresa,Turismo
+89,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+89,RM,Experiencias creativas,Empresa,Educación
+90,RM,Experiencias creativas,Profesional independiente,Comunicaciones
+90,RM,Experiencias creativas,Profesional independiente,Educación
+93,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+93,RM,Experiencias creativas,Profesional independiente,Educación
+93,RM,Experiencias creativas,Profesional independiente,Innovación
+94,RM,Servicios creativos,Profesional independiente,Ciencia y tecnología
+94,RM,Servicios creativos,Profesional independiente,Comunicaciones
+94,RM,Servicios creativos,Profesional independiente,Educación
+94,RM,Servicios creativos,Profesional independiente,Innovación
+96,RM,Experiencias creativas,Empresa,Agro-Tech
+96,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+96,RM,Experiencias creativas,Empresa,Comunicaciones
+96,RM,Experiencias creativas,Empresa,Educación
+96,RM,Experiencias creativas,Empresa,Energía no renovable
+96,RM,Experiencias creativas,Empresa,Energía renovable
+96,RM,Experiencias creativas,Empresa,Minería
+96,RM,Experiencias creativas,Empresa,Seguridad ciudadana
+98,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+98,RM,Experiencias creativas,Profesional independiente,Comunicaciones
+98,RM,Experiencias creativas,Profesional independiente,Educación
+98,RM,Experiencias creativas,Profesional independiente,Medioambiente y desastres naturales
+99,RM,Bienes creativos,Empresa,Ciencia y tecnología
+99,RM,Bienes creativos,Empresa,Comunicaciones
+99,RM,Bienes creativos,Empresa,Innovación
+99,RM,Bienes creativos,Empresa,Minería
+99,RM,Bienes creativos,Empresa,Retail
+99,RM,Bienes creativos,Empresa,Turismo
+100,RM,Experiencias creativas,Empresa,Comunicaciones
+100,RM,Experiencias creativas,Empresa,Medioambiente y desastres naturales
+101,RM,Servicios creativos,Empresa,Ciencia y tecnología
+101,RM,Servicios creativos,Empresa,Comunicaciones
+101,RM,Servicios creativos,Empresa,Construcción y desarrollo urbano
+101,RM,Servicios creativos,Empresa,Educación
+101,RM,Servicios creativos,Empresa,Energía renovable
+101,RM,Servicios creativos,Empresa,Innovación
+101,RM,Servicios creativos,Empresa,Inversión social
+101,RM,Servicios creativos,Empresa,Retail
+101,RM,Servicios creativos,Empresa,Turismo
+102,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+102,RM,Experiencias creativas,Empresa,Comunicaciones
+102,RM,Experiencias creativas,Empresa,Educación
+102,RM,Experiencias creativas,Empresa,Innovación
+102,RM,Experiencias creativas,Empresa,Medioambiente y desastres naturales
+105,RM,Experiencias creativas,Empresa,Educación
+105,RM,Experiencias creativas,Empresa,Innovación
+105,RM,Experiencias creativas,Empresa,Salud
+106,RM,Bienes creativos,Empresa,Ciencia y tecnología
+106,RM,Bienes creativos,Empresa,Educación
+106,RM,Bienes creativos,Empresa,Energía renovable
+106,RM,Bienes creativos,Empresa,Innovación
+106,RM,Bienes creativos,Empresa,Medioambiente y desastres naturales
+106,RM,Bienes creativos,Empresa,Minería
+106,RM,Bienes creativos,Empresa,Salud
+109,RM,Servicios creativos,Empresa,Comunicaciones
+109,RM,Servicios creativos,Empresa,Educación
+109,RM,Servicios creativos,Empresa,Energía renovable
+109,RM,Servicios creativos,Empresa,Innovación
+110,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+110,RM,Experiencias creativas,Empresa,Comunicaciones
+110,RM,Experiencias creativas,Empresa,Educación
+110,RM,Experiencias creativas,Empresa,Innovación
+110,RM,Experiencias creativas,Empresa,Retail
+112,RM,Servicios creativos,Empresa,Comunicaciones
+112,RM,Servicios creativos,Empresa,Educación
+112,RM,Servicios creativos,Empresa,Energía renovable
+112,RM,Servicios creativos,Empresa,Fintech
+112,RM,Servicios creativos,Empresa,Innovación
+112,RM,Servicios creativos,Empresa,Inversión social
+112,RM,Servicios creativos,Empresa,Retail
+119,RM,Servicios creativos,Empresa,Agro-Tech
+119,RM,Servicios creativos,Empresa,Comunicaciones
+119,RM,Servicios creativos,Empresa,Educación
+119,RM,Servicios creativos,Empresa,Innovación
+119,RM,Servicios creativos,Empresa,Medioambiente y desastres naturales
+119,RM,Servicios creativos,Empresa,Retail
+119,RM,Servicios creativos,Empresa,Salud
+119,RM,Servicios creativos,Empresa,Turismo
+122,RM,Contenidos creativos,Empresa,Comunicaciones
+122,RM,Contenidos creativos,Empresa,Educación
+122,RM,Contenidos creativos,Empresa,Seguros
+124,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+124,RM,Experiencias creativas,Profesional independiente,Comunicaciones
+124,RM,Experiencias creativas,Profesional independiente,Educación
+124,RM,Experiencias creativas,Profesional independiente,Energía renovable
+124,RM,Experiencias creativas,Profesional independiente,Innovación
+124,RM,Experiencias creativas,Profesional independiente,Inversión social
+124,RM,Experiencias creativas,Profesional independiente,Medioambiente y desastres naturales
+124,RM,Experiencias creativas,Profesional independiente,Turismo
+125,RM,Servicios creativos,Empresa,Ciencia y tecnología
+125,RM,Servicios creativos,Empresa,Comunicaciones
+125,RM,Servicios creativos,Empresa,Educación
+125,RM,Servicios creativos,Empresa,Energía renovable
+125,RM,Servicios creativos,Empresa,Inversión social
+125,RM,Servicios creativos,Empresa,Minería
+125,RM,Servicios creativos,Empresa,Retail
+125,RM,Servicios creativos,Empresa,Salud
+127,RM,Experiencias creativas,Empresa,Ciencia y tecnología
+127,RM,Experiencias creativas,Empresa,Educación
+127,RM,Experiencias creativas,Empresa,Inversión social
+128,RM,Contenidos creativos,Empresa,Comunicaciones
+128,RM,Contenidos creativos,Empresa,Educación
+128,RM,Contenidos creativos,Empresa,Inversión social
+128,RM,Contenidos creativos,Empresa,Minería
+128,RM,Contenidos creativos,Empresa,Transporte
+128,RM,Contenidos creativos,Empresa,Turismo
+130,RM,Contenidos creativos,Profesional independiente,Ciencia y tecnología
+130,RM,Contenidos creativos,Profesional independiente,Comunicaciones
+130,RM,Contenidos creativos,Profesional independiente,Educación
+130,RM,Contenidos creativos,Profesional independiente,Turismo
+132,RM,Bienes creativos,Empresa,Ciencia y tecnología
+132,RM,Bienes creativos,Empresa,Educación
+132,RM,Bienes creativos,Empresa,Innovación
+132,RM,Bienes creativos,Empresa,Retail
+133,RM,Servicios creativos,Empresa,Ciencia y tecnología
+133,RM,Servicios creativos,Empresa,Comunicaciones
+133,RM,Servicios creativos,Empresa,Construcción y desarrollo urbano
+133,RM,Servicios creativos,Empresa,Energía no renovable
+133,RM,Servicios creativos,Empresa,Energía renovable
+133,RM,Servicios creativos,Empresa,Innovación
+133,RM,Servicios creativos,Empresa,Minería
+133,RM,Servicios creativos,Empresa,Retail
+133,RM,Servicios creativos,Empresa,Salud
+133,RM,Servicios creativos,Empresa,Manufactureros
+136,RM,Contenidos creativos,Empresa,Comunicaciones
+136,RM,Contenidos creativos,Empresa,Educación
+136,RM,Contenidos creativos,Empresa,Innovación
+136,RM,Contenidos creativos,Empresa,Medioambiente y desastres naturales
+136,RM,Contenidos creativos,Empresa,Retail
+139,RM,Contenidos creativos,Profesional independiente,Ciencia y tecnología
+139,RM,Contenidos creativos,Profesional independiente,Comunicaciones
+139,RM,Contenidos creativos,Profesional independiente,Construcción y desarrollo urbano
+139,RM,Contenidos creativos,Profesional independiente,Educación
+139,RM,Contenidos creativos,Profesional independiente,Inversión social
+139,RM,Contenidos creativos,Profesional independiente,Salud
+67,O'Higgins,Bienes creativos,Empresa,Innovación
+67,O'Higgins,Bienes creativos,Empresa,Salud
+43,Maule,Contenidos creativos,Empresa,consumo masivo
+70,Maule,Experiencias creativas,Empresa,Comunicaciones
+70,Maule,Experiencias creativas,Empresa,Educación
+70,Maule,Experiencias creativas,Empresa,Innovación
+70,Maule,Experiencias creativas,Empresa,Turismo
+6,Biobío,Contenidos creativos,Empresa,Agro-Tech
+6,Biobío,Contenidos creativos,Empresa,Educación
+6,Biobío,Contenidos creativos,Empresa,Minería
+6,Biobío,Contenidos creativos,Empresa,Salud
+6,Biobío,Contenidos creativos,Empresa,Forestal
+41,Biobío,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+41,Biobío,Experiencias creativas,Profesional independiente,Comunicaciones
+41,Biobío,Experiencias creativas,Profesional independiente,Educación
+41,Biobío,Experiencias creativas,Profesional independiente,Innovación
+41,Biobío,Experiencias creativas,Profesional independiente,Medioambiente y desastres naturales
+61,Biobío,Servicios creativos,Empresa,Ciencia y tecnología
+61,Biobío,Servicios creativos,Empresa,Innovación
+111,Biobío,Bienes creativos,Empresa,Construcción y desarrollo urbano
+111,Biobío,Bienes creativos,Empresa,Innovación
+115,Biobío,Servicios creativos,Empresa,Agro-Tech
+115,Biobío,Servicios creativos,Empresa,Comunicaciones
+115,Biobío,Servicios creativos,Empresa,Energía renovable
+115,Biobío,Servicios creativos,Empresa,Innovación
+115,Biobío,Servicios creativos,Empresa,Inversión social
+115,Biobío,Servicios creativos,Empresa,Turismo
+115,Biobío,Servicios creativos,Empresa,Patrimonio
+118,Biobío,Bienes creativos,Empresa,Agro-Tech
+118,Biobío,Bienes creativos,Empresa,Ciencia y tecnología
+118,Biobío,Bienes creativos,Empresa,Construcción y desarrollo urbano
+118,Biobío,Bienes creativos,Empresa,Educación
+118,Biobío,Bienes creativos,Empresa,Retail
+118,Biobío,Bienes creativos,Empresa,Salud
+118,Biobío,Bienes creativos,Empresa,Transporte
+118,Biobío,Bienes creativos,Empresa,Turismo
+137,Biobío,Bienes creativos,Empresa,Ciencia y tecnología
+137,Biobío,Bienes creativos,Empresa,Comunicaciones
+137,Biobío,Bienes creativos,Empresa,Educación
+27,Araucanía,Contenidos creativos,Profesional independiente,Ciencia y tecnología
+27,Araucanía,Contenidos creativos,Profesional independiente,Educación
+37,Araucanía,Experiencias creativas,Empresa,Ciencia y tecnología
+37,Araucanía,Experiencias creativas,Empresa,Comunicaciones
+37,Araucanía,Experiencias creativas,Empresa,Educación
+37,Araucanía,Experiencias creativas,Empresa,Innovación
+37,Araucanía,Experiencias creativas,Empresa,Medioambiente y desastres naturales
+37,Araucanía,Experiencias creativas,Empresa,Salud
+37,Araucanía,Experiencias creativas,Empresa,Transporte
+37,Araucanía,Experiencias creativas,Empresa,Turismo
+40,Araucanía,Contenidos creativos,Profesional independiente,Ciencia y tecnología
+40,Araucanía,Contenidos creativos,Profesional independiente,Comunicaciones
+40,Araucanía,Contenidos creativos,Profesional independiente,Educación
+40,Araucanía,Contenidos creativos,Profesional independiente,Innovación
+40,Araucanía,Contenidos creativos,Profesional independiente,Turismo
+44,Araucanía,Contenidos creativos,Profesional independiente,Construcción y desarrollo urbano
+44,Araucanía,Contenidos creativos,Profesional independiente,Innovación
+66,Araucanía,Bienes creativos,Empresa,Ciencia y tecnología
+66,Araucanía,Bienes creativos,Empresa,Educación
+66,Araucanía,Bienes creativos,Empresa,Energía renovable
+66,Araucanía,Bienes creativos,Empresa,Innovación
+66,Araucanía,Bienes creativos,Empresa,Medioambiente y desastres naturales
+66,Araucanía,Bienes creativos,Empresa,Turismo
+81,Araucanía,Bienes creativos,Profesional independiente,Ciencia y tecnología
+81,Araucanía,Bienes creativos,Profesional independiente,Educación
+81,Araucanía,Bienes creativos,Profesional independiente,Innovación
+81,Araucanía,Bienes creativos,Profesional independiente,Retail
+116,Araucanía,Servicios creativos,Profesional independiente,Comunicaciones
+116,Araucanía,Servicios creativos,Profesional independiente,Educación
+116,Araucanía,Servicios creativos,Profesional independiente,Innovación
+121,Araucanía,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+121,Araucanía,Experiencias creativas,Profesional independiente,Comunicaciones
+39,Los Ríos,Experiencias creativas,Empresa,Retail
+39,Los Ríos,Experiencias creativas,Empresa,Municipalidades
+75,Los Ríos,Bienes creativos,Empresa,Construcción y desarrollo urbano
+75,Los Ríos,Bienes creativos,Empresa,Energía renovable
+75,Los Ríos,Bienes creativos,Empresa,Innovación
+75,Los Ríos,Bienes creativos,Empresa,Turismo
+82,Los Ríos,Bienes creativos,Empresa,Construcción y desarrollo urbano
+82,Los Ríos,Bienes creativos,Empresa,Educación
+82,Los Ríos,Bienes creativos,Empresa,Innovación
+82,Los Ríos,Bienes creativos,Empresa,Medioambiente y desastres naturales
+82,Los Ríos,Bienes creativos,Empresa,Turismo
+134,Los Lagos,Experiencias creativas,Empresa,Ciencia y tecnología
+134,Los Lagos,Experiencias creativas,Empresa,Innovación
+4,Aysén,Bienes creativos,Empresa,Ciencia y tecnología
+4,Aysén,Bienes creativos,Empresa,Construcción y desarrollo urbano
+4,Aysén,Bienes creativos,Empresa,Educación
+4,Aysén,Bienes creativos,Empresa,Retail
+4,Aysén,Bienes creativos,Empresa,Turismo
+51,Aysén,Bienes creativos,Empresa,Agro-Tech
+51,Aysén,Bienes creativos,Empresa,Construcción y desarrollo urbano
+51,Aysén,Bienes creativos,Empresa,Educación
+51,Aysén,Bienes creativos,Empresa,Retail
+51,Aysén,Bienes creativos,Empresa,Turismo
+95,Aysén,Servicios creativos,Empresa,Ciencia y tecnología
+95,Aysén,Servicios creativos,Empresa,Construcción y desarrollo urbano
+95,Aysén,Servicios creativos,Empresa,Educación
+95,Aysén,Servicios creativos,Empresa,Innovación
+95,Aysén,Servicios creativos,Empresa,Arquitectura y Construcción; Odontología.
+123,Aysén,Bienes creativos,Empresa,Ciencia y tecnología
+123,Aysén,Bienes creativos,Empresa,Construcción y desarrollo urbano
+123,Aysén,Bienes creativos,Empresa,Innovación
+123,Aysén,Bienes creativos,Empresa,Retail
+123,Aysén,Bienes creativos,Empresa,Turismo
+123,Aysén,Bienes creativos,Empresa,Cultura y Patrimonio
+10,Magallanes,Contenidos creativos,Empresa,Salud
+10,Magallanes,Contenidos creativos,Empresa,"Salones de Belleza, Certificaciones de Balsas Salvavidas"
+59,Magallanes,Servicios creativos,Empresa,Energía renovable
+59,Magallanes,Servicios creativos,Empresa,Innovación
+59,Magallanes,Servicios creativos,Empresa,Inversión social
+79,Magallanes,Bienes creativos,Empresa,Medioambiente y desastres naturales
+91,Magallanes,Bienes creativos,Empresa,Ciencia y tecnología
+91,Magallanes,Bienes creativos,Empresa,Comunicaciones
+91,Magallanes,Bienes creativos,Empresa,Educación
+91,Magallanes,Bienes creativos,Empresa,Energía renovable
+91,Magallanes,Bienes creativos,Empresa,Inversión social
+91,Magallanes,Bienes creativos,Empresa,Medioambiente y desastres naturales
+91,Magallanes,Bienes creativos,Empresa,Turismo
+9,Extranjero,Servicios creativos,Profesional independiente,Ciencia y tecnología
+9,Extranjero,Servicios creativos,Profesional independiente,Comunicaciones
+9,Extranjero,Servicios creativos,Profesional independiente,Educación
+31,Extranjero,Experiencias creativas,Profesional independiente,Ciencia y tecnología
+31,Extranjero,Experiencias creativas,Profesional independiente,Comunicaciones
+31,Extranjero,Experiencias creativas,Profesional independiente,Construcción y desarrollo urbano
+31,Extranjero,Experiencias creativas,Profesional independiente,Innovación
+31,Extranjero,Experiencias creativas,Profesional independiente,Salud
+57,Extranjero,Contenidos creativos,Profesional independiente,Ciencia y tecnología
+57,Extranjero,Contenidos creativos,Profesional independiente,Comunicaciones
+57,Extranjero,Contenidos creativos,Profesional independiente,Educación
+57,Extranjero,Contenidos creativos,Profesional independiente,Innovación
+57,Extranjero,Contenidos creativos,Profesional independiente,Medioambiente y desastres naturales
