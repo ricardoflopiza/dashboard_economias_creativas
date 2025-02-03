@@ -1,24 +1,9 @@
 console.log('Tabla dinámica cargada.');
 
-const columnNameMap = {
-    "cadena_productiva": "Cadena Productiva",
-    "genero": "Género",
-    "tamano_empresa_num_trab": "Tamaño de Empresa",
-    "rango_ventas": "Rango de Ventas",
-    "exportaciones": "Exportaciones",
-    "porc_exportaciones": "Porcentaje de Exportaciones",
-    "financiamiento": "Fuentes de Financiamiento",
-    "internacionalizacion": "Internacionalización",
-    "agrupacion_tecnocreativa": "Agrupación Tecnocreativa",
-    "tecnologias": "Uso de Tecnología",
-    "herramientas_diferenciacion": "Herramientas de Diferenciación",
-    "interaccion": "Interacción con Otros Sectores",
-    "tendencias": "Tendencias Tecnocreativas",
-    "brechas": "Brechas y Drivers",
-    "tipo_empresa": "Tipo de Empresa",
-    "region": "Región"
-};
-
+// selVarGenerales = null;
+// selNivelGenerales = null;
+// selVarTecno = null;
+// selNivelTecno = null;
 
 document.getElementById('selectorTablaDin1').addEventListener('change', async () => {
     await updateDataAndTable();
@@ -122,7 +107,6 @@ tableHead.appendChild(headerRow);
     
 }
 
-
 function downloadTable() {
     const table = document.getElementById('dynamicTable');
     const rows = Array.from(table.rows);
@@ -140,7 +124,6 @@ function downloadTable() {
     // Descargar el archivo como Excel
     XLSX.writeFile(wb, 'tabla_dinamica.xlsx');
 }
-
 
 document.getElementById('downloadButton').addEventListener('click', downloadTable);
 

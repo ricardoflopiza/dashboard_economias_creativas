@@ -1,149 +1,211 @@
-
 function loadTabContent(tabFile, jsFile) {
-    const tabContent = document.getElementById('tabContent');
-    tabContent.innerHTML = '<p>Cargando contenido...</p>'; // Mensaje temporal
+  const tabContent = document.getElementById('tabContent');
+  tabContent.innerHTML = '<p>Cargando contenido...</p>'; // Mensaje temporal
 
-    fetch(tabFile)
-        .then((response) => {
-            if (!response.ok) throw new Error('Error al cargar el contenido.');
-            return response.text();
-        })
-        .then((content) => {
-            tabContent.innerHTML = content; // Insertar contenido dinámico
-            console.log(`Contenido de ${tabFile} cargado.`);
+  fetch(tabFile)
+      .then((response) => {
+          if (!response.ok) throw new Error('Error al cargar el contenido.');
+          return response.text();
+      })
+      .then((content) => {
+          tabContent.innerHTML = content; // Insertar contenido dinámico
+          console.log(`Contenido de ${tabFile} cargado.`);
 
-            // Cargar script específico para la pestaña
-            const script = document.createElement('script');
-            script.src = `js/${jsFile}`;
-            document.body.appendChild(script);
-        })
-        .catch((error) => {
-            tabContent.innerHTML = '<p style="color: red;">No se pudo cargar el contenido. Intente nuevamente.</p>';
-            console.error(error);
-        });
+          // Cargar script específico para la pestaña
+          const script = document.createElement('script');
+          script.src = `js/${jsFile}`;
+          document.body.appendChild(script);
+      })
+      .catch((error) => {
+          tabContent.innerHTML = '<p style="color: red;">No se pudo cargar el contenido. Intente nuevamente.</p>';
+          console.error(error);
+      });
 }
 
 
-  // Cargar el Dashboard por defecto al cargar la página
-  window.onload = () => {
-    loadTabContent('dashboard.html','dashboard.js'); // Cargar automáticamente el contenido del Dashboard
-  };
 
 
 
-// function calculateGroupedData(level, variable) {
-//     if (!window.tableData) {
-//         console.error('No hay datos en window.tableData.');
-//         return {};
-//     }
+// Cargar el Dashboard por defecto al cargar la página
+window.onload = () => {
+  loadTabContent('dashboard.html','dashboard.js'); // Cargar automáticamente el contenido del Dashboard
+};
 
-//     let groupedData;
 
-//     if (level === "nacional") {
-//         groupedData = window.tableData.reduce((acc, row) => {
-//             const key = row[variable];
-//             if (!key) return acc;
-//             if (!acc[key]) {
-//                 acc[key] = { count: 0 };
-//             }
-//             acc[key].count += 1;
-//             return acc;
-//         }, {});
-//     } else {
-//         groupedData = window.tableData.reduce((acc, row) => {
-//             const levelKey = row[level];
-//             const variableKey = row[variable];
-//             if (!variableKey || !levelKey) return acc;
 
-//             const key = `${levelKey} - ${variableKey}`;
-//             if (!acc[key]) {
-//                 acc[key] = { count: 0, level: levelKey };
-//             }
-//             acc[key].count += 1;
-//             return acc;
-//         }, {});
+/************************************************************
+  1. Mapeo de variable -> archivo CSV
+*************************************************************/
+const variableToFileMap = {
+  // Características Generales
+  "tipo_empresa": "df_select.csv",
+  "cadena_productiva": "df_select.csv",
+  "genero": "df_select.csv",
+  "tamano_empresa_num_trab": "df_select.csv",
+  "rango_ventas": "df_select.csv",
+  "exportaciones": "df_select.csv",
+  "porc_exportaciones": "df_select.csv",
+  "financiamiento": "d_fuentes_financiamiento.csv",
+  "internacionalizacion": "df_select.csv",
+  
+  // Características Tecnocreativas
+  "agrupacion_tecnocreativa": "df_select.csv",
+  "tecnologias": "d_tecnologias.csv",
+  "herramientas_diferenciacion": "d_diferenciacion.csv",
+  "interaccion": "d_interaccion_sect_no_creativos.csv",
+  "tendencias": "d_tendencias_tecno.csv",
+  "brechas": "d_brechas.csv"
+};
 
-//         // Calcular totales por nivel
-//         const levelTotals = Object.values(groupedData).reduce((acc, { level, count }) => {
-//             acc[level] = (acc[level] || 0) + count;
-//             return acc;
-//         }, {});
+// Opcional: Para no volver a cargar el mismo archivo muchas veces, podemos
+// almacenar los datos en caché según el archivo.
+const dataCache = {};
 
-//         // Añadir los totales al groupedData
-//         Object.entries(groupedData).forEach(([key, data]) => {
-//             groupedData[key].totalForLevel = levelTotals[data.level];
-//         });
-//     }
+/************************************************************
+  2. Función para cargar datos desde CSV
+     (utiliza caché si ya se han cargado antes)
+*************************************************************/
+async function loadDataFromCSV(fileName) {
+  // Si ya está en caché, devuélvelo directamente
+  if (dataCache[fileName]) {
+    return dataCache[fileName];
+  }
+  try {
+    const response = await fetch(`assets/${fileName}`);
+    const csvText = await response.text();
+    
+    const rows = csvText.split('\n').filter(row => row.trim() !== '');
+    const headers = rows[0].split(',');
 
-//     return groupedData;
+    const parsedData = rows.slice(1).map(row => {
+      const values = row.split(',');
+      const obj = {};
+      headers.forEach((header, idx) => {
+        obj[header] = values[idx] || "";
+      });
+      return obj;
+    });
+
+    // Guardar en caché
+    dataCache[fileName] = parsedData;
+    return parsedData;
+  } catch (error) {
+    console.error("Error al cargar el archivo CSV:", error);
+    return [];
+  }
+}
+
+
+// Función para actualizar dinámicamente las opciones de "Nivel de análisis" al utilizar la variable de interes "tecnología"
+// Especificamente tecnología tiene una subvariable que es "Nivel de adopción"
+function updateAnalysisLevels(variable,toupdate) {
+
+  if (variable === 'tecnologias') {
+  const levelSelector = document.getElementById(toupdate);
+  levelSelector.innerHTML = ''; // Limpiar las opciones actuales
+
+  // Opciones generales
+  const options = [
+      { value: 'nacional', text: 'Nacional' },
+      { value: 'region', text: 'Región' },
+      { value: 'cadena_productiva', text: 'Cadena Productiva' },
+      { value: 'tipo_empresa', text: 'Tipo de Empresa' }
+  ];
+
+  // Añadir "nivel_adopcion" si la variable seleccionada es "tecnologias"
+
+      options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción (Solo para tecnología) ' });
+
+  // Crear las nuevas opciones en el selector
+  options.forEach(option => {
+      const optionElement = document.createElement('option');
+      optionElement.value = option.value;
+      optionElement.textContent = option.text;
+      levelSelector.appendChild(optionElement);
+  });
+
+}
+
+}
+
+
+let chartInstances = {}; // Podremos guardar instancias ECharts por contenedor
+
+let selVarGenerales = document.getElementById("selectorGeneralesInteres");
+let selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
+let selVarTecno = document.getElementById("selector2b");
+let selNivelTecno = document.getElementById("selector1b");
+
+// Mapa 
+
+let mapdata = [];
+
+d3.csv("assets/mapa_metadata.csv").then(function(data) {
+    // Transformar los datos al formato adecuado
+    mapdata = data.map(d => ({
+        name: d.name,
+        value: +d.value  // Convertir a número
+    }));
+  });
+
+// Cargar el archivo GeoJSON desde la carpeta raíz
+const geoJsonPath = "assets/regiones2.geojson";
+ 
+function computeBoundingBox(feature) {
+  const { geometry } = feature;
+  if (!geometry || geometry.type !== 'Polygon') {
+    console.warn("Geometría no válida o inesperada:", geometry);
+    return null;
+  }
+
+  let allCoords = geometry.coordinates[0]; // Primer anillo del polígono (el exterior)
+  
+  if (!allCoords || !allCoords.length) {
+    console.warn("No hay coordenadas en la geometría:", geometry);
+    return null;
+  }
+
+  let minX = Infinity, 
+      minY = Infinity, 
+      maxX = -Infinity, 
+      maxY = -Infinity;
+
+  for (const [lng, lat] of allCoords) {
+    if (lng < minX) minX = lng;
+    if (lat < minY) minY = lat;
+    if (lng > maxX) maxX = lng;
+    if (lat > maxY) maxY = lat;
+  }
+
+  return [minX, minY, maxX, maxY];
+}
+
+
+
+const mapContainer = document.getElementById('map');
+
+// if (!mapContainer || mapContainer.clientWidth === 0 || mapContainer.clientHeight === 0) {
+//     console.error("El contenedor del mapa no está disponible o tiene dimensiones inválidas.");
+// } else {
+//     const chart = echarts.init(mapContainer);
 // }
 
-
-
-// // Objeto global para almacenar los datos cargados dinámicamente
-// window.tableData = [];
-
-// // Función para cargar datos de un archivo CSV dinámicamente
-// async function loadDynamicTable(selectedFile) {
-//     try {
-//         const response = await fetch(`../assets/${selectedFile}`);
-//         const data = await response.text();
-
-//         const rows = data.split('\n').filter(row => row.trim() !== '');
-//         const headers = rows[0].split(',');
-
-//         // Guardar los datos procesados para usar en la tabla
-//         window.tableData = rows.slice(1).map(row => {
-//             const values = row.split(',');
-//             return headers.reduce((acc, header, index) => {
-//                 acc[header] = values[index];
-//                 return acc;
-//             }, {});
-//         });
-
-//     } catch (error) {
-//         console.error('Error al cargar el archivo:', error);
-//     }
-// }
-
-
-// // Función para agrupar datos por variable y nivel
-// function groupData(data, variable, level) {
-//     return data.reduce((acc, row) => {
-//         const levelKey = row[level];
-//         const variableKey = row[variable];
-//         if (!levelKey || !variableKey) return acc;
-
-//         const key = `${levelKey} - ${variableKey}`;
-//         if (!acc[key]) acc[key] = { count: 0, level: levelKey };
-//         acc[key].count += 1;
-//         return acc;
-//     }, {});
-// }
-
-// // Función para actualizar dinámicamente las opciones de "Nivel de análisis"
-// function updateAnalysisLevels(variable) {
-//     const levelSelector = document.getElementById('selectorTecnoAnalisis');
-//     levelSelector.innerHTML = ''; // Limpiar las opciones actuales
-
-//     // Opciones generales
-//     const options = [
-//         { value: 'nacional', text: 'Nacional' },
-//         { value: 'region', text: 'Región' },
-//         { value: 'cadena_productiva', text: 'Cadena Productiva' },
-//         { value: 'tipo_empresa', text: 'Tipo de Empresa' }
-//     ];
-
-//     // Añadir "nivel_adopcion" si la variable seleccionada es "tecnologias"
-//     if (variable === 'tecnologias') {
-//         options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción' });
-//     }
-
-//     // Crear las nuevas opciones en el selector
-//     options.forEach(option => {
-//         const optionElement = document.createElement('option');
-//         optionElement.value = option.value;
-//         optionElement.textContent = option.text;
-//         levelSelector.appendChild(optionElement);
-//     });
-// }
+/// Tabla 
+const columnNameMap = {
+  "cadena_productiva": "Cadena Productiva",
+  "genero": "Género",
+  "tamano_empresa_num_trab": "Tamaño de Empresa",
+  "rango_ventas": "Rango de Ventas",
+  "exportaciones": "Exportaciones",
+  "porc_exportaciones": "Porcentaje de Exportaciones",
+  "financiamiento": "Fuentes de Financiamiento",
+  "internacionalizacion": "Internacionalización",
+  "agrupacion_tecnocreativa": "Agrupación Tecnocreativa",
+  "tecnologias": "Uso de Tecnología",
+  "herramientas_diferenciacion": "Herramientas de Diferenciación",
+  "interaccion": "Interacción con Otros Sectores",
+  "tendencias": "Tendencias Tecnocreativas",
+  "brechas": "Brechas y Drivers",
+  "tipo_empresa": "Tipo de Empresa",
+  "region": "Región"
+};

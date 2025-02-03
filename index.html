@@ -21,7 +21,7 @@
         display: block;
       }
     </style>
-    <script src="js/global.js" defer></script>
+
     <!-- <script src="js/dashboard.js"></script> -->
 
     <link rel="stylesheet" href="css/styles.css" />
@@ -42,9 +42,10 @@
     <header class="p-3">
       <h1>Encuesta Economías Creativas</h1>
       <div class="tabs">
-        <div class="tab active" onclick="loadTabContent('dashboard.html', 'dashboard.js')">Dashboard</div>
-        <div class="tab" onclick="loadTabContent('tabla_dinamica.html', 'tabla.js')">Tabla dinámica</div>
-        <div class="tab" onclick="loadTabContent('datos.html', 'datos.js')">Datos</div>
+        <div class="tabs">
+          <div class="tab active" onclick="loadTabContent('dashboard.html', 'dashboard.js')">Dashboard</div>
+          <div class="tab" onclick="loadTabContent('tabla_dinamica.html', 'tabla.js')">Tabla dinámica</div>
+          <div class="tab" onclick="loadTabContent('datos.html', 'datos.js')">Datos</div>
       </div>
     </header>
 
@@ -52,7 +53,7 @@
     <div id="tabContent" class="tab-content active">
       <!-- El contenido inicial será reemplazado por el Dashboard -->
     </div>
-
+    <script src="js/global.js" defer></script>
 
   </body>
 </html>

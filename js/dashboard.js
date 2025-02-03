@@ -1,97 +1,5 @@
-/************************************************************
-  1. Mapeo de variable -> archivo CSV
-*************************************************************/
-const variableToFileMap = {
-    // Características Generales
-    "tipo_empresa": "df_select.csv",
-    "cadena_productiva": "df_select.csv",
-    "genero": "df_select.csv",
-    "tamano_empresa_num_trab": "df_select.csv",
-    "rango_ventas": "df_select.csv",
-    "exportaciones": "df_select.csv",
-    "porc_exportaciones": "df_select.csv",
-    "financiamiento": "d_fuentes_financiamiento.csv",
-    "internacionalizacion": "df_select.csv",
-    
-    // Características Tecnocreativas
-    "agrupacion_tecnocreativa": "df_select.csv",
-    "tecnologias": "d_tecnologias.csv",
-    "herramientas_diferenciacion": "d_diferenciacion.csv",
-    "interaccion": "d_interaccion_sect_no_creativos.csv",
-    "tendencias": "d_tendencias_tecno.csv",
-    "brechas": "d_brechas.csv"
-  };
-  
-  // Opcional: Para no volver a cargar el mismo archivo muchas veces, podemos
-  // almacenar los datos en caché según el archivo.
-  const dataCache = {};
-  
-  /************************************************************
-    2. Función para cargar datos desde CSV
-       (utiliza caché si ya se han cargado antes)
-  *************************************************************/
-  async function loadDataFromCSV(fileName) {
-    // Si ya está en caché, devuélvelo directamente
-    if (dataCache[fileName]) {
-      return dataCache[fileName];
-    }
-    try {
-      const response = await fetch(`assets/${fileName}`);
-      const csvText = await response.text();
-      
-      const rows = csvText.split('\n').filter(row => row.trim() !== '');
-      const headers = rows[0].split(',');
-  
-      const parsedData = rows.slice(1).map(row => {
-        const values = row.split(',');
-        const obj = {};
-        headers.forEach((header, idx) => {
-          obj[header] = values[idx] || "";
-        });
-        return obj;
-      });
-  
-      // Guardar en caché
-      dataCache[fileName] = parsedData;
-      return parsedData;
-    } catch (error) {
-      console.error("Error al cargar el archivo CSV:", error);
-      return [];
-    }
-  }
-  
 
-// Función para actualizar dinámicamente las opciones de "Nivel de análisis" al utilizar la variable de interes "tecnología"
-// Especificamente tecnología tiene una subvariable que es "Nivel de adopción"
-function updateAnalysisLevels(variable,toupdate) {
 
-    if (variable === 'tecnologias') {
-    const levelSelector = document.getElementById(toupdate);
-    levelSelector.innerHTML = ''; // Limpiar las opciones actuales
-
-    // Opciones generales
-    const options = [
-        { value: 'nacional', text: 'Nacional' },
-        { value: 'region', text: 'Región' },
-        { value: 'cadena_productiva', text: 'Cadena Productiva' },
-        { value: 'tipo_empresa', text: 'Tipo de Empresa' }
-    ];
-
-    // Añadir "nivel_adopcion" si la variable seleccionada es "tecnologias"
-
-        options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción (Solo para tecnología) ' });
-
-    // Crear las nuevas opciones en el selector
-    options.forEach(option => {
-        const optionElement = document.createElement('option');
-        optionElement.value = option.value;
-        optionElement.textContent = option.text;
-        levelSelector.appendChild(optionElement);
-    });
-
-}
-
-}
 
   /************************************************************
     3. Función de actualización del gráfico
@@ -101,7 +9,6 @@ function updateAnalysisLevels(variable,toupdate) {
        - chartContainerId:  ID del contenedor donde se renderiza el gráfico
        - chartTitle:        Título del gráfico (opcional)
   *************************************************************/
-  let chartInstances = {}; // Podremos guardar instancias ECharts por contenedor
 
   async function updateChart(variableSelectId, levelSelectId, chartContainerId, chartTitle) {
     const variable = document.getElementById(variableSelectId).value;
@@ -248,110 +155,154 @@ function updateAnalysisLevels(variable,toupdate) {
         chart.setOption(option);
         resetButton.style.display = "none";
         isZoomed = false;
-    };
-}
+      };
+    }
+    
+    
+      /************************************************************
+        4. Listeners para los 2 conjuntos de selectores
+      *************************************************************/
+    
+        // // 1) Primer set: características generales
+        // const selVarGenerales = document.getElementById("selectorGeneralesInteres");
+        // const selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
 
+// document.addEventListener("DOMContentLoaded", () => {
 
-  /************************************************************
-    4. Listeners para los 2 conjuntos de selectores
-  *************************************************************/
-//   document.addEventListener("DOMContentLoaded", () => {
-    // 1) Primer set: características generales
-    const selVarGenerales = document.getElementById("selectorGeneralesInteres");
-    const selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
-  
-    // Al cambiar la variable o el nivel, actualizar el gráfico
-    selVarGenerales.addEventListener("change", () => {
+//         // Al cambiar la variable o el nivel, actualizar el gráfico
+//         selVarGenerales.addEventListener("change", () => {          
+//           updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+//         });
+//         selNivelGenerales.addEventListener("change", () => {
+//           updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+//         });
+      
+//         // 2) Segundo set: características tecnocreativas
+//         const selVarTecno = document.getElementById("selector2b");
+//         const selNivelTecno = document.getElementById("selector1b");
+    
+    
+      
+//         selVarTecno.addEventListener("change", () => {
+//           updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+//         });
+//         selNivelTecno.addEventListener("change", () => {
+//           updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+//         });
 
+// });
 
-        
-      updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-    });
-    selNivelGenerales.addEventListener("change", () => {
-      updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-    });
-  
-    // 2) Segundo set: características tecnocreativas
-    const selVarTecno = document.getElementById("selector2b");
-    const selNivelTecno = document.getElementById("selector1b");
-
-
-  
-    selVarTecno.addEventListener("change", () => {
-      updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-    });
-    selNivelTecno.addEventListener("change", () => {
-      updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-    });
-  
-    // OPCIONAL: Disparar carga inicial (ej: por defecto)
-    updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-    updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+// if (selVarGenerales && selNivelGenerales) {
+//   selVarGenerales.addEventListener("change", () => {
+//       updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
 //   });
-  
+//   selNivelGenerales.addEventListener("change", () => {
+//       updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+//   });
+// }
+
+// if (selVarTecno && selNivelTecno) {
+//   selVarTecno.addEventListener("change", () => {
+//       updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+//   });
+//   selNivelTecno.addEventListener("change", () => {
+//       updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+//   });
+// }
+
+// //         // OPCIONAL: Disparar carga inicial (ej: por defecto)
+// updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+// updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+      
+
+
+// Obtener los elementos del DOM
+selVarGenerales = document.getElementById("selectorGeneralesInteres");
+selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
+selVarTecno = document.getElementById("selector2b");
+selNivelTecno = document.getElementById("selector1b");
+
+// console.log(selVarGenerales);
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   console.log("DOM completamente cargado");
+
+// window.addEventListener("visibilitychange", () => {
+//   if (document.hidden) {
+//       // Limpiar variables cuando la pestaña se oculta
+//       selVarGenerales = null;
+//       selNivelGenerales = null;
+//       selVarTecno = null;
+//       selNivelTecno = null;
+//   } else {
+//       // Volver a asignar cuando la pestaña se activa nuevamente
+//       selVarGenerales = document.getElementById("selectorGeneralesInteres");
+//       selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
+//       selVarTecno = document.getElementById("selector2b");
+//       selNivelTecno = document.getElementById("selector1b");
+//   }
+// });
+
+  // Obtener elementos
+
+  // Verificar que los elementos existen
+  if (!selVarGenerales || !selNivelGenerales) {
+      console.error("Error: No se encontraron elementos para selectorGeneralesInteres o selectorTecnoAnalisis");
+  }
+  if (!selVarTecno || !selNivelTecno) {
+      console.error("Error: No se encontraron elementos para selector2b o selector1b");
+  }
+
+  // Asignar eventos
+  selVarGenerales.addEventListener("change", () => {
+      updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+  });
+
+  selNivelGenerales.addEventListener("change", () => {
+      updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+  });
+
+  selVarTecno.addEventListener("change", () => {
+      updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+  });
+
+  selNivelTecno.addEventListener("change", () => {
+      updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+  });
+
+  // Cargar gráficos iniciales
+  updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+  updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+
+  console.log("Gráficos inicializados correctamente.");
+// });
+
+
+
 
   /************************************************************
     5. Grafico de Mapa
   *************************************************************/
-    function computeBoundingBox(feature) {
-      const { geometry } = feature;
-      if (!geometry || geometry.type !== 'Polygon') {
-        console.warn("Geometría no válida o inesperada:", geometry);
-        return null;
-      }
-    
-      let allCoords = geometry.coordinates[0]; // Primer anillo del polígono (el exterior)
-      
-      if (!allCoords || !allCoords.length) {
-        console.warn("No hay coordenadas en la geometría:", geometry);
-        return null;
-      }
-    
-      let minX = Infinity, 
-          minY = Infinity, 
-          maxX = -Infinity, 
-          maxY = -Infinity;
-    
-      for (const [lng, lat] of allCoords) {
-        if (lng < minX) minX = lng;
-        if (lat < minY) minY = lat;
-        if (lng > maxX) maxX = lng;
-        if (lat > maxY) maxY = lat;
-      }
-    
-      return [minX, minY, maxX, maxY];
-    }
-    
 
-const data = [
-  { id: "01", name: "Tarapacá", value: 0 },
-  { id: "02", name: "Antofagasta", value: 2 },
-  { id: "03", name: "Atacama", value: 1 },
-  { id: "04", name: "Coquimbo", value: 0 },
-  { id: "05", name: "Valparaíso", value: 28 },
-  { id: "06", name: "O'Higgins", value: 3 },
-  { id: "07", name: "Maule", value: 2 },
-  { id: "08", name: "Bío-Bío", value: 9 },
-  { id: "09", name: "La Araucanía", value: 9 },
-  { id: "10", name: "Los Lagos", value: 1 },
-  { id: "11", name: "Aysén", value: 4 },
-  { id: "12", name: "Magallanes", value: 4 },
-  { id: "13", name: "RM", value: 82 },
-  { id: "14", name: "Los Ríos", value: 4 },
-  { id: "15", name: "Arica", value: 3 },
-  { id: "16", name: "Ñuble", value: 0 },
-];
+// const data = [
+//   { id: "01", name: "Tarapacá", value: 0 },
+//   { id: "02", name: "Antofagasta", value: 2 },
+//   { id: "03", name: "Atacama", value: 1 },
+//   { id: "04", name: "Coquimbo", value: 0 },
+//   { id: "05", name: "Valparaíso", value: 28 },
+//   { id: "06", name: "O'Higgins", value: 3 },
+//   { id: "07", name: "Maule", value: 2 },
+//   { id: "08", name: "Bío-Bío", value: 9 },
+//   { id: "09", name: "La Araucanía", value: 9 },
+//   { id: "10", name: "Los Lagos", value: 1 },
+//   { id: "11", name: "Aysén", value: 4 },
+//   { id: "12", name: "Magallanes", value: 4 },
+//   { id: "13", name: "RM", value: 82 },
+//   { id: "14", name: "Los Ríos", value: 4 },
+//   { id: "15", name: "Arica", value: 3 },
+//   { id: "16", name: "Ñuble", value: 0 },
+// ];
 
-// Cargar el archivo GeoJSON desde la carpeta raíz
-const geoJsonPath = "assets/regiones2.geojson";
-
-const mapContainer = document.getElementById('map');
-
-if (!mapContainer || mapContainer.clientWidth === 0 || mapContainer.clientHeight === 0) {
-    console.error("El contenedor del mapa no está disponible o tiene dimensiones inválidas.");
-} else {
-    const chart = echarts.init(mapContainer);
-}
 
 
 
@@ -389,7 +340,7 @@ fetch(geoJsonPath)
           map: 'chile',
           // zoom: 1.2,
           roam: true,
-          data: data.map(d => ({ name: d.name, value: d.value })),
+          data: mapdata.map(d => ({ name: d.name, value: d.value })),
           emphasis: {
             label: {
               show: true,
@@ -428,7 +379,7 @@ fetch(geoJsonPath)
                 map: 'regionSeleccionada', // Usamos el nuevo mapa con solo la región seleccionada
                 roam: true,
                 zoom: 1,
-                data: data.map(d => ({
+                data: mapdata.map(d => ({
                   name: d.name,
                   value: d.value
                 })),
