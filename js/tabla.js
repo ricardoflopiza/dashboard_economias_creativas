@@ -122,6 +122,28 @@ tableHead.appendChild(headerRow);
     
 }
 
+
+function downloadTable() {
+    const table = document.getElementById('dynamicTable');
+    const rows = Array.from(table.rows);
+
+    // Crear un array de objetos para las filas
+    const data = rows.map(row => {
+        return Array.from(row.cells).map(cell => cell.textContent);
+    });
+
+    // Crear un libro de Excel
+    const ws = XLSX.utils.aoa_to_sheet(data); // Convertir el array a una hoja
+    const wb = XLSX.utils.book_new(); // Crear un nuevo libro
+    XLSX.utils.book_append_sheet(wb, ws, 'Tabla Dinámica'); // Añadir la hoja al libro
+
+    // Descargar el archivo como Excel
+    XLSX.writeFile(wb, 'tabla_dinamica.xlsx');
+}
+
+
+document.getElementById('downloadButton').addEventListener('click', downloadTable);
+
 // Cargar la tabla por defecto al inicio
 updateDataAndTable();
 
