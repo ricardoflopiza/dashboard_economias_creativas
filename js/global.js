@@ -1,3 +1,7 @@
+// acá se cargan las variables y funciones en dashboard.js y tabla.js
+
+
+
 function loadTabContent(tabFile, jsFile) {
   const tabContent = document.getElementById('tabContent');
   tabContent.innerHTML = '<p>Cargando contenido...</p>'; // Mensaje temporal
@@ -22,16 +26,10 @@ function loadTabContent(tabFile, jsFile) {
       });
 }
 
-
-
-
-
 // Cargar el Dashboard por defecto al cargar la página
 window.onload = () => {
   loadTabContent('dashboard.html','dashboard.js'); // Cargar automáticamente el contenido del Dashboard
 };
-
-
 
 /************************************************************
   1. Mapeo de variable -> archivo CSV
@@ -140,13 +138,33 @@ let selNivelTecno = document.getElementById("selector1b");
 
 let mapdata = [];
 
-d3.csv("assets/mapa_metadata.csv").then(function(data) {
-    // Transformar los datos al formato adecuado
-    mapdata = data.map(d => ({
-        name: d.name,
-        value: +d.value  // Convertir a número
-    }));
-  });
+// d3.csv("assets/mapa_metadata.csv").then(function(data) {
+//     // Transformar los datos al formato adecuado
+//     mapdata = data.map(d => ({
+//         name: d.name,
+//         value: +d.value  // Convertir a número
+//     }));
+//   });
+
+mapdata = [
+  { id: "01", name: "Tarapacá", value: 0 },
+  { id: "02", name: "Antofagasta", value: 2 },
+  { id: "03", name: "Atacama", value: 1 },
+  { id: "04", name: "Coquimbo", value: 0 },
+  { id: "05", name: "Valparaíso", value: 28 },
+  { id: "06", name: "O'Higgins", value: 3 },
+  { id: "07", name: "Maule", value: 2 },
+  { id: "08", name: "Bío-Bío", value: 9 },
+  { id: "09", name: "La Araucanía", value: 9 },
+  { id: "10", name: "Los Lagos", value: 1 },
+  { id: "11", name: "Aysén", value: 4 },
+  { id: "12", name: "Magallanes", value: 4 },
+  { id: "13", name: "RM", value: 82 },
+  { id: "14", name: "Los Ríos", value: 4 },
+  { id: "15", name: "Arica", value: 3 },
+  { id: "16", name: "Ñuble", value: 0 },
+];
+
 
 // Cargar el archivo GeoJSON desde la carpeta raíz
 const geoJsonPath = "assets/regiones2.geojson";
@@ -181,14 +199,9 @@ function computeBoundingBox(feature) {
 }
 
 
+// Tabla dinámica
 
 const mapContainer = document.getElementById('map');
-
-// if (!mapContainer || mapContainer.clientWidth === 0 || mapContainer.clientHeight === 0) {
-//     console.error("El contenedor del mapa no está disponible o tiene dimensiones inválidas.");
-// } else {
-//     const chart = echarts.init(mapContainer);
-// }
 
 /// Tabla 
 const columnNameMap = {

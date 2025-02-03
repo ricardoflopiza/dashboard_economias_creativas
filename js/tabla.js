@@ -1,9 +1,5 @@
 console.log('Tabla dinámica cargada.');
 
-// selVarGenerales = null;
-// selNivelGenerales = null;
-// selVarTecno = null;
-// selNivelTecno = null;
 
 document.getElementById('selectorTablaDin1').addEventListener('change', async () => {
     await updateDataAndTable();

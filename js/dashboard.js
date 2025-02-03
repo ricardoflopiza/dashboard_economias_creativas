@@ -158,90 +158,15 @@
       };
     }
     
-    
-      /************************************************************
-        4. Listeners para los 2 conjuntos de selectores
-      *************************************************************/
-    
-        // // 1) Primer set: características generales
-        // const selVarGenerales = document.getElementById("selectorGeneralesInteres");
-        // const selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
-
-// document.addEventListener("DOMContentLoaded", () => {
-
-//         // Al cambiar la variable o el nivel, actualizar el gráfico
-//         selVarGenerales.addEventListener("change", () => {          
-//           updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-//         });
-//         selNivelGenerales.addEventListener("change", () => {
-//           updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-//         });
-      
-//         // 2) Segundo set: características tecnocreativas
-//         const selVarTecno = document.getElementById("selector2b");
-//         const selNivelTecno = document.getElementById("selector1b");
-    
-    
-      
-//         selVarTecno.addEventListener("change", () => {
-//           updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-//         });
-//         selNivelTecno.addEventListener("change", () => {
-//           updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-//         });
-
-// });
-
-// if (selVarGenerales && selNivelGenerales) {
-//   selVarGenerales.addEventListener("change", () => {
-//       updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-//   });
-//   selNivelGenerales.addEventListener("change", () => {
-//       updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-//   });
-// }
-
-// if (selVarTecno && selNivelTecno) {
-//   selVarTecno.addEventListener("change", () => {
-//       updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-//   });
-//   selNivelTecno.addEventListener("change", () => {
-//       updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-//   });
-// }
-
-// //         // OPCIONAL: Disparar carga inicial (ej: por defecto)
-// updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-// updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-      
-
 
 // Obtener los elementos del DOM
 selVarGenerales = document.getElementById("selectorGeneralesInteres");
-selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
+selNivelGenerales = document.getElementById("selectorTecnoAnalisis"); 
+
 selVarTecno = document.getElementById("selector2b");
 selNivelTecno = document.getElementById("selector1b");
 
-// console.log(selVarGenerales);
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   console.log("DOM completamente cargado");
-
-// window.addEventListener("visibilitychange", () => {
-//   if (document.hidden) {
-//       // Limpiar variables cuando la pestaña se oculta
-//       selVarGenerales = null;
-//       selNivelGenerales = null;
-//       selVarTecno = null;
-//       selNivelTecno = null;
-//   } else {
-//       // Volver a asignar cuando la pestaña se activa nuevamente
-//       selVarGenerales = document.getElementById("selectorGeneralesInteres");
-//       selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
-//       selVarTecno = document.getElementById("selector2b");
-//       selNivelTecno = document.getElementById("selector1b");
-//   }
-// });
 
   // Obtener elementos
 
@@ -284,52 +209,124 @@ selNivelTecno = document.getElementById("selector1b");
     5. Grafico de Mapa
   *************************************************************/
 
-// const data = [
-//   { id: "01", name: "Tarapacá", value: 0 },
-//   { id: "02", name: "Antofagasta", value: 2 },
-//   { id: "03", name: "Atacama", value: 1 },
-//   { id: "04", name: "Coquimbo", value: 0 },
-//   { id: "05", name: "Valparaíso", value: 28 },
-//   { id: "06", name: "O'Higgins", value: 3 },
-//   { id: "07", name: "Maule", value: 2 },
-//   { id: "08", name: "Bío-Bío", value: 9 },
-//   { id: "09", name: "La Araucanía", value: 9 },
-//   { id: "10", name: "Los Lagos", value: 1 },
-//   { id: "11", name: "Aysén", value: 4 },
-//   { id: "12", name: "Magallanes", value: 4 },
-//   { id: "13", name: "RM", value: 82 },
-//   { id: "14", name: "Los Ríos", value: 4 },
-//   { id: "15", name: "Arica", value: 3 },
-//   { id: "16", name: "Ñuble", value: 0 },
-// ];
 
 
 
 
+
+// fetch(geoJsonPath)
+//   .then(response => response.json())
+//   .then(regionesGeoJSON => {
+//     // Inicializar el mapa con ECharts
+//     const chart = echarts.init(document.getElementById('map'));
+
+//     echarts.registerMap('chile', regionesGeoJSON);
+
+//     const option = {
+//       title: {
+//         left: 'center',
+//       },
+//       tooltip: {
+//         trigger: 'item',
+//         formatter: '{b}: {c}',
+//       },
+//       visualMap: {
+//         min: 0,
+//         max: 100, // Ajustar de acuerdo a los datos reales
+//         text: ['Alto', 'Bajo'],
+//         realtime: true,
+//         calculable: true,
+//         inRange: {
+//           color: ['#f2f0f7', '#2b8cbe'],
+//         },
+//         right: '5%',
+//         top: 'middle',
+//       },
+//       series: [
+//         {
+//           type: 'map',
+//           map: 'chile',
+//           // zoom: 1.2,
+//           roam: true,
+//           data: mapdata.map(d => ({ name: d.name, value: d.value })),
+//           emphasis: {
+//             label: {
+//               show: false,
+//             },
+//             itemStyle: {
+//               areaColor: '#FFD700' // Color de resaltado al pasar el cursor
+//             }
+//           },
+//         },
+//       ],
+//     };
+
+//     chart.setOption(option);
+
+//     // Evento para hacer zoom en la región seleccionada
+//     chart.on('click', function (params) {
+//       if (params.name) {
+//         const selectedFeature = regionesGeoJSON.features.find(
+//           feature => feature.properties.name === params.name
+//         );
+//         console.log("Región seleccionada:", params.name);
+//         console.log("Feature seleccionado:", selectedFeature);
+    
+//         if (selectedFeature) {
+//           // Crear un nuevo GeoJSON solo con la región seleccionada
+//           const filteredGeoJSON = {
+//             type: "FeatureCollection",
+//             features: [selectedFeature]
+//           };
+    
+//           // Registrar solo la nueva geometría en ECharts
+//           echarts.registerMap("regionSeleccionada", filteredGeoJSON);
+    
+//           // Configurar la vista para que muestre solo la región seleccionada
+//           chart.setOption({
+//             series: [
+//               {
+//                 type: 'map',
+//                 map: 'regionSeleccionada', // Usamos el nuevo mapa con solo la región seleccionada
+//                 roam: true,
+//                 zoom: 1,
+//                 data: mapdata.map(d => ({
+//                   name: d.name,
+//                   value: d.value
+//                 })),
+//                 emphasis: {
+//                   label: { show: true }
+//                 }
+//               }
+//             ]
+//           });
+//         }
+//       }
+//     });
+    
+// })
 fetch(geoJsonPath)
   .then(response => response.json())
   .then(regionesGeoJSON => {
-    // Inicializar el mapa con ECharts
     const chart = echarts.init(document.getElementById('map'));
-
     echarts.registerMap('chile', regionesGeoJSON);
 
-    const option = {
-      title: {
-        left: 'center',
-      },
+    let isZoomed = false; // Estado de zoom en el mapa
+
+    const originalOption = {
+      title: { left: 'center' },
       tooltip: {
         trigger: 'item',
         formatter: '{b}: {c}',
       },
       visualMap: {
         min: 0,
-        max: 100, // Ajustar de acuerdo a los datos reales
+        max: 40,
         text: ['Alto', 'Bajo'],
         realtime: true,
         calculable: true,
-        inRange: {
-          color: ['#f2f0f7', '#2b8cbe'],
+        inRange: { 
+          color: [ '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
         },
         right: '5%',
         top: 'middle',
@@ -338,62 +335,135 @@ fetch(geoJsonPath)
         {
           type: 'map',
           map: 'chile',
-          // zoom: 1.2,
-          roam: true,
+          roam: false,
           data: mapdata.map(d => ({ name: d.name, value: d.value })),
+          label: { show: false },
           emphasis: {
-            label: {
-              show: true,
-            },
-          },
-        },
-      ],
+            label: { show: false },
+            itemStyle: { areaColor: '#FFD700' }
+          }
+        }
+      ]
     };
 
-    chart.setOption(option);
+    chart.setOption(originalOption);
 
-    // Evento para hacer zoom en la región seleccionada
+    // Función para resetear el mapa
+    function resetMap() {
+      isZoomed = false;
+      document.getElementById('resetButton').classList.add('d-none');
+
+      // Restaurar columnas
+      document.getElementById('mapColumn').classList.remove('col-md-6');
+      document.getElementById('mapColumn').classList.add('col-md-12');
+      document.getElementById('detailsColumn').classList.add('d-none');
+
+      // Restaurar configuración original del mapa
+      chart.setOption(originalOption, true);
+      chart.resize();
+    }
+
+    // Evento para hacer zoom al hacer clic en una región
     chart.on('click', function (params) {
+      if (isZoomed) {
+        resetMap();
+        return;
+      }
+
       if (params.name) {
+        const regionData = mapdata.find(d => d.name === params.name);
+
+        // Evita clic en regiones con value = 0
+        if (!regionData || regionData.value === 0) {
+          console.log(`La región ${params.name} no tiene datos.`);
+          return;
+        }
+
         const selectedFeature = regionesGeoJSON.features.find(
           feature => feature.properties.name === params.name
         );
-        console.log("Región seleccionada:", params.name);
-        console.log("Feature seleccionado:", selectedFeature);
-    
+
         if (selectedFeature) {
-          // Crear un nuevo GeoJSON solo con la región seleccionada
+          isZoomed = true;
+
+          // Registrar solo la región seleccionada en ECharts
           const filteredGeoJSON = {
             type: "FeatureCollection",
             features: [selectedFeature]
           };
-    
-          // Registrar solo la nueva geometría en ECharts
+
           echarts.registerMap("regionSeleccionada", filteredGeoJSON);
-    
-          // Configurar la vista para que muestre solo la región seleccionada
+
+          // Modificar estructura para dividir en dos columnas
+          const mapColumn = document.getElementById('mapColumn');
+          const detailsColumn = document.getElementById('detailsColumn');
+
+          mapColumn.classList.remove('col-md-12');
+          mapColumn.classList.add('col-md-6');
+          detailsColumn.classList.remove('d-none');
+
+          // Mostrar el botón de reset
+          document.getElementById('resetButton').classList.remove('d-none');
+
+          // Redibujar el mapa con zoom en la región
           chart.setOption({
+            visualMap: { show: false }, // Oculta el visualMap
             series: [
               {
                 type: 'map',
-                map: 'regionSeleccionada', // Usamos el nuevo mapa con solo la región seleccionada
-                roam: true,
-                zoom: 1,
-                data: mapdata.map(d => ({
-                  name: d.name,
-                  value: d.value
-                })),
-                emphasis: {
-                  label: { show: true }
-                }
+                map: 'regionSeleccionada',
+                roam: false,
+                zoom: 1.2, // Ajustar zoom
+                data: mapdata.map(d => ({ name: d.name, value: d.value })),
+                emphasis: { label: { show: false } }
               }
             ]
           });
+
+          // Forzar actualización de tamaño del mapa
+          setTimeout(() => {
+            chart.resize();
+          }, 0);
+
+          // Generar gráficos en la nueva sección
+          renderCharts();
         }
       }
     });
+
+        // Función para generar gráficos en las 3 filas
+        function renderCharts() {
+          const chart1 = echarts.init(document.getElementById('chart1'));
+          const chart2 = echarts.init(document.getElementById('chart2'));
+          const chart3 = echarts.init(document.getElementById('chart3'));
     
-})
-  .catch(error => {
-    console.error("Error cargando el archivo GeoJSON:", error);
+          const optionBar = {
+            xAxis: { type: 'category', data: ['A', 'B', 'C', 'D'] },
+            yAxis: { type: 'value' },
+            series: [{ type: 'bar', data: [10, 20, 30, 40] }]
+          };
+    
+          const optionPie = {
+            series: [
+              {
+                type: 'pie',
+                data: [
+                  { value: 40, name: 'X' },
+                  { value: 30, name: 'Y' },
+                  { value: 20, name: 'Z' }
+                ]
+              }
+            ]
+          };
+    
+          chart1.setOption(optionBar);
+          chart2.setOption(optionPie);
+          chart3.setOption(optionBar);
+        }
+
+    // Agregar evento al botón de reset
+    document.getElementById('resetButton').addEventListener('click', resetMap);
+
   });
+
+

@@ -1,102 +1,129 @@
-<!-- HTML excerpt (Adapt as needed) -->
 <body>
     <div id="tab1" class="tab-content active">
-        <div class="container-fluid my-3" style="height: 100vh">
-            <!-- Fila 1 -->
-            <div class="row h-50" style="min-height: 80vh">
-                <!-- Columna 1 (Mapa, etc.) -->
-                <div class="col-md-6" style="min-height: 100%">
-                    <h2>Nacional</h2>
-                    <div id="map" style="width:100%; height:500px;"></div>
-
-                    <!-- ... tu contenido de mapa ... -->
-                </div>
+      <div class="container-fluid my-3" style="height: 100vh">
+        <!-- Fila 1 -->
+        <div class="row h-50" style="min-height: 80vh">
+          <!-- Columna 1 (Mapa, etc.) -->
+          <div class="col-md-6" style="min-height: 100%">
+            <h2>Nacional</h2>
+            <div id="mapContainer" class="container-fluid my-3" style="height: 500px; position: relative;">
+                <button id="resetButton" class="btn btn-primary mt-2 d-none" 
+                        style="position: absolute; top: 10px; left: 10px; z-index: 1000;"> <!-- Cambiado right por left -->
+                    <i class="bi bi-globe"></i> Ver mapa nacional
+                </button>
                 
-                <!-- Columna 2 (características generales) -->
-                <div class="col-md-6 d-flex flex-column" style="min-height: 100%">
-                    <h2>Características generales</h2> 
-                    <!-- Barra de selectores (generales) -->
-                    <div class="bg-primary text-white p-3 clearfix">
-                        <!-- Variable de interés -->
-                        <div style="float: left; width: 48%; margin-right: 2%">
-                            <label for="selectorGeneralesInteres" style="display: block">Variable de interés:</label>
-                            <select id="selectorGeneralesInteres" class="form-select form-select-sm" style="width: 100%">
-                                <option value="genero">Género</option>
-                                <option value="tamano_empresa_num_trab">Tamaño (N° trabajadores)</option>
-                                <option value="rango_ventas">Tamaño (Ventas anuales)</option>
-                                <option value="exportaciones">Exportaciones</option>
-                                <option value="exportaciones_porc_ingreso">Ingreso por exportaciones (%)</option>
-                                <option value="financiamiento">Financiamiento</option>
-                                <option value="internacionalizacion">Internacionalización</option>
-                            </select>
-                        </div>
-                        
-                        <!-- Nivel de análisis (Generales) -->
-                        <div style="float: left; width: 48%">
-                            <label for="selectorTecnoAnalisis" style="display: block">Nivel de análisis:</label>
-                            <select id="selectorTecnoAnalisis" class="form-select form-select-sm" style="width: 100%">
-                                <option value="nacional">Nacional</option>
-                                <option value="region">Regiones</option>
-                                <option value="cadena_productiva">Cadena Productiva</option>
-                                <option value="tipo_empresa">Tipo de empresa</option>
-                            </select>
-                        </div>
+                <div class="row h-100">
+                    <div id="mapColumn" class="col-md-12" style="height: 100%;">
+                        <div id="map" style="width:100%; height:100%;"></div>
                     </div>
-                    
-                    <!-- Contenedor del gráfico de características generales -->
-                    <div class="flex-grow-1 bg-white">
-                        <div id="chartContainer" class="w-100 h-100" style="border: none"></div>
-                        <button id="resetButton1" class="btn btn-secondary mt-2" style="display: none;">Restablecer gráfico</button>
-
-                    </div>
-                </div>
-            </div>
             
-            <!-- Fila 2: Características tecnocreativas -->
-            <div class="row h-50 mt-3" style="min-height: 80vh">
-                <div class="col-12 bg-light border d-flex flex-column" style="height: 100%"> 
-                    <h2>Características tecnocreativas</h2> 
-                    <!-- Barra de selectores (tecnocreativas) -->
-                    <div class="bg-primary text-white p-3 clearfix">
-                        <!-- Variable de interés -->
-                        <div style="float: left; width: 48%; margin-right: 2%">
-                            <label for="selector2b" style="display: block">Variable de interés:</label>
-                            <select id="selector2b" class="form-select form-select-sm" style="width: 100%">
-                                <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa</option>
-                                <option value="tecnologias">Uso de tecnología</option>
-                                <option value="herramientas_diferenciacion">Herramientas de diferenciación</option>
-                                <option value="interaccion">Interacción con otros sectores</option>
-                                <option value="tendencias">Tendencias tecnocreativas</option>
-                                <option value="brechas">Brechas y drivers</option>
-                            </select>
-                        </div>
-                        
-                        <!-- Nivel de análisis (Tecnocreativas) -->
-                        <div style="float: left; width: 48%">
-                            <label for="selector1b" style="display: block">Nivel de análisis:</label>
-                            <select id="selector1b" class="form-select form-select-sm" style="width: 100%">
-                                <option value="nacional">Nacional</option>
-                                <option value="region">Regiones</option>
-                                <option value="cadena_productiva">Cadena Productiva</option>
-                                <option value="tipo_empresa">Tipo de empresa</option>
-
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <!-- Contenedor del segundo gráfico -->
-                    <div class="flex-grow-1 bg-white">
-                        <button id="resetButton2" class="btn btn-secondary mt-2" style="display: none;">Restablecer gráfico</button>
-
-                        <div id="chartContainer2" class="w-100 h-100" style="border: none"></div>
-                    </div>
+                    <div id="detailsColumn" class="col-md-6 d-none" style="display: flex; flex-direction: column; height: 100%;">
+              
+                  <!-- Primera fila -->
+                  <div class="p-3 border flex-grow-1 bg-light">
+                    <h3>Detalle 1</h3>
+                    <div id="chart1" style="width:100%; height:100%;"></div>
+                  </div>
+  
+                  <!-- Segunda fila -->
+                  <div class="p-3 border flex-grow-1 bg-light">
+                    <h3>Detalle 2</h3>
+                    <div id="chart2" style="width:100%; height:100%;"></div>
+                  </div>
+  
+                  <!-- Tercera fila -->
+                  <div class="p-3 border flex-grow-1 bg-light">
+                    <h3>Detalle 3</h3>
+                    <div id="chart3" style="width:100%; height:100%;"></div>
+                  </div>
                 </div>
+              </div>
             </div>
+      
+          </div>
+  
+          <!-- Columna 2 (características generales) -->
+          <div class="col-md-6 d-flex flex-column" style="min-height: 100%">
+            <h2>Características generales</h2>
+            <!-- Barra de selectores (generales) -->
+            <div class="bg-primary text-white p-3 clearfix">
+              <!-- Variable de interés -->
+              <div style="float: left; width: 48%; margin-right: 2%">
+                <label for="selectorGeneralesInteres" style="display: block">Variable de interés:</label>
+                <select id="selectorGeneralesInteres" class="form-select form-select-sm" style="width: 100%">
+                  <option value="genero">Género</option>
+                  <option value="tamano_empresa_num_trab">Tamaño (N° trabajadores)</option>
+                  <option value="rango_ventas">Tamaño (Ventas anuales)</option>
+                  <option value="exportaciones">Exportaciones</option>
+                  <option value="exportaciones_porc_ingreso">Ingreso por exportaciones (%)</option>
+                  <option value="financiamiento">Financiamiento</option>
+                  <option value="internacionalizacion">Internacionalización</option>
+                </select>
+              </div>
+  
+              <!-- Nivel de análisis (Generales) -->
+              <div style="float: left; width: 48%">
+                <label for="selectorTecnoAnalisis" style="display: block">Nivel de análisis:</label>
+                <select id="selectorTecnoAnalisis" class="form-select form-select-sm" style="width: 100%">
+                  <option value="nacional">Nacional</option>
+                  <option value="region">Regiones</option>
+                  <option value="cadena_productiva">Cadena Productiva</option>
+                  <option value="tipo_empresa">Tipo de empresa</option>
+                </select>
+              </div>
+            </div>
+  
+            <!-- Contenedor del gráfico de características generales -->
+            <div class="flex-grow-1 bg-white">
+              <div id="chartContainer" class="w-100 h-100" style="border: none"></div>
+              <button id="resetButton1" class="btn btn-secondary mt-2" style="display: none;">Restablecer gráfico</button>
+            </div>
+          </div>
         </div>
-        
-        <!-- Modal (si aplica) -->
-        <div class="modal fade" id="zoomModal" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
-            <!-- ... contenido modal ... -->
+  
+        <!-- Fila 2: Características tecnocreativas -->
+        <div class="row h-50 mt-3" style="min-height: 80vh">
+          <div class="col-12 bg-light border d-flex flex-column" style="height: 100%">
+            <h2>Características tecnocreativas</h2>
+            <!-- Barra de selectores (tecnocreativas) -->
+            <div class="bg-primary text-white p-3 clearfix">
+              <!-- Variable de interés -->
+              <div style="float: left; width: 48%; margin-right: 2%">
+                <label for="selector2b" style="display: block">Variable de interés:</label>
+                <select id="selector2b" class="form-select form-select-sm" style="width: 100%">
+                  <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa</option>
+                  <option value="tecnologias">Uso de tecnología</option>
+                  <option value="herramientas_diferenciacion">Herramientas de diferenciación</option>
+                  <option value="interaccion">Interacción con otros sectores</option>
+                  <option value="tendencias">Tendencias tecnocreativas</option>
+                  <option value="brechas">Brechas y drivers</option>
+                </select>
+              </div>
+  
+              <!-- Nivel de análisis (Tecnocreativas) -->
+              <div style="float: left; width: 48%">
+                <label for="selector1b" style="display: block">Nivel de análisis:</label>
+                <select id="selector1b" class="form-select form-select-sm" style="width: 100%">
+                  <option value="nacional">Nacional</option>
+                  <option value="region">Regiones</option>
+                  <option value="cadena_productiva">Cadena Productiva</option>
+                  <option value="tipo_empresa">Tipo de empresa</option>
+                </select>
+              </div>
+            </div>
+  
+            <!-- Contenedor del segundo gráfico -->
+            <div class="flex-grow-1 bg-white">
+              <button id="resetButton2" class="btn btn-secondary mt-2" style="display: none;">Restablecer gráfico</button>
+              <div id="chartContainer2" class="w-100 h-100" style="border: none"></div>
+            </div>
+          </div>
         </div>
+      </div>
+  
+      <!-- Modal (si aplica) -->
+      <div class="modal fade" id="zoomModal" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
+        <!-- ... contenido modal ... -->
+      </div>
     </div>
 </body>

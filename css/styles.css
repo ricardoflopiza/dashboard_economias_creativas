@@ -1,3 +1,24 @@
+/* Agrega estos estilos */
+#resetButton {
+    transition: all 0.3s ease;
+  }
+  
+  .echarts-map path {
+    transition: all 0.3s ease;
+  }
+  
+  /* @keyframes border-glow {
+    0% { stroke: #FFD700; }
+    50% { stroke: #FFA500; }
+    100% { stroke: #FFD700; }
+  } */
+  
+  .echarts-map .emphasis path {
+    animation: border-glow 1.5s ease-in-out infinite;
+    stroke-width: 2;
+  }
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
