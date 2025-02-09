@@ -210,101 +210,6 @@ selNivelTecno = document.getElementById("selector1b");
   *************************************************************/
 
 
-
-
-
-
-// fetch(geoJsonPath)
-//   .then(response => response.json())
-//   .then(regionesGeoJSON => {
-//     // Inicializar el mapa con ECharts
-//     const chart = echarts.init(document.getElementById('map'));
-
-//     echarts.registerMap('chile', regionesGeoJSON);
-
-//     const option = {
-//       title: {
-//         left: 'center',
-//       },
-//       tooltip: {
-//         trigger: 'item',
-//         formatter: '{b}: {c}',
-//       },
-//       visualMap: {
-//         min: 0,
-//         max: 100, // Ajustar de acuerdo a los datos reales
-//         text: ['Alto', 'Bajo'],
-//         realtime: true,
-//         calculable: true,
-//         inRange: {
-//           color: ['#f2f0f7', '#2b8cbe'],
-//         },
-//         right: '5%',
-//         top: 'middle',
-//       },
-//       series: [
-//         {
-//           type: 'map',
-//           map: 'chile',
-//           // zoom: 1.2,
-//           roam: true,
-//           data: mapdata.map(d => ({ name: d.name, value: d.value })),
-//           emphasis: {
-//             label: {
-//               show: false,
-//             },
-//             itemStyle: {
-//               areaColor: '#FFD700' // Color de resaltado al pasar el cursor
-//             }
-//           },
-//         },
-//       ],
-//     };
-
-//     chart.setOption(option);
-
-//     // Evento para hacer zoom en la región seleccionada
-//     chart.on('click', function (params) {
-//       if (params.name) {
-//         const selectedFeature = regionesGeoJSON.features.find(
-//           feature => feature.properties.name === params.name
-//         );
-//         console.log("Región seleccionada:", params.name);
-//         console.log("Feature seleccionado:", selectedFeature);
-    
-//         if (selectedFeature) {
-//           // Crear un nuevo GeoJSON solo con la región seleccionada
-//           const filteredGeoJSON = {
-//             type: "FeatureCollection",
-//             features: [selectedFeature]
-//           };
-    
-//           // Registrar solo la nueva geometría en ECharts
-//           echarts.registerMap("regionSeleccionada", filteredGeoJSON);
-    
-//           // Configurar la vista para que muestre solo la región seleccionada
-//           chart.setOption({
-//             series: [
-//               {
-//                 type: 'map',
-//                 map: 'regionSeleccionada', // Usamos el nuevo mapa con solo la región seleccionada
-//                 roam: true,
-//                 zoom: 1,
-//                 data: mapdata.map(d => ({
-//                   name: d.name,
-//                   value: d.value
-//                 })),
-//                 emphasis: {
-//                   label: { show: true }
-//                 }
-//               }
-//             ]
-//           });
-//         }
-//       }
-//     });
-    
-// })
 fetch(geoJsonPath)
   .then(response => response.json())
   .then(regionesGeoJSON => {
@@ -471,4 +376,18 @@ fetch(geoJsonPath)
 
   });
 
+  // Después de instanciarlos:
+detailChart1 = echarts.init(document.getElementById('chart1'));
+detailChart2 = echarts.init(document.getElementById('chart2'));
+detailChart3 = echarts.init(document.getElementById('chart3'));
 
+
+    // 5. Ajustamos tamaño dinámicamente al cambiar la ventana
+    window.addEventListener('resize', () => {
+      if (chartContainer) chartContainer.resize();
+      if (chartContainer2)chartContainer2.resize();
+      if (chart) chart.resize(); // <-- el mapa
+      if (detailChart1) detailChart1.resize();
+      if (detailChart2) detailChart2.resize();
+      if (detailChart3) detailChart3.resize();
+    });
