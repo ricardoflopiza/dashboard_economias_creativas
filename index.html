@@ -2,58 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Hace que la página sea responsiva en dispositivos móviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Economías Creativas</title>
-    <style>
-      .tabs {
-        display: flex;
-      }
-      .tab {
-        padding: 10px 20px;
-        cursor: pointer;
-        border-bottom: none;
-      }
-      .tab-content {
-        padding: 20px;
-        display: none;
-      }
-      .tab-content.active {
-        display: block;
-      }
-    </style>
-
-    <!-- <script src="js/dashboard.js"></script> -->
-
+    
+    <!-- Hoja de estilos principal -->
     <link rel="stylesheet" href="css/styles.css" />
+    
     <!-- ECharts -->
-    <!-- <script src="dist/echarts.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
-
-    <!-- load-data -->
-    <!-- <script src="js/load_files.js"></script> -->
     <!-- Sheetsjs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <!-- D3.js -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="p-3">
       <h1>Encuesta Economías Creativas</h1>
-      <div class="tabs">
-        <div class="tabs">
-          <div class="tab active" onclick="loadTabContent('dashboard.html', 'dashboard.js')">Dashboard</div>
-          <div class="tab" onclick="loadTabContent('tabla_dinamica.html', 'tabla.js')">Tabla dinámica</div>
-          <div class="tab" onclick="loadTabContent('datos.html', 'datos.js')">Datos</div>
+
+      <!-- Botón de navegación para móviles -->
+      <button id="navToggle" class="nav-toggle">☰</button>
+
+      <!-- Contenedor de pestañas (nav) -->
+      <div id="navMenu" class="tabs">
+        <div
+          class="tab active"
+          onclick="loadTabContent('dashboard.html', 'dashboard.js')"
+        >
+          Dashboard
+        </div>
+        <div
+          class="tab"
+          onclick="loadTabContent('tabla_dinamica.html', 'tabla.js')"
+        >
+          Tabla dinámica
+        </div>
+        <div
+          class="tab"
+          onclick="loadTabContent('datos.html', 'datos.js')"
+        >
+          Datos
+        </div>
       </div>
     </header>
 
-    <!-- Contenedor dinámico donde se cargará el contenido -->
+    <!-- Contenedor dinámico donde se cargará el contenido (TabContent) -->
     <div id="tabContent" class="tab-content active">
       <!-- El contenido inicial será reemplazado por el Dashboard -->
     </div>
+
+    <!-- Tu script global para cargar el contenido de tabs y manejar eventos -->
     <script src="js/global.js" defer></script>
 
+    <!-- Si deseas, puedes incluir aquí (o en global.js) la lógica del toggle para móviles -->
+    <script>
+      // Agrega el eventListener para el botón hamburguesa
+      document.getElementById('navToggle').addEventListener('click', function() {
+        document.getElementById('navMenu').classList.toggle('show');
+      });
+    </script>
   </body>
 </html>

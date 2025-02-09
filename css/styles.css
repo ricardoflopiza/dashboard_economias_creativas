@@ -1,118 +1,264 @@
-/* Agrega estos estilos */
-#resetButton {
-    transition: all 0.3s ease;
-  }
-  
-  .echarts-map path {
-    transition: all 0.3s ease;
-  }
-  
-  /* @keyframes border-glow {
-    0% { stroke: #FFD700; }
-    50% { stroke: #FFA500; }
-    100% { stroke: #FFD700; }
-  } */
-  
-  .echarts-map .emphasis path {
-    animation: border-glow 1.5s ease-in-out infinite;
-    stroke-width: 2;
-  }
+/* 
+  1. Variables base y configuraciones iniciales 
+*/
 
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+html {
+  /* Define el tamaño base de fuente para que 1rem = 16px */
+  font-size: 16px;
 }
 
-/* Header */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* /* 
+  2. Estilos de Encabezado 
+
+
+*/
+
+
 header {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    text-align: center;
+  position: relative; /* Agregado */
+  background-color: #333;
+  color: white;
+  padding: 0.9375rem;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 24px;
+  margin: 0;
+  /* Tipografía fluida con clamp: mínimo 1.5rem (24px), máximo 2rem (32px) */
+  font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
-/* Tabs in the header */
+
+
+.nav-toggle {
+  display: none; 
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  
+  /* Posición absoluta dentro del header */
+  position: absolute;
+  top: 0.5rem;   /* Ajusta según quieras acercarlo al borde superior */
+  right: 1rem;  /* o left: 1rem si quieres en la esquina izquierda */
+  z-index: 10;
+}
+
+/* 
+  4. Estilos para Tabs 
+*/
 .tabs {
-    display: flex;
-    justify-content: center;
-    background-color: #444;
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  /* Margin-top opcional para separar de h1 si lo necesitas */
+  margin-top: 0.625rem; /* 10px => 0.625rem */
 }
 
 .tab {
-    padding: 10px 20px;
-    color: white;
-    cursor: pointer;
-    text-align: center;
+  /* 10px => 0.625rem, 20px => 1.25rem */
+  padding: 0.625rem 1.25rem;
+  color: white;
+  cursor: pointer;
+  text-align: center;
 }
 
 .tab:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 .tab.active {
-    background-color: #666;
-    font-weight: bold;
+  background-color: #666;
+  font-weight: bold;
 }
 
-/* Main dashboard layout */
+/* 
+  5. Contenido de Tab (oculto/visible) 
+*/
+.tab-content {
+  /* 20px => 1.25rem */
+  padding: 1.25rem;
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* 
+  6. Layout del Dashboard (Ejemplo) 
+*/
 .dashboard {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    height: calc(100vh - 90px); /* Fill viewport minus header */
+  display: flex;
+  flex-direction: column;
+  /* 20px => 1.25rem */
+  padding: 1.25rem;
+  gap: 1.25rem;
+  /* 90px => 5.625rem 
+     Calcula el alto para ocupar el 100% de la pantalla menos el header
+  */
+  height: calc(100vh - 5.625rem);
 }
 
-
-/* Chart styling */
+/* 
+  7. Estilos para Chart 
+*/
 .chart {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; /* Use all available space */
+  background: white;
+  /* 8px => 0.5rem */
+  border-radius: 0.5rem;
+  /* 2px y 5px => 0.125rem y 0.3125rem */
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Usa todo el espacio disponible */
 }
 
-/* Ajustar el contenedor de los selectores */
+/* Ajustar el contenedor de los selectores dentro del chart */
 .chart div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  /* 10px => 0.625rem */
+  gap: 0.625rem;
 }
 
-/* Estilizar los selectores */
+/* Estilizar los selectores (select) */
 select {
-    width: 100%; /* Ocupa todo el ancho disponible */
-    padding: 8px;
-    font-size: 14px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    background-color: #fff;
+  width: 100%;
+  /* 8px => 0.5rem */
+  padding: 0.5rem;
+  /* 14px => 0.875rem */
+  font-size: 0.875rem;
+  /* 4px => 0.25rem */
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
 }
 
+.chart .d-flex > div {
+  /* Evita que los selectores se desborden */
+  min-width: 0;
+}
 
-  .chart .d-flex > div {
-    min-width: 0; /* Evitar que los selectores se desborden */
+/* 
+  8. Botón de descarga 
+*/
+.download-btn {
+  /* 20px => 1.25rem */
+  margin-top: 1.25rem;
+  /* 10px => 0.625rem, 20px => 1.25rem */
+  padding: 0.625rem 1.25rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  /* 5px => 0.3125rem */
+  border-radius: 0.3125rem;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 
+  9. Transiciones y animaciones ECharts
+*/
+#resetButton {
+  transition: all 0.3s ease;
+}
+
+.echarts-map path {
+  transition: all 0.3s ease;
+}
+
+@keyframes border-glow {
+  0% {
+    stroke: #FFD700;
+  }
+  50% {
+    stroke: #FFA500;
+  }
+  100% {
+    stroke: #FFD700;
+  }
+}
+
+.echarts-map .emphasis path {
+  animation: border-glow 1.5s ease-in-out infinite;
+  stroke-width: 2;
+}
+
+/* 
+  10. Media Queries para Responsividad 
+*/
+
+/* a) Tablet (768px - 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  header h1 {
+    /* Un poco más reducido en tablets */
+    font-size: clamp(1.25rem, 4vw, 1.75rem);
+  }
+
+  .dashboard {
+    /* 15px => 0.9375rem */
+    padding: 0.9375rem;
+    gap: 0.9375rem;
+  }
+
+  .chart {
+    /* 400px => 25rem */
+    height: 25rem;
+  }
+}
+
+/* b) Móviles (<768px) */
+@media (max-width: 767px) {
+  /* Mostrar el botón hamburguesa */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Ocultar las tabs por defecto y mostrarlas en columna al hacer toggle */
+  .tabs {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    z-index: 9; /* Para que se superponga sobre el contenido */
+  }
+
+  /* Clase "show" que activamos con JavaScript para mostrar las tabs */
+  .tabs.show {
+    display: flex;
+  }
+
+  .dashboard {
+    /* 10px => 0.625rem */
+    padding: 0.625rem;
+    gap: 0.625rem;
+    height: auto; /* Que se expanda según el contenido */
+  }
+
+  .chart {
+    /* 300px => 18.75rem */
+    height: 18.75rem;
   }
 
   .download-btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.download-btn:hover {
-    background-color: #0056b3;
+    /* 8px => 0.5rem, 15px => 0.9375rem */
+    padding: 0.5rem 0.9375rem;
+    font-size: 0.875rem; /* 14px => 0.875rem */
+  }
 }

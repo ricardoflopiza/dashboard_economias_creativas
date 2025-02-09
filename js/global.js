@@ -24,6 +24,11 @@ function loadTabContent(tabFile, jsFile) {
           tabContent.innerHTML = '<p style="color: red;">No se pudo cargar el contenido. Intente nuevamente.</p>';
           console.error(error);
       });
+
+        // 2. Cerrar menú si estamos en móvil
+  if (window.innerWidth < 768) {
+    document.getElementById('navMenu').classList.remove('show');
+  }
 }
 
 // Cargar el Dashboard por defecto al cargar la página
