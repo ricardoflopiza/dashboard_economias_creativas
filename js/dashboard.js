@@ -320,13 +320,16 @@ fetch(geoJsonPath)
         formatter: '{b}: {c}',
       },
       visualMap: {
-        min: 0,
+        min: 1,
         max: 40,
         text: ['Alto', 'Bajo'],
         realtime: true,
         calculable: true,
         inRange: { 
           color: [ '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
+        },
+        outOfRange: {
+          color: '#D3D3D3'  // Asegura que los valores fuera de rango (como 0) sean grises
         },
         right: '5%',
         top: 'middle',
@@ -340,13 +343,15 @@ fetch(geoJsonPath)
           label: { show: false },
           emphasis: {
             label: { show: false },
-            itemStyle: { areaColor: '#FFD700' }
+            itemStyle: { areaColor: '#FFD654' }
           }
         }
       ]
     };
 
     chart.setOption(originalOption);
+
+    
 
     // Función para resetear el mapa
     function resetMap() {
