@@ -47,7 +47,7 @@ const variableToFileMap = {
   "tamano_empresa_num_trab": "df_select.csv",
   "rango_ventas": "df_select.csv",
   "exportaciones": "df_select.csv",
-  "porc_exportaciones": "df_select.csv",
+  "exportaciones_porc_ingreso": "df_select.csv",
   "financiamiento": "d_fuentes_financiamiento.csv",
   "internacionalizacion": "df_select.csv",
   
@@ -101,13 +101,11 @@ async function loadDataFromCSV(fileName) {
 
 // Función para actualizar dinámicamente las opciones de "Nivel de análisis" al utilizar la variable de interes "tecnología"
 // Especificamente tecnología tiene una subvariable que es "Nivel de adopción"
-function updateAnalysisLevels(variable,toupdate) {
-
-  if (variable === 'tecnologias') {
+function updateAnalysisLevels(variable, toupdate) {
   const levelSelector = document.getElementById(toupdate);
-  levelSelector.innerHTML = ''; // Limpiar las opciones actuales
+  levelSelector.innerHTML = ''; // Limpiar todas las opciones actuales antes de añadir nuevas
 
-  // Opciones generales
+  // Opciones generales que siempre estarán disponibles
   const options = [
       { value: 'nacional', text: 'Nacional' },
       { value: 'region', text: 'Región' },
@@ -115,20 +113,18 @@ function updateAnalysisLevels(variable,toupdate) {
       { value: 'tipo_empresa', text: 'Tipo de Empresa' }
   ];
 
-  // Añadir "nivel_adopcion" si la variable seleccionada es "tecnologias"
+  // Si la variable seleccionada es "tecnologias", añadir "Nivel de Adopción"
+  if (variable === 'tecnologias') {
+      options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción (Solo para tecnología)' });
+  }
 
-      options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción (Solo para tecnología) ' });
-
-  // Crear las nuevas opciones en el selector
+  // Crear y añadir las nuevas opciones al selector
   options.forEach(option => {
       const optionElement = document.createElement('option');
       optionElement.value = option.value;
       optionElement.textContent = option.text;
       levelSelector.appendChild(optionElement);
   });
-
-}
-
 }
 
 

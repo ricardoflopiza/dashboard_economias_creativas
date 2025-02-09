@@ -1,4 +1,4 @@
-v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
+v362_id,region,cadena_productiva,tipo_empresa,financiamiento
 30,Arica,Contenidos creativos,Empresa,Agro-Tech
 30,Arica,Contenidos creativos,Empresa,Ingresos propios del flujo del negocio
 72,Arica,Servicios creativos,Empresa,Agro-Tech
@@ -29,7 +29,7 @@ v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
 53,Valparaíso,Servicios creativos,Empresa,Fondos públicos
 53,Valparaíso,Servicios creativos,Empresa,Ingresos propios del flujo del negocio
 68,Valparaíso,Contenidos creativos,Profesional independiente,Asociaciones con otros negocios
-69,Valparaíso,Bienes creativos,Profesional independiente,yo mismo
+69,Valparaíso,Bienes creativos,Profesional independiente,Otros
 71,Valparaíso,Servicios creativos,Empresa,Fondos públicos
 71,Valparaíso,Servicios creativos,Empresa,Ingresos propios del flujo del negocio
 74,Valparaíso,Contenidos creativos,Empresa,Fondos públicos
@@ -75,7 +75,7 @@ v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
 26,RM,Contenidos creativos,Empresa,Ingresos propios del flujo del negocio
 28,RM,Contenidos creativos,Empresa,Ingresos propios del flujo del negocio
 28,RM,Contenidos creativos,Empresa,Instituciones bancarias
-28,RM,Contenidos creativos,Empresa,factoring
+28,RM,Contenidos creativos,Empresa,Otros
 29,RM,Servicios creativos,Empresa,Aportes de capital de los socios o dueños
 29,RM,Servicios creativos,Empresa,Fondos públicos
 29,RM,Servicios creativos,Empresa,Ingresos propios del flujo del negocio
@@ -145,7 +145,7 @@ v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
 101,RM,Servicios creativos,Empresa,Ingresos propios del flujo del negocio
 102,RM,Experiencias creativas,Empresa,Asociaciones con otros negocios
 102,RM,Experiencias creativas,Empresa,Fondos públicos
-102,RM,Experiencias creativas,Empresa,Co-producciones internacionales y fondos privados internacionales
+102,RM,Experiencias creativas,Empresa,Otros
 105,RM,Experiencias creativas,Empresa,Asociaciones con otros negocios
 105,RM,Experiencias creativas,Empresa,Ingresos propios del flujo del negocio
 106,RM,Bienes creativos,Empresa,Aportes de capital de los socios o dueños
@@ -166,9 +166,9 @@ v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
 125,RM,Servicios creativos,Empresa,Aportes de capital de los socios o dueños
 127,RM,Experiencias creativas,Empresa,Asociaciones con otros negocios
 127,RM,Experiencias creativas,Empresa,Fondos públicos
-127,RM,Experiencias creativas,Empresa,Aporte de empresas (privados) a través de la ley de donaciones culturales
+127,RM,Experiencias creativas,Empresa,Otros
 128,RM,Contenidos creativos,Empresa,Aportes de capital de los socios o dueños
-128,RM,Contenidos creativos,Empresa,Capital de trabajo creado en 20 años
+128,RM,Contenidos creativos,Empresa,Otros
 128,RM,Contenidos creativos,Empresa,Instituciones bancarias
 130,RM,Contenidos creativos,Profesional independiente,Aportes de capital de los socios o dueños
 130,RM,Contenidos creativos,Profesional independiente,Instituciones bancarias
@@ -182,9 +182,9 @@ v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
 136,RM,Contenidos creativos,Empresa,Ingresos propios del flujo del negocio
 139,RM,Contenidos creativos,Profesional independiente,Fondos públicos
 139,RM,Contenidos creativos,Profesional independiente,Ingresos propios del flujo del negocio
-139,RM,Contenidos creativos,Profesional independiente,Fondos internacionales
+139,RM,Contenidos creativos,Profesional independiente,Otros
 67,O'Higgins,Bienes creativos,Empresa,Aportes de capital de los socios o dueños
-67,O'Higgins,Bienes creativos,Empresa,Inversionistas
+67,O'Higgins,Bienes creativos,Empresa,Otros
 43,Maule,Contenidos creativos,Empresa,Aportes de capital de los socios o dueños
 43,Maule,Contenidos creativos,Empresa,Fondos públicos
 43,Maule,Contenidos creativos,Empresa,Ingresos propios del flujo del negocio
@@ -216,7 +216,7 @@ v362_id,region_resumida,cadena_productiva,tipo_empresa,financiamiento
 40,Araucanía,Contenidos creativos,Profesional independiente,Ingresos propios del flujo del negocio
 44,Araucanía,Contenidos creativos,Profesional independiente,Aportes de capital de los socios o dueños
 66,Araucanía,Bienes creativos,Empresa,Fondos públicos
-66,Araucanía,Bienes creativos,Empresa,Educación
+66,Araucanía,Bienes creativos,Empresa,Otros
 81,Araucanía,Bienes creativos,Profesional independiente,Ingresos propios del flujo del negocio
 116,Araucanía,Servicios creativos,Profesional independiente,Ingresos propios del flujo del negocio
 121,Araucanía,Experiencias creativas,Profesional independiente,Aportes de capital de los socios o dueños

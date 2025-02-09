@@ -1,77 +1,55 @@
+<!-- ... (head, estilos, etc.) ... -->
+
 <body>
   <!-- Contenido principal -->
   <div id="tab1" class="tab-content active">
-    <!-- Contenedor fluid sin height forzado -->
     <div class="container-fluid my-3">
-      
-      <!-- Fila 1: Mapa (izquierda) + Características Generales (derecha) -->
+      <!-- Fila 1 -->
       <div class="row mb-4">
         
-        <!-- Columna Izquierda (Mapa, etc.) -->
-        <div class="col-md-6">
-          <h2>Nacional</h2>
-          <!-- Contenedor del mapa -->
-          <!-- Cambiamos a min-height para que pueda crecer si el contenido lo requiere -->
-          <div 
-            id="mapContainer" 
-            class="position-relative my-3"
-            style="min-height: 500px;"  <!-- Se sugiere min-height en lugar de height -->
-          >
-            <button
-              id="resetButton"
-              class="btn btn-primary mt-2 d-none"
-              style="position: absolute; top: 10px; left: 10px; z-index: 1000;"
-            >
-              <i class="bi bi-globe"></i> Ver mapa nacional
-            </button>
+        <!-- Columna Izquierda (Mapa) -->
+<div class="col-md-6">
+  <h2>Nacional</h2>
+  <div id="mapContainer" class="position-relative my-3" style="min-height: 600px;">
+    <!-- Contenedor del mapa y gráficos -->
+    <div class="row">
+      <!-- Mapa -->
+      <div id="mapColumn" class="col-md-4">
+        <div id="map" style="width: 100%; height: 600px;"></div>
+      </div>
 
-            <!-- Retiramos h-100 de la fila interna -->
-            <div class="row">
-              <!-- Quitar style="height: 100%;" del mapColumn para permitir ajuste dinámico -->
-              <div id="mapColumn" class="col-md-12">
-                <!-- El mapa, si deseas una altura fija, puedes poner height: 500px directamente aquí -->
-                <div 
-                  id="map" 
-                  style="width: 100%; height: 500px;"
-                ></div>
-              </div>
+      <!-- Gráficos de detalle -->
+      <div 
+        id="detailsColumn" 
+        class="col-md-8" 
+        style="display: flex; flex-direction: column;"
+      >
+        <!-- Primera fila -->
+        <div class="p-3 border flex-grow-1 bg-light">
+          <div id="chart1" style="width: 100%; height: 100%;"></div>
+        </div>
 
-              <!-- detailsColumn sin "height: 100%" para que pueda crecer -->
-              <div 
-                id="detailsColumn" 
-                class="col-md-6 d-none" 
-                style="display: flex; flex-direction: column;"
-              >
-                <!-- Primera fila -->
-                <div class="p-3 border flex-grow-1 bg-light">
-                  <h3>Detalle 1</h3>
-                  <div 
-                    id="chart1" 
-                    style="width: 100%; height: 100%;"
-                  ></div>
-                </div>
+        <!-- Segunda fila -->
+        <div class="p-3 border flex-grow-1 bg-light">
+          <div id="chart2" style="width: 100%; height: 100%;"></div>
+        </div>
 
-                <!-- Segunda fila -->
-                <div class="p-3 border flex-grow-1 bg-light">
-                  <h3>Detalle 2</h3>
-                  <div 
-                    id="chart2"
-                    style="width: 100%; height: 100%;"
-                  ></div>
-                </div>
+        <!-- Tercera fila -->
+        <div class="p-3 border flex-grow-1 bg-light">
+          <div id="chart3" style="width: 100%; height: 100%;"></div>
+        </div>
+      </div>
+    </div>
 
-                <!-- Tercera fila -->
-                <div class="p-3 border flex-grow-1 bg-light">
-                  <h3>Detalle 3</h3>
-                  <div 
-                    id="chart3"
-                    style="width: 100%; height: 100%;"
-                  ></div>
-                </div>
-              </div>
-            </div> <!-- .row -->
-          </div> <!-- #mapContainer -->
-        </div> <!-- .col-md-6 -->
+    <!-- Botón de reseteo ahora debajo del mapa -->
+    <div class="text-center mt-3">
+      <button id="resetButton" class="btn btn-primary d-none">
+        <i class="bi bi-globe"></i> Ver mapa nacional
+      </button>
+    </div>
+  </div>
+</div>
+
         
         <!-- Columna Derecha (Características Generales) -->
         <div class="col-md-6 d-flex flex-column">
