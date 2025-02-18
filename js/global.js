@@ -2,39 +2,86 @@
 
 
 
-function loadTabContent(tabFile, jsFile) {
+// function loadTabContent(tabFile, jsFile) {
+//   const tabContent = document.getElementById('tabContent');
+//   tabContent.innerHTML = '<p>Cargando contenido...</p>'; // Mensaje temporal
+
+//   fetch(tabFile)
+//       .then((response) => {
+//           if (!response.ok) throw new Error('Error al cargar el contenido.');
+//           return response.text();
+//       })
+//       .then((content) => {
+//           tabContent.innerHTML = content; // Insertar contenido dinámico
+//           console.log(`Contenido de ${tabFile} cargado.`);
+
+//           // Cargar script específico para la pestaña
+//           const script = document.createElement('script');
+//           script.src = `js/${jsFile}`;
+//           document.body.appendChild(script);
+//       })
+//       .catch((error) => {
+//           tabContent.innerHTML = '<p style="color: red;">No se pudo cargar el contenido. Intente nuevamente.</p>';
+//           console.error(error);
+//       });
+
+//         // 2. Cerrar menú si estamos en móvil
+//   if (window.innerWidth < 768) {
+//     document.getElementById('navMenu').classList.remove('show');
+//   }
+// }
+
+// // Cargar el Dashboard por defecto al cargar la página
+// window.onload = () => {
+//   loadTabContent('dashboard.html','dashboard.js'); // Cargar automáticamente el contenido del Dashboard
+// };
+
+function changeTab(element, tabFile, jsFile) {
   const tabContent = document.getElementById('tabContent');
   tabContent.innerHTML = '<p>Cargando contenido...</p>'; // Mensaje temporal
 
+  // Remover 'active' de todas las pestañas
+  document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+  // Agregar 'active' solo a la pestaña seleccionada
+  element.classList.add('active');
+
   fetch(tabFile)
-      .then((response) => {
-          if (!response.ok) throw new Error('Error al cargar el contenido.');
-          return response.text();
-      })
-      .then((content) => {
-          tabContent.innerHTML = content; // Insertar contenido dinámico
-          console.log(`Contenido de ${tabFile} cargado.`);
+    .then(response => {
+      if (!response.ok) throw new Error('Error al cargar el contenido.');
+      return response.text();
+    })
+    .then(content => {
+      tabContent.innerHTML = content;
+      console.log(`Contenido de ${tabFile} cargado.`);
 
-          // Cargar script específico para la pestaña
-          const script = document.createElement('script');
-          script.src = `js/${jsFile}`;
-          document.body.appendChild(script);
-      })
-      .catch((error) => {
-          tabContent.innerHTML = '<p style="color: red;">No se pudo cargar el contenido. Intente nuevamente.</p>';
-          console.error(error);
-      });
+      // Cargar script específico para la pestaña
+      const script = document.createElement('script');
+      script.src = `js/${jsFile}`;
+      document.body.appendChild(script);
+    })
+    .catch(error => {
+      tabContent.innerHTML = '<p style="color: red;">No se pudo cargar el contenido. Intente nuevamente.</p>';
+      console.error(error);
+    });
 
-        // 2. Cerrar menú si estamos en móvil
+  // Cerrar menú si estamos en móvil
   if (window.innerWidth < 768) {
     document.getElementById('navMenu').classList.remove('show');
   }
 }
 
-// Cargar el Dashboard por defecto al cargar la página
-window.onload = () => {
-  loadTabContent('dashboard.html','dashboard.js'); // Cargar automáticamente el contenido del Dashboard
-};
+// Agregar el eventListener para el botón de menú en móviles
+document.getElementById('navToggle').addEventListener('click', function () {
+  document.getElementById('navMenu').classList.toggle('show');
+});
+
+      // **Cargar la pestaña por defecto al inicio**
+      document.addEventListener("DOMContentLoaded", function () {
+        const defaultTab = document.querySelector('.tab'); // Primer tab
+        if (defaultTab) {
+          changeTab(defaultTab, 'dashboard.html', 'dashboard.js');
+        }
+      });
 
 /************************************************************
   1. Mapeo de variable -> archivo CSV

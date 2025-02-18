@@ -213,40 +213,40 @@ id,region,cadena_productiva,tipo_empresa,brechas
 70,Maule,Experiencias creativas,Empresa,Acceso a financiamiento
 70,Maule,Experiencias creativas,Empresa,Acceso a nuevas tecnologías
 70,Maule,Experiencias creativas,Empresa,Escasez de talento
-6,Biobío,Contenidos creativos,Empresa,Acceso a financiamiento
-6,Biobío,Contenidos creativos,Empresa,Escasez de talento
-6,Biobío,Contenidos creativos,Empresa,Información y tendencias de Mercado
-41,Biobío,Experiencias creativas,Profesional independiente,Acceso a financiamiento
-61,Biobío,Servicios creativos,Empresa,Acceso a financiamiento
-111,Biobío,Bienes creativos,Empresa,Acceso a financiamiento
-115,Biobío,Servicios creativos,Empresa,Acceso a financiamiento
-115,Biobío,Servicios creativos,Empresa,Barreras tecnológicas
-115,Biobío,Servicios creativos,Empresa,Información y tendencias de Mercado
-118,Biobío,Bienes creativos,Empresa,Acceso a nuevas tecnologías
-118,Biobío,Bienes creativos,Empresa,Brechas geográficas y de conectividad
-118,Biobío,Bienes creativos,Empresa,Escasez de talento
-137,Biobío,Bienes creativos,Empresa,Acceso a financiamiento
-137,Biobío,Bienes creativos,Empresa,Información y tendencias de Mercado
-137,Biobío,Bienes creativos,Empresa,Regulaciones y normativas
-27,Araucanía,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
-37,Araucanía,Experiencias creativas,Empresa,Acceso a financiamiento
-37,Araucanía,Experiencias creativas,Empresa,Falta de infraestructura
-40,Araucanía,Contenidos creativos,Profesional independiente,Acceso a financiamiento
-40,Araucanía,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
-40,Araucanía,Contenidos creativos,Profesional independiente,Regulaciones y normativas
-44,Araucanía,Contenidos creativos,Profesional independiente,Acceso a financiamiento
-44,Araucanía,Contenidos creativos,Profesional independiente,Brechas geográficas y de conectividad
-44,Araucanía,Contenidos creativos,Profesional independiente,Información y tendencias de Mercado
-66,Araucanía,Bienes creativos,Empresa,Barreras tecnológicas
-81,Araucanía,Bienes creativos,Profesional independiente,Dificultades para exportar
-81,Araucanía,Bienes creativos,Profesional independiente,Falta de infraestructura
-81,Araucanía,Bienes creativos,Profesional independiente,Regulaciones y normativas
-116,Araucanía,Servicios creativos,Profesional independiente,Acceso a financiamiento
-116,Araucanía,Servicios creativos,Profesional independiente,Brechas geográficas y de conectividad
-116,Araucanía,Servicios creativos,Profesional independiente,Dificultades para exportar
-121,Araucanía,Experiencias creativas,Profesional independiente,Acceso a financiamiento
-121,Araucanía,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
-121,Araucanía,Experiencias creativas,Profesional independiente,Brechas de género
+6,Bío-Bío,Contenidos creativos,Empresa,Acceso a financiamiento
+6,Bío-Bío,Contenidos creativos,Empresa,Escasez de talento
+6,Bío-Bío,Contenidos creativos,Empresa,Información y tendencias de Mercado
+41,Bío-Bío,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+61,Bío-Bío,Servicios creativos,Empresa,Acceso a financiamiento
+111,Bío-Bío,Bienes creativos,Empresa,Acceso a financiamiento
+115,Bío-Bío,Servicios creativos,Empresa,Acceso a financiamiento
+115,Bío-Bío,Servicios creativos,Empresa,Barreras tecnológicas
+115,Bío-Bío,Servicios creativos,Empresa,Información y tendencias de Mercado
+118,Bío-Bío,Bienes creativos,Empresa,Acceso a nuevas tecnologías
+118,Bío-Bío,Bienes creativos,Empresa,Brechas geográficas y de conectividad
+118,Bío-Bío,Bienes creativos,Empresa,Escasez de talento
+137,Bío-Bío,Bienes creativos,Empresa,Acceso a financiamiento
+137,Bío-Bío,Bienes creativos,Empresa,Información y tendencias de Mercado
+137,Bío-Bío,Bienes creativos,Empresa,Regulaciones y normativas
+27,La Araucanía,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+37,La Araucanía,Experiencias creativas,Empresa,Acceso a financiamiento
+37,La Araucanía,Experiencias creativas,Empresa,Falta de infraestructura
+40,La Araucanía,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+40,La Araucanía,Contenidos creativos,Profesional independiente,Dificultad para aprender e implementar nuevos conocimientos
+40,La Araucanía,Contenidos creativos,Profesional independiente,Regulaciones y normativas
+44,La Araucanía,Contenidos creativos,Profesional independiente,Acceso a financiamiento
+44,La Araucanía,Contenidos creativos,Profesional independiente,Brechas geográficas y de conectividad
+44,La Araucanía,Contenidos creativos,Profesional independiente,Información y tendencias de Mercado
+66,La Araucanía,Bienes creativos,Empresa,Barreras tecnológicas
+81,La Araucanía,Bienes creativos,Profesional independiente,Dificultades para exportar
+81,La Araucanía,Bienes creativos,Profesional independiente,Falta de infraestructura
+81,La Araucanía,Bienes creativos,Profesional independiente,Regulaciones y normativas
+116,La Araucanía,Servicios creativos,Profesional independiente,Acceso a financiamiento
+116,La Araucanía,Servicios creativos,Profesional independiente,Brechas geográficas y de conectividad
+116,La Araucanía,Servicios creativos,Profesional independiente,Dificultades para exportar
+121,La Araucanía,Experiencias creativas,Profesional independiente,Acceso a financiamiento
+121,La Araucanía,Experiencias creativas,Profesional independiente,Acceso a nuevas tecnologías
+121,La Araucanía,Experiencias creativas,Profesional independiente,Brechas de género
 39,Los Ríos,Experiencias creativas,Empresa,Acceso a financiamiento
 82,Los Ríos,Bienes creativos,Empresa,Acceso a financiamiento
 82,Los Ríos,Bienes creativos,Empresa,Brechas geográficas y de conectividad

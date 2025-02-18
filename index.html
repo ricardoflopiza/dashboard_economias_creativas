@@ -30,22 +30,13 @@
 
       <!-- Contenedor de pestañas (nav) -->
       <div id="navMenu" class="tabs">
-        <div
-          class="tab active"
-          onclick="loadTabContent('dashboard.html', 'dashboard.js')"
-        >
+        <div class="tab active" onclick="changeTab(this, 'dashboard.html', 'dashboard.js')">
           Dashboard
         </div>
-        <div
-          class="tab"
-          onclick="loadTabContent('tabla_dinamica.html', 'tabla.js')"
-        >
+        <div class="tab" onclick="changeTab(this, 'tabla_dinamica.html', 'tabla.js')">
           Tabla dinámica
         </div>
-        <div
-          class="tab"
-          onclick="loadTabContent('datos.html', 'datos.js')"
-        >
+        <div class="tab" onclick="changeTab(this, 'datos.html', 'datos.js')">
           Datos
         </div>
       </div>

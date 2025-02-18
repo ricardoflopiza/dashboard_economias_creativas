@@ -16,149 +16,215 @@
         const container = document.getElementById(chartContainerId);
         const resetButtonId = chartContainerId === "chartContainer" ? "resetButton1" : "resetButton2";
         const resetButton = document.getElementById(resetButtonId);
-    
+      
         updateAnalysisLevels(variable, "selector1b");
-    
+      
         const fileName = variableToFileMap[variable];
         if (!fileName) {
-            console.error("No se encontró archivo CSV para la variable:", variable);
-            return;
+          console.error("No se encontró archivo CSV para la variable:", variable);
+          return;
         }
-    
+      
         const data = await loadDataFromCSV(fileName);
         if (!data || data.length === 0) {
-            console.error("No hay datos para generar gráfico.");
-            return;
+          console.error("No hay datos para generar gráfico.");
+          return;
         }
-    
+      
+        // Función personalizada para formatear el tooltip
+        function customTooltipFormatter(params) {
+          // Si params no es un arreglo (por ejemplo en gráfico de pastel) lo convertimos a arreglo
+          if (!Array.isArray(params)) {
+            params = [params];
+          }
+      
+          let total = 0;
+          params.forEach(item => {
+            const value = Array.isArray(item.value) ? Number(item.value[1]) : Number(item.value);
+            total += value;
+          });
+      
+          // Ordenar de mayor a menor según el valor
+          params.sort((a, b) => {
+            const aVal = Array.isArray(a.value) ? Number(a.value[1]) : Number(a.value);
+            const bVal = Array.isArray(b.value) ? Number(b.value[1]) : Number(b.value);
+            return bVal - aVal;
+          });
+      
+          let res = `<div><strong>${params[0].name}</strong></div>`;
+          params.forEach(item => {
+            const value = Array.isArray(item.value) ? Number(item.value[1]) : Number(item.value);
+            if (value > 0) {
+              const percent = ((value / total) * 100).toFixed(2);
+              res += `
+                <div style='margin:5px 0;'>
+                  <span style='display:inline-block;width:10px;height:10px;border-radius:50%;background:${item.color};margin-right:5px;'></span>
+                  ${item.seriesName}: ${value} (${percent}%)
+                </div>
+              `;
+            }
+          });
+          res += `<div><strong>Total: ${total}</strong></div>`;
+          return res;
+        }
+      
+        let option;
         let grouped = {};
         let categories = [];
         let subCategories = [];
         let isZoomed = false; // Controla si ya se hizo zoom
-    
+      
         if (level === "nacional") {
-            const groupedData = data.reduce((acc, row) => {
-                const key = row[variable];
-                if (!key) return acc;
-                acc[key] = (acc[key] || 0) + 1;
-                return acc;
-            }, {});
-    
-            const total = Object.values(groupedData).reduce((sum, v) => sum + v, 0);
-            const pieData = Object.entries(groupedData).map(([k, v]) => ({
-                name: k,
-                value: ((v / total) * 100).toFixed(2),
-            }));
-    
-            option = {
-                title: { text: chartTitle || "Distribución Nacional", left: "center" },
-                tooltip: { trigger: "item", formatter: "{a} <br/>{b}: {c}%" },
-                legend: { top: "bottom" },
-                series: [
-                    {
-                        name: "Distribución",
-                        type: "pie",
-                        radius: ["30%", "70%"],
-                        roseType: "radius",
-                        itemStyle: { borderRadius: 5 },
-                        data: pieData,
-                    },
-                ],
-            };
+          const groupedData = data.reduce((acc, row) => {
+            const key = row[variable];
+            if (!key) return acc;
+            acc[key] = (acc[key] || 0) + 1;
+            return acc;
+          }, {});
+      
+          const total = Object.values(groupedData).reduce((sum, v) => sum + v, 0);
+          const pieData = Object.entries(groupedData).map(([k, v]) => ({
+            name: k,
+            value: ((v / total) * 100).toFixed(2),
+          }));
+      
+          option = {
+            title: { text: chartTitle || "Distribución Nacional", left: "center" },
+            tooltip: { 
+              trigger: "item", 
+              formatter: customTooltipFormatter
+            },
+            legend: { top: "bottom" },
+            series: [
+              {
+                name: "Distribución",
+                type: "pie",
+                radius: ["30%", "70%"],
+                roseType: "radius",
+                itemStyle: { borderRadius: 5 },
+                data: pieData,
+              },
+            ],
+          };
         } else {
-            data.forEach((row) => {
-                const levelKey = row[level];
-                const varKey = row[variable];
-                if (!levelKey || !varKey) return;
-                if (!grouped[levelKey]) {
-                    grouped[levelKey] = {};
-                }
-                grouped[levelKey][varKey] = (grouped[levelKey][varKey] || 0) + 1;
-            });
-    
-            categories = Object.keys(grouped);
-            subCategories = Array.from(
-                new Set(Object.values(grouped).flatMap((obj) => Object.keys(obj)))
-            );
-    
-            // Ordenar las subcategorías si la variable es "tamano_empresa_num_trab"
-            if (variable === "tamano_empresa_num_trab") {
-                const ordenTamano = ["0", "1-5", "6-10", "11-50", "Más de 50"];
-                subCategories.sort((a, b) => {
-                    return ordenTamano.indexOf(a) - ordenTamano.indexOf(b);
-                });
+          data.forEach((row) => {
+            const levelKey = row[level];
+            const varKey = row[variable];
+            if (!levelKey || !varKey) return;
+            if (!grouped[levelKey]) {
+              grouped[levelKey] = {};
             }
-
-                        // Ordenar las subcategorías si la variable es "tamano_empresa_num_trab"
-                        if (variable === "rango_ventas") {
-                          const ordenTamano = ["Menos de 10.000 USD", "Entre 10.000 y 50.000 USD", "Entre 50.000 y 100.000 USD", "Más de 100.000 USD"];
-                          subCategories.sort((a, b) => {
-                              return ordenTamano.indexOf(a) - ordenTamano.indexOf(b);
-                          });
-                      }
-    
-            const series = subCategories.map((subCat) => {
-                return {
-                    name: subCat,
-                    type: "bar",
-                    data: categories.map((cat) => grouped[cat][subCat] || 0),
-                };
-            });
-    
-            option = {
-                title: { text: chartTitle || `Distribución por ${level}`, left: "center" },
-                tooltip: { trigger: "axis", axisPointer: { type: "shadow" } },
-                legend: { top: "bottom", data: subCategories },
-                xAxis: { type: "value", name: "Valores" },
-                yAxis: { type: "category", data: categories, name: "Categorías" },
-                series: series,
+            grouped[levelKey][varKey] = (grouped[levelKey][varKey] || 0) + 1;
+          });
+      
+          categories = Object.keys(grouped);
+          subCategories = Array.from(
+            new Set(Object.values(grouped).flatMap((obj) => Object.keys(obj)))
+          );
+      
+          // Ordenar las subcategorías según el caso
+          if (variable === "tamano_empresa_num_trab") {
+            const ordenTamano = ["0", "1-5", "6-10", "11-50", "Más de 50"];
+            subCategories.sort((a, b) => ordenTamano.indexOf(a) - ordenTamano.indexOf(b));
+          }
+          if (variable === "rango_ventas") {
+            const ordenVentas = ["Menos de 10.000 USD", "Entre 10.000 y 50.000 USD", "Entre 50.000 y 100.000 USD", "Más de 100.000 USD"];
+            subCategories.sort((a, b) => ordenVentas.indexOf(a) - ordenVentas.indexOf(b));
+          }
+      
+          const series = subCategories.map((subCat) => {
+            return {
+              name: subCat,
+              type: "bar",
+              data: categories.map((cat) => grouped[cat][subCat] || 0),
             };
+          });
+      
+          option = {
+            title: { text: chartTitle || `Distribución por ${level}`, left: "center" },
+            tooltip: { 
+              trigger: "axis", 
+              axisPointer: { type: "shadow" },
+              formatter: customTooltipFormatter
+            },
+            legend: { top: "bottom", data: subCategories },
+            xAxis: { type: "value", name: "Valores" },
+            yAxis: { type: "category", data: categories, name: "Categorías", inverse: true },
+            series: series,
+          };
         }
-    
+      
         if (!container) {
-            console.error("No se encontró contenedor para el ID:", chartContainerId);
-            return;
+          console.error("No se encontró contenedor para el ID:", chartContainerId);
+          return;
         }
         if (chartInstances[chartContainerId]) {
-            chartInstances[chartContainerId].dispose();
+          chartInstances[chartContainerId].dispose();
         }
         const chart = echarts.init(container);
         chart.setOption(option);
         chartInstances[chartContainerId] = chart;
-    
+      
         // Evento para hacer zoom
         chart.on("click", function (params) {
-            if (isZoomed) return;
-    
-            const selectedCategory = params.name;
-            const filteredSeries = subCategories.map((subCat) => {
-                return {
-                    name: subCat,
-                    type: "bar",
-                    data: categories.map((cat) =>
-                        cat === selectedCategory ? grouped[cat][subCat] || 0 : 0
-                    ),
-                    emphasis: { focus: "series" },
-                };
-            });
-    
-            chart.setOption({
-                title: { text: `Distribución por ${level}: ${selectedCategory}` },
-                yAxis: { type: "category", data: [selectedCategory] },
-                series: filteredSeries,
-            });
-    
-            resetButton.style.display = "block";
-            isZoomed = true;
+          if (isZoomed) return;
+        
+          let selectedCategory = null;
+        
+          // Si se hace clic en una barra
+          if (params.componentType === 'series') {
+            selectedCategory = params.name;
+          }
+          // Si se hace clic en la etiqueta del eje Y
+          else if (params.componentType === 'yAxis') {
+            selectedCategory = params.value; 
+            // params.value = nombre de la categoría clickeada
+          }
+        
+          // Si no coincide con nada, no hacemos nada
+          if (!selectedCategory) return;
+        
+          // --- MISMA LÓGICA DE ZOOM ---
+          const filteredSeries = subCategories.map((subCat) => {
+            const valor = grouped[selectedCategory][subCat] || 0;
+            return {
+              name: subCat,
+              type: "bar",
+              data: [valor],
+              emphasis: { focus: "series" },
+            };
+          });
+        
+          chart.setOption({
+            title: { text: `Distribución por ${level}: ${selectedCategory}` },
+            tooltip: {
+              trigger: "axis",
+              axisPointer: { type: "shadow" },
+              formatter: customTooltipFormatter
+            },
+            yAxis: { 
+              type: "category", 
+              data: [selectedCategory],
+              triggerEvent: true // mantenerlo en "zoom"
+            },
+            series: filteredSeries,
+          });
+        
+          resetButton.style.display = "block";
+          isZoomed = true;
         });
-    
+        
+        
+        
+      
         // Evento para restablecer el gráfico
         resetButton.onclick = function () {
-            chart.setOption(option);
-            resetButton.style.display = "none";
-            isZoomed = false;
+          chart.setOption(option);
+          resetButton.style.display = "none";
+          isZoomed = false;
         };
-    }
+      }
+      
     
     
 
@@ -307,36 +373,75 @@ selNivelTecno = document.getElementById("selector1b");
       renderCharts(regionName);
     });
 
+    // function renderCharts(regionName) {
+    //   const chart1 = echarts.init(document.getElementById('chart1'));
+    //   const chart2 = echarts.init(document.getElementById('chart2'));
+    //   const chart3 = echarts.init(document.getElementById('chart3'));
+
+    //   chart1.clear(); 
+    //   chart2.clear(); 
+    //   chart3.clear();
+
+    //   loadDataFromCSV('df_select.csv').then(allRows => {
+    //     const filtered = (regionName === 'nacional') ? allRows : allRows.filter(r => r.region === regionName);
+
+    //     if (!filtered.length) {
+    //       console.log(`No hay datos para la región: ${regionName}`);
+    //       return;
+    //     }
+
+    //     const generoData = preparePieData(filtered, 'genero');
+    //     const tipoData = prepareBarData(filtered, 'tipo_empresa');
+    //     const cadenaData = preparePieData(filtered, 'cadena_productiva');
+
+    //     chart1.setOption(createPieChartOption('Género', regionName, generoData));
+    //     chart2.setOption(createBarChartOption('Tipo de Empresa', regionName, tipoData));
+    //     chart3.setOption(createPieChartOption('Cadena Productiva', regionName, cadenaData));
+
+    //     chart1.resize();
+    //     chart2.resize();
+    //     chart3.resize();
+    //   }).catch(err => console.error('Error CSV:', err));
+    // }
     function renderCharts(regionName) {
-      const chart1 = echarts.init(document.getElementById('chart1'));
-      const chart2 = echarts.init(document.getElementById('chart2'));
-      const chart3 = echarts.init(document.getElementById('chart3'));
-
-      chart1.clear(); 
-      chart2.clear(); 
-      chart3.clear();
-
+      const container1 = document.getElementById('chart1');
+      const container2 = document.getElementById('chart2');
+      const container3 = document.getElementById('chart3');
+  
+      if (chartInstances['chart1']) chartInstances['chart1'].dispose();
+      if (chartInstances['chart2']) chartInstances['chart2'].dispose();
+      if (chartInstances['chart3']) chartInstances['chart3'].dispose();
+  
+      const chart1 = echarts.init(container1);
+      const chart2 = echarts.init(container2);
+      const chart3 = echarts.init(container3);
+  
+      chartInstances['chart1'] = chart1;
+      chartInstances['chart2'] = chart2;
+      chartInstances['chart3'] = chart3;
+  
       loadDataFromCSV('df_select.csv').then(allRows => {
-        const filtered = (regionName === 'nacional') ? allRows : allRows.filter(r => r.region === regionName);
-
-        if (!filtered.length) {
-          console.log(`No hay datos para la región: ${regionName}`);
-          return;
-        }
-
-        const generoData = preparePieData(filtered, 'genero');
-        const tipoData = prepareBarData(filtered, 'tipo_empresa');
-        const cadenaData = preparePieData(filtered, 'cadena_productiva');
-
-        chart1.setOption(createPieChartOption('Género', regionName, generoData));
-        chart2.setOption(createBarChartOption('Tipo de Empresa', regionName, tipoData));
-        chart3.setOption(createPieChartOption('Cadena Productiva', regionName, cadenaData));
-
-        chart1.resize();
-        chart2.resize();
-        chart3.resize();
-      }).catch(err => console.error('Error CSV:', err));
-    }
+          const filtered = (regionName === 'nacional') ? allRows : allRows.filter(r => r.region === regionName);
+  
+          if (!filtered.length) {
+              console.log(`No hay datos para la región: ${regionName}`);
+              return;
+          }
+  
+          const generoData = preparePieData(filtered, 'genero');
+          const tipoData = prepareBarData(filtered, 'tipo_empresa');
+          const cadenaData = preparePieData(filtered, 'cadena_productiva');
+  
+          chart1.setOption(createPieChartOption('Género', regionName, generoData));
+          chart2.setOption(createBarChartOption('Tipo de Empresa', regionName, tipoData));
+          chart3.setOption(createPieChartOption('Cadena Productiva', regionName, cadenaData));
+  
+          chart1.resize();
+          chart2.resize();
+          chart3.resize();
+      }).catch(err => console.error('Error al cargar CSV:', err));
+  }
+  
 
     function preparePieData(data, field) {
       const count = {};
@@ -370,24 +475,59 @@ selNivelTecno = document.getElementById("selector1b");
       };
     }
 
-    window.addEventListener('resize', () => {
-      chart1.resize();
-      chart2.resize();
-      chart3.resize();
-    });
+    // Debounce function for resize events
+    function debounce(func, wait = 100) {
+      let timeout;
+      return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+      };
+    }
+
+    function handleResize() {
+      try {
+          // Resize all registered chart instances
+          Object.values(chartInstances).forEach(chart => {
+              if (chart && typeof chart.resize === 'function') {
+                  chart.resize();
+              }
+          });
+  
+          // Resize mapa y gráficos principales
+          if (chart) chart.resize();
+  
+          // Si el cambio en la ventana es significativo, regenerar los gráficos
+          const currentWidth = window.innerWidth;
+          if (Math.abs(currentWidth - lastWindowWidth) > 100) {
+              lastWindowWidth = currentWidth;
+  
+              updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+              updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+  
+              // Regenerar gráficos chart1, chart2 y chart3
+              renderCharts(currentRegion || 'nacional'); // Usar la última región seleccionada
+          }
+      } catch (error) {
+          console.error('Error durante el resize:', error);
+      }
+  }
+  
+  // Actualizar el evento resize para incluir la regeneración de gráficos
+  window.addEventListener('resize', debounce(handleResize));
+  
+
+    // Initialize resize handling
+    let lastWindowWidth = window.innerWidth;
+    const debouncedResize = debounce(handleResize);
+    window.addEventListener('resize', debouncedResize);
 
     document.getElementById('resetButton').addEventListener('click', resetMap);
   });
-
-
   
 
-    // 5. Ajustamos tamaño dinámicamente al cambiar la ventana
-    window.addEventListener('resize', () => {
-      // if (chartContainer) chartContainer.resize();
-      if (chartContainer2) chartContainer2.resize();
-      if (chart) chart.resize(); // <-- el mapa
-      if (detailChart1) detailChart1.resize();
-      if (detailChart2) detailChart2.resize();
-      if (detailChart3) detailChart3.resize();
-    });
+    // // 5. Ajustamos tamaño dinámicamente al cambiar la ventana
+    // // Initialize all chart instances
+    // chartInstances['chart1'] = chart1;
+    // chartInstances['chart2'] = chart2;
+    // chartInstances['chart3'] = chart3;
+    // chartInstances['map'] = chart;

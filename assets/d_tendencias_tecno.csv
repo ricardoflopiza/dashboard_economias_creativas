@@ -1,4 +1,4 @@
-id,region,cadena_productiva,tipo_empresa,tendencia
+id,region,cadena_productiva,tipo_empresa,tendencias
 30,Arica,Contenidos creativos,Empresa,Servicios creativos
 72,Arica,Servicios creativos,Empresa,Computación o programación creativa
 72,Arica,Servicios creativos,Empresa,Robótica
@@ -233,47 +233,47 @@ id,region,cadena_productiva,tipo_empresa,tendencia
 43,Maule,Contenidos creativos,Empresa,Computación o programación creativa
 70,Maule,Experiencias creativas,Empresa,Cultura y entretenimiento
 70,Maule,Experiencias creativas,Empresa,Servicios creativos
-1,Biobío,Bienes creativos,Empresa,Cultura y entretenimiento
-1,Biobío,Bienes creativos,Empresa,Juegos interactivos
-1,Biobío,Bienes creativos,Empresa,Servicios creativos
-6,Biobío,Contenidos creativos,Empresa,Juegos interactivos
-6,Biobío,Contenidos creativos,Empresa,Música
-6,Biobío,Contenidos creativos,Empresa,Servicios creativos
-41,Biobío,Experiencias creativas,Profesional independiente,Servicios creativos
-61,Biobío,Servicios creativos,Empresa,Computación o programación creativa
-61,Biobío,Servicios creativos,Empresa,Juegos interactivos
-61,Biobío,Servicios creativos,Empresa,Nuevos medios
-108,Biobío,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
-108,Biobío,Contenidos creativos,Profesional independiente,Editorial
-108,Biobío,Contenidos creativos,Profesional independiente,Servicios creativos
-111,Biobío,Bienes creativos,Empresa,Computación o programación creativa
-111,Biobío,Bienes creativos,Empresa,Servicios creativos
-115,Biobío,Servicios creativos,Empresa,Computación o programación creativa
-115,Biobío,Servicios creativos,Empresa,Contenido para redes sociales
-115,Biobío,Servicios creativos,Empresa,Servicios creativos
-118,Biobío,Bienes creativos,Empresa,Contenido para redes sociales
-118,Biobío,Bienes creativos,Empresa,Música
-137,Biobío,Bienes creativos,Empresa,Contenido para redes sociales
-137,Biobío,Bienes creativos,Empresa,Data science
-137,Biobío,Bienes creativos,Empresa,Editorial
-137,Biobío,Bienes creativos,Empresa,Nuevos medios
-27,Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
-37,Araucanía,Experiencias creativas,Empresa,Nuevos medios
-37,Araucanía,Experiencias creativas,Empresa,Servicios creativos
-40,Araucanía,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
-40,Araucanía,Contenidos creativos,Profesional independiente,Música
-40,Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
-44,Araucanía,Contenidos creativos,Profesional independiente,Computación o programación creativa
-44,Araucanía,Contenidos creativos,Profesional independiente,Contenido para redes sociales
-44,Araucanía,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
-44,Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
-66,Araucanía,Bienes creativos,Empresa,Servicios creativos
-81,Araucanía,Bienes creativos,Profesional independiente,Servicios creativos
-116,Araucanía,Servicios creativos,Profesional independiente,Contenido para redes sociales
-116,Araucanía,Servicios creativos,Profesional independiente,Editorial
-116,Araucanía,Servicios creativos,Profesional independiente,Juegos interactivos
-116,Araucanía,Servicios creativos,Profesional independiente,Servicios creativos
-121,Araucanía,Experiencias creativas,Profesional independiente,Nuevos medios
+1,Bío-Bío,Bienes creativos,Empresa,Cultura y entretenimiento
+1,Bío-Bío,Bienes creativos,Empresa,Juegos interactivos
+1,Bío-Bío,Bienes creativos,Empresa,Servicios creativos
+6,Bío-Bío,Contenidos creativos,Empresa,Juegos interactivos
+6,Bío-Bío,Contenidos creativos,Empresa,Música
+6,Bío-Bío,Contenidos creativos,Empresa,Servicios creativos
+41,Bío-Bío,Experiencias creativas,Profesional independiente,Servicios creativos
+61,Bío-Bío,Servicios creativos,Empresa,Computación o programación creativa
+61,Bío-Bío,Servicios creativos,Empresa,Juegos interactivos
+61,Bío-Bío,Servicios creativos,Empresa,Nuevos medios
+108,Bío-Bío,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+108,Bío-Bío,Contenidos creativos,Profesional independiente,Editorial
+108,Bío-Bío,Contenidos creativos,Profesional independiente,Servicios creativos
+111,Bío-Bío,Bienes creativos,Empresa,Computación o programación creativa
+111,Bío-Bío,Bienes creativos,Empresa,Servicios creativos
+115,Bío-Bío,Servicios creativos,Empresa,Computación o programación creativa
+115,Bío-Bío,Servicios creativos,Empresa,Contenido para redes sociales
+115,Bío-Bío,Servicios creativos,Empresa,Servicios creativos
+118,Bío-Bío,Bienes creativos,Empresa,Contenido para redes sociales
+118,Bío-Bío,Bienes creativos,Empresa,Música
+137,Bío-Bío,Bienes creativos,Empresa,Contenido para redes sociales
+137,Bío-Bío,Bienes creativos,Empresa,Data science
+137,Bío-Bío,Bienes creativos,Empresa,Editorial
+137,Bío-Bío,Bienes creativos,Empresa,Nuevos medios
+27,La Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
+37,La Araucanía,Experiencias creativas,Empresa,Nuevos medios
+37,La Araucanía,Experiencias creativas,Empresa,Servicios creativos
+40,La Araucanía,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+40,La Araucanía,Contenidos creativos,Profesional independiente,Música
+40,La Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
+44,La Araucanía,Contenidos creativos,Profesional independiente,Computación o programación creativa
+44,La Araucanía,Contenidos creativos,Profesional independiente,Contenido para redes sociales
+44,La Araucanía,Contenidos creativos,Profesional independiente,Cultura y entretenimiento
+44,La Araucanía,Contenidos creativos,Profesional independiente,Servicios creativos
+66,La Araucanía,Bienes creativos,Empresa,Servicios creativos
+81,La Araucanía,Bienes creativos,Profesional independiente,Servicios creativos
+116,La Araucanía,Servicios creativos,Profesional independiente,Contenido para redes sociales
+116,La Araucanía,Servicios creativos,Profesional independiente,Editorial
+116,La Araucanía,Servicios creativos,Profesional independiente,Juegos interactivos
+116,La Araucanía,Servicios creativos,Profesional independiente,Servicios creativos
+121,La Araucanía,Experiencias creativas,Profesional independiente,Nuevos medios
 39,Los Ríos,Experiencias creativas,Empresa,Computación o programación creativa
 39,Los Ríos,Experiencias creativas,Empresa,Cultura y entretenimiento
 39,Los Ríos,Experiencias creativas,Empresa,Juegos interactivos

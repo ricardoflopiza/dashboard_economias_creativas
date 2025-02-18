@@ -53,13 +53,13 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 52,Valparaíso,Experiencias creativas,Empresa,mocap_motion_capture,INNOVADOR
 52,Valparaíso,Experiencias creativas,Empresa,realidad_aumentada_ar,INNOVADOR
 52,Valparaíso,Experiencias creativas,Empresa,realidad_virtual_vr,INNOVADOR
-52,Valparaíso,Experiencias creativas,Empresa,reconocimiento_facial,INNOVADOR
+52,Valparaíso,Experiencias creativas,Empresa,Otros,INNOVADOR
 52,Valparaíso,Experiencias creativas,Empresa,software_de_3d,INNOVADOR
 52,Valparaíso,Experiencias creativas,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 52,Valparaíso,Experiencias creativas,Empresa,sonido_inmersivo,INNOVADOR
 52,Valparaíso,Experiencias creativas,Empresa,vfx_visual_effects,INNOVADOR
 53,Valparaíso,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-53,Valparaíso,Servicios creativos,Empresa,reconocimiento_facial,LENTO ADOPTANTE
+53,Valparaíso,Servicios creativos,Empresa,Otros,LENTO ADOPTANTE
 68,Valparaíso,Contenidos creativos,Profesional independiente,inteligencia_artificial_ia,INNOVADOR
 71,Valparaíso,Servicios creativos,Empresa,creacion_de_entornos_virtuales,EARLY ADOPTER
 71,Valparaíso,Servicios creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
@@ -80,7 +80,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 92,Valparaíso,Servicios creativos,Empresa,mocap_motion_capture,EARLY ADOPTER
 92,Valparaíso,Servicios creativos,Empresa,realidad_aumentada_ar,LENTO ADOPTANTE
 92,Valparaíso,Servicios creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
-92,Valparaíso,Servicios creativos,Empresa,reconocimiento_facial,LENTO ADOPTANTE
+92,Valparaíso,Servicios creativos,Empresa,Otros,LENTO ADOPTANTE
 92,Valparaíso,Servicios creativos,Empresa,software_de_3d,EARLY ADOPTER
 92,Valparaíso,Servicios creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 103,Valparaíso,Contenidos creativos,Profesional independiente,creacion_de_entornos_virtuales,INNOVADOR
@@ -89,16 +89,16 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 113,Valparaíso,Bienes creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,impresion_3d,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-113,Valparaíso,Bienes creativos,Empresa,machine_learning,INNOVADOR
+113,Valparaíso,Bienes creativos,Empresa,Otros,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,mocap_motion_capture,INNOVADOR
-113,Valparaíso,Bienes creativos,Empresa,physical_computing,INNOVADOR
+113,Valparaíso,Bienes creativos,Empresa,Otros,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,realidad_virtual_vr,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,software_de_3d,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,sonido_inmersivo,INNOVADOR
 113,Valparaíso,Bienes creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
-113,Valparaíso,Bienes creativos,Empresa,icfvx_in_camera_visual_effects,EARLY ADOPTER
+113,Valparaíso,Bienes creativos,Empresa,Otros,EARLY ADOPTER
 114,Valparaíso,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 117,Valparaíso,Servicios creativos,Profesional independiente,creacion_de_entornos_virtuales,INNOVADOR
 117,Valparaíso,Servicios creativos,Profesional independiente,inteligencia_artificial_ia,EARLY ADOPTER
@@ -117,12 +117,12 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 131,Valparaíso,Servicios creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
 131,Valparaíso,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 131,Valparaíso,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
-131,Valparaíso,Servicios creativos,Empresa,reconocimiento_facial,EARLY ADOPTER
+131,Valparaíso,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 135,Valparaíso,Servicios creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
 135,Valparaíso,Servicios creativos,Empresa,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 135,Valparaíso,Servicios creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
 2,RM,Servicios creativos,Profesional independiente,creacion_de_entornos_virtuales,LENTO ADOPTANTE
-2,RM,Servicios creativos,Profesional independiente,hologramas,LENTO ADOPTANTE
+2,RM,Servicios creativos,Profesional independiente,Otros,LENTO ADOPTANTE
 2,RM,Servicios creativos,Profesional independiente,impresion_3d,LENTO ADOPTANTE
 2,RM,Servicios creativos,Profesional independiente,realidad_aumentada_ar,LENTO ADOPTANTE
 2,RM,Servicios creativos,Profesional independiente,realidad_virtual_vr,LENTO ADOPTANTE
@@ -134,16 +134,16 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 3,RM,Servicios creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 3,RM,Servicios creativos,Empresa,sonido_inmersivo,INNOVADOR
 5,RM,Contenidos creativos,Profesional independiente,creacion_de_entornos_virtuales,EARLY ADOPTER
-5,RM,Contenidos creativos,Profesional independiente,hologramas,LENTO ADOPTANTE
+5,RM,Contenidos creativos,Profesional independiente,Otros,LENTO ADOPTANTE
 5,RM,Contenidos creativos,Profesional independiente,inteligencia_artificial_ia,EARLY ADOPTER
 5,RM,Contenidos creativos,Profesional independiente,mocap_motion_capture,EARLY ADOPTER
 5,RM,Contenidos creativos,Profesional independiente,realidad_aumentada_ar,INNOVADOR
 5,RM,Contenidos creativos,Profesional independiente,realidad_virtual_vr,INNOVADOR
-5,RM,Contenidos creativos,Profesional independiente,reconocimiento_facial,LENTO ADOPTANTE
+5,RM,Contenidos creativos,Profesional independiente,Otros,LENTO ADOPTANTE
 5,RM,Contenidos creativos,Profesional independiente,software_de_3d,EARLY ADOPTER
 5,RM,Contenidos creativos,Profesional independiente,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 7,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
-7,RM,Servicios creativos,Empresa,machine_learning,LENTO ADOPTANTE
+7,RM,Servicios creativos,Empresa,Otros,LENTO ADOPTANTE
 7,RM,Servicios creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 13,RM,Servicios creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 13,RM,Servicios creativos,Empresa,impresion_3d,INNOVADOR
@@ -151,11 +151,11 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 13,RM,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
 13,RM,Servicios creativos,Empresa,software_de_3d,INNOVADOR
 14,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-14,RM,Servicios creativos,Empresa,machine_learning,INNOVADOR
+14,RM,Servicios creativos,Empresa,Otros,INNOVADOR
 14,RM,Servicios creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
 15,RM,Contenidos creativos,Profesional independiente,impresion_3d,EARLY ADOPTER
-15,RM,Contenidos creativos,Profesional independiente,machine_learning,EARLY ADOPTER
-15,RM,Contenidos creativos,Profesional independiente,physical_computing,INNOVADOR
+15,RM,Contenidos creativos,Profesional independiente,Otros,EARLY ADOPTER
+15,RM,Contenidos creativos,Profesional independiente,Otros,INNOVADOR
 16,RM,Contenidos creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 16,RM,Contenidos creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
 16,RM,Contenidos creativos,Empresa,realidad_aumentada_ar,INNOVADOR
@@ -163,14 +163,14 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 16,RM,Contenidos creativos,Empresa,software_de_3d,INNOVADOR
 16,RM,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 17,RM,Bienes creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
-18,RM,Servicios creativos,Empresa,hologramas,EARLY ADOPTER
+18,RM,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 18,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
 18,RM,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 18,RM,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
 18,RM,Servicios creativos,Empresa,software_de_3d,INNOVADOR
 19,RM,Servicios creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 19,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-19,RM,Servicios creativos,Empresa,machine_learning,EARLY ADOPTER
+19,RM,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 19,RM,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 19,RM,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
 19,RM,Servicios creativos,Empresa,software_de_3d,EARLY ADOPTER
@@ -179,13 +179,13 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 25,RM,Contenidos creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
 25,RM,Contenidos creativos,Empresa,software_de_3d,LENTO ADOPTANTE
 25,RM,Contenidos creativos,Empresa,vfx_visual_effects,LENTO ADOPTANTE
-25,RM,Contenidos creativos,Empresa,icfvx_in_camera_visual_effects,EARLY ADOPTER
+25,RM,Contenidos creativos,Empresa,Otros,EARLY ADOPTER
 26,RM,Contenidos creativos,Empresa,creacion_de_entornos_virtuales,EARLY ADOPTER
 26,RM,Contenidos creativos,Empresa,mocap_motion_capture,INNOVADOR
 26,RM,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 26,RM,Contenidos creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
 26,RM,Contenidos creativos,Empresa,vfx_visual_effects,INNOVADOR
-26,RM,Contenidos creativos,Empresa,icfvx_in_camera_visual_effects,INNOVADOR
+26,RM,Contenidos creativos,Empresa,Otros,INNOVADOR
 28,RM,Contenidos creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
 28,RM,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 29,RM,Servicios creativos,Empresa,mocap_motion_capture,INNOVADOR
@@ -197,10 +197,10 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 33,RM,Servicios creativos,Empresa,mocap_motion_capture,EARLY ADOPTER
 33,RM,Servicios creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
 33,RM,Servicios creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
-33,RM,Servicios creativos,Empresa,reconocimiento_facial,EARLY ADOPTER
+33,RM,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 33,RM,Servicios creativos,Empresa,software_de_3d,EARLY ADOPTER
 33,RM,Servicios creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
-33,RM,Servicios creativos,Empresa,icfvx_in_camera_visual_effects,EARLY ADOPTER
+33,RM,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 36,RM,Contenidos creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
 36,RM,Contenidos creativos,Empresa,vfx_visual_effects,LENTO ADOPTANTE
 38,RM,Contenidos creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
@@ -217,7 +217,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 46,RM,Bienes creativos,Empresa,mocap_motion_capture,INNOVADOR
 46,RM,Bienes creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 46,RM,Bienes creativos,Empresa,realidad_virtual_vr,INNOVADOR
-46,RM,Bienes creativos,Empresa,reconocimiento_facial,INNOVADOR
+46,RM,Bienes creativos,Empresa,Otros,INNOVADOR
 46,RM,Bienes creativos,Empresa,software_de_3d,EARLY ADOPTER
 46,RM,Bienes creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
 47,RM,Experiencias creativas,Empresa,realidad_virtual_vr,EARLY ADOPTER
@@ -233,7 +233,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 50,RM,Contenidos creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 50,RM,Contenidos creativos,Empresa,impresion_3d,EARLY ADOPTER
 50,RM,Contenidos creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-50,RM,Contenidos creativos,Empresa,machine_learning,EARLY ADOPTER
+50,RM,Contenidos creativos,Empresa,Otros,EARLY ADOPTER
 50,RM,Contenidos creativos,Empresa,realidad_aumentada_ar,LENTO ADOPTANTE
 50,RM,Contenidos creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
 50,RM,Contenidos creativos,Empresa,software_de_3d,EARLY ADOPTER
@@ -242,14 +242,14 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 56,RM,Bienes creativos,Profesional independiente,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 58,RM,Contenidos creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 58,RM,Contenidos creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-58,RM,Contenidos creativos,Empresa,machine_learning,INNOVADOR
+58,RM,Contenidos creativos,Empresa,Otros,INNOVADOR
 58,RM,Contenidos creativos,Empresa,mocap_motion_capture,EARLY ADOPTER
 58,RM,Contenidos creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
 58,RM,Contenidos creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
 62,RM,Contenidos creativos,Empresa,creacion_de_entornos_virtuales,EARLY ADOPTER
 62,RM,Contenidos creativos,Empresa,mocap_motion_capture,EARLY ADOPTER
 62,RM,Contenidos creativos,Empresa,realidad_virtual_vr,INNOVADOR
-62,RM,Contenidos creativos,Empresa,reconocimiento_facial,EARLY ADOPTER
+62,RM,Contenidos creativos,Empresa,Otros,EARLY ADOPTER
 62,RM,Contenidos creativos,Empresa,software_de_3d,EARLY ADOPTER
 62,RM,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 62,RM,Contenidos creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
@@ -287,10 +287,10 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 85,RM,Bienes creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
 86,RM,Servicios creativos,Empresa,creacion_de_entornos_virtuales,EARLY ADOPTER
 86,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
-86,RM,Servicios creativos,Empresa,physical_computing,EARLY ADOPTER
+86,RM,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 86,RM,Servicios creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
 86,RM,Servicios creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
-86,RM,Servicios creativos,Empresa,reconocimiento_facial,LENTO ADOPTANTE
+86,RM,Servicios creativos,Empresa,Otros,LENTO ADOPTANTE
 86,RM,Servicios creativos,Empresa,software_de_3d,EARLY ADOPTER
 86,RM,Servicios creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 86,RM,Servicios creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
@@ -298,18 +298,18 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 87,RM,Experiencias creativas,Profesional independiente,creacion_de_entornos_virtuales,LENTO ADOPTANTE
 87,RM,Experiencias creativas,Profesional independiente,inteligencia_artificial_ia,EARLY ADOPTER
 87,RM,Experiencias creativas,Profesional independiente,mocap_motion_capture,LENTO ADOPTANTE
-87,RM,Experiencias creativas,Profesional independiente,physical_computing,LENTO ADOPTANTE
+87,RM,Experiencias creativas,Profesional independiente,Otros,LENTO ADOPTANTE
 87,RM,Experiencias creativas,Profesional independiente,realidad_aumentada_ar,EARLY ADOPTER
 87,RM,Experiencias creativas,Profesional independiente,software_de_3d,LENTO ADOPTANTE
 87,RM,Experiencias creativas,Profesional independiente,vfx_visual_effects,LENTO ADOPTANTE
 88,RM,Contenidos creativos,Empresa,creacion_de_entornos_virtuales,EARLY ADOPTER
 88,RM,Contenidos creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
 88,RM,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
-89,RM,Experiencias creativas,Empresa,hologramas,INNOVADOR
+89,RM,Experiencias creativas,Empresa,Otros,INNOVADOR
 89,RM,Experiencias creativas,Empresa,impresion_3d,EARLY ADOPTER
 89,RM,Experiencias creativas,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
-89,RM,Experiencias creativas,Empresa,machine_learning,EARLY ADOPTER
-89,RM,Experiencias creativas,Empresa,physical_computing,INNOVADOR
+89,RM,Experiencias creativas,Empresa,Otros,EARLY ADOPTER
+89,RM,Experiencias creativas,Empresa,Otros,INNOVADOR
 89,RM,Experiencias creativas,Empresa,sonido_inmersivo,INNOVADOR
 90,RM,Experiencias creativas,Profesional independiente,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 90,RM,Experiencias creativas,Profesional independiente,vfx_visual_effects,LENTO ADOPTANTE
@@ -340,11 +340,11 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 100,RM,Experiencias creativas,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 100,RM,Experiencias creativas,Empresa,vfx_visual_effects,EARLY ADOPTER
 101,RM,Servicios creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
-101,RM,Servicios creativos,Empresa,hologramas,INNOVADOR
+101,RM,Servicios creativos,Empresa,Otros,INNOVADOR
 101,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
 101,RM,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 101,RM,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
-101,RM,Servicios creativos,Empresa,reconocimiento_facial,INNOVADOR
+101,RM,Servicios creativos,Empresa,Otros,INNOVADOR
 101,RM,Servicios creativos,Empresa,software_de_3d,INNOVADOR
 101,RM,Servicios creativos,Empresa,sonido_inmersivo,INNOVADOR
 102,RM,Experiencias creativas,Empresa,realidad_aumentada_ar,INNOVADOR
@@ -353,14 +353,14 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 105,RM,Experiencias creativas,Empresa,impresion_3d,INNOVADOR
 105,RM,Experiencias creativas,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
 105,RM,Experiencias creativas,Empresa,mocap_motion_capture,LENTO ADOPTANTE
-105,RM,Experiencias creativas,Empresa,physical_computing,EARLY ADOPTER
+105,RM,Experiencias creativas,Empresa,Otros,EARLY ADOPTER
 105,RM,Experiencias creativas,Empresa,realidad_aumentada_ar,INNOVADOR
 105,RM,Experiencias creativas,Empresa,realidad_virtual_vr,INNOVADOR
-105,RM,Experiencias creativas,Empresa,reconocimiento_facial,LENTO ADOPTANTE
+105,RM,Experiencias creativas,Empresa,Otros,LENTO ADOPTANTE
 105,RM,Experiencias creativas,Empresa,software_de_3d,INNOVADOR
 105,RM,Experiencias creativas,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 105,RM,Experiencias creativas,Empresa,vfx_visual_effects,EARLY ADOPTER
-105,RM,Experiencias creativas,Empresa,icfvx_in_camera_visual_effects,EARLY ADOPTER
+105,RM,Experiencias creativas,Empresa,Otros,EARLY ADOPTER
 106,RM,Bienes creativos,Empresa,creacion_de_entornos_virtuales,EARLY ADOPTER
 106,RM,Bienes creativos,Empresa,impresion_3d,INNOVADOR
 106,RM,Bienes creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
@@ -376,17 +376,17 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 110,RM,Experiencias creativas,Empresa,realidad_virtual_vr,INNOVADOR
 110,RM,Experiencias creativas,Empresa,software_de_3d,INNOVADOR
 110,RM,Experiencias creativas,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
-110,RM,Experiencias creativas,Empresa,tecnologia_de_blockchain_cryptographic_token_o_nft,INNOVADOR
-112,RM,Servicios creativos,Empresa,machine_learning,INNOVADOR
+110,RM,Experiencias creativas,Empresa,Otros,INNOVADOR
+112,RM,Servicios creativos,Empresa,Otros,INNOVADOR
 119,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
 124,RM,Experiencias creativas,Profesional independiente,impresion_3d,LENTO ADOPTANTE
 124,RM,Experiencias creativas,Profesional independiente,inteligencia_artificial_ia,EARLY ADOPTER
 124,RM,Experiencias creativas,Profesional independiente,realidad_aumentada_ar,LENTO ADOPTANTE
 124,RM,Experiencias creativas,Profesional independiente,realidad_virtual_vr,EARLY ADOPTER
 124,RM,Experiencias creativas,Profesional independiente,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
-124,RM,Experiencias creativas,Profesional independiente,tecnologia_de_blockchain_cryptographic_token_o_nft,INNOVADOR
+124,RM,Experiencias creativas,Profesional independiente,Otros,INNOVADOR
 125,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
-125,RM,Servicios creativos,Empresa,reconocimiento_facial,LENTO ADOPTANTE
+125,RM,Servicios creativos,Empresa,Otros,LENTO ADOPTANTE
 125,RM,Servicios creativos,Empresa,sonido_inmersivo,INNOVADOR
 125,RM,Servicios creativos,Empresa,vfx_visual_effects,INNOVADOR
 127,RM,Experiencias creativas,Empresa,mocap_motion_capture,EARLY ADOPTER
@@ -398,8 +398,8 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 130,RM,Contenidos creativos,Profesional independiente,realidad_virtual_vr,INNOVADOR
 130,RM,Contenidos creativos,Profesional independiente,software_especializado_aplicado_a_su_sector,INNOVADOR
 132,RM,Bienes creativos,Empresa,creacion_de_entornos_virtuales,LENTO ADOPTANTE
-132,RM,Bienes creativos,Empresa,hologramas,EARLY ADOPTER
-132,RM,Bienes creativos,Empresa,physical_computing,INNOVADOR
+132,RM,Bienes creativos,Empresa,Otros,EARLY ADOPTER
+132,RM,Bienes creativos,Empresa,Otros,INNOVADOR
 132,RM,Bienes creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
 132,RM,Bienes creativos,Empresa,software_de_3d,INNOVADOR
 132,RM,Bienes creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
@@ -407,7 +407,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 133,RM,Servicios creativos,Empresa,impresion_3d,INNOVADOR
 133,RM,Servicios creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
 133,RM,Servicios creativos,Empresa,mocap_motion_capture,INNOVADOR
-133,RM,Servicios creativos,Empresa,physical_computing,LENTO ADOPTANTE
+133,RM,Servicios creativos,Empresa,Otros,LENTO ADOPTANTE
 133,RM,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 133,RM,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
 133,RM,Servicios creativos,Empresa,software_de_3d,INNOVADOR
@@ -419,18 +419,18 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 136,RM,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
 139,RM,Contenidos creativos,Profesional independiente,creacion_de_entornos_virtuales,INNOVADOR
 139,RM,Contenidos creativos,Profesional independiente,inteligencia_artificial_ia,EARLY ADOPTER
-139,RM,Contenidos creativos,Profesional independiente,machine_learning,INNOVADOR
+139,RM,Contenidos creativos,Profesional independiente,Otros,INNOVADOR
 139,RM,Contenidos creativos,Profesional independiente,software_especializado_aplicado_a_su_sector,INNOVADOR
 67,O'Higgins,Bienes creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
 67,O'Higgins,Bienes creativos,Empresa,mocap_motion_capture,EARLY ADOPTER
-67,O'Higgins,Bienes creativos,Empresa,physical_computing,INNOVADOR
+67,O'Higgins,Bienes creativos,Empresa,Otros,INNOVADOR
 67,O'Higgins,Bienes creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
 67,O'Higgins,Bienes creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
 67,O'Higgins,Bienes creativos,Empresa,software_de_3d,INNOVADOR
 67,O'Higgins,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 67,O'Higgins,Bienes creativos,Empresa,sonido_inmersivo,EARLY ADOPTER
 67,O'Higgins,Bienes creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
-67,O'Higgins,Bienes creativos,Empresa,icfvx_in_camera_visual_effects,EARLY ADOPTER
+67,O'Higgins,Bienes creativos,Empresa,Otros,EARLY ADOPTER
 43,Maule,Contenidos creativos,Empresa,inteligencia_artificial_ia,LENTO ADOPTANTE
 43,Maule,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 70,Maule,Experiencias creativas,Empresa,sonido_inmersivo,INNOVADOR
@@ -443,7 +443,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 6,Bío-Bío,Contenidos creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
 41,Bío-Bío,Experiencias creativas,Profesional independiente,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 61,Bío-Bío,Servicios creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
-61,Bío-Bío,Servicios creativos,Empresa,hologramas,EARLY ADOPTER
+61,Bío-Bío,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 61,Bío-Bío,Servicios creativos,Empresa,realidad_aumentada_ar,INNOVADOR
 61,Bío-Bío,Servicios creativos,Empresa,realidad_virtual_vr,INNOVADOR
 61,Bío-Bío,Servicios creativos,Empresa,software_de_3d,INNOVADOR
@@ -459,9 +459,9 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 118,Bío-Bío,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 137,Bío-Bío,Bienes creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 137,Bío-Bío,Bienes creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
-137,Bío-Bío,Bienes creativos,Empresa,machine_learning,EARLY ADOPTER
+137,Bío-Bío,Bienes creativos,Empresa,Otros,EARLY ADOPTER
 137,Bío-Bío,Bienes creativos,Empresa,realidad_virtual_vr,EARLY ADOPTER
-137,Bío-Bío,Bienes creativos,Empresa,reconocimiento_facial,EARLY ADOPTER
+137,Bío-Bío,Bienes creativos,Empresa,Otros,EARLY ADOPTER
 137,Bío-Bío,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 137,Bío-Bío,Bienes creativos,Empresa,vfx_visual_effects,EARLY ADOPTER
 27,La Araucanía,Contenidos creativos,Profesional independiente,inteligencia_artificial_ia,LENTO ADOPTANTE
@@ -480,7 +480,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 44,La Araucanía,Contenidos creativos,Profesional independiente,creacion_de_entornos_virtuales,EARLY ADOPTER
 44,La Araucanía,Contenidos creativos,Profesional independiente,inteligencia_artificial_ia,EARLY ADOPTER
 44,La Araucanía,Contenidos creativos,Profesional independiente,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
-66,La Araucanía,Bienes creativos,Empresa,hologramas,INNOVADOR
+66,La Araucanía,Bienes creativos,Empresa,Otros,INNOVADOR
 66,La Araucanía,Bienes creativos,Empresa,impresion_3d,INNOVADOR
 66,La Araucanía,Bienes creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
 66,La Araucanía,Bienes creativos,Empresa,software_de_3d,INNOVADOR
@@ -499,7 +499,7 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 82,Los Ríos,Bienes creativos,Empresa,impresion_3d,LENTO ADOPTANTE
 82,Los Ríos,Bienes creativos,Empresa,software_de_3d,EARLY ADOPTER
 82,Los Ríos,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,EARLY ADOPTER
-134,Los Lagos,Experiencias creativas,Empresa,hologramas,INNOVADOR
+134,Los Lagos,Experiencias creativas,Empresa,Otros,INNOVADOR
 134,Los Lagos,Experiencias creativas,Empresa,inteligencia_artificial_ia,INNOVADOR
 134,Los Lagos,Experiencias creativas,Empresa,software_de_3d,INNOVADOR
 134,Los Lagos,Experiencias creativas,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
@@ -509,10 +509,10 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 4,Aysén,Bienes creativos,Empresa,software_de_3d,LENTO ADOPTANTE
 4,Aysén,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
 51,Aysén,Bienes creativos,Empresa,software_especializado_aplicado_a_su_sector,LENTO ADOPTANTE
-51,Aysén,Bienes creativos,Empresa,tecnologia_de_blockchain_cryptographic_token_o_nft,INNOVADOR
+51,Aysén,Bienes creativos,Empresa,Otros,INNOVADOR
 95,Aysén,Servicios creativos,Empresa,impresion_3d,LENTO ADOPTANTE
 95,Aysén,Servicios creativos,Empresa,realidad_aumentada_ar,EARLY ADOPTER
-95,Aysén,Servicios creativos,Empresa,reconocimiento_facial,EARLY ADOPTER
+95,Aysén,Servicios creativos,Empresa,Otros,EARLY ADOPTER
 95,Aysén,Servicios creativos,Empresa,software_de_3d,EARLY ADOPTER
 123,Aysén,Bienes creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 123,Aysén,Bienes creativos,Empresa,inteligencia_artificial_ia,EARLY ADOPTER
@@ -522,17 +522,17 @@ v362_id,region,cadena_productiva,tipo_empresa,tecnologias,nivel_adopcion
 10,Magallanes,Contenidos creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 59,Magallanes,Servicios creativos,Empresa,impresion_3d,EARLY ADOPTER
 59,Magallanes,Servicios creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-59,Magallanes,Servicios creativos,Empresa,machine_learning,INNOVADOR
+59,Magallanes,Servicios creativos,Empresa,Otros,INNOVADOR
 59,Magallanes,Servicios creativos,Empresa,software_especializado_aplicado_a_su_sector,INNOVADOR
 79,Magallanes,Bienes creativos,Empresa,impresion_3d,INNOVADOR
 79,Magallanes,Bienes creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
 91,Magallanes,Bienes creativos,Empresa,creacion_de_entornos_virtuales,INNOVADOR
 91,Magallanes,Bienes creativos,Empresa,inteligencia_artificial_ia,INNOVADOR
-91,Magallanes,Bienes creativos,Empresa,machine_learning,EARLY ADOPTER
+91,Magallanes,Bienes creativos,Empresa,Otros,EARLY ADOPTER
 91,Magallanes,Bienes creativos,Empresa,realidad_virtual_vr,INNOVADOR
 9,Extranjero,Servicios creativos,Profesional independiente,software_de_3d,LENTO ADOPTANTE
 9,Extranjero,Servicios creativos,Profesional independiente,software_especializado_aplicado_a_su_sector,INNOVADOR
 31,Extranjero,Experiencias creativas,Profesional independiente,sonido_inmersivo,EARLY ADOPTER
 31,Extranjero,Experiencias creativas,Profesional independiente,vfx_visual_effects,EARLY ADOPTER
 57,Extranjero,Contenidos creativos,Profesional independiente,inteligencia_artificial_ia,INNOVADOR
-57,Extranjero,Contenidos creativos,Profesional independiente,tecnologia_de_blockchain_cryptographic_token_o_nft,INNOVADOR
+57,Extranjero,Contenidos creativos,Profesional independiente,Otros,INNOVADOR
