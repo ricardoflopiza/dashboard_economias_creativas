@@ -108,7 +108,6 @@ const variableToFileMap = {
   "brechas": "d_brechas.csv"
 };
 
-
 /// Tabla para tabla dinámica
 const columnNameMap = {
   "cadena_productiva": "Cadena Productiva",
