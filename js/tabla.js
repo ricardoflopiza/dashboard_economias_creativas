@@ -1,6 +1,5 @@
 console.log('Tabla dinámica cargada.');
 
-
 document.getElementById('selectorTablaDin1').addEventListener('change', async () => {
     await updateDataAndTable();
 });
@@ -23,12 +22,32 @@ function updateTable() {
     const level = document.getElementById('selectorTablaDin2').value;
     const variable = document.getElementById('selectorTablaDin1').value;
 
+    // Filtrar filas: eliminar aquellas con datos NA, vacíos o con categoría "Desconocido"
+    const filteredData = window.tableData.filter(row => {
+        const levelVal = row[level];
+        const variableVal = row[variable];
+
+        // Verificar el valor de la variable seleccionada
+        if (!variableVal || variableVal.trim() === "" || variableVal === "Desconocido") {
+            return false;
+        }
+        // Si no es nivel nacional, verificar también el nivel de análisis
+        if (level !== "nacional") {
+            if (!levelVal || levelVal.trim() === "" || levelVal === "NA" || levelVal === "N/A") {
+                return false;
+            }
+        }
+        return true;
+    });
+
     let groupedData = {};
 
-    window.tableData.forEach(row => {
+    // Agrupar los datos filtrados
+    filteredData.forEach(row => {
         const levelKey = row[level] || "N/A";
         const variableKey = row[variable] || "Desconocido";
 
+        // Si el nivel es "nacional", se agrupa solo por la variable
         const key = level === "nacional" ? variableKey : `${levelKey} - ${variableKey}`;
 
         if (!groupedData[key]) {
@@ -40,67 +59,72 @@ function updateTable() {
     const tableBody = document.getElementById('tableBody');
     const tableHead = document.querySelector('#dynamicTable thead');
 
-    // Limpiar la tabla
+    // Limpiar contenido de la tabla
     tableBody.innerHTML = '';
     tableHead.innerHTML = '';
 
     // Crear encabezado dinámico
     const headerRow = document.createElement('tr');
 
-// Si no es nivel nacional, se agrega el nivel de análisis
-if (level !== "nacional") {
-    const thLevel = document.createElement('th');
-    thLevel.textContent = columnNameMap[level] || level; // Usar el nombre mapeado
-    headerRow.appendChild(thLevel);
-}
+    // Si no es nivel nacional, agregar columna del nivel de análisis
+    if (level !== "nacional") {
+        const thLevel = document.createElement('th');
+        thLevel.textContent = columnNameMap[level] || level;
+        headerRow.appendChild(thLevel);
+    }
 
-// Columna de agrupación (variable seleccionada)
-const thGroup = document.createElement('th');
-thGroup.textContent = columnNameMap[variable] || variable; // Usar el nombre mapeado
-headerRow.appendChild(thGroup);
+    // Columna para la variable seleccionada
+    const thGroup = document.createElement('th');
+    thGroup.textContent = columnNameMap[variable] || variable;
+    headerRow.appendChild(thGroup);
 
-// Columna de cantidad
-const thCount = document.createElement('th');
-thCount.textContent = "Cantidad";
-headerRow.appendChild(thCount);
+    // Columna para el conteo
+    const thCount = document.createElement('th');
+    thCount.textContent = "Cantidad";
+    headerRow.appendChild(thCount);
 
-// Columna de porcentaje
-const thPercentage = document.createElement('th');
-thPercentage.textContent = "Porcentaje";
-headerRow.appendChild(thPercentage);
+    // Columna para el porcentaje
+    const thPercentage = document.createElement('th');
+    thPercentage.textContent = "Porcentaje";
+    headerRow.appendChild(thPercentage);
 
-tableHead.appendChild(headerRow);
+    tableHead.appendChild(headerRow);
 
-    // Calcular totales por nivel
+    // Calcular totales por nivel de análisis (tomando la variable del selectorTablaDin2)
     const levelTotals = Object.values(groupedData).reduce((acc, { level, count }) => {
         acc[level] = (acc[level] || 0) + count;
         return acc;
     }, {});
 
-    Object.entries(groupedData).forEach(([key, { count, level: levelValue, variable: variableValue }]) => {
+    // Ordenar las entradas agrupadas alfabéticamente por su key
+    const sortedEntries = Object.entries(groupedData).sort((a, b) => {
+        return a[0].localeCompare(b[0]);
+    });
+
+    sortedEntries.forEach(([key, { count, level: levelValue, variable: variableValue }]) => {
         const tr = document.createElement('tr');
-    
+
         if (level !== "nacional") {
             const tdLevel = document.createElement('td');
-            tdLevel.textContent = columnNameMap[levelValue] || levelValue; // Mostrar nombre corregido
+            tdLevel.textContent = columnNameMap[levelValue] || levelValue;
             tr.appendChild(tdLevel);
         }
-    
+
         const tdVariable = document.createElement('td');
-        tdVariable.textContent = columnNameMap[variableValue] || variableValue; // Mostrar nombre corregido
+        tdVariable.textContent = columnNameMap[variableValue] || variableValue;
         tr.appendChild(tdVariable);
-    
+
         const tdCount = document.createElement('td');
         tdCount.textContent = count;
         tr.appendChild(tdCount);
-    
+
         const tdPercentage = document.createElement('td');
+        // El porcentaje se calcula en base al total del nivel de análisis seleccionado
         tdPercentage.textContent = ((count / levelTotals[levelValue]) * 100).toFixed(2) + '%';
         tr.appendChild(tdPercentage);
-    
+
         tableBody.appendChild(tr);
     });
-    
 }
 
 function downloadTable() {
@@ -125,4 +149,3 @@ document.getElementById('downloadButton').addEventListener('click', downloadTabl
 
 // Cargar la tabla por defecto al inicio
 updateDataAndTable();
-

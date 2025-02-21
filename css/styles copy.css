@@ -1,0 +1,331 @@
+/********************************************
+ *  1. Fuentes y estilos globales
+ ********************************************/
+ @font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('/assets/fonts/Syne-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+body {
+  margin: 0;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+  background-image: url('../images/Mapeo_BG_Vert_B.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/********************************************
+ *  2. Header y Fila Superior
+ ********************************************/
+.header {
+  background: linear-gradient(
+    to right,
+    rgba(179, 179, 179, 0.8),
+    rgba(0, 180, 216, 0.8),
+    rgba(86, 11, 173, 0.8)
+  );
+  padding: 20px 0; /* Espacio vertical */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Contenedor principal con límite de ancho */
+.container_header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Margen lateral para alinearse con el resto del dashboard */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Fila superior: título y logos */
+.header-top-row {
+  margin-bottom: 10px; /* Espacio entre la fila superior y la fila del menú */
+}
+
+/* Título */
+.header-title-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0; /* Elimina margen por defecto de h1 */
+  text-align: left;
+}
+
+.year {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+/* Logos */
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.logos img {
+  height: 50px;
+}
+
+/********************************************
+ *  3. Fila Inferior: Menú (Tabs) y Toggle
+ ********************************************/
+/* nav-row: donde se ubican el botón y el menú */
+.nav-row {
+  position: relative;
+  justify-content: center; /* Menú centrado en escritorio */
+}
+
+/* Botón hamburguesa: oculto en escritorio */
+.nav-toggle {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px; /* Ajusta según prefieras */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+/* Menú de navegación (Tabs) */
+#navMenu {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(44, 2, 63, 0.4);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#navMenu .tab {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+  font-weight: normal;
+}
+
+#navMenu .tab:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#navMenu .tab.active {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+/* Contenido de Tab (oculto/visible) */
+.tab-content {
+  padding: 1.25rem;
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/********************************************
+ *  4. Versión Móvil (max-width: 768px)
+ ********************************************/
+@media (max-width: 768px) {
+  /* Mostrar el botón hamburguesa en móviles */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Oculta el menú por defecto y solo aparece al hacer toggle */
+  #navMenu {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Se despliega debajo de la fila nav-row */
+    left: 0;
+    width: 100%;
+    background-color: rgba(44, 2, 63, 0.9);
+    z-index: 9;
+    padding: 15px;
+  }
+
+  /* Clase show para desplegar el menú */
+  #navMenu.show {
+    display: flex;
+  }
+
+  /* Ajusta los tabs en columna */
+  #navMenu .tab {
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  /* Fila superior en columna */
+  .header-top-row {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .header-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .logos {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .logos img {
+    height: 40px;
+  }
+
+  /* Ajusta el espacio entre filas */
+  .nav-row {
+    margin-top: 10px;
+    justify-content: flex-start; 
+  }
+}
+
+/********************************************
+ *  5. Resto de Estilos del Dashboard
+ ********************************************/
+/* Ajustar el tamaño de los gráficos */
+#chart1, #chart2, #chart3 {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+}
+
+/* Ajustar las cajas de los gráficos */
+.p-3.border.flex-grow-1.bg-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  min-height: 220px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustar los títulos de los gráficos */
+.p-3.border h3 {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Asegurar que las cajas no crezcan demasiado */
+.bg-light {
+  overflow: visible;
+  padding: 5px;
+  height: auto;
+  min-height: 220px;
+}
+
+/* Layout del Dashboard */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  gap: 1.25rem;
+  height: calc(100vh - 5.625rem);
+}
+
+/* Charts */
+.chart {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Botón de descarga */
+.download-btn {
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+}
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Transiciones y animaciones ECharts */
+#resetButton {
+  transition: all 0.3s ease;
+}
+.echarts-map path {
+  transition: all 0.3s ease;
+}
+@keyframes border-glow {
+  0% {
+    stroke: #FFD700;
+  }
+  50% {
+    stroke: #FFA500;
+  }
+  100% {
+    stroke: #FFD700;
+  }
+}
+.echarts-map .emphasis path {
+  animation: border-glow 1.5s ease-in-out infinite;
+  stroke-width: 2;
+}
+
+/* Clases utilitarias */
+.rounded-top-only {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rounded-bottom-only {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 15px;
+  overflow: hidden;
+}
+.selectores {
+  background-color: rgba(44, 2, 63, 0.4)!important;
+}

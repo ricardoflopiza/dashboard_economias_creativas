@@ -1,481 +1,481 @@
-v362_id,region,cadena_productiva,tipo_empresa,interaccion
-30,Arica,Contenidos creativos,Empresa,Agro-Tech
-30,Arica,Contenidos creativos,Empresa,Ciencia y tecnología
-30,Arica,Contenidos creativos,Empresa,Educación
-30,Arica,Contenidos creativos,Empresa,Energía renovable
-30,Arica,Contenidos creativos,Empresa,Innovación
-72,Arica,Servicios creativos,Empresa,Agro-Tech
-72,Arica,Servicios creativos,Empresa,Ciencia y tecnología
-72,Arica,Servicios creativos,Empresa,Innovación
-97,Arica,Experiencias creativas,Empresa,Educación
-97,Arica,Experiencias creativas,Empresa,Turismo
-97,Arica,Experiencias creativas,Empresa,Otros
-73,Antofagasta,Experiencias creativas,Empresa,Educación
-138,Atacama,Bienes creativos,Empresa,Ciencia y tecnología
-138,Atacama,Bienes creativos,Empresa,Comunicaciones
-138,Atacama,Bienes creativos,Empresa,Educación
-138,Atacama,Bienes creativos,Empresa,Innovación
-138,Atacama,Bienes creativos,Empresa,Minería
-138,Atacama,Bienes creativos,Empresa,Turismo
-8,Valparaíso,Bienes creativos,Empresa,Innovación
-11,Valparaíso,Servicios creativos,Empresa,Agro-Tech
-11,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
-11,Valparaíso,Servicios creativos,Empresa,Minería
-12,Valparaíso,Contenidos creativos,Empresa,Ciencia y tecnología
-12,Valparaíso,Contenidos creativos,Empresa,Construcción y desarrollo urbano
-12,Valparaíso,Contenidos creativos,Empresa,Educación
-12,Valparaíso,Contenidos creativos,Empresa,Otros
-12,Valparaíso,Contenidos creativos,Empresa,Innovación
-12,Valparaíso,Contenidos creativos,Empresa,Minería
-12,Valparaíso,Contenidos creativos,Empresa,Retail
-12,Valparaíso,Contenidos creativos,Empresa,Salud
-12,Valparaíso,Contenidos creativos,Empresa,Otros
-12,Valparaíso,Contenidos creativos,Empresa,Otros
-20,Valparaíso,Servicios creativos,Empresa,Educación
-21,Valparaíso,Servicios creativos,Empresa,Construcción y desarrollo urbano
-32,Valparaíso,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-52,Valparaíso,Experiencias creativas,Empresa,Ciencia y tecnología
-52,Valparaíso,Experiencias creativas,Empresa,Comunicaciones
-52,Valparaíso,Experiencias creativas,Empresa,Educación
-53,Valparaíso,Servicios creativos,Empresa,Agro-Tech
-53,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
-53,Valparaíso,Servicios creativos,Empresa,Educación
-53,Valparaíso,Servicios creativos,Empresa,Innovación
-53,Valparaíso,Servicios creativos,Empresa,Medioambiente y desastres naturales
-53,Valparaíso,Servicios creativos,Empresa,Turismo
-69,Valparaíso,Bienes creativos,Profesional independiente,Educación
-71,Valparaíso,Servicios creativos,Empresa,Comunicaciones
-84,Valparaíso,Contenidos creativos,Empresa,Ciencia y tecnología
-84,Valparaíso,Contenidos creativos,Empresa,Educación
-84,Valparaíso,Contenidos creativos,Empresa,Energía renovable
-84,Valparaíso,Contenidos creativos,Empresa,Innovación
-84,Valparaíso,Contenidos creativos,Empresa,Medioambiente y desastres naturales
-84,Valparaíso,Contenidos creativos,Empresa,Otros
-92,Valparaíso,Servicios creativos,Empresa,Construcción y desarrollo urbano
-92,Valparaíso,Servicios creativos,Empresa,Educación
-92,Valparaíso,Servicios creativos,Empresa,Innovación
-103,Valparaíso,Contenidos creativos,Profesional independiente,Ciencia y tecnología
-103,Valparaíso,Contenidos creativos,Profesional independiente,Comunicaciones
-103,Valparaíso,Contenidos creativos,Profesional independiente,Educación
-103,Valparaíso,Contenidos creativos,Profesional independiente,Innovación
-103,Valparaíso,Contenidos creativos,Profesional independiente,Medioambiente y desastres naturales
-103,Valparaíso,Contenidos creativos,Profesional independiente,Turismo
-113,Valparaíso,Bienes creativos,Empresa,Ciencia y tecnología
-113,Valparaíso,Bienes creativos,Empresa,Comunicaciones
-113,Valparaíso,Bienes creativos,Empresa,Construcción y desarrollo urbano
-113,Valparaíso,Bienes creativos,Empresa,Educación
-113,Valparaíso,Bienes creativos,Empresa,Innovación
-114,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
-114,Valparaíso,Servicios creativos,Empresa,Comunicaciones
-114,Valparaíso,Servicios creativos,Empresa,Educación
-114,Valparaíso,Servicios creativos,Empresa,Innovación
-114,Valparaíso,Servicios creativos,Empresa,Turismo
-117,Valparaíso,Servicios creativos,Profesional independiente,Ciencia y tecnología
-117,Valparaíso,Servicios creativos,Profesional independiente,Comunicaciones
-117,Valparaíso,Servicios creativos,Profesional independiente,Innovación
-120,Valparaíso,Bienes creativos,Empresa,Ciencia y tecnología
-120,Valparaíso,Bienes creativos,Empresa,Comunicaciones
-120,Valparaíso,Bienes creativos,Empresa,Educación
-120,Valparaíso,Bienes creativos,Empresa,Energía renovable
-120,Valparaíso,Bienes creativos,Empresa,Innovación
-120,Valparaíso,Bienes creativos,Empresa,Otros
-126,Valparaíso,Bienes creativos,Empresa,Ciencia y tecnología
-126,Valparaíso,Bienes creativos,Empresa,Comunicaciones
-126,Valparaíso,Bienes creativos,Empresa,Otros
-126,Valparaíso,Bienes creativos,Empresa,Innovación
-126,Valparaíso,Bienes creativos,Empresa,Inversión social
-126,Valparaíso,Bienes creativos,Empresa,Medioambiente y desastres naturales
-126,Valparaíso,Bienes creativos,Empresa,Salud
-129,Valparaíso,Bienes creativos,Profesional independiente,Ciencia y tecnología
-129,Valparaíso,Bienes creativos,Profesional independiente,Educación
-129,Valparaíso,Bienes creativos,Profesional independiente,Innovación
-129,Valparaíso,Bienes creativos,Profesional independiente,Inversión social
-129,Valparaíso,Bienes creativos,Profesional independiente,Retail
-131,Valparaíso,Servicios creativos,Empresa,Ciencia y tecnología
-131,Valparaíso,Servicios creativos,Empresa,Educación
-131,Valparaíso,Servicios creativos,Empresa,Innovación
-135,Valparaíso,Servicios creativos,Empresa,Comunicaciones
-135,Valparaíso,Servicios creativos,Empresa,Educación
-135,Valparaíso,Servicios creativos,Empresa,Energía renovable
-135,Valparaíso,Servicios creativos,Empresa,Inversión social
-135,Valparaíso,Servicios creativos,Empresa,Turismo
-3,RM,Servicios creativos,Empresa,Comunicaciones
-3,RM,Servicios creativos,Empresa,Retail
-7,RM,Servicios creativos,Empresa,Ciencia y tecnología
-7,RM,Servicios creativos,Empresa,Comunicaciones
-7,RM,Servicios creativos,Empresa,Inversión social
-7,RM,Servicios creativos,Empresa,Medioambiente y desastres naturales
-7,RM,Servicios creativos,Empresa,Turismo
-13,RM,Servicios creativos,Empresa,Ciencia y tecnología
-13,RM,Servicios creativos,Empresa,Educación
-14,RM,Servicios creativos,Empresa,Salud
-15,RM,Contenidos creativos,Profesional independiente,Educación
-15,RM,Contenidos creativos,Profesional independiente,Otros
-16,RM,Contenidos creativos,Empresa,Ciencia y tecnología
-16,RM,Contenidos creativos,Empresa,Construcción y desarrollo urbano
-16,RM,Contenidos creativos,Empresa,Educación
-16,RM,Contenidos creativos,Empresa,Otros
-16,RM,Contenidos creativos,Empresa,Energía renovable
-16,RM,Contenidos creativos,Empresa,Innovación
-16,RM,Contenidos creativos,Empresa,Minería
-16,RM,Contenidos creativos,Empresa,Retail
-16,RM,Contenidos creativos,Empresa,Salud
-17,RM,Bienes creativos,Empresa,Ciencia y tecnología
-17,RM,Bienes creativos,Empresa,Comunicaciones
-17,RM,Bienes creativos,Empresa,Educación
-17,RM,Bienes creativos,Empresa,Otros
-17,RM,Bienes creativos,Empresa,Innovación
-18,RM,Servicios creativos,Empresa,Ciencia y tecnología
-18,RM,Servicios creativos,Empresa,Innovación
-18,RM,Servicios creativos,Empresa,Minería
-19,RM,Servicios creativos,Empresa,Ciencia y tecnología
-19,RM,Servicios creativos,Empresa,Comunicaciones
-19,RM,Servicios creativos,Empresa,Educación
-19,RM,Servicios creativos,Empresa,Innovación
-19,RM,Servicios creativos,Empresa,Minería
-19,RM,Servicios creativos,Empresa,Retail
-19,RM,Servicios creativos,Empresa,Salud
-19,RM,Servicios creativos,Empresa,Turismo
-24,RM,Bienes creativos,Profesional independiente,Educación
-25,RM,Contenidos creativos,Empresa,Agro-Tech
-25,RM,Contenidos creativos,Empresa,Construcción y desarrollo urbano
-25,RM,Contenidos creativos,Empresa,Educación
-25,RM,Contenidos creativos,Empresa,Otros
-25,RM,Contenidos creativos,Empresa,Minería
-25,RM,Contenidos creativos,Empresa,Retail
-25,RM,Contenidos creativos,Empresa,Turismo
-26,RM,Contenidos creativos,Empresa,Ciencia y tecnología
-26,RM,Contenidos creativos,Empresa,Comunicaciones
-26,RM,Contenidos creativos,Empresa,Inversión social
-26,RM,Contenidos creativos,Empresa,Turismo
-28,RM,Contenidos creativos,Empresa,Comunicaciones
-28,RM,Contenidos creativos,Empresa,Retail
-28,RM,Contenidos creativos,Empresa,Salud
-36,RM,Contenidos creativos,Empresa,Comunicaciones
-38,RM,Contenidos creativos,Empresa,Comunicaciones
-38,RM,Contenidos creativos,Empresa,Educación
-42,RM,Bienes creativos,Empresa,Ciencia y tecnología
-42,RM,Bienes creativos,Empresa,Comunicaciones
-42,RM,Bienes creativos,Empresa,Construcción y desarrollo urbano
-42,RM,Bienes creativos,Empresa,Educación
-42,RM,Bienes creativos,Empresa,Innovación
-42,RM,Bienes creativos,Empresa,Inversión social
-42,RM,Bienes creativos,Empresa,Otros
-42,RM,Bienes creativos,Empresa,Turismo
-46,RM,Bienes creativos,Empresa,Ciencia y tecnología
-46,RM,Bienes creativos,Empresa,Comunicaciones
-46,RM,Bienes creativos,Empresa,Educación
-46,RM,Bienes creativos,Empresa,Innovación
-46,RM,Bienes creativos,Empresa,Medioambiente y desastres naturales
-46,RM,Bienes creativos,Empresa,Salud
-46,RM,Bienes creativos,Empresa,Otros
-47,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-47,RM,Experiencias creativas,Empresa,Comunicaciones
-47,RM,Experiencias creativas,Empresa,Educación
-48,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-48,RM,Experiencias creativas,Empresa,Comunicaciones
-48,RM,Experiencias creativas,Empresa,Educación
-48,RM,Experiencias creativas,Empresa,Innovación
-48,RM,Experiencias creativas,Empresa,Salud
-48,RM,Experiencias creativas,Empresa,Turismo
-49,RM,Contenidos creativos,Empresa,Ciencia y tecnología
-49,RM,Contenidos creativos,Empresa,Educación
-49,RM,Contenidos creativos,Empresa,Turismo
-55,RM,Servicios creativos,Empresa,Comunicaciones
-56,RM,Bienes creativos,Profesional independiente,Comunicaciones
-56,RM,Bienes creativos,Profesional independiente,Educación
-56,RM,Bienes creativos,Profesional independiente,Innovación
-56,RM,Bienes creativos,Profesional independiente,Retail
-58,RM,Contenidos creativos,Empresa,Agro-Tech
-58,RM,Contenidos creativos,Empresa,Educación
-58,RM,Contenidos creativos,Empresa,Otros
-58,RM,Contenidos creativos,Empresa,Inversión social
-63,RM,Contenidos creativos,Empresa,Educación
-63,RM,Contenidos creativos,Empresa,Innovación
-65,RM,Experiencias creativas,Profesional independiente,Salud
-78,RM,Servicios creativos,Empresa,Comunicaciones
-78,RM,Servicios creativos,Empresa,Educación
-80,RM,Contenidos creativos,Profesional independiente,Construcción y desarrollo urbano
-80,RM,Contenidos creativos,Profesional independiente,Retail
-80,RM,Contenidos creativos,Profesional independiente,Otros
-83,RM,Bienes creativos,Profesional independiente,Ciencia y tecnología
-83,RM,Bienes creativos,Profesional independiente,Educación
-83,RM,Bienes creativos,Profesional independiente,Salud
-86,RM,Servicios creativos,Empresa,Energía renovable
-87,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-87,RM,Experiencias creativas,Profesional independiente,Comunicaciones
-87,RM,Experiencias creativas,Profesional independiente,Educación
-88,RM,Contenidos creativos,Empresa,Ciencia y tecnología
-88,RM,Contenidos creativos,Empresa,Comunicaciones
-88,RM,Contenidos creativos,Empresa,Educación
-88,RM,Contenidos creativos,Empresa,Innovación
-88,RM,Contenidos creativos,Empresa,Inversión social
-88,RM,Contenidos creativos,Empresa,Medioambiente y desastres naturales
-88,RM,Contenidos creativos,Empresa,Turismo
-89,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-89,RM,Experiencias creativas,Empresa,Educación
-90,RM,Experiencias creativas,Profesional independiente,Comunicaciones
-90,RM,Experiencias creativas,Profesional independiente,Educación
-93,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-93,RM,Experiencias creativas,Profesional independiente,Educación
-93,RM,Experiencias creativas,Profesional independiente,Innovación
-94,RM,Servicios creativos,Profesional independiente,Ciencia y tecnología
-94,RM,Servicios creativos,Profesional independiente,Comunicaciones
-94,RM,Servicios creativos,Profesional independiente,Educación
-94,RM,Servicios creativos,Profesional independiente,Innovación
-96,RM,Experiencias creativas,Empresa,Agro-Tech
-96,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-96,RM,Experiencias creativas,Empresa,Comunicaciones
-96,RM,Experiencias creativas,Empresa,Educación
-96,RM,Experiencias creativas,Empresa,Otros
-96,RM,Experiencias creativas,Empresa,Energía renovable
-96,RM,Experiencias creativas,Empresa,Minería
-96,RM,Experiencias creativas,Empresa,Otros
-98,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-98,RM,Experiencias creativas,Profesional independiente,Comunicaciones
-98,RM,Experiencias creativas,Profesional independiente,Educación
-98,RM,Experiencias creativas,Profesional independiente,Medioambiente y desastres naturales
-99,RM,Bienes creativos,Empresa,Ciencia y tecnología
-99,RM,Bienes creativos,Empresa,Comunicaciones
-99,RM,Bienes creativos,Empresa,Innovación
-99,RM,Bienes creativos,Empresa,Minería
-99,RM,Bienes creativos,Empresa,Retail
-99,RM,Bienes creativos,Empresa,Turismo
-100,RM,Experiencias creativas,Empresa,Comunicaciones
-100,RM,Experiencias creativas,Empresa,Medioambiente y desastres naturales
-101,RM,Servicios creativos,Empresa,Ciencia y tecnología
-101,RM,Servicios creativos,Empresa,Comunicaciones
-101,RM,Servicios creativos,Empresa,Construcción y desarrollo urbano
-101,RM,Servicios creativos,Empresa,Educación
-101,RM,Servicios creativos,Empresa,Energía renovable
-101,RM,Servicios creativos,Empresa,Innovación
-101,RM,Servicios creativos,Empresa,Inversión social
-101,RM,Servicios creativos,Empresa,Retail
-101,RM,Servicios creativos,Empresa,Turismo
-102,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-102,RM,Experiencias creativas,Empresa,Comunicaciones
-102,RM,Experiencias creativas,Empresa,Educación
-102,RM,Experiencias creativas,Empresa,Innovación
-102,RM,Experiencias creativas,Empresa,Medioambiente y desastres naturales
-105,RM,Experiencias creativas,Empresa,Educación
-105,RM,Experiencias creativas,Empresa,Innovación
-105,RM,Experiencias creativas,Empresa,Salud
-106,RM,Bienes creativos,Empresa,Ciencia y tecnología
-106,RM,Bienes creativos,Empresa,Educación
-106,RM,Bienes creativos,Empresa,Energía renovable
-106,RM,Bienes creativos,Empresa,Innovación
-106,RM,Bienes creativos,Empresa,Medioambiente y desastres naturales
-106,RM,Bienes creativos,Empresa,Minería
-106,RM,Bienes creativos,Empresa,Salud
-109,RM,Servicios creativos,Empresa,Comunicaciones
-109,RM,Servicios creativos,Empresa,Educación
-109,RM,Servicios creativos,Empresa,Energía renovable
-109,RM,Servicios creativos,Empresa,Innovación
-110,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-110,RM,Experiencias creativas,Empresa,Comunicaciones
-110,RM,Experiencias creativas,Empresa,Educación
-110,RM,Experiencias creativas,Empresa,Innovación
-110,RM,Experiencias creativas,Empresa,Retail
-112,RM,Servicios creativos,Empresa,Comunicaciones
-112,RM,Servicios creativos,Empresa,Educación
-112,RM,Servicios creativos,Empresa,Energía renovable
-112,RM,Servicios creativos,Empresa,Otros
-112,RM,Servicios creativos,Empresa,Innovación
-112,RM,Servicios creativos,Empresa,Inversión social
-112,RM,Servicios creativos,Empresa,Retail
-119,RM,Servicios creativos,Empresa,Agro-Tech
-119,RM,Servicios creativos,Empresa,Comunicaciones
-119,RM,Servicios creativos,Empresa,Educación
-119,RM,Servicios creativos,Empresa,Innovación
-119,RM,Servicios creativos,Empresa,Medioambiente y desastres naturales
-119,RM,Servicios creativos,Empresa,Retail
-119,RM,Servicios creativos,Empresa,Salud
-119,RM,Servicios creativos,Empresa,Turismo
-122,RM,Contenidos creativos,Empresa,Comunicaciones
-122,RM,Contenidos creativos,Empresa,Educación
-122,RM,Contenidos creativos,Empresa,Otros
-124,RM,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-124,RM,Experiencias creativas,Profesional independiente,Comunicaciones
-124,RM,Experiencias creativas,Profesional independiente,Educación
-124,RM,Experiencias creativas,Profesional independiente,Energía renovable
-124,RM,Experiencias creativas,Profesional independiente,Innovación
-124,RM,Experiencias creativas,Profesional independiente,Inversión social
-124,RM,Experiencias creativas,Profesional independiente,Medioambiente y desastres naturales
-124,RM,Experiencias creativas,Profesional independiente,Turismo
-125,RM,Servicios creativos,Empresa,Ciencia y tecnología
-125,RM,Servicios creativos,Empresa,Comunicaciones
-125,RM,Servicios creativos,Empresa,Educación
-125,RM,Servicios creativos,Empresa,Energía renovable
-125,RM,Servicios creativos,Empresa,Inversión social
-125,RM,Servicios creativos,Empresa,Minería
-125,RM,Servicios creativos,Empresa,Retail
-125,RM,Servicios creativos,Empresa,Salud
-127,RM,Experiencias creativas,Empresa,Ciencia y tecnología
-127,RM,Experiencias creativas,Empresa,Educación
-127,RM,Experiencias creativas,Empresa,Inversión social
-128,RM,Contenidos creativos,Empresa,Comunicaciones
-128,RM,Contenidos creativos,Empresa,Educación
-128,RM,Contenidos creativos,Empresa,Inversión social
-128,RM,Contenidos creativos,Empresa,Minería
-128,RM,Contenidos creativos,Empresa,Otros
-128,RM,Contenidos creativos,Empresa,Turismo
-130,RM,Contenidos creativos,Profesional independiente,Ciencia y tecnología
-130,RM,Contenidos creativos,Profesional independiente,Comunicaciones
-130,RM,Contenidos creativos,Profesional independiente,Educación
-130,RM,Contenidos creativos,Profesional independiente,Turismo
-132,RM,Bienes creativos,Empresa,Ciencia y tecnología
-132,RM,Bienes creativos,Empresa,Educación
-132,RM,Bienes creativos,Empresa,Innovación
-132,RM,Bienes creativos,Empresa,Retail
-133,RM,Servicios creativos,Empresa,Ciencia y tecnología
-133,RM,Servicios creativos,Empresa,Comunicaciones
-133,RM,Servicios creativos,Empresa,Construcción y desarrollo urbano
-133,RM,Servicios creativos,Empresa,Otros
-133,RM,Servicios creativos,Empresa,Energía renovable
-133,RM,Servicios creativos,Empresa,Innovación
-133,RM,Servicios creativos,Empresa,Minería
-133,RM,Servicios creativos,Empresa,Retail
-133,RM,Servicios creativos,Empresa,Salud
-133,RM,Servicios creativos,Empresa,Otros
-136,RM,Contenidos creativos,Empresa,Comunicaciones
-136,RM,Contenidos creativos,Empresa,Educación
-136,RM,Contenidos creativos,Empresa,Innovación
-136,RM,Contenidos creativos,Empresa,Medioambiente y desastres naturales
-136,RM,Contenidos creativos,Empresa,Retail
-139,RM,Contenidos creativos,Profesional independiente,Ciencia y tecnología
-139,RM,Contenidos creativos,Profesional independiente,Comunicaciones
-139,RM,Contenidos creativos,Profesional independiente,Construcción y desarrollo urbano
-139,RM,Contenidos creativos,Profesional independiente,Educación
-139,RM,Contenidos creativos,Profesional independiente,Inversión social
-139,RM,Contenidos creativos,Profesional independiente,Salud
-67,O'Higgins,Bienes creativos,Empresa,Innovación
-67,O'Higgins,Bienes creativos,Empresa,Salud
-43,Maule,Contenidos creativos,Empresa,Otros
-70,Maule,Experiencias creativas,Empresa,Comunicaciones
-70,Maule,Experiencias creativas,Empresa,Educación
-70,Maule,Experiencias creativas,Empresa,Innovación
-70,Maule,Experiencias creativas,Empresa,Turismo
-6,Bío-Bío,Contenidos creativos,Empresa,Agro-Tech
-6,Bío-Bío,Contenidos creativos,Empresa,Educación
-6,Bío-Bío,Contenidos creativos,Empresa,Minería
-6,Bío-Bío,Contenidos creativos,Empresa,Salud
-6,Bío-Bío,Contenidos creativos,Empresa,Otros
-41,Bío-Bío,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-41,Bío-Bío,Experiencias creativas,Profesional independiente,Comunicaciones
-41,Bío-Bío,Experiencias creativas,Profesional independiente,Educación
-41,Bío-Bío,Experiencias creativas,Profesional independiente,Innovación
-41,Bío-Bío,Experiencias creativas,Profesional independiente,Medioambiente y desastres naturales
-61,Bío-Bío,Servicios creativos,Empresa,Ciencia y tecnología
-61,Bío-Bío,Servicios creativos,Empresa,Innovación
-111,Bío-Bío,Bienes creativos,Empresa,Construcción y desarrollo urbano
-111,Bío-Bío,Bienes creativos,Empresa,Innovación
-115,Bío-Bío,Servicios creativos,Empresa,Agro-Tech
-115,Bío-Bío,Servicios creativos,Empresa,Comunicaciones
-115,Bío-Bío,Servicios creativos,Empresa,Energía renovable
-115,Bío-Bío,Servicios creativos,Empresa,Innovación
-115,Bío-Bío,Servicios creativos,Empresa,Inversión social
-115,Bío-Bío,Servicios creativos,Empresa,Turismo
-115,Bío-Bío,Servicios creativos,Empresa,Otros
-118,Bío-Bío,Bienes creativos,Empresa,Agro-Tech
-118,Bío-Bío,Bienes creativos,Empresa,Ciencia y tecnología
-118,Bío-Bío,Bienes creativos,Empresa,Construcción y desarrollo urbano
-118,Bío-Bío,Bienes creativos,Empresa,Educación
-118,Bío-Bío,Bienes creativos,Empresa,Retail
-118,Bío-Bío,Bienes creativos,Empresa,Salud
-118,Bío-Bío,Bienes creativos,Empresa,Otros
-118,Bío-Bío,Bienes creativos,Empresa,Turismo
-137,Bío-Bío,Bienes creativos,Empresa,Ciencia y tecnología
-137,Bío-Bío,Bienes creativos,Empresa,Comunicaciones
-137,Bío-Bío,Bienes creativos,Empresa,Educación
-27,La Araucanía,Contenidos creativos,Profesional independiente,Ciencia y tecnología
-27,La Araucanía,Contenidos creativos,Profesional independiente,Educación
-37,La Araucanía,Experiencias creativas,Empresa,Ciencia y tecnología
-37,La Araucanía,Experiencias creativas,Empresa,Comunicaciones
-37,La Araucanía,Experiencias creativas,Empresa,Educación
-37,La Araucanía,Experiencias creativas,Empresa,Innovación
-37,La Araucanía,Experiencias creativas,Empresa,Medioambiente y desastres naturales
-37,La Araucanía,Experiencias creativas,Empresa,Salud
-37,La Araucanía,Experiencias creativas,Empresa,Otros
-37,La Araucanía,Experiencias creativas,Empresa,Turismo
-40,La Araucanía,Contenidos creativos,Profesional independiente,Ciencia y tecnología
-40,La Araucanía,Contenidos creativos,Profesional independiente,Comunicaciones
-40,La Araucanía,Contenidos creativos,Profesional independiente,Educación
-40,La Araucanía,Contenidos creativos,Profesional independiente,Innovación
-40,La Araucanía,Contenidos creativos,Profesional independiente,Turismo
-44,La Araucanía,Contenidos creativos,Profesional independiente,Construcción y desarrollo urbano
-44,La Araucanía,Contenidos creativos,Profesional independiente,Innovación
-66,La Araucanía,Bienes creativos,Empresa,Ciencia y tecnología
-66,La Araucanía,Bienes creativos,Empresa,Educación
-66,La Araucanía,Bienes creativos,Empresa,Energía renovable
-66,La Araucanía,Bienes creativos,Empresa,Innovación
-66,La Araucanía,Bienes creativos,Empresa,Medioambiente y desastres naturales
-66,La Araucanía,Bienes creativos,Empresa,Turismo
-81,La Araucanía,Bienes creativos,Profesional independiente,Ciencia y tecnología
-81,La Araucanía,Bienes creativos,Profesional independiente,Educación
-81,La Araucanía,Bienes creativos,Profesional independiente,Innovación
-81,La Araucanía,Bienes creativos,Profesional independiente,Retail
-116,La Araucanía,Servicios creativos,Profesional independiente,Comunicaciones
-116,La Araucanía,Servicios creativos,Profesional independiente,Educación
-116,La Araucanía,Servicios creativos,Profesional independiente,Innovación
-121,La Araucanía,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-121,La Araucanía,Experiencias creativas,Profesional independiente,Comunicaciones
-39,Los Ríos,Experiencias creativas,Empresa,Retail
-39,Los Ríos,Experiencias creativas,Empresa,Otros
-75,Los Ríos,Bienes creativos,Empresa,Construcción y desarrollo urbano
-75,Los Ríos,Bienes creativos,Empresa,Energía renovable
-75,Los Ríos,Bienes creativos,Empresa,Innovación
-75,Los Ríos,Bienes creativos,Empresa,Turismo
-82,Los Ríos,Bienes creativos,Empresa,Construcción y desarrollo urbano
-82,Los Ríos,Bienes creativos,Empresa,Educación
-82,Los Ríos,Bienes creativos,Empresa,Innovación
-82,Los Ríos,Bienes creativos,Empresa,Medioambiente y desastres naturales
-82,Los Ríos,Bienes creativos,Empresa,Turismo
-134,Los Lagos,Experiencias creativas,Empresa,Ciencia y tecnología
-134,Los Lagos,Experiencias creativas,Empresa,Innovación
-4,Aysén,Bienes creativos,Empresa,Ciencia y tecnología
-4,Aysén,Bienes creativos,Empresa,Construcción y desarrollo urbano
-4,Aysén,Bienes creativos,Empresa,Educación
-4,Aysén,Bienes creativos,Empresa,Retail
-4,Aysén,Bienes creativos,Empresa,Turismo
-51,Aysén,Bienes creativos,Empresa,Agro-Tech
-51,Aysén,Bienes creativos,Empresa,Construcción y desarrollo urbano
-51,Aysén,Bienes creativos,Empresa,Educación
-51,Aysén,Bienes creativos,Empresa,Retail
-51,Aysén,Bienes creativos,Empresa,Turismo
-95,Aysén,Servicios creativos,Empresa,Ciencia y tecnología
-95,Aysén,Servicios creativos,Empresa,Construcción y desarrollo urbano
-95,Aysén,Servicios creativos,Empresa,Educación
-95,Aysén,Servicios creativos,Empresa,Innovación
-95,Aysén,Servicios creativos,Empresa,Otros
-123,Aysén,Bienes creativos,Empresa,Ciencia y tecnología
-123,Aysén,Bienes creativos,Empresa,Construcción y desarrollo urbano
-123,Aysén,Bienes creativos,Empresa,Innovación
-123,Aysén,Bienes creativos,Empresa,Retail
-123,Aysén,Bienes creativos,Empresa,Turismo
-123,Aysén,Bienes creativos,Empresa,Otros
-10,Magallanes,Contenidos creativos,Empresa,Salud
-10,Magallanes,Contenidos creativos,Empresa,Otros
-59,Magallanes,Servicios creativos,Empresa,Energía renovable
-59,Magallanes,Servicios creativos,Empresa,Innovación
-59,Magallanes,Servicios creativos,Empresa,Inversión social
-79,Magallanes,Bienes creativos,Empresa,Medioambiente y desastres naturales
-91,Magallanes,Bienes creativos,Empresa,Ciencia y tecnología
-91,Magallanes,Bienes creativos,Empresa,Comunicaciones
-91,Magallanes,Bienes creativos,Empresa,Educación
-91,Magallanes,Bienes creativos,Empresa,Energía renovable
-91,Magallanes,Bienes creativos,Empresa,Inversión social
-91,Magallanes,Bienes creativos,Empresa,Medioambiente y desastres naturales
-91,Magallanes,Bienes creativos,Empresa,Turismo
-9,Extranjero,Servicios creativos,Profesional independiente,Ciencia y tecnología
-9,Extranjero,Servicios creativos,Profesional independiente,Comunicaciones
-9,Extranjero,Servicios creativos,Profesional independiente,Educación
-31,Extranjero,Experiencias creativas,Profesional independiente,Ciencia y tecnología
-31,Extranjero,Experiencias creativas,Profesional independiente,Comunicaciones
-31,Extranjero,Experiencias creativas,Profesional independiente,Construcción y desarrollo urbano
-31,Extranjero,Experiencias creativas,Profesional independiente,Innovación
-31,Extranjero,Experiencias creativas,Profesional independiente,Salud
-57,Extranjero,Contenidos creativos,Profesional independiente,Ciencia y tecnología
-57,Extranjero,Contenidos creativos,Profesional independiente,Comunicaciones
-57,Extranjero,Contenidos creativos,Profesional independiente,Educación
-57,Extranjero,Contenidos creativos,Profesional independiente,Innovación
-57,Extranjero,Contenidos creativos,Profesional independiente,Medioambiente y desastres naturales
+v362_id;region;cadena_productiva;tipo_empresa;interaccion;color_interaccion
+30;Arica;Contenidos creativos;Empresa;Agro-Tech;#e4e2d4
+30;Arica;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+30;Arica;Contenidos creativos;Empresa;Educación;#705abb
+30;Arica;Contenidos creativos;Empresa;Energía renovable;#546c74
+30;Arica;Contenidos creativos;Empresa;Innovación;#9a7cbb
+72;Arica;Servicios creativos;Empresa;Agro-Tech;#e4e2d4
+72;Arica;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+72;Arica;Servicios creativos;Empresa;Innovación;#9a7cbb
+97;Arica;Experiencias creativas;Empresa;Educación;#705abb
+97;Arica;Experiencias creativas;Empresa;Turismo;#e4e2d4
+97;Arica;Experiencias creativas;Empresa;Otros;#a5a29a
+73;Antofagasta;Experiencias creativas;Empresa;Educación;#705abb
+138;Atacama;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+138;Atacama;Bienes creativos;Empresa;Comunicaciones;#737daa
+138;Atacama;Bienes creativos;Empresa;Educación;#705abb
+138;Atacama;Bienes creativos;Empresa;Innovación;#9a7cbb
+138;Atacama;Bienes creativos;Empresa;Minería;#74746c
+138;Atacama;Bienes creativos;Empresa;Turismo;#e4e2d4
+8;Valparaíso;Bienes creativos;Empresa;Innovación;#9a7cbb
+11;Valparaíso;Servicios creativos;Empresa;Agro-Tech;#e4e2d4
+11;Valparaíso;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+11;Valparaíso;Servicios creativos;Empresa;Minería;#74746c
+12;Valparaíso;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+12;Valparaíso;Contenidos creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+12;Valparaíso;Contenidos creativos;Empresa;Educación;#705abb
+12;Valparaíso;Contenidos creativos;Empresa;Otros;#a5a29a
+12;Valparaíso;Contenidos creativos;Empresa;Innovación;#9a7cbb
+12;Valparaíso;Contenidos creativos;Empresa;Minería;#74746c
+12;Valparaíso;Contenidos creativos;Empresa;Retail;#544c7c
+12;Valparaíso;Contenidos creativos;Empresa;Salud;#b7b7af
+12;Valparaíso;Contenidos creativos;Empresa;Otros;#a5a29a
+12;Valparaíso;Contenidos creativos;Empresa;Otros;#a5a29a
+20;Valparaíso;Servicios creativos;Empresa;Educación;#705abb
+21;Valparaíso;Servicios creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+32;Valparaíso;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+52;Valparaíso;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+52;Valparaíso;Experiencias creativas;Empresa;Comunicaciones;#737daa
+52;Valparaíso;Experiencias creativas;Empresa;Educación;#705abb
+53;Valparaíso;Servicios creativos;Empresa;Agro-Tech;#e4e2d4
+53;Valparaíso;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+53;Valparaíso;Servicios creativos;Empresa;Educación;#705abb
+53;Valparaíso;Servicios creativos;Empresa;Innovación;#9a7cbb
+53;Valparaíso;Servicios creativos;Empresa;Medioambiente y desastres naturales;#070708
+53;Valparaíso;Servicios creativos;Empresa;Turismo;#e4e2d4
+69;Valparaíso;Bienes creativos;Profesional indep.;Educación;#705abb
+71;Valparaíso;Servicios creativos;Empresa;Comunicaciones;#737daa
+84;Valparaíso;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+84;Valparaíso;Contenidos creativos;Empresa;Educación;#705abb
+84;Valparaíso;Contenidos creativos;Empresa;Energía renovable;#546c74
+84;Valparaíso;Contenidos creativos;Empresa;Innovación;#9a7cbb
+84;Valparaíso;Contenidos creativos;Empresa;Medioambiente y desastres naturales;#070708
+84;Valparaíso;Contenidos creativos;Empresa;Otros;#a5a29a
+92;Valparaíso;Servicios creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+92;Valparaíso;Servicios creativos;Empresa;Educación;#705abb
+92;Valparaíso;Servicios creativos;Empresa;Innovación;#9a7cbb
+103;Valparaíso;Contenidos creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+103;Valparaíso;Contenidos creativos;Profesional indep.;Comunicaciones;#737daa
+103;Valparaíso;Contenidos creativos;Profesional indep.;Educación;#705abb
+103;Valparaíso;Contenidos creativos;Profesional indep.;Innovación;#9a7cbb
+103;Valparaíso;Contenidos creativos;Profesional indep.;Medioambiente y desastres naturales;#070708
+103;Valparaíso;Contenidos creativos;Profesional indep.;Turismo;#e4e2d4
+113;Valparaíso;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+113;Valparaíso;Bienes creativos;Empresa;Comunicaciones;#737daa
+113;Valparaíso;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+113;Valparaíso;Bienes creativos;Empresa;Educación;#705abb
+113;Valparaíso;Bienes creativos;Empresa;Innovación;#9a7cbb
+114;Valparaíso;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+114;Valparaíso;Servicios creativos;Empresa;Comunicaciones;#737daa
+114;Valparaíso;Servicios creativos;Empresa;Educación;#705abb
+114;Valparaíso;Servicios creativos;Empresa;Innovación;#9a7cbb
+114;Valparaíso;Servicios creativos;Empresa;Turismo;#e4e2d4
+117;Valparaíso;Servicios creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+117;Valparaíso;Servicios creativos;Profesional indep.;Comunicaciones;#737daa
+117;Valparaíso;Servicios creativos;Profesional indep.;Innovación;#9a7cbb
+120;Valparaíso;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+120;Valparaíso;Bienes creativos;Empresa;Comunicaciones;#737daa
+120;Valparaíso;Bienes creativos;Empresa;Educación;#705abb
+120;Valparaíso;Bienes creativos;Empresa;Energía renovable;#546c74
+120;Valparaíso;Bienes creativos;Empresa;Innovación;#9a7cbb
+120;Valparaíso;Bienes creativos;Empresa;Otros;#a5a29a
+126;Valparaíso;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+126;Valparaíso;Bienes creativos;Empresa;Comunicaciones;#737daa
+126;Valparaíso;Bienes creativos;Empresa;Otros;#a5a29a
+126;Valparaíso;Bienes creativos;Empresa;Innovación;#9a7cbb
+126;Valparaíso;Bienes creativos;Empresa;Inversión social;#96a5c3
+126;Valparaíso;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+126;Valparaíso;Bienes creativos;Empresa;Salud;#b7b7af
+129;Valparaíso;Bienes creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+129;Valparaíso;Bienes creativos;Profesional indep.;Educación;#705abb
+129;Valparaíso;Bienes creativos;Profesional indep.;Innovación;#9a7cbb
+129;Valparaíso;Bienes creativos;Profesional indep.;Inversión social;#96a5c3
+129;Valparaíso;Bienes creativos;Profesional indep.;Retail;#544c7c
+131;Valparaíso;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+131;Valparaíso;Servicios creativos;Empresa;Educación;#705abb
+131;Valparaíso;Servicios creativos;Empresa;Innovación;#9a7cbb
+135;Valparaíso;Servicios creativos;Empresa;Comunicaciones;#737daa
+135;Valparaíso;Servicios creativos;Empresa;Educación;#705abb
+135;Valparaíso;Servicios creativos;Empresa;Energía renovable;#546c74
+135;Valparaíso;Servicios creativos;Empresa;Inversión social;#96a5c3
+135;Valparaíso;Servicios creativos;Empresa;Turismo;#e4e2d4
+3;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+3;RM;Servicios creativos;Empresa;Retail;#544c7c
+7;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+7;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+7;RM;Servicios creativos;Empresa;Inversión social;#96a5c3
+7;RM;Servicios creativos;Empresa;Medioambiente y desastres naturales;#070708
+7;RM;Servicios creativos;Empresa;Turismo;#e4e2d4
+13;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+13;RM;Servicios creativos;Empresa;Educación;#705abb
+14;RM;Servicios creativos;Empresa;Salud;#b7b7af
+15;RM;Contenidos creativos;Profesional indep.;Educación;#705abb
+15;RM;Contenidos creativos;Profesional indep.;Otros;#a5a29a
+16;RM;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+16;RM;Contenidos creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+16;RM;Contenidos creativos;Empresa;Educación;#705abb
+16;RM;Contenidos creativos;Empresa;Otros;#a5a29a
+16;RM;Contenidos creativos;Empresa;Energía renovable;#546c74
+16;RM;Contenidos creativos;Empresa;Innovación;#9a7cbb
+16;RM;Contenidos creativos;Empresa;Minería;#74746c
+16;RM;Contenidos creativos;Empresa;Retail;#544c7c
+16;RM;Contenidos creativos;Empresa;Salud;#b7b7af
+17;RM;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+17;RM;Bienes creativos;Empresa;Comunicaciones;#737daa
+17;RM;Bienes creativos;Empresa;Educación;#705abb
+17;RM;Bienes creativos;Empresa;Otros;#a5a29a
+17;RM;Bienes creativos;Empresa;Innovación;#9a7cbb
+18;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+18;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+18;RM;Servicios creativos;Empresa;Minería;#74746c
+19;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+19;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+19;RM;Servicios creativos;Empresa;Educación;#705abb
+19;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+19;RM;Servicios creativos;Empresa;Minería;#74746c
+19;RM;Servicios creativos;Empresa;Retail;#544c7c
+19;RM;Servicios creativos;Empresa;Salud;#b7b7af
+19;RM;Servicios creativos;Empresa;Turismo;#e4e2d4
+24;RM;Bienes creativos;Profesional indep.;Educación;#705abb
+25;RM;Contenidos creativos;Empresa;Agro-Tech;#e4e2d4
+25;RM;Contenidos creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+25;RM;Contenidos creativos;Empresa;Educación;#705abb
+25;RM;Contenidos creativos;Empresa;Otros;#a5a29a
+25;RM;Contenidos creativos;Empresa;Minería;#74746c
+25;RM;Contenidos creativos;Empresa;Retail;#544c7c
+25;RM;Contenidos creativos;Empresa;Turismo;#e4e2d4
+26;RM;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+26;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+26;RM;Contenidos creativos;Empresa;Inversión social;#96a5c3
+26;RM;Contenidos creativos;Empresa;Turismo;#e4e2d4
+28;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+28;RM;Contenidos creativos;Empresa;Retail;#544c7c
+28;RM;Contenidos creativos;Empresa;Salud;#b7b7af
+36;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+38;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+38;RM;Contenidos creativos;Empresa;Educación;#705abb
+42;RM;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+42;RM;Bienes creativos;Empresa;Comunicaciones;#737daa
+42;RM;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+42;RM;Bienes creativos;Empresa;Educación;#705abb
+42;RM;Bienes creativos;Empresa;Innovación;#9a7cbb
+42;RM;Bienes creativos;Empresa;Inversión social;#96a5c3
+42;RM;Bienes creativos;Empresa;Otros;#a5a29a
+42;RM;Bienes creativos;Empresa;Turismo;#e4e2d4
+46;RM;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+46;RM;Bienes creativos;Empresa;Comunicaciones;#737daa
+46;RM;Bienes creativos;Empresa;Educación;#705abb
+46;RM;Bienes creativos;Empresa;Innovación;#9a7cbb
+46;RM;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+46;RM;Bienes creativos;Empresa;Salud;#b7b7af
+46;RM;Bienes creativos;Empresa;Otros;#a5a29a
+47;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+47;RM;Experiencias creativas;Empresa;Comunicaciones;#737daa
+47;RM;Experiencias creativas;Empresa;Educación;#705abb
+48;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+48;RM;Experiencias creativas;Empresa;Comunicaciones;#737daa
+48;RM;Experiencias creativas;Empresa;Educación;#705abb
+48;RM;Experiencias creativas;Empresa;Innovación;#9a7cbb
+48;RM;Experiencias creativas;Empresa;Salud;#b7b7af
+48;RM;Experiencias creativas;Empresa;Turismo;#e4e2d4
+49;RM;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+49;RM;Contenidos creativos;Empresa;Educación;#705abb
+49;RM;Contenidos creativos;Empresa;Turismo;#e4e2d4
+55;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+56;RM;Bienes creativos;Profesional indep.;Comunicaciones;#737daa
+56;RM;Bienes creativos;Profesional indep.;Educación;#705abb
+56;RM;Bienes creativos;Profesional indep.;Innovación;#9a7cbb
+56;RM;Bienes creativos;Profesional indep.;Retail;#544c7c
+58;RM;Contenidos creativos;Empresa;Agro-Tech;#e4e2d4
+58;RM;Contenidos creativos;Empresa;Educación;#705abb
+58;RM;Contenidos creativos;Empresa;Otros;#a5a29a
+58;RM;Contenidos creativos;Empresa;Inversión social;#96a5c3
+63;RM;Contenidos creativos;Empresa;Educación;#705abb
+63;RM;Contenidos creativos;Empresa;Innovación;#9a7cbb
+65;RM;Experiencias creativas;Profesional indep.;Salud;#b7b7af
+78;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+78;RM;Servicios creativos;Empresa;Educación;#705abb
+80;RM;Contenidos creativos;Profesional indep.;Construcción y desarrollo urbano;#96a5c3
+80;RM;Contenidos creativos;Profesional indep.;Retail;#544c7c
+80;RM;Contenidos creativos;Profesional indep.;Otros;#a5a29a
+83;RM;Bienes creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+83;RM;Bienes creativos;Profesional indep.;Educación;#705abb
+83;RM;Bienes creativos;Profesional indep.;Salud;#b7b7af
+86;RM;Servicios creativos;Empresa;Energía renovable;#546c74
+87;RM;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+87;RM;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+87;RM;Experiencias creativas;Profesional indep.;Educación;#705abb
+88;RM;Contenidos creativos;Empresa;Ciencia y tecnología;#62cca5
+88;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+88;RM;Contenidos creativos;Empresa;Educación;#705abb
+88;RM;Contenidos creativos;Empresa;Innovación;#9a7cbb
+88;RM;Contenidos creativos;Empresa;Inversión social;#96a5c3
+88;RM;Contenidos creativos;Empresa;Medioambiente y desastres naturales;#070708
+88;RM;Contenidos creativos;Empresa;Turismo;#e4e2d4
+89;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+89;RM;Experiencias creativas;Empresa;Educación;#705abb
+90;RM;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+90;RM;Experiencias creativas;Profesional indep.;Educación;#705abb
+93;RM;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+93;RM;Experiencias creativas;Profesional indep.;Educación;#705abb
+93;RM;Experiencias creativas;Profesional indep.;Innovación;#9a7cbb
+94;RM;Servicios creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+94;RM;Servicios creativos;Profesional indep.;Comunicaciones;#737daa
+94;RM;Servicios creativos;Profesional indep.;Educación;#705abb
+94;RM;Servicios creativos;Profesional indep.;Innovación;#9a7cbb
+96;RM;Experiencias creativas;Empresa;Agro-Tech;#e4e2d4
+96;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+96;RM;Experiencias creativas;Empresa;Comunicaciones;#737daa
+96;RM;Experiencias creativas;Empresa;Educación;#705abb
+96;RM;Experiencias creativas;Empresa;Otros;#a5a29a
+96;RM;Experiencias creativas;Empresa;Energía renovable;#546c74
+96;RM;Experiencias creativas;Empresa;Minería;#74746c
+96;RM;Experiencias creativas;Empresa;Otros;#a5a29a
+98;RM;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+98;RM;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+98;RM;Experiencias creativas;Profesional indep.;Educación;#705abb
+98;RM;Experiencias creativas;Profesional indep.;Medioambiente y desastres naturales;#070708
+99;RM;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+99;RM;Bienes creativos;Empresa;Comunicaciones;#737daa
+99;RM;Bienes creativos;Empresa;Innovación;#9a7cbb
+99;RM;Bienes creativos;Empresa;Minería;#74746c
+99;RM;Bienes creativos;Empresa;Retail;#544c7c
+99;RM;Bienes creativos;Empresa;Turismo;#e4e2d4
+100;RM;Experiencias creativas;Empresa;Comunicaciones;#737daa
+100;RM;Experiencias creativas;Empresa;Medioambiente y desastres naturales;#070708
+101;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+101;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+101;RM;Servicios creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+101;RM;Servicios creativos;Empresa;Educación;#705abb
+101;RM;Servicios creativos;Empresa;Energía renovable;#546c74
+101;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+101;RM;Servicios creativos;Empresa;Inversión social;#96a5c3
+101;RM;Servicios creativos;Empresa;Retail;#544c7c
+101;RM;Servicios creativos;Empresa;Turismo;#e4e2d4
+102;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+102;RM;Experiencias creativas;Empresa;Comunicaciones;#737daa
+102;RM;Experiencias creativas;Empresa;Educación;#705abb
+102;RM;Experiencias creativas;Empresa;Innovación;#9a7cbb
+102;RM;Experiencias creativas;Empresa;Medioambiente y desastres naturales;#070708
+105;RM;Experiencias creativas;Empresa;Educación;#705abb
+105;RM;Experiencias creativas;Empresa;Innovación;#9a7cbb
+105;RM;Experiencias creativas;Empresa;Salud;#b7b7af
+106;RM;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+106;RM;Bienes creativos;Empresa;Educación;#705abb
+106;RM;Bienes creativos;Empresa;Energía renovable;#546c74
+106;RM;Bienes creativos;Empresa;Innovación;#9a7cbb
+106;RM;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+106;RM;Bienes creativos;Empresa;Minería;#74746c
+106;RM;Bienes creativos;Empresa;Salud;#b7b7af
+109;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+109;RM;Servicios creativos;Empresa;Educación;#705abb
+109;RM;Servicios creativos;Empresa;Energía renovable;#546c74
+109;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+110;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+110;RM;Experiencias creativas;Empresa;Comunicaciones;#737daa
+110;RM;Experiencias creativas;Empresa;Educación;#705abb
+110;RM;Experiencias creativas;Empresa;Innovación;#9a7cbb
+110;RM;Experiencias creativas;Empresa;Retail;#544c7c
+112;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+112;RM;Servicios creativos;Empresa;Educación;#705abb
+112;RM;Servicios creativos;Empresa;Energía renovable;#546c74
+112;RM;Servicios creativos;Empresa;Otros;#a5a29a
+112;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+112;RM;Servicios creativos;Empresa;Inversión social;#96a5c3
+112;RM;Servicios creativos;Empresa;Retail;#544c7c
+119;RM;Servicios creativos;Empresa;Agro-Tech;#e4e2d4
+119;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+119;RM;Servicios creativos;Empresa;Educación;#705abb
+119;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+119;RM;Servicios creativos;Empresa;Medioambiente y desastres naturales;#070708
+119;RM;Servicios creativos;Empresa;Retail;#544c7c
+119;RM;Servicios creativos;Empresa;Salud;#b7b7af
+119;RM;Servicios creativos;Empresa;Turismo;#e4e2d4
+122;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+122;RM;Contenidos creativos;Empresa;Educación;#705abb
+122;RM;Contenidos creativos;Empresa;Otros;#a5a29a
+124;RM;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+124;RM;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+124;RM;Experiencias creativas;Profesional indep.;Educación;#705abb
+124;RM;Experiencias creativas;Profesional indep.;Energía renovable;#546c74
+124;RM;Experiencias creativas;Profesional indep.;Innovación;#9a7cbb
+124;RM;Experiencias creativas;Profesional indep.;Inversión social;#96a5c3
+124;RM;Experiencias creativas;Profesional indep.;Medioambiente y desastres naturales;#070708
+124;RM;Experiencias creativas;Profesional indep.;Turismo;#e4e2d4
+125;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+125;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+125;RM;Servicios creativos;Empresa;Educación;#705abb
+125;RM;Servicios creativos;Empresa;Energía renovable;#546c74
+125;RM;Servicios creativos;Empresa;Inversión social;#96a5c3
+125;RM;Servicios creativos;Empresa;Minería;#74746c
+125;RM;Servicios creativos;Empresa;Retail;#544c7c
+125;RM;Servicios creativos;Empresa;Salud;#b7b7af
+127;RM;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+127;RM;Experiencias creativas;Empresa;Educación;#705abb
+127;RM;Experiencias creativas;Empresa;Inversión social;#96a5c3
+128;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+128;RM;Contenidos creativos;Empresa;Educación;#705abb
+128;RM;Contenidos creativos;Empresa;Inversión social;#96a5c3
+128;RM;Contenidos creativos;Empresa;Minería;#74746c
+128;RM;Contenidos creativos;Empresa;Otros;#a5a29a
+128;RM;Contenidos creativos;Empresa;Turismo;#e4e2d4
+130;RM;Contenidos creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+130;RM;Contenidos creativos;Profesional indep.;Comunicaciones;#737daa
+130;RM;Contenidos creativos;Profesional indep.;Educación;#705abb
+130;RM;Contenidos creativos;Profesional indep.;Turismo;#e4e2d4
+132;RM;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+132;RM;Bienes creativos;Empresa;Educación;#705abb
+132;RM;Bienes creativos;Empresa;Innovación;#9a7cbb
+132;RM;Bienes creativos;Empresa;Retail;#544c7c
+133;RM;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+133;RM;Servicios creativos;Empresa;Comunicaciones;#737daa
+133;RM;Servicios creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+133;RM;Servicios creativos;Empresa;Otros;#a5a29a
+133;RM;Servicios creativos;Empresa;Energía renovable;#546c74
+133;RM;Servicios creativos;Empresa;Innovación;#9a7cbb
+133;RM;Servicios creativos;Empresa;Minería;#74746c
+133;RM;Servicios creativos;Empresa;Retail;#544c7c
+133;RM;Servicios creativos;Empresa;Salud;#b7b7af
+133;RM;Servicios creativos;Empresa;Otros;#a5a29a
+136;RM;Contenidos creativos;Empresa;Comunicaciones;#737daa
+136;RM;Contenidos creativos;Empresa;Educación;#705abb
+136;RM;Contenidos creativos;Empresa;Innovación;#9a7cbb
+136;RM;Contenidos creativos;Empresa;Medioambiente y desastres naturales;#070708
+136;RM;Contenidos creativos;Empresa;Retail;#544c7c
+139;RM;Contenidos creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+139;RM;Contenidos creativos;Profesional indep.;Comunicaciones;#737daa
+139;RM;Contenidos creativos;Profesional indep.;Construcción y desarrollo urbano;#96a5c3
+139;RM;Contenidos creativos;Profesional indep.;Educación;#705abb
+139;RM;Contenidos creativos;Profesional indep.;Inversión social;#96a5c3
+139;RM;Contenidos creativos;Profesional indep.;Salud;#b7b7af
+67;O'Higgins;Bienes creativos;Empresa;Innovación;#9a7cbb
+67;O'Higgins;Bienes creativos;Empresa;Salud;#b7b7af
+43;Maule;Contenidos creativos;Empresa;Otros;#a5a29a
+70;Maule;Experiencias creativas;Empresa;Comunicaciones;#737daa
+70;Maule;Experiencias creativas;Empresa;Educación;#705abb
+70;Maule;Experiencias creativas;Empresa;Innovación;#9a7cbb
+70;Maule;Experiencias creativas;Empresa;Turismo;#e4e2d4
+6;Bío-Bío;Contenidos creativos;Empresa;Agro-Tech;#e4e2d4
+6;Bío-Bío;Contenidos creativos;Empresa;Educación;#705abb
+6;Bío-Bío;Contenidos creativos;Empresa;Minería;#74746c
+6;Bío-Bío;Contenidos creativos;Empresa;Salud;#b7b7af
+6;Bío-Bío;Contenidos creativos;Empresa;Otros;#a5a29a
+41;Bío-Bío;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+41;Bío-Bío;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+41;Bío-Bío;Experiencias creativas;Profesional indep.;Educación;#705abb
+41;Bío-Bío;Experiencias creativas;Profesional indep.;Innovación;#9a7cbb
+41;Bío-Bío;Experiencias creativas;Profesional indep.;Medioambiente y desastres naturales;#070708
+61;Bío-Bío;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+61;Bío-Bío;Servicios creativos;Empresa;Innovación;#9a7cbb
+111;Bío-Bío;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+111;Bío-Bío;Bienes creativos;Empresa;Innovación;#9a7cbb
+115;Bío-Bío;Servicios creativos;Empresa;Agro-Tech;#e4e2d4
+115;Bío-Bío;Servicios creativos;Empresa;Comunicaciones;#737daa
+115;Bío-Bío;Servicios creativos;Empresa;Energía renovable;#546c74
+115;Bío-Bío;Servicios creativos;Empresa;Innovación;#9a7cbb
+115;Bío-Bío;Servicios creativos;Empresa;Inversión social;#96a5c3
+115;Bío-Bío;Servicios creativos;Empresa;Turismo;#e4e2d4
+115;Bío-Bío;Servicios creativos;Empresa;Otros;#a5a29a
+118;Bío-Bío;Bienes creativos;Empresa;Agro-Tech;#e4e2d4
+118;Bío-Bío;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+118;Bío-Bío;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+118;Bío-Bío;Bienes creativos;Empresa;Educación;#705abb
+118;Bío-Bío;Bienes creativos;Empresa;Retail;#544c7c
+118;Bío-Bío;Bienes creativos;Empresa;Salud;#b7b7af
+118;Bío-Bío;Bienes creativos;Empresa;Otros;#a5a29a
+118;Bío-Bío;Bienes creativos;Empresa;Turismo;#e4e2d4
+137;Bío-Bío;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+137;Bío-Bío;Bienes creativos;Empresa;Comunicaciones;#737daa
+137;Bío-Bío;Bienes creativos;Empresa;Educación;#705abb
+27;La Araucanía;Contenidos creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+27;La Araucanía;Contenidos creativos;Profesional indep.;Educación;#705abb
+37;La Araucanía;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+37;La Araucanía;Experiencias creativas;Empresa;Comunicaciones;#737daa
+37;La Araucanía;Experiencias creativas;Empresa;Educación;#705abb
+37;La Araucanía;Experiencias creativas;Empresa;Innovación;#9a7cbb
+37;La Araucanía;Experiencias creativas;Empresa;Medioambiente y desastres naturales;#070708
+37;La Araucanía;Experiencias creativas;Empresa;Salud;#b7b7af
+37;La Araucanía;Experiencias creativas;Empresa;Otros;#a5a29a
+37;La Araucanía;Experiencias creativas;Empresa;Turismo;#e4e2d4
+40;La Araucanía;Contenidos creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+40;La Araucanía;Contenidos creativos;Profesional indep.;Comunicaciones;#737daa
+40;La Araucanía;Contenidos creativos;Profesional indep.;Educación;#705abb
+40;La Araucanía;Contenidos creativos;Profesional indep.;Innovación;#9a7cbb
+40;La Araucanía;Contenidos creativos;Profesional indep.;Turismo;#e4e2d4
+44;La Araucanía;Contenidos creativos;Profesional indep.;Construcción y desarrollo urbano;#96a5c3
+44;La Araucanía;Contenidos creativos;Profesional indep.;Innovación;#9a7cbb
+66;La Araucanía;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+66;La Araucanía;Bienes creativos;Empresa;Educación;#705abb
+66;La Araucanía;Bienes creativos;Empresa;Energía renovable;#546c74
+66;La Araucanía;Bienes creativos;Empresa;Innovación;#9a7cbb
+66;La Araucanía;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+66;La Araucanía;Bienes creativos;Empresa;Turismo;#e4e2d4
+81;La Araucanía;Bienes creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+81;La Araucanía;Bienes creativos;Profesional indep.;Educación;#705abb
+81;La Araucanía;Bienes creativos;Profesional indep.;Innovación;#9a7cbb
+81;La Araucanía;Bienes creativos;Profesional indep.;Retail;#544c7c
+116;La Araucanía;Servicios creativos;Profesional indep.;Comunicaciones;#737daa
+116;La Araucanía;Servicios creativos;Profesional indep.;Educación;#705abb
+116;La Araucanía;Servicios creativos;Profesional indep.;Innovación;#9a7cbb
+121;La Araucanía;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+121;La Araucanía;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+39;Los Ríos;Experiencias creativas;Empresa;Retail;#544c7c
+39;Los Ríos;Experiencias creativas;Empresa;Otros;#a5a29a
+75;Los Ríos;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+75;Los Ríos;Bienes creativos;Empresa;Energía renovable;#546c74
+75;Los Ríos;Bienes creativos;Empresa;Innovación;#9a7cbb
+75;Los Ríos;Bienes creativos;Empresa;Turismo;#e4e2d4
+82;Los Ríos;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+82;Los Ríos;Bienes creativos;Empresa;Educación;#705abb
+82;Los Ríos;Bienes creativos;Empresa;Innovación;#9a7cbb
+82;Los Ríos;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+82;Los Ríos;Bienes creativos;Empresa;Turismo;#e4e2d4
+134;Los Lagos;Experiencias creativas;Empresa;Ciencia y tecnología;#62cca5
+134;Los Lagos;Experiencias creativas;Empresa;Innovación;#9a7cbb
+4;Aysén;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+4;Aysén;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+4;Aysén;Bienes creativos;Empresa;Educación;#705abb
+4;Aysén;Bienes creativos;Empresa;Retail;#544c7c
+4;Aysén;Bienes creativos;Empresa;Turismo;#e4e2d4
+51;Aysén;Bienes creativos;Empresa;Agro-Tech;#e4e2d4
+51;Aysén;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+51;Aysén;Bienes creativos;Empresa;Educación;#705abb
+51;Aysén;Bienes creativos;Empresa;Retail;#544c7c
+51;Aysén;Bienes creativos;Empresa;Turismo;#e4e2d4
+95;Aysén;Servicios creativos;Empresa;Ciencia y tecnología;#62cca5
+95;Aysén;Servicios creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+95;Aysén;Servicios creativos;Empresa;Educación;#705abb
+95;Aysén;Servicios creativos;Empresa;Innovación;#9a7cbb
+95;Aysén;Servicios creativos;Empresa;Otros;#a5a29a
+123;Aysén;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+123;Aysén;Bienes creativos;Empresa;Construcción y desarrollo urbano;#96a5c3
+123;Aysén;Bienes creativos;Empresa;Innovación;#9a7cbb
+123;Aysén;Bienes creativos;Empresa;Retail;#544c7c
+123;Aysén;Bienes creativos;Empresa;Turismo;#e4e2d4
+123;Aysén;Bienes creativos;Empresa;Otros;#a5a29a
+10;Magallanes;Contenidos creativos;Empresa;Salud;#b7b7af
+10;Magallanes;Contenidos creativos;Empresa;Otros;#a5a29a
+59;Magallanes;Servicios creativos;Empresa;Energía renovable;#546c74
+59;Magallanes;Servicios creativos;Empresa;Innovación;#9a7cbb
+59;Magallanes;Servicios creativos;Empresa;Inversión social;#96a5c3
+79;Magallanes;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+91;Magallanes;Bienes creativos;Empresa;Ciencia y tecnología;#62cca5
+91;Magallanes;Bienes creativos;Empresa;Comunicaciones;#737daa
+91;Magallanes;Bienes creativos;Empresa;Educación;#705abb
+91;Magallanes;Bienes creativos;Empresa;Energía renovable;#546c74
+91;Magallanes;Bienes creativos;Empresa;Inversión social;#96a5c3
+91;Magallanes;Bienes creativos;Empresa;Medioambiente y desastres naturales;#070708
+91;Magallanes;Bienes creativos;Empresa;Turismo;#e4e2d4
+9;Extranjero;Servicios creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+9;Extranjero;Servicios creativos;Profesional indep.;Comunicaciones;#737daa
+9;Extranjero;Servicios creativos;Profesional indep.;Educación;#705abb
+31;Extranjero;Experiencias creativas;Profesional indep.;Ciencia y tecnología;#62cca5
+31;Extranjero;Experiencias creativas;Profesional indep.;Comunicaciones;#737daa
+31;Extranjero;Experiencias creativas;Profesional indep.;Construcción y desarrollo urbano;#96a5c3
+31;Extranjero;Experiencias creativas;Profesional indep.;Innovación;#9a7cbb
+31;Extranjero;Experiencias creativas;Profesional indep.;Salud;#b7b7af
+57;Extranjero;Contenidos creativos;Profesional indep.;Ciencia y tecnología;#62cca5
+57;Extranjero;Contenidos creativos;Profesional indep.;Comunicaciones;#737daa
+57;Extranjero;Contenidos creativos;Profesional indep.;Educación;#705abb
+57;Extranjero;Contenidos creativos;Profesional indep.;Innovación;#9a7cbb
+57;Extranjero;Contenidos creativos;Profesional indep.;Medioambiente y desastres naturales;#070708

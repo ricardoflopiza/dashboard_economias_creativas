@@ -22,40 +22,111 @@
     />
   </head>
   <body>
-    <header class="p-3">
-      <h1>Encuesta Economías Creativas</h1>
-
-      <!-- Botón de navegación para móviles -->
-      <button id="navToggle" class="nav-toggle">☰</button>
-
-      <!-- Contenedor de pestañas (nav) -->
-      <div id="navMenu" class="tabs">
-        <div class="tab active" onclick="changeTab(this, 'dashboard.html', 'dashboard.js')">
-          Dashboard
+    <header class="header">
+      <!-- Fila superior: Título a la izquierda y Logos a la derecha -->
+      <div class="container_header header-top-row">
+        <div class="header-title-container">
+          <div class="header-content">
+          <h1 class="header-title">
+            Mapeo Tecnocreativo <br />
+            Chile <span class="year">2024</span>
+          </h1>
+          <p class="antecedentes-container">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#antecedentesModal" class="antecedentes-link">
+              Antecedentes
+            </a>
+          </p>
         </div>
-        <div class="tab" onclick="changeTab(this, 'tabla_dinamica.html', 'tabla.js')">
-          Tabla dinámica
         </div>
-        <div class="tab" onclick="changeTab(this, 'datos.html', 'datos.js')">
-          Datos
+        <div class="logos">
+          <!-- Logo 1 -->
+          <a href="https://www.crtic.cl/" target="_blank">
+            <img src="images/logos/2023_CRTIC-02.png" alt="Logo CRTIC" />
+          </a>
+        
+          <!-- Logo 2 -->
+          <a href="https://empresascreativas.cl/" target="_blank">
+            <img src="images/logos/HZ-Negro.png" alt="Logo Empresas Creativas" />
+          </a>
+        
+          <!-- Logo 3 -->
+          <a href="https://chilecreativo.cl/" target="_blank">
+            <img src="images/logos/2025_ChileCreativoV1_Negro.png" alt="Logo Chile Creativo" />
+          </a>
+                    <!-- Logo 4 -->
+                    <a href="https://colaboracionestrategica.cl/" target="_blank">
+                      <img src="images/logos/ColabEstrategica_Logo_Color.png" alt="Logo Colab" />
+                    </a>
         </div>
       </div>
-    </header>
 
+      <!-- Fila inferior: Menú centrado + botón hamburguesa (oculto en escritorio) -->
+      <div class="container_header nav-row">
+        <!-- Botón hamburguesa (visible solo en móviles) -->
+        <button id="navToggle" class="nav-toggle">☰</button>
+
+        <!-- Menú de navegación (Tabs) -->
+        <nav id="navMenu" class="tabs">
+          <div class="tab active" onclick="changeTab(this, 'dashboard.html', 'dashboard.js')">
+            DASHBOARD
+          </div>
+          <div class="tab" onclick="changeTab(this, 'tabla_dinamica.html', 'tabla.js')">
+            TABLA DINÁMICA
+          </div>
+          <div class="tab" onclick="changeTab(this, 'datos.html', 'datos.js')">
+            DATOS
+          </div>
+        </nav>
+      </div>
+    </header>
+    
     <!-- Contenedor dinámico donde se cargará el contenido (TabContent) -->
     <div id="tabContent" class="tab-content active">
       <!-- El contenido inicial será reemplazado por el Dashboard -->
     </div>
 
+    <!-- Modal para "Antecedentes" -->
+    <div class="modal fade" id="antecedentesModal" tabindex="-1" aria-labelledby="antecedentesModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="antecedentesModalLabel">Antecedentes</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>El Mapeo Tecnocreativo Chile 2024</strong> es un estudio exploratorio no probabilístico, desarrollado en el marco del Eje de Desarrollo Tecnológico de la Hoja de Ruta Futuro. Fue impulsado por Chilecreativo, el CRTIC y la Cámara de Empresas Creativas de Chile, y llevada a cabo por Colaboración Estratégica.</p>
+        
+            <p>Su objetivo fue caracterizar empresas, profesionales y tecnologías del sector tecnocreativo en Chile, analizando aspectos clave como su distribución territorial, madurez tecnológica, uso de propiedad intelectual y sus vínculos con otros sectores productivos.</p>
+        
+            <p>Dado su carácter no probabilístico, el análisis se centra únicamente en los emprendimientos tecnocreativos que participaron en la encuesta. Por ello, los resultados representan un acercamiento al ecosistema tecnocreativo nacional, pero no constituyen un reflejo exacto de este.</p>
+        
+            <p>🚀 <strong>Explora el Dashboard</strong></p>
+            <p>Este dashboard interactivo te permite visualizar los resultados más relevantes del estudio, facilitando la interacción entre distintas variables y perspectivas del ecosistema tecnocreativo.</p>
+        
+            <p>Además, puedes acceder y descargar la base de datos completa utilizada en el mapeo, brindándote la posibilidad de realizar tus propios análisis a partir de los datos recopilados.</p>
+        
+            <p>📥 <strong>Descarga el estudio completo:</strong></p>
+            <p>👉 <a href="https://www.chilecreativo.cl/estudios/" target="_blank">www.chilecreativo.cl/estudios/</a></p>
+        </div>
+        
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Tu script global para cargar el contenido de tabs y manejar eventos -->
     <script src="js/global.js" defer></script>
 
-    <!-- Si deseas, puedes incluir aquí (o en global.js) la lógica del toggle para móviles -->
+    <!-- Lógica del toggle para móviles -->
     <script>
-      // Agrega el eventListener para el botón hamburguesa
       document.getElementById('navToggle').addEventListener('click', function() {
         document.getElementById('navMenu').classList.toggle('show');
       });
     </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

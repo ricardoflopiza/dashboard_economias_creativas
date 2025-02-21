@@ -1,158 +1,158 @@
-v362_id,region,tipo_empresa,cadena_productiva,agrupacion_tecnocreativa,genero,asociatividad,vinculos_educativos,tamano_empresa_num_trab,rango_ventas,exportaciones,exportaciones_porc_ingreso,internacionalizacion,mercados_intern
-30,Arica,Empresa,Contenidos creativos,Contenido para redes sociales,Mujer,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",Ninguno
-72,Arica,Empresa,Servicios creativos,Música,Hombre,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,Sí,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-97,Arica,Empresa,Experiencias creativas,Nuevos medios,Hombre,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-54,Antofagasta,Persona,Servicios creativos,Editorial (medios digitales),Hombre,,,1-5,,,Sin ingresos%,,
-73,Antofagasta,Empresa,Experiencias creativas,Música,Hombre,No,Sí,Más de 50,Entre 50.000 y 100.000 USD,No,0-20%,No y no está en los planes actuales,
-138,Atacama,Empresa,Bienes creativos,Servicios creativos,Hombre,No,No,11-50,Entre 50.000 y 100.000 USD,Sí,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-8,Valparaíso,Empresa,Bienes creativos,Computación o programación creativa,Mujer,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-11,Valparaíso,Empresa,Servicios creativos,Computación o programación creativa,Hombre,No,No,1-5,Entre 50.000 y 100.000 USD,Sí,0-20%,"Sí, en uno",Estados Unidos
-12,Valparaíso,Empresa,Contenidos creativos,Computación o programación creativa,Hombre,Sí (especificar cuál),No,11-50,Más de 100.000 USD,Sí,21-40%,"Sí, en más de uno",Perú y España
-20,Valparaíso,Empresa,Servicios creativos,Computación o programación creativa,Mujer,Sí (especificar cuál),Sí,Más de 50,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-21,Valparaíso,Empresa,Servicios creativos,Computación o programación creativa,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-32,Valparaíso,Persona,Experiencias creativas,Cultura y entretenimiento,Mujer,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-52,Valparaíso,Empresa,Experiencias creativas,Cultura y entretenimiento,Mujer,Sí (especificar cuál),Sí,6-10,Entre 10.000 y 50.000 USD,Sí,0-20%,"Sí, en más de uno",
-53,Valparaíso,Empresa,Servicios creativos,Data science,Hombre,Sí (especificar cuál),Sí,6-10,Entre 10.000 y 50.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-68,Valparaíso,Persona,Contenidos creativos,Música,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-69,Valparaíso,Persona,Bienes creativos,Música,Hombre,Sí (especificar cuál),No,0,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-71,Valparaíso,Empresa,Servicios creativos,Música,Hombre,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-74,Valparaíso,Empresa,Contenidos creativos,Ninguna de las anteriores,Hombre,No,No,11-50,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-84,Valparaíso,Empresa,Contenidos creativos,Nuevos medios,Mujer,Sí (especificar cuál),Sí,6-10,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-92,Valparaíso,Empresa,Servicios creativos,Nuevos medios,Mujer,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-103,Valparaíso,Persona,Contenidos creativos,Nuevos medios,Mujer,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,Sí,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-113,Valparaíso,Empresa,Bienes creativos,Servicios creativos,Hombre,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,61-80%,"Sí, en uno",USA
-114,Valparaíso,Empresa,Servicios creativos,Servicios creativos,Mujer,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-117,Valparaíso,Persona,Servicios creativos,Servicios creativos,Hombre,No,No,0,Entre 50.000 y 100.000 USD,Sí,81-100%,"Sí, en uno",Canada
-120,Valparaíso,Empresa,Bienes creativos,Servicios creativos,Hombre,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",Usa
-126,Valparaíso,Empresa,Bienes creativos,Servicios creativos,Otro,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,41-60%,"Sí, en más de uno",Festivales : Cannes Inmersive/ Dok Leipzig / IDFA / FIDBA
-129,Valparaíso,Persona,Bienes creativos,Servicios creativos,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-131,Valparaíso,Empresa,Servicios creativos,Servicios creativos,Hombre,Sí (especificar cuál),Sí,11-50,Más de 100.000 USD,Sí,0-20%,No y no está en los planes actuales,
-135,Valparaíso,Empresa,Servicios creativos,Servicios creativos,Mujer,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-141,Valparaíso,Persona,,,Hombre,,,,,,Sin ingresos%,,
-150,Valparaíso,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-151,Valparaíso,Empresa,,,Mujer,,,,,,Sin ingresos%,,
-152,Valparaíso,Empresa,,,Mujer,,,,,,Sin ingresos%,,
-157,Valparaíso,Empresa,,,Mujer,,,,,,Sin ingresos%,,
-2,RM,Persona,Servicios creativos,Computación o programación creativa,Hombre,,,1-5,,,Sin ingresos%,,
-3,RM,Empresa,Servicios creativos,Computación o programación creativa,Hombre,No,No,1-5,Menos de 10.000 USD,Sí,21-40%,"Sí, en uno",Mexico
-5,RM,Persona,Contenidos creativos,Computación o programación creativa,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-7,RM,Empresa,Servicios creativos,Computación o programación creativa,Mujer,No,No,1-5,Entre 10.000 y 50.000 USD,Sí,81-100%,"Sí, pero aún no se han concretado operaciones internacionales",
-13,RM,Empresa,Servicios creativos,Computación o programación creativa,Hombre,No,No,0,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-14,RM,Empresa,Servicios creativos,Computación o programación creativa,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-15,RM,Persona,Contenidos creativos,Computación o programación creativa,Hombre,No,Sí,1-5,Menos de 10.000 USD,Sí,0-20%,No y no está en los planes actuales,
-16,RM,Empresa,Contenidos creativos,Computación o programación creativa,Hombre,No,Sí,6-10,Más de 100.000 USD,Sí,0-20%,"Sí, en más de uno",
-17,RM,Empresa,Bienes creativos,Computación o programación creativa,Hombre,No,Sí,6-10,Menos de 10.000 USD,Sí,21-40%,"Sí, pero aún no se han concretado operaciones internacionales",
-18,RM,Empresa,Servicios creativos,Computación o programación creativa,Hombre,Sí (especificar cuál),Sí,11-50,Más de 100.000 USD,Sí,0-20%,"Sí, en uno",USA
-19,RM,Empresa,Servicios creativos,Computación o programación creativa,Hombre,Sí (especificar cuál),Sí,1-5,Más de 100.000 USD,Sí,41-60%,"Sí, en más de uno","USA, UE"
-22,RM,Persona,Servicios creativos,Contenido para redes sociales,Mujer,,,1-5,,,Sin ingresos%,,
-23,RM,Empresa,Experiencias creativas,Contenido para redes sociales,Mujer,,,Más de 50,,,Sin ingresos%,,
-24,RM,Persona,Bienes creativos,Contenido para redes sociales,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,"Sí, en uno",
-25,RM,Empresa,Contenidos creativos,Contenido para redes sociales,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-26,RM,Empresa,Contenidos creativos,Contenido para redes sociales,Hombre,No,No,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-28,RM,Empresa,Contenidos creativos,Contenido para redes sociales,Hombre,Sí (especificar cuál),Sí,11-50,Más de 100.000 USD,Sí,0-20%,"Sí, en uno",
-29,RM,Empresa,Servicios creativos,Contenido para redes sociales,Mujer,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,No,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-33,RM,Empresa,Servicios creativos,Cultura y entretenimiento,Mujer,,,1-5,Entre 10.000 y 50.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-34,RM,Empresa,Contenidos creativos,Cultura y entretenimiento,Hombre,,,,,,Sin ingresos%,,
-35,RM,Empresa,Contenidos creativos,Cultura y entretenimiento,Hombre,,,1-5,,,Sin ingresos%,,
-36,RM,Empresa,Contenidos creativos,Cultura y entretenimiento,Hombre,No,No,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"Sí, en más de uno","Colombia, Argentina, Perú y México"
-38,RM,Empresa,Contenidos creativos,Cultura y entretenimiento,Mujer,Sí (especificar cuál),Sí,6-10,Entre 50.000 y 100.000 USD,Sí,0-20%,"Sí, en más de uno","USA, Brasil, México"
-42,RM,Empresa,Bienes creativos,Cultura y entretenimiento,Hombre,No,Sí,11-50,Más de 100.000 USD,Sí,0-20%,"Sí, en más de uno",Canada y EEUU
-45,RM,Persona,Contenidos creativos,Cultura y entretenimiento,Mujer,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-46,RM,Empresa,Bienes creativos,Cultura y entretenimiento,Hombre,No,Sí,1-5,Entre 10.000 y 50.000 USD,Sí,41-60%,"No, pero está en las prioridades actuales","Ventana Sur, Mitcom , Mitcom Jr."
-47,RM,Empresa,Experiencias creativas,Cultura y entretenimiento,Hombre,No,Sí,11-50,Entre 10.000 y 50.000 USD,No,0-20%,No y no está en los planes actuales,
-48,RM,Empresa,Experiencias creativas,Cultura y entretenimiento,Hombre,No,No,6-10,Entre 10.000 y 50.000 USD,Sí,0-20%,"Sí, en uno","Colombia, España"
-49,RM,Empresa,Contenidos creativos,Cultura y entretenimiento,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-50,RM,Empresa,Contenidos creativos,Cultura y entretenimiento,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-55,RM,Empresa,Servicios creativos,Editorial (medios digitales),Hombre,No,No,1-5,Menos de 10.000 USD,Sí,81-100%,No y no está en los planes actuales,
-56,RM,Persona,Bienes creativos,Editorial (medios digitales),Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-58,RM,Empresa,Contenidos creativos,Fintech,Hombre,Sí (especificar cuál),Sí,6-10,Más de 100.000 USD,Sí,61-80%,"Sí, en más de uno","Mexico, Colombia, Peru"
-60,RM,Empresa,Contenidos creativos,Juegos interactivos,Hombre,,,1-5,,,Sin ingresos%,,
-62,RM,Empresa,Contenidos creativos,Juegos interactivos,Mujer,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-63,RM,Empresa,Contenidos creativos,Juegos interactivos,Hombre,No,Sí,1-5,Más de 100.000 USD,Sí,0-20%,"Sí, en más de uno","Mexico, Colombia"
-64,RM,Empresa,Contenidos creativos,Juegos interactivos,Hombre,Sí (especificar cuál),No,6-10,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-65,RM,Persona,Experiencias creativas,Juegos interactivos,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-76,RM,Empresa,Bienes creativos,Ninguna de las anteriores,Mujer,,,,,,Sin ingresos%,,
-78,RM,Empresa,Servicios creativos,Ninguna de las anteriores,Hombre,Sí (especificar cuál),Sí,Más de 50,Más de 100.000 USD,No,0-20%,No y no está en los planes actuales,
-80,RM,Persona,Contenidos creativos,Ninguna de las anteriores,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-83,RM,Persona,Bienes creativos,Ninguna de las anteriores,Hombre,No,Sí,1-5,Menos de 10.000 USD,Sí,0-20%,No y no está en los planes actuales,
-85,RM,Empresa,Bienes creativos,Nuevos medios,Mujer,,,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-86,RM,Empresa,Servicios creativos,Nuevos medios,Hombre,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,Sí,21-40%,"Sí, en uno",Nueva York
-87,RM,Persona,Experiencias creativas,Nuevos medios,Mujer,No,Sí,0,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-88,RM,Empresa,Contenidos creativos,Nuevos medios,Hombre,No,Sí,1-5,Entre 10.000 y 50.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-89,RM,Empresa,Experiencias creativas,Nuevos medios,Hombre,No,No,1-5,Más de 100.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-90,RM,Persona,Experiencias creativas,Nuevos medios,Hombre,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-93,RM,Persona,Experiencias creativas,Nuevos medios,Hombre,No,No,1-5,Menos de 10.000 USD,Sí,41-60%,"Sí, en uno",USA
-94,RM,Persona,Servicios creativos,Nuevos medios,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-96,RM,Empresa,Experiencias creativas,Nuevos medios,Hombre,No,No,11-50,Más de 100.000 USD,Sí,0-20%,"Sí, en más de uno",Latinoamérica y Europa
-98,RM,Persona,Experiencias creativas,Nuevos medios,Mujer,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"Sí, en uno","Mexico, Canadá"
-99,RM,Empresa,Bienes creativos,Nuevos medios,Mujer,No,Sí,1-5,Entre 50.000 y 100.000 USD,No,21-40%,"No, pero está en las prioridades actuales",
-100,RM,Empresa,Experiencias creativas,Nuevos medios,Hombre,No,No,1-5,Entre 50.000 y 100.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-101,RM,Empresa,Servicios creativos,Nuevos medios,Hombre,Sí (especificar cuál),Sí,1-5,Más de 100.000 USD,Sí,0-20%,"Sí, en más de uno","bolivia, perú, colombia, ecuador, costa rica"
-102,RM,Empresa,Experiencias creativas,Nuevos medios,Mujer,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,Sí,61-80%,"Sí, en más de uno","Participamos de los más importantes mercados para el XR narrativo: Venice Production Bridge, VR Days, New Images XR Market, Electric South, Cinemart XR, VR Days Brasil, VR Fest Mexico, etc."
-104,RM,Persona,Bienes creativos,Robótica,Mujer,,,,,,Sin ingresos%,,
-105,RM,Empresa,Experiencias creativas,Robótica,Hombre,No,No,6-10,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-106,RM,Empresa,Bienes creativos,Robótica,Hombre,No,Sí,1-5,Menos de 10.000 USD,Sí,61-80%,"No, pero está en las prioridades actuales",
-107,RM,Empresa,Servicios creativos,Servicios creativos,Hombre,No,No,1-5,Más de 100.000 USD,No,0-20%,No y no está en los planes actuales,
-109,RM,Empresa,Servicios creativos,Servicios creativos,Hombre,No,Sí,6-10,Entre 50.000 y 100.000 USD,No,0-20%,"Sí, en uno",Colombia
-110,RM,Empresa,Experiencias creativas,Servicios creativos,Mujer,No,Sí,1-5,Menos de 10.000 USD,Sí,41-60%,"Sí, en más de uno",Latam
-112,RM,Empresa,Servicios creativos,Servicios creativos,Mujer,Sí (especificar cuál),Sí,1-5,Entre 50.000 y 100.000 USD,No,0-20%,"Sí, en uno",perú
-119,RM,Empresa,Servicios creativos,Servicios creativos,Mujer,Sí (especificar cuál),Sí,11-50,Entre 10.000 y 50.000 USD,Sí,21-40%,"Sí, en más de uno","España, Republica Checa, Estados Unidos y Mexico"
-122,RM,Empresa,Contenidos creativos,Servicios creativos,Hombre,No,Sí,1-5,Entre 10.000 y 50.000 USD,No,0-20%,No y no está en los planes actuales,
-124,RM,Persona,Experiencias creativas,Servicios creativos,Hombre,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,Sí,41-60%,"No, pero está en las prioridades actuales",
-125,RM,Empresa,Servicios creativos,Servicios creativos,Hombre,No,No,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-127,RM,Empresa,Experiencias creativas,Servicios creativos,Mujer,No,Sí,11-50,Menos de 10.000 USD,No,0-20%,"Sí, en más de uno","India, Suiza, Jordania, Colombia, Europa"
-128,RM,Empresa,Contenidos creativos,Servicios creativos,Hombre,No,Sí,11-50,Más de 100.000 USD,No,0-20%,No y no está en los planes actuales,
-130,RM,Persona,Contenidos creativos,Servicios creativos,Hombre,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-132,RM,Empresa,Bienes creativos,Servicios creativos,Mujer,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-133,RM,Empresa,Servicios creativos,Servicios creativos,Hombre,Sí (especificar cuál),Sí,6-10,Más de 100.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-136,RM,Empresa,Contenidos creativos,Servicios creativos,Hombre,No,Sí,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-139,RM,Persona,Contenidos creativos,Wearables,Hombre,No,Sí,11-50,Entre 50.000 y 100.000 USD,Sí,21-40%,No y no está en los planes actuales,"Alemania, Estados Unidos, Serbia y Nueva Zelandia"
-140,RM,Empresa,,,Mujer,,,,,,Sin ingresos%,,
-142,RM,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-143,RM,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-144,RM,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-147,RM,Empresa,,,Mujer,,,,,,Sin ingresos%,,
-149,RM,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-153,RM,Empresa,,,Mujer,,,,,,Sin ingresos%,,
-154,RM,Persona,,,Hombre,,,,,,Sin ingresos%,,
-67,O'Higgins,Empresa,Bienes creativos,Juegos interactivos,Mujer,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,Sí,61-80%,No y no está en los planes actuales,
-77,O'Higgins,Persona,Servicios creativos,Ninguna de las anteriores,Mujer,,,1-5,,,Sin ingresos%,,
-148,O'Higgins,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-43,Maule,Empresa,Contenidos creativos,Cultura y entretenimiento,Hombre,No,No,1-5,Menos de 10.000 USD,Sí,0-20%,"Sí, en más de uno","Ventana Sur, Pixlatl, Quirino"
-70,Maule,Empresa,Experiencias creativas,Música,Hombre,No,Sí,6-10,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-1,Bío-Bío,Empresa,Bienes creativos,Computación o programación creativa,Mujer,,,,,,Sin ingresos%,,
-6,Bío-Bío,Empresa,Contenidos creativos,Computación o programación creativa,Hombre,No,Sí,1-5,Entre 10.000 y 50.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-41,Bío-Bío,Persona,Experiencias creativas,Cultura y entretenimiento,Otro,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-61,Bío-Bío,Empresa,Servicios creativos,Juegos interactivos,Hombre,No,Sí,6-10,Entre 50.000 y 100.000 USD,Sí,0-20%,"Sí, en uno",USA
-108,Bío-Bío,Persona,Contenidos creativos,Servicios creativos,Hombre,,,0,,,Sin ingresos%,,
-111,Bío-Bío,Empresa,Bienes creativos,Servicios creativos,Hombre,No,No,1-5,Entre 10.000 y 50.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-115,Bío-Bío,Empresa,Servicios creativos,Servicios creativos,Mujer,No,No,1-5,Entre 10.000 y 50.000 USD,No,0-20%,No y no está en los planes actuales,
-118,Bío-Bío,Empresa,Bienes creativos,Servicios creativos,Hombre,No,No,1-5,Entre 50.000 y 100.000 USD,No,0-20%,No y no está en los planes actuales,
-137,Bío-Bío,Empresa,Bienes creativos,Servicios creativos,Mujer,No,Sí,11-50,Más de 100.000 USD,Sí,0-20%,"Sí, en más de uno",
-27,La Araucanía,Persona,Contenidos creativos,Contenido para redes sociales,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-37,La Araucanía,Empresa,Experiencias creativas,Cultura y entretenimiento,Hombre,Sí (especificar cuál),Sí,6-10,Entre 10.000 y 50.000 USD,No,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-40,La Araucanía,Persona,Contenidos creativos,Cultura y entretenimiento,Hombre,No,Sí,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-44,La Araucanía,Persona,Contenidos creativos,Cultura y entretenimiento,Mujer,No,No,0,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-66,La Araucanía,Empresa,Bienes creativos,Juegos interactivos,Mujer,No,Sí,6-10,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-81,La Araucanía,Persona,Bienes creativos,Ninguna de las anteriores,Hombre,No,No,1-5,Menos de 10.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-116,La Araucanía,Persona,Servicios creativos,Servicios creativos,Mujer,Sí (especificar cuál),Sí,0,Menos de 10.000 USD,No,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-121,La Araucanía,Persona,Experiencias creativas,Servicios creativos,Mujer,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-156,La Araucanía,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-39,Los Ríos,Empresa,Experiencias creativas,Cultura y entretenimiento,Hombre,Sí (especificar cuál),No,1-5,Entre 50.000 y 100.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-75,Los Ríos,Empresa,Bienes creativos,Ninguna de las anteriores,Mujer,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-82,Los Ríos,Empresa,Bienes creativos,Ninguna de las anteriores,Mujer,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-146,Los Ríos,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-134,Los Lagos,Empresa,Experiencias creativas,Servicios creativos,Hombre,Sí (especificar cuál),No,1-5,Entre 10.000 y 50.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-4,Aysén,Empresa,Bienes creativos,Computación o programación creativa,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-51,Aysén,Empresa,Bienes creativos,Cultura y entretenimiento,Hombre,Sí (especificar cuál),No,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"No, pero está en las prioridades actuales",
-95,Aysén,Empresa,Servicios creativos,Nuevos medios,Hombre,Sí (especificar cuál),Sí,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales","En ninguno, aún."
-123,Aysén,Empresa,Bienes creativos,Servicios creativos,Mujer,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-10,Magallanes,Empresa,Contenidos creativos,Computación o programación creativa,Hombre,Sí (especificar cuál),No,1-5,Menos de 10.000 USD,No,0-20%,No y no está en los planes actuales,
-59,Magallanes,Empresa,Servicios creativos,Fintech,Hombre,No,No,1-5,Entre 10.000 y 50.000 USD,No,0-20%,"Sí, pero aún no se han concretado operaciones internacionales",
-79,Magallanes,Empresa,Bienes creativos,Ninguna de las anteriores,Mujer,No,Sí,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-91,Magallanes,Empresa,Bienes creativos,Nuevos medios,Hombre,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,0-20%,"Sí, en uno",Alemania
-9,Extranjero,Persona,Servicios creativos,Computación o programación creativa,Hombre,No,No,1-5,Menos de 10.000 USD,No,0-20%,"No, pero está en las prioridades actuales",
-31,Extranjero,Persona,Experiencias creativas,Cultura y entretenimiento,Hombre,No,No,1-5,Entre 50.000 y 100.000 USD,Sí,21-40%,"Sí, pero aún no se han concretado operaciones internacionales",Europa del Este
-57,Extranjero,Persona,Contenidos creativos,Editorial (medios digitales),Hombre,Sí (especificar cuál),Sí,1-5,Entre 10.000 y 50.000 USD,Sí,41-60%,"Sí, en más de uno",10+ en 2024
-145,Extranjero,Empresa,,,Hombre,,,,,,Sin ingresos%,,
-155,Extranjero,Empresa,,,Mujer,,,,,,Sin ingresos%,,
+v362_id;region;tipo_empresa;cadena_productiva;agrupacion_tecnocreativa;genero;asociatividad;vinculos_educativos;tamano_empresa_num_trab;rango_ventas;exportaciones;exportaciones_porc_ingreso;internacionalizacion;mercados_intern;color_genero;color_tipo_empresa;color_cadena_productiva;color_agrupacion_tecnocreativa;color_asociatividad;color_vinculos_educativos;color_tamano_empresa_num_trab;color_rango_ventas;color_exportaciones;color_exportaciones_porc_ingreso;color_internacionalizacion
+30;Arica;Empresa;Contenidos creativos;Contenido para redes sociales;Mujer;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;Ninguno;#705abb;#74746c;#705abb;#070708;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#070708
+72;Arica;Empresa;Servicios creativos;Música;Hombre;Sí;No;1-5;Menos de 10.000 USD;Sí;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#62cca5;#74746c;#737daa;#705abb;#62cca5;#737daa;#705abb;#070708;#62cca5;#070708;#705abb
+97;Arica;Empresa;Experiencias creativas;Nuevos medios;Hombre;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#9a7cbb;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#070708;#070708
+54;Antofagasta;Profesional indep.;Servicios creativos;Editorial (medios digitales);Hombre;;;1-5;;;Sin ingresos%;;;#62cca5;#544c7c;#737daa;#737daa;;;#705abb;;;#e4e2d4;
+73;Antofagasta;Empresa;Experiencias creativas;Música;Hombre;No;Sí;Más de 50;Entre 50.000 y 100.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#9a7cbb;#705abb;#737daa;#62cca5;#cbd2d3;#9a7cbb;#737daa;#070708;#9a7cbb
+138;Atacama;Empresa;Bienes creativos;Servicios creativos;Hombre;No;No;11-50;Entre 50.000 y 100.000 USD;Sí;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#62cca5;#74746c;#070708;#cbd2d3;#737daa;#737daa;#737daa;#9a7cbb;#62cca5;#070708;#705abb
+8;Valparaíso;Empresa;Bienes creativos;Computación o programación creativa;Mujer;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#74746c;#070708;#a5a29a;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+11;Valparaíso;Empresa;Servicios creativos;Computación o programación creativa;Hombre;No;No;1-5;Entre 50.000 y 100.000 USD;Sí;0-20%;Sí, en uno;Estados Unidos;#62cca5;#74746c;#737daa;#a5a29a;#737daa;#737daa;#705abb;#9a7cbb;#62cca5;#070708;#737daa
+12;Valparaíso;Empresa;Contenidos creativos;Computación o programación creativa;Hombre;Sí;No;11-50;Más de 100.000 USD;Sí;21-40%;Sí, en más de uno;Perú y España;#62cca5;#74746c;#705abb;#a5a29a;#62cca5;#737daa;#737daa;#737daa;#62cca5;#705abb;#cbd2d3
+20;Valparaíso;Empresa;Servicios creativos;Computación o programación creativa;Mujer;Sí;Sí;Más de 50;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#737daa;#a5a29a;#62cca5;#62cca5;#cbd2d3;#070708;#737daa;#070708;#070708
+21;Valparaíso;Empresa;Servicios creativos;Computación o programación creativa;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#737daa;#a5a29a;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+32;Valparaíso;Profesional indep.;Experiencias creativas;Cultura y entretenimiento;Mujer;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#544c7c;#9a7cbb;#62cca5;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+52;Valparaíso;Empresa;Experiencias creativas;Cultura y entretenimiento;Mujer;Sí;Sí;6-10;Entre 10.000 y 50.000 USD;Sí;0-20%;Sí, en más de uno;;#705abb;#74746c;#9a7cbb;#62cca5;#62cca5;#62cca5;#9a7cbb;#705abb;#62cca5;#070708;#cbd2d3
+53;Valparaíso;Empresa;Servicios creativos;Data science;Hombre;Sí;Sí;6-10;Entre 10.000 y 50.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#737daa;#546c74;#62cca5;#62cca5;#9a7cbb;#705abb;#62cca5;#070708;#070708
+68;Valparaíso;Profesional indep.;Contenidos creativos;Música;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#705abb;#705abb;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+69;Valparaíso;Profesional indep.;Bienes creativos;Música;Hombre;Sí;No;0;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#070708;#705abb;#62cca5;#737daa;#070708;#070708;#737daa;#070708;#070708
+71;Valparaíso;Empresa;Servicios creativos;Música;Hombre;Sí;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#737daa;#705abb;#62cca5;#737daa;#705abb;#070708;#737daa;#070708;#070708
+74;Valparaíso;Empresa;Contenidos creativos;Ninguna de las anteriores;Hombre;No;No;11-50;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#e4e2d4;#737daa;#737daa;#737daa;#070708;#737daa;#070708;#9a7cbb
+84;Valparaíso;Empresa;Contenidos creativos;Nuevos medios;Mujer;Sí;Sí;6-10;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#705abb;#9a7cbb;#62cca5;#62cca5;#9a7cbb;#070708;#737daa;#070708;#070708
+92;Valparaíso;Empresa;Servicios creativos;Nuevos medios;Mujer;Sí;Sí;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#737daa;#9a7cbb;#62cca5;#62cca5;#705abb;#070708;#737daa;#070708;#070708
+103;Valparaíso;Profesional indep.;Contenidos creativos;Nuevos medios;Mujer;Sí;Sí;1-5;Menos de 10.000 USD;Sí;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#705abb;#544c7c;#705abb;#9a7cbb;#62cca5;#62cca5;#705abb;#070708;#62cca5;#070708;#705abb
+113;Valparaíso;Empresa;Bienes creativos;Servicios creativos;Hombre;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;61-80%;Sí, en uno;USA;#62cca5;#74746c;#070708;#cbd2d3;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#737daa;#737daa
+114;Valparaíso;Empresa;Servicios creativos;Servicios creativos;Mujer;Sí;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#74746c;#737daa;#cbd2d3;#62cca5;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+117;Valparaíso;Profesional indep.;Servicios creativos;Servicios creativos;Hombre;No;No;0;Entre 50.000 y 100.000 USD;Sí;81-100%;Sí, en uno;Canada;#62cca5;#544c7c;#737daa;#cbd2d3;#737daa;#737daa;#070708;#9a7cbb;#62cca5;#cbd2d3;#737daa
+120;Valparaíso;Empresa;Bienes creativos;Servicios creativos;Hombre;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;Usa;#62cca5;#74746c;#070708;#cbd2d3;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#070708;#070708
+126;Valparaíso;Empresa;Bienes creativos;Servicios creativos;Otro;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;41-60%;Sí, en más de uno;Festivales : Cannes Inmersive/ Dok Leipzig / IDFA / FIDBA;#e4e2d4;#74746c;#070708;#cbd2d3;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#9a7cbb;#cbd2d3
+129;Valparaíso;Profesional indep.;Bienes creativos;Servicios creativos;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#070708;#cbd2d3;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+131;Valparaíso;Empresa;Servicios creativos;Servicios creativos;Hombre;Sí;Sí;11-50;Más de 100.000 USD;Sí;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#737daa;#cbd2d3;#62cca5;#62cca5;#737daa;#737daa;#62cca5;#070708;#9a7cbb
+135;Valparaíso;Empresa;Servicios creativos;Servicios creativos;Mujer;Sí;Sí;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#737daa;#cbd2d3;#62cca5;#62cca5;#705abb;#070708;#62cca5;#070708;#070708
+141;Valparaíso;Profesional indep.;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#544c7c;;;;;;;;#e4e2d4;
+150;Valparaíso;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+151;Valparaíso;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;
+152;Valparaíso;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;
+157;Valparaíso;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;
+2;RM;Profesional indep.;Servicios creativos;Computación o programación creativa;Hombre;;;1-5;;;Sin ingresos%;;;#62cca5;#544c7c;#737daa;#a5a29a;;;#705abb;;;#e4e2d4;
+3;RM;Empresa;Servicios creativos;Computación o programación creativa;Hombre;No;No;1-5;Menos de 10.000 USD;Sí;21-40%;Sí, en uno;Mexico;#62cca5;#74746c;#737daa;#a5a29a;#737daa;#737daa;#705abb;#070708;#62cca5;#705abb;#737daa
+5;RM;Profesional indep.;Contenidos creativos;Computación o programación creativa;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#705abb;#a5a29a;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+7;RM;Empresa;Servicios creativos;Computación o programación creativa;Mujer;No;No;1-5;Entre 10.000 y 50.000 USD;Sí;81-100%;Sí, pero aún no se han concretado operaciones internacionales;;#705abb;#74746c;#737daa;#a5a29a;#737daa;#737daa;#705abb;#705abb;#62cca5;#cbd2d3;#705abb
+13;RM;Empresa;Servicios creativos;Computación o programación creativa;Hombre;No;No;0;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#737daa;#a5a29a;#737daa;#737daa;#070708;#070708;#737daa;#070708;#9a7cbb
+14;RM;Empresa;Servicios creativos;Computación o programación creativa;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#737daa;#a5a29a;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+15;RM;Profesional indep.;Contenidos creativos;Computación o programación creativa;Hombre;No;Sí;1-5;Menos de 10.000 USD;Sí;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#705abb;#a5a29a;#737daa;#62cca5;#705abb;#070708;#62cca5;#070708;#9a7cbb
+16;RM;Empresa;Contenidos creativos;Computación o programación creativa;Hombre;No;Sí;6-10;Más de 100.000 USD;Sí;0-20%;Sí, en más de uno;;#62cca5;#74746c;#705abb;#a5a29a;#737daa;#62cca5;#9a7cbb;#737daa;#62cca5;#070708;#cbd2d3
+17;RM;Empresa;Bienes creativos;Computación o programación creativa;Hombre;No;Sí;6-10;Menos de 10.000 USD;Sí;21-40%;Sí, pero aún no se han concretado operaciones internacionales;;#62cca5;#74746c;#070708;#a5a29a;#737daa;#62cca5;#9a7cbb;#070708;#62cca5;#705abb;#705abb
+18;RM;Empresa;Servicios creativos;Computación o programación creativa;Hombre;Sí;Sí;11-50;Más de 100.000 USD;Sí;0-20%;Sí, en uno;USA;#62cca5;#74746c;#737daa;#a5a29a;#62cca5;#62cca5;#737daa;#737daa;#62cca5;#070708;#737daa
+19;RM;Empresa;Servicios creativos;Computación o programación creativa;Hombre;Sí;Sí;1-5;Más de 100.000 USD;Sí;41-60%;Sí, en más de uno;USA, UE;#62cca5;#74746c;#737daa;#a5a29a;#62cca5;#62cca5;#705abb;#737daa;#62cca5;#9a7cbb;#cbd2d3
+22;RM;Profesional indep.;Servicios creativos;Contenido para redes sociales;Mujer;;;1-5;;;Sin ingresos%;;;#705abb;#544c7c;#737daa;#070708;;;#705abb;;;#e4e2d4;
+23;RM;Empresa;Experiencias creativas;Contenido para redes sociales;Mujer;;;Más de 50;;;Sin ingresos%;;;#705abb;#74746c;#9a7cbb;#070708;;;#cbd2d3;;;#e4e2d4;
+24;RM;Profesional indep.;Bienes creativos;Contenido para redes sociales;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;Sí, en uno;;#62cca5;#544c7c;#070708;#070708;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#737daa
+25;RM;Empresa;Contenidos creativos;Contenido para redes sociales;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#070708;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+26;RM;Empresa;Contenidos creativos;Contenido para redes sociales;Hombre;No;No;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#705abb;#070708;#737daa;#737daa;#705abb;#070708;#62cca5;#070708;#070708
+28;RM;Empresa;Contenidos creativos;Contenido para redes sociales;Hombre;Sí;Sí;11-50;Más de 100.000 USD;Sí;0-20%;Sí, en uno;;#62cca5;#74746c;#705abb;#070708;#62cca5;#62cca5;#737daa;#737daa;#62cca5;#070708;#737daa
+29;RM;Empresa;Servicios creativos;Contenido para redes sociales;Mujer;Sí;No;1-5;Menos de 10.000 USD;No;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#705abb;#74746c;#737daa;#070708;#62cca5;#737daa;#705abb;#070708;#737daa;#070708;#705abb
+33;RM;Empresa;Servicios creativos;Cultura y entretenimiento;Mujer;;;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#737daa;#62cca5;;;#705abb;#705abb;#737daa;#070708;#070708
+34;RM;Empresa;Contenidos creativos;Cultura y entretenimiento;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;#705abb;#62cca5;;;;;;#e4e2d4;
+35;RM;Empresa;Contenidos creativos;Cultura y entretenimiento;Hombre;;;1-5;;;Sin ingresos%;;;#62cca5;#74746c;#705abb;#62cca5;;;#705abb;;;#e4e2d4;
+36;RM;Empresa;Contenidos creativos;Cultura y entretenimiento;Hombre;No;No;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;Sí, en más de uno;Colombia, Argentina, Perú y México;#62cca5;#74746c;#705abb;#62cca5;#737daa;#737daa;#705abb;#705abb;#62cca5;#070708;#cbd2d3
+38;RM;Empresa;Contenidos creativos;Cultura y entretenimiento;Mujer;Sí;Sí;6-10;Entre 50.000 y 100.000 USD;Sí;0-20%;Sí, en más de uno;USA, Brasil, México;#705abb;#74746c;#705abb;#62cca5;#62cca5;#62cca5;#9a7cbb;#9a7cbb;#62cca5;#070708;#cbd2d3
+42;RM;Empresa;Bienes creativos;Cultura y entretenimiento;Hombre;No;Sí;11-50;Más de 100.000 USD;Sí;0-20%;Sí, en más de uno;Canada y EEUU;#62cca5;#74746c;#070708;#62cca5;#737daa;#62cca5;#737daa;#737daa;#62cca5;#070708;#cbd2d3
+45;RM;Profesional indep.;Contenidos creativos;Cultura y entretenimiento;Mujer;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#544c7c;#705abb;#62cca5;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+46;RM;Empresa;Bienes creativos;Cultura y entretenimiento;Hombre;No;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;41-60%;No, pero está en las prioridades actuales;Ventana Sur, Mitcom , Mitcom Jr.;#62cca5;#74746c;#070708;#62cca5;#737daa;#62cca5;#705abb;#705abb;#62cca5;#9a7cbb;#070708
+47;RM;Empresa;Experiencias creativas;Cultura y entretenimiento;Hombre;No;Sí;11-50;Entre 10.000 y 50.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#9a7cbb;#62cca5;#737daa;#62cca5;#737daa;#705abb;#737daa;#070708;#9a7cbb
+48;RM;Empresa;Experiencias creativas;Cultura y entretenimiento;Hombre;No;No;6-10;Entre 10.000 y 50.000 USD;Sí;0-20%;Sí, en uno;Colombia, España;#62cca5;#74746c;#9a7cbb;#62cca5;#737daa;#737daa;#9a7cbb;#705abb;#62cca5;#070708;#737daa
+49;RM;Empresa;Contenidos creativos;Cultura y entretenimiento;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#62cca5;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+50;RM;Empresa;Contenidos creativos;Cultura y entretenimiento;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#705abb;#62cca5;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+55;RM;Empresa;Servicios creativos;Editorial (medios digitales);Hombre;No;No;1-5;Menos de 10.000 USD;Sí;81-100%;No y no está en los planes actuales;;#62cca5;#74746c;#737daa;#737daa;#737daa;#737daa;#705abb;#070708;#62cca5;#cbd2d3;#9a7cbb
+56;RM;Profesional indep.;Bienes creativos;Editorial (medios digitales);Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#070708;#737daa;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+58;RM;Empresa;Contenidos creativos;Fintech;Hombre;Sí;Sí;6-10;Más de 100.000 USD;Sí;61-80%;Sí, en más de uno;Mexico, Colombia, Peru;#62cca5;#74746c;#705abb;#544c7c;#62cca5;#62cca5;#9a7cbb;#737daa;#62cca5;#737daa;#cbd2d3
+60;RM;Empresa;Contenidos creativos;Juegos interactivos;Hombre;;;1-5;;;Sin ingresos%;;;#62cca5;#74746c;#705abb;#b7b7af;;;#705abb;;;#e4e2d4;
+62;RM;Empresa;Contenidos creativos;Juegos interactivos;Mujer;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#705abb;#b7b7af;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+63;RM;Empresa;Contenidos creativos;Juegos interactivos;Hombre;No;Sí;1-5;Más de 100.000 USD;Sí;0-20%;Sí, en más de uno;Mexico, Colombia;#62cca5;#74746c;#705abb;#b7b7af;#737daa;#62cca5;#705abb;#737daa;#62cca5;#070708;#cbd2d3
+64;RM;Empresa;Contenidos creativos;Juegos interactivos;Hombre;Sí;No;6-10;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#b7b7af;#62cca5;#737daa;#9a7cbb;#070708;#737daa;#070708;#9a7cbb
+65;RM;Profesional indep.;Experiencias creativas;Juegos interactivos;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#9a7cbb;#b7b7af;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+76;RM;Empresa;Bienes creativos;Ninguna de las anteriores;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;#070708;#e4e2d4;;;;;;#e4e2d4;
+78;RM;Empresa;Servicios creativos;Ninguna de las anteriores;Hombre;Sí;Sí;Más de 50;Más de 100.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#737daa;#e4e2d4;#62cca5;#62cca5;#cbd2d3;#737daa;#737daa;#070708;#9a7cbb
+80;RM;Profesional indep.;Contenidos creativos;Ninguna de las anteriores;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#705abb;#e4e2d4;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+83;RM;Profesional indep.;Bienes creativos;Ninguna de las anteriores;Hombre;No;Sí;1-5;Menos de 10.000 USD;Sí;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#070708;#e4e2d4;#737daa;#62cca5;#705abb;#070708;#62cca5;#070708;#9a7cbb
+85;RM;Empresa;Bienes creativos;Nuevos medios;Mujer;;;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#070708;#9a7cbb;;;#705abb;#070708;#737daa;#070708;#070708
+86;RM;Empresa;Servicios creativos;Nuevos medios;Hombre;Sí;Sí;1-5;Menos de 10.000 USD;Sí;21-40%;Sí, en uno;Nueva York;#62cca5;#74746c;#737daa;#9a7cbb;#62cca5;#62cca5;#705abb;#070708;#62cca5;#705abb;#737daa
+87;RM;Profesional indep.;Experiencias creativas;Nuevos medios;Mujer;No;Sí;0;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#544c7c;#9a7cbb;#9a7cbb;#737daa;#62cca5;#070708;#070708;#737daa;#070708;#9a7cbb
+88;RM;Empresa;Contenidos creativos;Nuevos medios;Hombre;No;Sí;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#705abb;#9a7cbb;#737daa;#62cca5;#705abb;#705abb;#737daa;#070708;#070708
+89;RM;Empresa;Experiencias creativas;Nuevos medios;Hombre;No;No;1-5;Más de 100.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#9a7cbb;#737daa;#737daa;#705abb;#737daa;#62cca5;#070708;#070708
+90;RM;Profesional indep.;Experiencias creativas;Nuevos medios;Hombre;Sí;No;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#9a7cbb;#9a7cbb;#62cca5;#737daa;#705abb;#070708;#62cca5;#070708;#070708
+93;RM;Profesional indep.;Experiencias creativas;Nuevos medios;Hombre;No;No;1-5;Menos de 10.000 USD;Sí;41-60%;Sí, en uno;USA;#62cca5;#544c7c;#9a7cbb;#9a7cbb;#737daa;#737daa;#705abb;#070708;#62cca5;#9a7cbb;#737daa
+94;RM;Profesional indep.;Servicios creativos;Nuevos medios;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#737daa;#9a7cbb;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+96;RM;Empresa;Experiencias creativas;Nuevos medios;Hombre;No;No;11-50;Más de 100.000 USD;Sí;0-20%;Sí, en más de uno;Latinoamérica y Europa;#62cca5;#74746c;#9a7cbb;#9a7cbb;#737daa;#737daa;#737daa;#737daa;#62cca5;#070708;#cbd2d3
+98;RM;Profesional indep.;Experiencias creativas;Nuevos medios;Mujer;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;Sí, en uno;Mexico, Canadá;#705abb;#544c7c;#9a7cbb;#9a7cbb;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#070708;#737daa
+99;RM;Empresa;Bienes creativos;Nuevos medios;Mujer;No;Sí;1-5;Entre 50.000 y 100.000 USD;No;21-40%;No, pero está en las prioridades actuales;;#705abb;#74746c;#070708;#9a7cbb;#737daa;#62cca5;#705abb;#9a7cbb;#737daa;#705abb;#070708
+100;RM;Empresa;Experiencias creativas;Nuevos medios;Hombre;No;No;1-5;Entre 50.000 y 100.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#9a7cbb;#737daa;#737daa;#705abb;#9a7cbb;#62cca5;#070708;#070708
+101;RM;Empresa;Servicios creativos;Nuevos medios;Hombre;Sí;Sí;1-5;Más de 100.000 USD;Sí;0-20%;Sí, en más de uno;bolivia, perú, colombia, ecuador, costa rica;#62cca5;#74746c;#737daa;#9a7cbb;#62cca5;#62cca5;#705abb;#737daa;#62cca5;#070708;#cbd2d3
+102;RM;Empresa;Experiencias creativas;Nuevos medios;Mujer;Sí;Sí;1-5;Menos de 10.000 USD;Sí;61-80%;Sí, en más de uno;Participamos de los más importantes mercados para el XR narrativo: Venice Production Bridge, VR Days, New Images XR Market, Electric South, Cinemart XR, VR Days Brasil, VR Fest Mexico, etc.;#705abb;#74746c;#9a7cbb;#9a7cbb;#62cca5;#62cca5;#705abb;#070708;#62cca5;#737daa;#cbd2d3
+104;RM;Profesional indep.;Bienes creativos;Robótica;Mujer;;;;;;Sin ingresos%;;;#705abb;#544c7c;#070708;#96a5c3;;;;;;#e4e2d4;
+105;RM;Empresa;Experiencias creativas;Robótica;Hombre;No;No;6-10;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#96a5c3;#737daa;#737daa;#9a7cbb;#070708;#737daa;#070708;#070708
+106;RM;Empresa;Bienes creativos;Robótica;Hombre;No;Sí;1-5;Menos de 10.000 USD;Sí;61-80%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#070708;#96a5c3;#737daa;#62cca5;#705abb;#070708;#62cca5;#737daa;#070708
+107;RM;Empresa;Servicios creativos;Servicios creativos;Hombre;No;No;1-5;Más de 100.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#737daa;#cbd2d3;#737daa;#737daa;#705abb;#737daa;#737daa;#070708;#9a7cbb
+109;RM;Empresa;Servicios creativos;Servicios creativos;Hombre;No;Sí;6-10;Entre 50.000 y 100.000 USD;No;0-20%;Sí, en uno;Colombia;#62cca5;#74746c;#737daa;#cbd2d3;#737daa;#62cca5;#9a7cbb;#9a7cbb;#737daa;#070708;#737daa
+110;RM;Empresa;Experiencias creativas;Servicios creativos;Mujer;No;Sí;1-5;Menos de 10.000 USD;Sí;41-60%;Sí, en más de uno;Latam;#705abb;#74746c;#9a7cbb;#cbd2d3;#737daa;#62cca5;#705abb;#070708;#62cca5;#9a7cbb;#cbd2d3
+112;RM;Empresa;Servicios creativos;Servicios creativos;Mujer;Sí;Sí;1-5;Entre 50.000 y 100.000 USD;No;0-20%;Sí, en uno;perú;#705abb;#74746c;#737daa;#cbd2d3;#62cca5;#62cca5;#705abb;#9a7cbb;#737daa;#070708;#737daa
+119;RM;Empresa;Servicios creativos;Servicios creativos;Mujer;Sí;Sí;11-50;Entre 10.000 y 50.000 USD;Sí;21-40%;Sí, en más de uno;España, Republica Checa, Estados Unidos y Mexico;#705abb;#74746c;#737daa;#cbd2d3;#62cca5;#62cca5;#737daa;#705abb;#62cca5;#705abb;#cbd2d3
+122;RM;Empresa;Contenidos creativos;Servicios creativos;Hombre;No;Sí;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#cbd2d3;#737daa;#62cca5;#705abb;#705abb;#737daa;#070708;#9a7cbb
+124;RM;Profesional indep.;Experiencias creativas;Servicios creativos;Hombre;Sí;No;1-5;Menos de 10.000 USD;Sí;41-60%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#9a7cbb;#cbd2d3;#62cca5;#737daa;#705abb;#070708;#62cca5;#9a7cbb;#070708
+125;RM;Empresa;Servicios creativos;Servicios creativos;Hombre;No;No;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#737daa;#cbd2d3;#737daa;#737daa;#705abb;#705abb;#62cca5;#070708;#070708
+127;RM;Empresa;Experiencias creativas;Servicios creativos;Mujer;No;Sí;11-50;Menos de 10.000 USD;No;0-20%;Sí, en más de uno;India, Suiza, Jordania, Colombia, Europa;#705abb;#74746c;#9a7cbb;#cbd2d3;#737daa;#62cca5;#737daa;#070708;#737daa;#070708;#cbd2d3
+128;RM;Empresa;Contenidos creativos;Servicios creativos;Hombre;No;Sí;11-50;Más de 100.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#cbd2d3;#737daa;#62cca5;#737daa;#737daa;#737daa;#070708;#9a7cbb
+130;RM;Profesional indep.;Contenidos creativos;Servicios creativos;Hombre;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#705abb;#cbd2d3;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+132;RM;Empresa;Bienes creativos;Servicios creativos;Mujer;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#070708;#cbd2d3;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+133;RM;Empresa;Servicios creativos;Servicios creativos;Hombre;Sí;Sí;6-10;Más de 100.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#737daa;#cbd2d3;#62cca5;#62cca5;#9a7cbb;#737daa;#737daa;#070708;#070708
+136;RM;Empresa;Contenidos creativos;Servicios creativos;Hombre;No;Sí;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#705abb;#cbd2d3;#737daa;#62cca5;#705abb;#070708;#62cca5;#070708;#070708
+139;RM;Profesional indep.;Contenidos creativos;Wearables;Hombre;No;Sí;11-50;Entre 50.000 y 100.000 USD;Sí;21-40%;No y no está en los planes actuales;Alemania, Estados Unidos, Serbia y Nueva Zelandia;#62cca5;#544c7c;#705abb;#74746c;#737daa;#62cca5;#737daa;#9a7cbb;#62cca5;#705abb;#9a7cbb
+140;RM;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;
+142;RM;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+143;RM;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+144;RM;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+147;RM;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;
+149;RM;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+153;RM;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;
+154;RM;Profesional indep.;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#544c7c;;;;;;;;#e4e2d4;
+67;O'Higgins;Empresa;Bienes creativos;Juegos interactivos;Mujer;Sí;Sí;1-5;Menos de 10.000 USD;Sí;61-80%;No y no está en los planes actuales;;#705abb;#74746c;#070708;#b7b7af;#62cca5;#62cca5;#705abb;#070708;#62cca5;#737daa;#9a7cbb
+77;O'Higgins;Profesional indep.;Servicios creativos;Ninguna de las anteriores;Mujer;;;1-5;;;Sin ingresos%;;;#705abb;#544c7c;#737daa;#e4e2d4;;;#705abb;;;#e4e2d4;
+148;O'Higgins;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+43;Maule;Empresa;Contenidos creativos;Cultura y entretenimiento;Hombre;No;No;1-5;Menos de 10.000 USD;Sí;0-20%;Sí, en más de uno;Ventana Sur, Pixlatl, Quirino;#62cca5;#74746c;#705abb;#62cca5;#737daa;#737daa;#705abb;#070708;#62cca5;#070708;#cbd2d3
+70;Maule;Empresa;Experiencias creativas;Música;Hombre;No;Sí;6-10;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#705abb;#737daa;#62cca5;#9a7cbb;#070708;#62cca5;#070708;#070708
+1;Bío-Bío;Empresa;Bienes creativos;Computación o programación creativa;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;#070708;#a5a29a;;;;;;#e4e2d4;
+6;Bío-Bío;Empresa;Contenidos creativos;Computación o programación creativa;Hombre;No;Sí;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#705abb;#a5a29a;#737daa;#62cca5;#705abb;#705abb;#737daa;#070708;#070708
+41;Bío-Bío;Profesional indep.;Experiencias creativas;Cultura y entretenimiento;Otro;Sí;No;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#e4e2d4;#544c7c;#9a7cbb;#62cca5;#62cca5;#737daa;#705abb;#070708;#62cca5;#070708;#070708
+61;Bío-Bío;Empresa;Servicios creativos;Juegos interactivos;Hombre;No;Sí;6-10;Entre 50.000 y 100.000 USD;Sí;0-20%;Sí, en uno;USA;#62cca5;#74746c;#737daa;#b7b7af;#737daa;#62cca5;#9a7cbb;#9a7cbb;#62cca5;#070708;#737daa
+108;Bío-Bío;Profesional indep.;Contenidos creativos;Servicios creativos;Hombre;;;0;;;Sin ingresos%;;;#62cca5;#544c7c;#705abb;#cbd2d3;;;#070708;;;#e4e2d4;
+111;Bío-Bío;Empresa;Bienes creativos;Servicios creativos;Hombre;No;No;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#070708;#cbd2d3;#737daa;#737daa;#705abb;#705abb;#737daa;#070708;#070708
+115;Bío-Bío;Empresa;Servicios creativos;Servicios creativos;Mujer;No;No;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#74746c;#737daa;#cbd2d3;#737daa;#737daa;#705abb;#705abb;#737daa;#070708;#9a7cbb
+118;Bío-Bío;Empresa;Bienes creativos;Servicios creativos;Hombre;No;No;1-5;Entre 50.000 y 100.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#070708;#cbd2d3;#737daa;#737daa;#705abb;#9a7cbb;#737daa;#070708;#9a7cbb
+137;Bío-Bío;Empresa;Bienes creativos;Servicios creativos;Mujer;No;Sí;11-50;Más de 100.000 USD;Sí;0-20%;Sí, en más de uno;;#705abb;#74746c;#070708;#cbd2d3;#737daa;#62cca5;#737daa;#737daa;#62cca5;#070708;#cbd2d3
+27;La Araucanía;Profesional indep.;Contenidos creativos;Contenido para redes sociales;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#544c7c;#705abb;#070708;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+37;La Araucanía;Empresa;Experiencias creativas;Cultura y entretenimiento;Hombre;Sí;Sí;6-10;Entre 10.000 y 50.000 USD;No;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#62cca5;#74746c;#9a7cbb;#62cca5;#62cca5;#62cca5;#9a7cbb;#705abb;#737daa;#070708;#705abb
+40;La Araucanía;Profesional indep.;Contenidos creativos;Cultura y entretenimiento;Hombre;No;Sí;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#705abb;#62cca5;#737daa;#62cca5;#705abb;#070708;#62cca5;#070708;#070708
+44;La Araucanía;Profesional indep.;Contenidos creativos;Cultura y entretenimiento;Mujer;No;No;0;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#544c7c;#705abb;#62cca5;#737daa;#737daa;#070708;#070708;#737daa;#070708;#070708
+66;La Araucanía;Empresa;Bienes creativos;Juegos interactivos;Mujer;No;Sí;6-10;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#74746c;#070708;#b7b7af;#737daa;#62cca5;#9a7cbb;#070708;#737daa;#070708;#9a7cbb
+81;La Araucanía;Profesional indep.;Bienes creativos;Ninguna de las anteriores;Hombre;No;No;1-5;Menos de 10.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#070708;#e4e2d4;#737daa;#737daa;#705abb;#070708;#62cca5;#070708;#070708
+116;La Araucanía;Profesional indep.;Servicios creativos;Servicios creativos;Mujer;Sí;Sí;0;Menos de 10.000 USD;No;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#705abb;#544c7c;#737daa;#cbd2d3;#62cca5;#62cca5;#070708;#070708;#737daa;#070708;#705abb
+121;La Araucanía;Profesional indep.;Experiencias creativas;Servicios creativos;Mujer;Sí;Sí;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#544c7c;#9a7cbb;#cbd2d3;#62cca5;#62cca5;#705abb;#070708;#737daa;#070708;#9a7cbb
+156;La Araucanía;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+39;Los Ríos;Empresa;Experiencias creativas;Cultura y entretenimiento;Hombre;Sí;No;1-5;Entre 50.000 y 100.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#62cca5;#62cca5;#737daa;#705abb;#9a7cbb;#737daa;#070708;#070708
+75;Los Ríos;Empresa;Bienes creativos;Ninguna de las anteriores;Mujer;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#74746c;#070708;#e4e2d4;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+82;Los Ríos;Empresa;Bienes creativos;Ninguna de las anteriores;Mujer;Sí;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#705abb;#74746c;#070708;#e4e2d4;#62cca5;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+146;Los Ríos;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+134;Los Lagos;Empresa;Experiencias creativas;Servicios creativos;Hombre;Sí;No;1-5;Entre 10.000 y 50.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#9a7cbb;#cbd2d3;#62cca5;#737daa;#705abb;#705abb;#737daa;#070708;#070708
+4;Aysén;Empresa;Bienes creativos;Computación o programación creativa;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#070708;#a5a29a;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+51;Aysén;Empresa;Bienes creativos;Cultura y entretenimiento;Hombre;Sí;No;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;No, pero está en las prioridades actuales;;#62cca5;#74746c;#070708;#62cca5;#62cca5;#737daa;#705abb;#705abb;#62cca5;#070708;#070708
+95;Aysén;Empresa;Servicios creativos;Nuevos medios;Hombre;Sí;Sí;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;En ninguno, aún.;#62cca5;#74746c;#737daa;#9a7cbb;#62cca5;#62cca5;#705abb;#070708;#737daa;#070708;#070708
+123;Aysén;Empresa;Bienes creativos;Servicios creativos;Mujer;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#070708;#cbd2d3;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+10;Magallanes;Empresa;Contenidos creativos;Computación o programación creativa;Hombre;Sí;No;1-5;Menos de 10.000 USD;No;0-20%;No y no está en los planes actuales;;#62cca5;#74746c;#705abb;#a5a29a;#62cca5;#737daa;#705abb;#070708;#737daa;#070708;#9a7cbb
+59;Magallanes;Empresa;Servicios creativos;Fintech;Hombre;No;No;1-5;Entre 10.000 y 50.000 USD;No;0-20%;Sí, pero aún no se han concretado operaciones internacionales;;#62cca5;#74746c;#737daa;#544c7c;#737daa;#737daa;#705abb;#705abb;#737daa;#070708;#705abb
+79;Magallanes;Empresa;Bienes creativos;Ninguna de las anteriores;Mujer;No;Sí;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#705abb;#74746c;#070708;#e4e2d4;#737daa;#62cca5;#705abb;#070708;#737daa;#070708;#070708
+91;Magallanes;Empresa;Bienes creativos;Nuevos medios;Hombre;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;0-20%;Sí, en uno;Alemania;#62cca5;#74746c;#070708;#9a7cbb;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#070708;#737daa
+9;Extranjero;Profesional indep.;Servicios creativos;Computación o programación creativa;Hombre;No;No;1-5;Menos de 10.000 USD;No;0-20%;No, pero está en las prioridades actuales;;#62cca5;#544c7c;#737daa;#a5a29a;#737daa;#737daa;#705abb;#070708;#737daa;#070708;#070708
+31;Extranjero;Profesional indep.;Experiencias creativas;Cultura y entretenimiento;Hombre;No;No;1-5;Entre 50.000 y 100.000 USD;Sí;21-40%;Sí, pero aún no se han concretado operaciones internacionales;Europa del Este;#62cca5;#544c7c;#9a7cbb;#62cca5;#737daa;#737daa;#705abb;#9a7cbb;#62cca5;#705abb;#705abb
+57;Extranjero;Profesional indep.;Contenidos creativos;Editorial (medios digitales);Hombre;Sí;Sí;1-5;Entre 10.000 y 50.000 USD;Sí;41-60%;Sí, en más de uno;10+ en 2024;#62cca5;#544c7c;#705abb;#737daa;#62cca5;#62cca5;#705abb;#705abb;#62cca5;#9a7cbb;#cbd2d3
+145;Extranjero;Empresa;;;Hombre;;;;;;Sin ingresos%;;;#62cca5;#74746c;;;;;;;;#e4e2d4;
+155;Extranjero;Empresa;;;Mujer;;;;;;Sin ingresos%;;;#705abb;#74746c;;;;;;;;#e4e2d4;

@@ -70,10 +70,10 @@ function changeTab(element, tabFile, jsFile) {
   }
 }
 
-// Agregar el eventListener para el botón de menú en móviles
-document.getElementById('navToggle').addEventListener('click', function () {
-  document.getElementById('navMenu').classList.toggle('show');
-});
+// // Agregar el eventListener para el botón de menú en móviles
+// document.getElementById('navToggle').addEventListener('click', function () {
+//   document.getElementById('navMenu').classList.toggle('show');
+// });
 
       // **Cargar la pestaña por defecto al inicio**
       document.addEventListener("DOMContentLoaded", function () {
@@ -90,6 +90,7 @@ const variableToFileMap = {
   // Características Generales
   "tipo_empresa": "df_select.csv",
   "cadena_productiva": "df_select.csv",
+  "asociatividad": "df_select.csv",
   "genero": "df_select.csv",
   "tamano_empresa_num_trab": "df_select.csv",
   "rango_ventas": "df_select.csv",
@@ -125,10 +126,10 @@ async function loadDataFromCSV(fileName) {
     const csvText = await response.text();
     
     const rows = csvText.split('\n').filter(row => row.trim() !== '');
-    const headers = rows[0].split(',');
+    const headers = rows[0].split(';');
 
     const parsedData = rows.slice(1).map(row => {
-      const values = row.split(',');
+      const values = row.split(';');
       const obj = {};
       headers.forEach((header, idx) => {
         obj[header] = values[idx] || "";
