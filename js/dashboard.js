@@ -104,6 +104,8 @@ resetButton.style.display = "none";
           if (isMobile) {
             if (variable === "exportaciones_porc_ingreso") {
               data = data.filter(row => row[variable] !== "Sin ingresos%");
+              data = data.filter(row => row[variable] !== "NA%");
+
             }
             
             // Agrupar datos y extraer el color dinámico (se toma el primer color encontrado)
@@ -251,7 +253,7 @@ resetButton.style.display = "none";
             data = data.filter(row => row[variable] !== "Sin ingresos%");
             data = data.filter(row => row[variable] !== "NA%");
 
-            
+
           }
       
           // Creamos un mapping de colores para cada valor de la variable
