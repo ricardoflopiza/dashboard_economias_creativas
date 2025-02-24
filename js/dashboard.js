@@ -600,7 +600,16 @@ function createPieChartOption(title, regionName, data) {
       radius: ['30%', '70%'],
       center: ['50%', '50%'],
       data: data,
-      label: { formatter: '{b}:\n{d}%' },
+      label: {
+        formatter: '{b}:\n{d}%',
+        fontSize: 12,            // Tamaño de fuente mayor
+        backgroundColor: '#cbd2d3',   // Fondo blanco para la etiqueta
+        //borderColor: '#333',       // Borde gris oscuro
+        borderWidth: 1,            // Ancho del borde
+        borderRadius: 4,           // Bordes redondeados
+        padding: [5, 10]           // Espaciado interno (vertical, horizontal)
+      },
+
       itemStyle: { borderRadius: 5 },
       emphasis: { disabled: true }
     }]
