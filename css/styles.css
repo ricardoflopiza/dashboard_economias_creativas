@@ -296,6 +296,11 @@ body {
   min-height: 200px;
 }
 
+#container_caract_tecno_grafico {
+  background-color: rgba(156, 140, 168, 0.7);
+
+}
+
 /* Ajustar las cajas de los gráficos */
 .p-3.border.flex-grow-1.bg-light {
   display: flex;

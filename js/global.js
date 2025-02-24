@@ -171,30 +171,36 @@ async function loadDataFromCSV(fileName) {
 // Función para actualizar dinámicamente las opciones de "Nivel de análisis" al utilizar la variable de interes "tecnología"
 // Especificamente tecnología tiene una subvariable que es "Nivel de adopción"
 function updateAnalysisLevels(variable, toupdate) {
-  const levelSelector = document.getElementById(toupdate);
-  levelSelector.innerHTML = ''; // Limpiar todas las opciones actuales antes de añadir nuevas
-
-  // Opciones generales que siempre estarán disponibles
-  const options = [
-      { value: 'nacional', text: 'Nacional' },
-      { value: 'region', text: 'Región' },
-      { value: 'cadena_productiva', text: 'Cadena Productiva' },
-      { value: 'tipo_empresa', text: 'Tipo de Empresa' }
-  ];
-
-  // Si la variable seleccionada es "tecnologias", añadir "Nivel de Adopción"
-  if (variable === 'tecnologias') {
-      options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción (Solo para tecnología)' });
+  // Solo actualiza el selector si es selector1b y la variable es "tecnologias"
+  if (toupdate === "selector1b" && variable !== "tecnologias") {
+    return;
   }
 
-  // Crear y añadir las nuevas opciones al selector
+  const levelSelector = document.getElementById(toupdate);
+  levelSelector.innerHTML = ''; // Limpiar las opciones actuales
+
+  // Opciones generales
+  const options = [
+    { value: 'nacional', text: 'Nacional' },
+    { value: 'region', text: 'Región' },
+    { value: 'cadena_productiva', text: 'Cadena Productiva' },
+    { value: 'tipo_empresa', text: 'Tipo de Empresa' }
+  ];
+
+  // Si la variable es "tecnologias", añadir opción extra
+  if (variable === 'tecnologias') {
+    options.push({ value: 'nivel_adopcion', text: 'Nivel de Adopción (Solo para tecnología)' });
+  }
+
+  // Crear y añadir las opciones
   options.forEach(option => {
-      const optionElement = document.createElement('option');
-      optionElement.value = option.value;
-      optionElement.textContent = option.text;
-      levelSelector.appendChild(optionElement);
+    const optionElement = document.createElement('option');
+    optionElement.value = option.value;
+    optionElement.textContent = option.text;
+    levelSelector.appendChild(optionElement);
   });
 }
+
 
 
 let chartInstances = {}; // Podremos guardar instancias ECharts por contenedor

@@ -66,10 +66,10 @@
                 id="selectorGeneralesInteres"
                 class="form-select form-select-sm w-100"
               >
-                <option value="genero">Género <br> ¿Cuál es tu género?</option>
+                <option value="genero">Género ¿Cuál es tu género?</option>
                 <option value="asociatividad">Asociatividad ¿Tú o tu empresa pertenecen a alguna comunidad o red de creativos o creativos tecnológicos?</option>
                 <option value="tamano_empresa_num_trab">Tamaño (N° trabajadores)</option>
-                <option value="rango_ventas">Tamaño (Ventas anuales) ¿En qué rango se encuentran las ventas anuales de tu negocio?</option>
+                <option value="rango_ventas" selected>Tamaño (Ventas anuales) ¿En qué rango se encuentran las ventas anuales de tu negocio?</option>
                 <option value="exportaciones">Exportaciones ¿Tu negocio exporta productos o servicios?</option>
                 <option value="exportaciones_porc_ingreso">Ingreso por exportaciones (%) ¿cuál es el porcentaje de ingresos provenientes de exportaciones?</option>
                 <option value="financiamiento">Financiamiento ¿Cuál es la principal fuente de financiamiento para capital de trabajo o proyectos principal de tu negocio?</option>
@@ -87,7 +87,7 @@
                 class="form-select form-select-sm w-100"
               >
                 <option value="nacional">Nacional</option>
-                <option value="region">Regiones</option>
+                <option value="region" selected>Regiones</option>
                 <option value="cadena_productiva">Cadena Productiva</option>
                 <option value="tipo_empresa">Tipo de emprendimiento</option>
               </select>
@@ -133,6 +133,8 @@
             <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa ¿En cuál de las siguientes agrupaciones tecnocreactivas habita mejor tu negocio?</option>
             <option value="tecnologias">Uso de tecnología ¿Cuáles de las siguientes herramientas tecnológicas utilizan habitualmente en tu negocio? </option>
             <option value="herramientas_diferenciacion">Herramientas de diferenciación ¿Tu negocio gestiona herramientas de diferenciación como las siguientes? </option>
+            <option value="genero">Género ¿Cuál es tu género?</option>
+            <option value="asociatividad">Asociatividad ¿Tú o tu empresa pertenecen a alguna comunidad o red de creativos o creativos tecnológicos?</option>
             <option value="interaccion">Interacción ¿Con qué sectores no creativos de la economía interactúa tu empresa o tú como profesional? </option>
             <option value="tendencias">Tendencias tecnocreativas ¿Tu negocio habita alguna de las tendencias tecnocreativas?</option>
             <option value="brechas">Brechas ¿Cuál o cuáles son las principales brechas de la industria tecnocreativa en Chile que afectan a tu negocio? </option>
@@ -158,7 +160,7 @@
     </div>
 
     <!-- Contenedor del segundo gráfico con más altura -->
-    <div class="flex-grow-1 rounded-bottom-only p-3 transparent-box" style="min-height: 600px;">
+    <div id ="container_caract_tecno_grafico" class="flex-grow-1 rounded-bottom-only p-3 transparent-box" style="min-height: 1000px;">
       <button
         id="resetButton2"
         class="btn btn-secondary mt-2"

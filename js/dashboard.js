@@ -26,6 +26,7 @@ if (chartInstances[chartContainerId]) {
 // Ocultar el botón de restablecimiento
 resetButton.style.display = "none";
       
+
         updateAnalysisLevels(variable, "selector1b");
       
         const fileName = variableToFileMap[variable];
@@ -137,7 +138,15 @@ resetButton.style.display = "none";
                 roseType: "radius",
                 itemStyle: { borderRadius: 5 },
                 emphasis: { disabled: true },
-                label: { formatter: '{b}:\n{d}%' },
+                label: {
+                  formatter: '{b}:\n{d}%',
+                  fontSize: 16,            // Tamaño de fuente mayor
+                  backgroundColor: '#cbd2d3',   // Fondo blanco para la etiqueta
+                  //borderColor: '#333',       // Borde gris oscuro
+                  borderWidth: 1,            // Ancho del borde
+                  borderRadius: 4,           // Bordes redondeados
+                  padding: [5, 10]           // Espaciado interno (vertical, horizontal)
+                },
                 data: pieData,
               },
             ],
@@ -194,6 +203,7 @@ resetButton.style.display = "none";
             return {
               name: subCat,
               type: "bar",
+              stack: 'total',  // <-- propiedad clave para apilarlas
               itemStyle: { color: colorMapping[subCat] || '#ccc' },
               data: categories.map((cat) => grouped[cat][subCat] || 0),
             };
