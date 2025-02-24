@@ -1,3 +1,7 @@
+
+
+
+
 // acá se cargan las variables y funciones en dashboard.js y tabla.js
 
 
@@ -36,13 +40,21 @@
 //   loadTabContent('dashboard.html','dashboard.js'); // Cargar automáticamente el contenido del Dashboard
 // };
 
+
+let mapChart;
+let originalMapOption;
+let currentRegion = 'nacional';
+
+
+
+let isMobile = window.innerWidth <= 768;
+
 function changeTab(element, tabFile, jsFile) {
   const tabContent = document.getElementById('tabContent');
-  tabContent.innerHTML = '<p>Cargando contenido...</p>'; // Mensaje temporal
+  tabContent.innerHTML = '<p>Cargando contenido...</p>';
 
   // Remover 'active' de todas las pestañas
   document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-  // Agregar 'active' solo a la pestaña seleccionada
   element.classList.add('active');
 
   fetch(tabFile)
@@ -54,9 +66,24 @@ function changeTab(element, tabFile, jsFile) {
       tabContent.innerHTML = content;
       console.log(`Contenido de ${tabFile} cargado.`);
 
-      // Cargar script específico para la pestaña
+      const existingScript = document.querySelector(`script[src^="js/${jsFile}"]`);
+      if (existingScript) {
+        existingScript.remove();
+      }
+
       const script = document.createElement('script');
-      script.src = `js/${jsFile}`;
+      script.src = `js/${jsFile}?t=${new Date().getTime()}`;
+      script.onload = () => {
+        // Si es dashboard, reinicializa el mapa
+        if (tabFile.includes('dashboard.html')) {
+          setTimeout(() => {
+            console.log("Inicializando mapa en dashboard");
+            initMap();
+            // También forzamos un resize para otros gráficos
+            window.dispatchEvent(new Event('resize'));
+          }, 200);
+        }
+      };
       document.body.appendChild(script);
     })
     .catch(error => {
@@ -64,11 +91,14 @@ function changeTab(element, tabFile, jsFile) {
       console.error(error);
     });
 
-  // Cerrar menú si estamos en móvil
   if (window.innerWidth < 768) {
     document.getElementById('navMenu').classList.remove('show');
   }
 }
+
+
+
+
 
 // // Agregar el eventListener para el botón de menú en móviles
 // document.getElementById('navToggle').addEventListener('click', function () {
@@ -210,9 +240,52 @@ let selNivelGenerales = document.getElementById("selectorTecnoAnalisis");
 let selVarTecno = document.getElementById("selector2b");
 let selNivelTecno = document.getElementById("selector1b");
 
+
+
+// Función de debounce para eventos de resize
+function debounce(func, wait = 100) {
+  let timeout;
+  return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), wait);
+  };
+}
+
+function handleResize() {
+  try {
+    // Redimensionar gráficos de dashboard
+    Object.values(chartInstances).forEach(chartInstance => {
+      if (chartInstance && typeof chartInstance.resize === 'function') {
+        chartInstance.resize();
+      }
+    });
+
+    updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
+    updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
+    renderCharts(currentRegion || 'nacional');
+
+    // Redimensionar el mapa si está inicializado
+    if (mapChart && typeof mapChart.resize === 'function') {
+      mapChart.setOption(originalMapOption, true); // Restablecer opción original
+      mapChart.resize();
+    }
+  } catch (error) {
+    console.error('Error durante el resize:', error);
+  }
+}
+
+
+const debouncedResize = debounce(handleResize);
+
+
 // Mapa 
 
 let mapdata = [];
+
+
+
+
+
 
 // d3.csv("assets/mapa_metadata.csv").then(function(data) {
 //     // Transformar los datos al formato adecuado

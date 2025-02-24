@@ -9,6 +9,8 @@
        - chartContainerId:  ID del contenedor donde se renderiza el gráfico
        - chartTitle:        Título del gráfico (opcional)
   *************************************************************/
+      isMobile = window.innerWidth <= 768;
+
 
        async function updateChart(variableSelectId, levelSelectId, chartContainerId, chartTitle) {
         const variable = document.getElementById(variableSelectId).value;
@@ -64,6 +66,7 @@ resetButton.style.display = "none";
             const value = Number(item.value);
             if (value > 0) {
               if (level === "nacional") {
+                
                 res += `
                   <div style='margin:5px 0;'>
                     <span style='display:inline-block;width:10px;height:10px;border-radius:50%;background:${item.color};margin-right:5px;'></span>
@@ -97,65 +100,157 @@ resetButton.style.display = "none";
         const colorField = 'color_' + variable;
       
         if (level === "nacional") {
-      
-          if (variable === "exportaciones_porc_ingreso") {
-            data = data.filter(row => row[variable] !== "Sin ingresos%");
-          }
-      
-          // Agrupamos los datos y extraemos el color dinámico (se toma el primer color encontrado)
-          const groupedData = data.reduce((acc, row) => {
-            const key = row[variable];
-            if (!key) return acc;
-            if (!acc[key]) {
-              acc[key] = {
-                count: 0,
-                color: row[colorField] || '#ccc'
-              };
+          // Si se trata de chartContainer2 en móvil, mostramos gráfico de barras horizontales
+          if (isMobile) {
+            if (variable === "exportaciones_porc_ingreso") {
+              data = data.filter(row => row[variable] !== "Sin ingresos%");
             }
-            acc[key].count += 1;
-            return acc;
-          }, {});
-      
-          const total = Object.values(groupedData).reduce((sum, group) => sum + group.count, 0);
-          const pieData = Object.entries(groupedData).map(([k, group]) => ({
-            name: k,
-            value: group.count,
-            itemStyle: { color: group.color }
-          }));
-      
-          option = {
-            title: { text: chartTitle || "Distribución Nacional", left: "center" },
-            tooltip: { 
-              trigger: "item", 
-              formatter: customTooltipFormatter
-            },
-            legend: { top: "bottom" },
-            series: [
-              {
-                name: "Distribución",
-                type: "pie",
-                radius: ["30%", "70%"],
-                roseType: "radius",
-                itemStyle: { borderRadius: 5 },
-                emphasis: { disabled: true },
-                label: {
-                  formatter: '{b}:\n{d}%',
-                  fontSize: 16,            // Tamaño de fuente mayor
-                  backgroundColor: '#cbd2d3',   // Fondo blanco para la etiqueta
-                  //borderColor: '#333',       // Borde gris oscuro
-                  borderWidth: 1,            // Ancho del borde
-                  borderRadius: 4,           // Bordes redondeados
-                  padding: [5, 10]           // Espaciado interno (vertical, horizontal)
-                },
-                data: pieData,
+            
+            // Agrupar datos y extraer el color dinámico (se toma el primer color encontrado)
+            const groupedData = data.reduce((acc, row) => {
+              const key = row[variable];
+              if (!key) return acc;
+              if (!acc[key]) {
+                acc[key] = {
+                  count: 0,
+                  color: row[colorField] || '#ccc'
+                };
+              }
+              acc[key].count += 1;
+              return acc;
+            }, {});
+            
+            // Extraer las categorías y generar los datos para las barras
+            const categories = Object.keys(groupedData);
+            // Calcular el total para luego obtener los porcentajes
+            const total = Object.values(groupedData).reduce((sum, group) => sum + group.count, 0);
+            const barData = categories.map(cat => ({
+              name: cat,
+              value: groupedData[cat].count,
+              itemStyle: { color: groupedData[cat].color }
+            }));
+            
+            // Configuración para gráfico de barras horizontales con etiquetas que muestran el valor y porcentaje,
+            // y con etiquetas en el eje Y que "wrapean" si son muy largas.
+            option = {
+              grid: { containLabel: true },
+              title: { text: chartTitle || "Distribución Nacional", left: "center" },
+              tooltip: { 
+                trigger: "axis", 
+                formatter: customTooltipFormatter
               },
-            ],
-          };
-      
+              legend: { show: false },
+              xAxis: {
+                type: "value",
+                name: "Cantidad",
+                axisLabel: {
+                  textStyle: { color: "#000" }} // Color más oscuro
+              },
+              yAxis: {
+                type: "category",
+                data: categories,
+                name: "Categorías",
+                inverse: true,
+                axisLabel: {
+                  textStyle: { color: "#000" }, // Color más oscuro
+                  formatter: function(value) {
+                    const maxLength = 10; // Máximo de caracteres por línea (puedes ajustar)
+                    if (value.length > maxLength) {
+                      let result = '';
+                      for (let i = 0; i < value.length; i += maxLength) {
+                        result += value.substring(i, i + maxLength) + '\n';
+                      }
+                      return result.trim();
+                    }
+                    return value;
+                  }
+                }
+              },
+              series: [
+                {
+                  name: "Distribución",
+                  type: "bar",
+                  data: barData,
+                  label: {
+                    show: true,
+                    fontSize: 12,
+                    backgroundColor: '#cbd2d3',
+                    borderWidth: 1,
+                    borderRadius: 4,
+                    padding: [5, 10],
+                    position: "right",  // Etiquetas a la derecha de cada barra
+                    formatter: function(params) {
+                      const count = params.value;
+                      const percent = ((count / total) * 100).toFixed(2) + '%';
+                      return count + " (" + percent + ")";
+                    }
+                  }
+                },
+              ],
+            };
+            
+          } else {
+
+            // --- GRÁFICO DE TORTA (PIE CHART) PARA DESKTOP ---
+            if (variable === "exportaciones_porc_ingreso") {
+              data = data.filter(row => row[variable] !== "Sin ingresos%");
+            }
+            
+            // Agrupar datos y extraer color dinámico
+            const groupedData = data.reduce((acc, row) => {
+              const key = row[variable];
+              if (!key) return acc;
+              if (!acc[key]) {
+                acc[key] = {
+                  count: 0,
+                  color: row[colorField] || '#ccc'
+                };
+              }
+              acc[key].count += 1;
+              return acc;
+            }, {});
+            
+            const total = Object.values(groupedData).reduce((sum, group) => sum + group.count, 0);
+            const pieData = Object.entries(groupedData).map(([k, group]) => ({
+              name: k,
+              value: group.count,
+              itemStyle: { color: group.color }
+            }));
+            
+            option = {
+              title: { text: chartTitle || "Distribución Nacional", left: "center" },
+              tooltip: { 
+                trigger: "item", 
+                formatter: customTooltipFormatter
+              },
+              legend: { top: "bottom" },
+              series: [
+                {
+                  name: "Distribución",
+                  type: "pie",
+                  radius: ["30%", "70%"],
+                  roseType: "radius",
+                  itemStyle: { borderRadius: 5 },
+                  emphasis: { disabled: true },
+                  label: {
+                    formatter: '{b}:\n{d}%',
+                    fontSize: 16,
+                    backgroundColor: '#cbd2d3',
+                    borderWidth: 1,
+                    borderRadius: 4,
+                    padding: [5, 10]
+                  },
+                  data: pieData,
+                },
+              ],
+            };
+          }
         } else {
       
           if (variable === "exportaciones_porc_ingreso") {
             data = data.filter(row => row[variable] !== "Sin ingresos%");
+            data = data.filter(row => row[variable] !== "NA%");
+
           }
       
           // Creamos un mapping de colores para cada valor de la variable
@@ -331,6 +426,8 @@ selNivelTecno = document.getElementById("selector1b");
       console.error("Error: No se encontraron elementos para selector2b o selector1b");
   }
 
+
+
   // Asignar eventos
   selVarGenerales.addEventListener("change", () => {
       updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
@@ -348,6 +445,7 @@ selNivelTecno = document.getElementById("selector1b");
       updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
   });
 
+
   // Cargar gráficos iniciales
   updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
   updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
@@ -355,142 +453,158 @@ selNivelTecno = document.getElementById("selector1b");
   console.log("Gráficos inicializados correctamente.");
 // });
 
-
+updateChart
+updateChart
 
 
   /************************************************************
     5. Grafico de Mapa
   *************************************************************/
-    fetch(geoJsonPath)
-  .then(response => response.json())
-  .then(regionesGeoJSON => {
-    const chart = echarts.init(document.getElementById('map'));
-    echarts.registerMap('chile', regionesGeoJSON);
 
-    let isZoomed = false;
+// Declaración global para la instancia del mapa y la opción original
 
-    // Calcular el total de casos a nivel nacional
-    const totalCasosNacional = mapdata.reduce((sum, d) => sum + d.value, 0);
+// Función para inicializar el mapa
+function initMap() {
+  const mapContainer = document.getElementById('map');
+  if (!mapContainer) {
+    console.error("No se encontró el contenedor del mapa.");
+    return;
+  }
 
-    // Opción inicial: Mapa de Chile completo con visualMap tipo piecewise y etiquetas personalizadas
-    const originalOption = {
-      title: { text: `Nacional\nTotal de casos: ${totalCasosNacional}`, left: 'center' },
-      tooltip: { trigger: 'item', formatter: '{b}: {c}' },
-      visualMap: {
-        type: 'piecewise',
-        pieces: [
-          { value: 0, color: '#D3D3D3', label: 'Sin datos' },         // Valor 0 en gris
-          { min: 1, max: 10, color: '#F7E3AF', label: '1 a 10' },          // Intervalo 1 - 10
-          { min: 11, max: 20, color: '#F4C774', label: '11 a 20' },    // Intervalo 11 - 20
-          { min: 21, max: 30, color: '#E39A49', label: '21 a 30' },    // Intervalo 21 - 30
-          { min: 31, max: 100, color: '#C7652B', label: 'Mas de 31' }           // Intervalo 31 - 40
-        ],
-//        text: ['Alto', 'Bajo'],
-        realtime: true,
-        calculable: true,
-        right: '5%',
-        top: 'middle'
-      },
-      series: [
-        {
-          type: 'map',
-          map: 'chile',
-          roam: false,
-          selectedMode: false,
-          data: mapdata.map(d => ({
-            name: d.name,
-            value: d.value,
-            // No es necesario definir itemStyle aquí, ya que visualMap asigna el color
-            emphasis: {
-              areaColor: d.value === 0 ? '#D3D3D3' : '#FFD654'
-            }
-          })),
-          label: { show: false },
-          // Se desactiva la configuración global de "emphasis" para que prevalezca la de cada dato
-          emphasis: { label: { show: false } }
-        }
-      ]
-    };
+  // Si ya existe una instancia previa, la desecha
+  if (mapChart) {
+    mapChart.dispose();
+  }
+  mapChart = echarts.init(mapContainer);
 
-    chart.setOption(originalOption);
+  fetch(geoJsonPath)
+    .then(response => response.json())
+    .then(regionesGeoJSON => {
+      echarts.registerMap('chile', regionesGeoJSON);
 
-    // Mostrar gráficos a nivel nacional al cargar
-    renderCharts('nacional');
+      let isZoomed = false;
+      const totalCasosNacional = mapdata.reduce((sum, d) => sum + d.value, 0);
 
-    function resetMap() {
-      isZoomed = false;
-      document.getElementById('resetButton').classList.add('d-none');
-      chart.setOption(originalOption, true);
-      chart.resize();
-      renderCharts('nacional');
-    }
-
-    chart.on('click', function (params) {
-      if (isZoomed) {
-        resetMap();
-        return;
-      }
-
-      const regionName = params.name;
-      const regionData = mapdata.find(d => d.name === regionName);
-
-      if (!regionData || regionData.value === 0) {
-        console.log(`La región ${regionName} no tiene datos.`);
-        return;
-      }
-
-      const selectedFeature = regionesGeoJSON.features.find(f => f.properties.name === regionName);
-
-      if (!selectedFeature) {
-        console.log(`No se encontró la región ${regionName} en el GeoJSON.`);
-        return;
-      }
-
-      isZoomed = true;
-      document.getElementById('resetButton').classList.remove('d-none');
-
-      echarts.registerMap('regionSeleccionada', { type: "FeatureCollection", features: [selectedFeature] });
-
-      chart.setOption({
-        title: { 
-          text: `${regionName} - Total de casos: ${regionData.value}`, 
-          left: 'center' 
+      // Definir la opción inicial del mapa
+      originalMapOption = {
+        title: { text: `Nacional\nTotal de casos: ${totalCasosNacional}`, left: 'center' },
+        tooltip: { trigger: 'item', formatter: '{b}: {c}' },
+        visualMap: {
+          type: 'piecewise',
+          pieces: [
+            { value: 0, color: '#D3D3D3', label: 'Sin datos' },
+            { min: 1, max: 10, color: '#F7E3AF', label: '1 a 10' },
+            { min: 11, max: 20, color: '#F4C774', label: '11 a 20' },
+            { min: 21, max: 30, color: '#E39A49', label: '21 a 30' },
+            { min: 31, max: 100, color: '#C7652B', label: 'Más de 31' }
+          ],
+          realtime: true,
+          calculable: true,
+          right: '5%',
+          top: 'middle'
         },
-        visualMap: { show: false },
-        series: [{
-          type: 'map',
-          map: 'regionSeleccionada',
-          roam: false,
-          zoom: 1.2,
-          data: [regionData],
-          label: {
-            show: true,
-            formatter: '{b}'
-          },
-          emphasis: {
-            itemStyle: {
-              // Degradado definido para el énfasis en la región seleccionada
-              areaColor: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                { offset: 0, color: '#abd9e9' },
-                { offset: 0.14, color: '#e0f3f8' },
-                { offset: 0.28, color: '#ffffbf' },
-                { offset: 0.42, color: '#fee090' },
-                { offset: 0.57, color: '#fdae61' },
-                { offset: 0.71, color: '#f46d43' },
-                { offset: 0.85, color: '#d73027' },
-                { offset: 1, color: '#a50026' }
-              ])
-            },
-            label: {
-              show: true
-            }
+        series: [
+          {
+            type: 'map',
+            map: 'chile',
+            roam: false,
+            selectedMode: false,
+            data: mapdata.map(d => ({
+              name: d.name,
+              value: d.value,
+              emphasis: {
+                areaColor: d.value === 0 ? '#D3D3D3' : '#FFD654'
+              }
+            })),
+            label: { show: false },
+            emphasis: { label: { show: false } }
           }
-        }]
+        ]
+      };
+
+      mapChart.setOption(originalMapOption);
+
+      // Se pueden agregar eventos, por ejemplo:
+      mapChart.on('click', function (params) {
+        if (isZoomed) {
+          resetMap();
+          return;
+        }
+        const regionName = params.name;
+        const regionData = mapdata.find(d => d.name === regionName);
+        if (!regionData || regionData.value === 0) {
+          console.log(`La región ${regionName} no tiene datos.`);
+          return;
+        }
+        const selectedFeature = regionesGeoJSON.features.find(f => f.properties.name === regionName);
+        if (!selectedFeature) {
+          console.log(`No se encontró la región ${regionName} en el GeoJSON.`);
+          return;
+        }
+        isZoomed = true;
+        document.getElementById('resetButton').classList.remove('d-none');
+
+        echarts.registerMap('regionSeleccionada', { type: "FeatureCollection", features: [selectedFeature] });
+
+        mapChart.setOption({
+          title: { 
+            text: `${regionName} - Total de casos: ${regionData.value}`, 
+            left: 'center' 
+          },
+          visualMap: { show: false },
+          series: [{
+            type: 'map',
+            map: 'regionSeleccionada',
+            roam: false,
+            zoom: 1.2,
+            data: [regionData],
+            label: {
+              show: true,
+              formatter: '{b}'
+            },
+            emphasis: {
+              itemStyle: {
+                areaColor: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                  { offset: 0, color: '#abd9e9' },
+                  { offset: 0.14, color: '#e0f3f8' },
+                  { offset: 0.28, color: '#ffffbf' },
+                  { offset: 0.42, color: '#fee090' },
+                  { offset: 0.57, color: '#fdae61' },
+                  { offset: 0.71, color: '#f46d43' },
+                  { offset: 0.85, color: '#d73027' },
+                  { offset: 1, color: '#a50026' }
+                ])
+              },
+              label: { show: true }
+            }
+          }]
+        });
+        // Forzar resize
+        setTimeout(() => mapChart.resize(), 0);
+        renderCharts(regionName);
       });
-      setTimeout(() => chart.resize(), 0);
-      renderCharts(regionName);
-    });
-  });
+
+      function resetMap() {
+        isZoomed = false;
+        document.getElementById('resetButton').classList.add('d-none');
+        mapChart.setOption(originalMapOption, true);
+        mapChart.resize();
+        renderCharts('nacional');
+      }
+
+      document.getElementById('resetButton').addEventListener('click', resetMap);
+
+      // Listener para redimensionar el mapa
+      window.addEventListener('resize', debounce(() => {
+        mapChart.setOption(originalMapOption, true);
+        mapChart.resize();
+      }, 100));
+    })
+    .catch(error => console.error("Error al cargar el mapa:", error));
+}
+
+
+;
 
 
     // function renderCharts(regionName) {
@@ -708,55 +822,16 @@ function renderCharts(regionName) {
     chart3.resize();
   }).catch(err => console.error('Error al cargar CSV:', err));
 }
-    
+// Declaración global de la variable currentRegion con un valor por defecto
 
-    // Debounce function for resize events
-    function debounce(func, wait = 100) {
-      let timeout;
-      return function(...args) {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(this, args), wait);
-      };
-    }
 
-    function handleResize() {
-      try {
-          // Resize all registered chart instances
-          Object.values(chartInstances).forEach(chart => {
-              if (chart && typeof chart.resize === 'function') {
-                  chart.resize();
-              }
-          });
-  
-          // Resize mapa y gráficos principales
-          if (chart) chart.resize();
-  
-          // Si el cambio en la ventana es significativo, regenerar los gráficos
-          const currentWidth = window.innerWidth;
-          if (Math.abs(currentWidth - lastWindowWidth) > 100) {
-              lastWindowWidth = currentWidth;
-  
-              updateChart("selectorGeneralesInteres", "selectorTecnoAnalisis", "chartContainer", "Características Generales");
-              updateChart("selector2b", "selector1b", "chartContainer2", "Características Tecnocreativas");
-  
-              // Regenerar gráficos chart1, chart2 y chart3
-              renderCharts(currentRegion || 'nacional'); // Usar la última región seleccionada
-          }
-      } catch (error) {
-          console.error('Error durante el resize:', error);
-      }
-  }
-  
-  // Actualizar el evento resize para incluir la regeneración de gráficos
-  window.addEventListener('resize', debounce(handleResize));
-  
 
-    // Initialize resize handling
-    let lastWindowWidth = window.innerWidth;
-    const debouncedResize = debounce(handleResize);
-    window.addEventListener('resize', debouncedResize);
 
-    document.getElementById('resetButton').addEventListener('click', resetMap);
+// Inicializar el manejo de resize utilizando debounce
+
+window.addEventListener('resize', debouncedResize);
+
+
   
   
 
