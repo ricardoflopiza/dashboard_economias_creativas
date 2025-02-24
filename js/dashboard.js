@@ -251,6 +251,7 @@ resetButton.style.display = "none";
             data = data.filter(row => row[variable] !== "Sin ingresos%");
             data = data.filter(row => row[variable] !== "NA%");
 
+            
           }
       
           // Creamos un mapping de colores para cada valor de la variable
