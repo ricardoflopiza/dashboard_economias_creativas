@@ -100,20 +100,60 @@ body {
 }
 
 
+.antecedentes-container {
+  margin-top: 10px;
+}
 
+
+.antecedentes-link {
+  color: Blue-white ;
+  background: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+
+}
 
 
 /* Logos */
-.logos {
+/* .logos {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 15px;
+} */
+
+/* Contenedor de los logos */
+.logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+  gap: 20px;
+  justify-items: stretch; /* Permite alinear elementos de forma individual */
+  align-items: center;
 }
 
+/* Estilo para todos los logos */
 .logos img {
-  height: 70px;
+  height: 100px; /* Mantiene la proporción de los logos */
 }
+
+#logo-chile-creativo {
+  width: 100px;  /* Reduce el tamaño */
+  height: auto;  /* Mantiene la proporción */
+  grid-column: 3 / 4;  /* Lo coloca en la última columna */
+  justify-self: end;  /* Lo alinea a la derecha */
+}
+
+.logo-colaboracion-container {
+  grid-column: 1 / -1; /* Lo coloca en una nueva fila */
+  display: flex;
+  justify-content: flex-end; /* Lo mueve a la derecha */
+}
+
+
+
 
 /********************************************
  *  3. Fila Inferior: Menú (Tabs) y Toggle
@@ -206,6 +246,9 @@ body {
     display: flex;
   }
 
+  .logo-colaboracion-container{
+    display: none;
+  }
 
 
   /* Ajusta los tabs en columna */

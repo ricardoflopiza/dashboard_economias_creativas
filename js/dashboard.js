@@ -373,7 +373,7 @@ selNivelTecno = document.getElementById("selector1b");
     realtime: true,
     calculable: true,
     inRange: { 
-      color: ['#abd9e9', '#e0f3f8', '#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
+      color: ['#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
     },
     outOfRange: { color: '#D3D3D3' },
     right: '5%',
@@ -388,11 +388,11 @@ selNivelTecno = document.getElementById("selector1b");
       data: mapdata.map(d => ({
         name: d.name,
         value: d.value,
-        itemStyle: {
+        itemStyle:  d.value === 0 ? { areaColor: '#D3D3D3' } : {},
           emphasis: {
             areaColor: d.value === 0 ? '#D3D3D3' : '#FFD654'
           }
-        }
+        
       })),
       label: { show: false },
       // Se elimina la configuración global de "emphasis" para que la de cada dato prevalezca

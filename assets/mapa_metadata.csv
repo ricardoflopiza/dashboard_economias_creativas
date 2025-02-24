@@ -1,8 +1,8 @@
 "id","name","value"
-"01","Tarapacá",0
+"01","Tarapacá",NO
 "02","Antofagasta",2
 "03","Atacama",1
-"04","Coquimbo",0
+"04","Coquimbo",NO
 "05","Valparaíso",28
 "06","O'Higgins",3
 "07","Maule",2
@@ -14,4 +14,4 @@
 "13","RM",82
 "14","Los Ríos",4
 "15","Arica",3
-"16","Ñuble",0
+"16","Ñuble",NO

@@ -85,7 +85,7 @@ function updateTable() {
 
     // Columna para el porcentaje
     const thPercentage = document.createElement('th');
-    thPercentage.textContent = "Porcentaje";
+    thPercentage.textContent = "Porcentaje respecto al nivel de análisis";
     headerRow.appendChild(thPercentage);
 
     tableHead.appendChild(headerRow);
