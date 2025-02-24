@@ -372,46 +372,45 @@ selNivelTecno = document.getElementById("selector1b");
     // Calcular el total de casos a nivel nacional
     const totalCasosNacional = mapdata.reduce((sum, d) => sum + d.value, 0);
 
-    // Opción inicial: Mapa de Chile completo
+    // Opción inicial: Mapa de Chile completo con visualMap tipo piecewise y etiquetas personalizadas
     const originalOption = {
-  title: { text: `Nacional\nTotal de casos: ${totalCasosNacional}`, left: 'center' },
-  tooltip: { trigger: 'item', formatter: '{b}: {c}' },
-  visualMap: {
-    min: 1,
-    max: 40,
-    text: ['Alto', 'Bajo'],
-    realtime: true,
-    calculable: true,
-    inRange: { 
-      color: ['#ffffbf', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026']
-    },
-    outOfRange: { color: '#D3D3D3' },
-    right: '5%',
-    top: 'middle'
-  },
-  series: [
-    {
-      type: 'map',
-      map: 'chile',
-      roam: false,
-      selectedMode: false,
-      data: mapdata.map(d => ({
-        name: d.name,
-        value: d.value,
-        itemStyle:  d.value === 0 ? { areaColor: '#D3D3D3' } : {},
-          emphasis: {
-            areaColor: d.value === 0 ? '#D3D3D3' : '#FFD654'
-          }
-        
-      })),
-      label: { show: false },
-      // Se elimina la configuración global de "emphasis" para que la de cada dato prevalezca
-            // Desactiva las etiquetas en el estado de énfasis
-            emphasis: { label: { show: false } }
-    }
-  ]
-};
-
+      title: { text: `Nacional\nTotal de casos: ${totalCasosNacional}`, left: 'center' },
+      tooltip: { trigger: 'item', formatter: '{b}: {c}' },
+      visualMap: {
+        type: 'piecewise',
+        pieces: [
+          { value: 0, color: '#D3D3D3', label: 'Sin datos' },         // Valor 0 en gris
+          { min: 1, max: 10, color: '#F7E3AF', label: '1 a 10' },          // Intervalo 1 - 10
+          { min: 11, max: 20, color: '#F4C774', label: '11 a 20' },    // Intervalo 11 - 20
+          { min: 21, max: 30, color: '#E39A49', label: '21 a 30' },    // Intervalo 21 - 30
+          { min: 31, max: 100, color: '#C7652B', label: 'Mas de 31' }           // Intervalo 31 - 40
+        ],
+//        text: ['Alto', 'Bajo'],
+        realtime: true,
+        calculable: true,
+        right: '5%',
+        top: 'middle'
+      },
+      series: [
+        {
+          type: 'map',
+          map: 'chile',
+          roam: false,
+          selectedMode: false,
+          data: mapdata.map(d => ({
+            name: d.name,
+            value: d.value,
+            // No es necesario definir itemStyle aquí, ya que visualMap asigna el color
+            emphasis: {
+              areaColor: d.value === 0 ? '#D3D3D3' : '#FFD654'
+            }
+          })),
+          label: { show: false },
+          // Se desactiva la configuración global de "emphasis" para que prevalezca la de cada dato
+          emphasis: { label: { show: false } }
+        }
+      ]
+    };
 
     chart.setOption(originalOption);
 
@@ -470,7 +469,7 @@ selNivelTecno = document.getElementById("selector1b");
           },
           emphasis: {
             itemStyle: {
-              // Aquí definimos el degradado usando la misma paleta que el inRange
+              // Degradado definido para el énfasis en la región seleccionada
               areaColor: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
                 { offset: 0, color: '#abd9e9' },
                 { offset: 0.14, color: '#e0f3f8' },
@@ -491,6 +490,8 @@ selNivelTecno = document.getElementById("selector1b");
       setTimeout(() => chart.resize(), 0);
       renderCharts(regionName);
     });
+  });
+
 
     // function renderCharts(regionName) {
     //   const chart1 = echarts.init(document.getElementById('chart1'));
@@ -756,7 +757,7 @@ function renderCharts(regionName) {
     window.addEventListener('resize', debouncedResize);
 
     document.getElementById('resetButton').addEventListener('click', resetMap);
-  });
+  
   
 
     // // 5. Ajustamos tamaño dinámicamente al cambiar la ventana
