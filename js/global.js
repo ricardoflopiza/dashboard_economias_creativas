@@ -356,12 +356,15 @@ const mapContainer = document.getElementById('map');
 
 // Función para insertar saltos de línea en los espacios cuando se supera maxLength
 function wrapText(text, maxLength = 10) {
+  // Si text es null, undefined o un número, lo convertimos a cadena
+  if (text == null) return '';
+  text = String(text);
+
   const words = text.split(' ');
   let result = '';
   let line = '';
 
   words.forEach(word => {
-    // Si al agregar la palabra la línea supera el maxLength, se hace un salto de línea
     if ((line + (line ? ' ' : '') + word).length > maxLength) {
       result += line + '\n';
       line = word;
@@ -369,6 +372,9 @@ function wrapText(text, maxLength = 10) {
       line += (line ? ' ' : '') + word;
     }
   });
+
+  // Agregamos la última línea
   result += line;
   return result.trim();
 }
+

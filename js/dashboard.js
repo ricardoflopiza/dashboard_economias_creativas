@@ -156,15 +156,7 @@ resetButton.style.display = "none";
                 axisLabel: {
                   textStyle: { color: "#000" }, // Color más oscuro
                   formatter: function(value) {
-                    const maxLength = 10; // Máximo de caracteres por línea (puedes ajustar)
-                    if (value.length > maxLength) {
-                      let result = '';
-                      for (let i = 0; i < value.length; i += maxLength) {
-                        result += value.substring(i, i + maxLength) + '\n';
-                      }
-                      return result.trim();
-                    }
-                    return value;
+                    return wrapText(value, 10);
                   }
                 }
               },
@@ -181,8 +173,10 @@ resetButton.style.display = "none";
                     borderRadius: 4,
                     padding: [5, 10],
                     position: "right",  // Etiquetas a la derecha de cada barra
-                    formatter: function(value) {
-                      return wrapText(value, 10);
+                    formatter: function(params) {
+                      const count = params.value;
+                      const percent = ((count / total) * 100).toFixed(2) + '%';
+                      return count + " (" + percent + ")";
                     }
                   }
                 },
