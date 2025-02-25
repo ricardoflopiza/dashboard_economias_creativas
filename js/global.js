@@ -66,24 +66,15 @@ function changeTab(element, tabFile, jsFile) {
       tabContent.innerHTML = content;
       console.log(`Contenido de ${tabFile} cargado.`);
 
+      // Remover script anterior si existe
       const existingScript = document.querySelector(`script[src^="js/${jsFile}"]`);
       if (existingScript) {
         existingScript.remove();
       }
 
+      // Inyectar script del tab (dashboard.js, tabla.js, etc.)
       const script = document.createElement('script');
       script.src = `js/${jsFile}?t=${new Date().getTime()}`;
-      script.onload = () => {
-        // Si es dashboard, reinicializa el mapa
-        if (tabFile.includes('dashboard.html')) {
-          setTimeout(() => {
-            console.log("Inicializando mapa en dashboard");
-            initMap();
-            // También forzamos un resize para otros gráficos
-            window.dispatchEvent(new Event('resize'));
-          }, 200);
-        }
-      };
       document.body.appendChild(script);
     })
     .catch(error => {
@@ -91,10 +82,20 @@ function changeTab(element, tabFile, jsFile) {
       console.error(error);
     });
 
+  // Cerrar menú si estamos en móvil
   if (window.innerWidth < 768) {
     document.getElementById('navMenu').classList.remove('show');
   }
 }
+
+// Al cargar la página, ir directo a la pestaña dashboard
+document.addEventListener("DOMContentLoaded", function () {
+  const defaultTab = document.querySelector('.tab'); // Asume que la primera pestaña es el Dashboard
+  if (defaultTab) {
+    changeTab(defaultTab, 'dashboard.html', 'dashboard.js');
+  }
+});
+
 
 
 
@@ -252,6 +253,8 @@ function debounce(func, wait = 100) {
 }
 
 function handleResize() {
+  isMobile = window.innerWidth <= 768;
+
   try {
     // Redimensionar gráficos de dashboard
     Object.values(chartInstances).forEach(chartInstance => {

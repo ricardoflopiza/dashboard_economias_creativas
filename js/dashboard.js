@@ -607,7 +607,7 @@ function initMap() {
 }
 
 
-;
+initMap()
 
 
     // function renderCharts(regionName) {
@@ -825,6 +825,8 @@ function renderCharts(regionName) {
     chart3.resize();
   }).catch(err => console.error('Error al cargar CSV:', err));
 }
+
+renderCharts('nacional'); // Renderiza gráficos para la región "nacional" de forma predeterminada
 // Declaración global de la variable currentRegion con un valor por defecto
 
 
