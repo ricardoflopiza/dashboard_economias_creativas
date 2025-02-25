@@ -729,6 +729,9 @@ function createPieChartOption(title, regionName, data) {
 
 // Función para crear la configuración del gráfico de barras con porcentajes
 function createBarChartOption(title, regionName, data) {
+
+  const formattedRegionName = capitalizeFirstLetter(regionName);
+
   // Se asume que 'data' es un arreglo de objetos con { name, value }
   const total = data.reduce((sum, item) => sum + Number(item.value), 0);
   const percentageData = data.map(item => ({
@@ -739,8 +742,9 @@ function createBarChartOption(title, regionName, data) {
   }));
 
   return {
-    grid: { containLabel: true },
-    title: { text: title, left: "center" },
+    grid: { containLabel: true },      
+    title: {text:`${title}\n${formattedRegionName}`, 
+      left: "left" },
     tooltip: { 
       trigger: 'item', 
       formatter: function(params) {
