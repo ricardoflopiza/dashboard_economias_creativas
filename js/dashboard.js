@@ -572,7 +572,7 @@ function initMap() {
 
         mapChart.setOption({
           title: { 
-            text: `${regionName} - Total de casos: ${regionData.value}`, 
+            text: `${regionName} \n Total de casos: ${regionData.value}`, 
             left: 'center' 
           },
           visualMap: { show: false },
