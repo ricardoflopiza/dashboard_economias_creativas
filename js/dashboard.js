@@ -99,6 +99,18 @@ resetButton.style.display = "none";
         // Definimos el campo de color según la variable seleccionada
         const colorField = 'color_' + variable;
       
+////////////////////////////////////////////////////////////////
+
+// NACIONAL 
+
+////////////////////////////////////////////////////////////////
+
+////////////////////////////////
+
+// NACIONAL mobile
+
+////////////////////////////////
+
         if (level === "nacional") {
           // Si se trata de chartContainer2 en móvil, mostramos gráfico de barras horizontales
           if (isMobile) {
@@ -135,7 +147,9 @@ resetButton.style.display = "none";
             // Configuración para gráfico de barras horizontales con etiquetas que muestran el valor y porcentaje,
             // y con etiquetas en el eje Y que "wrapean" si son muy largas.
             option = {
-              grid: { containLabel: true },
+              grid: { containLabel: true,
+                left: '5%', right: '20%', top: '10%', bottom: '10%'
+               },
               title: { text: chartTitle || "Distribución Nacional", left: "center" },
               tooltip: { 
                 trigger: "axis", 
@@ -183,6 +197,13 @@ resetButton.style.display = "none";
               ],
             };
             
+
+////////////////////////////////
+
+// NACIONAL escritorio
+
+////////////////////////////////
+
           } else {
 
             // --- GRÁFICO DE TORTA (PIE CHART) PARA DESKTOP ---
@@ -610,37 +631,7 @@ function initMap() {
 initMap()
 
 
-    // function renderCharts(regionName) {
-    //   const chart1 = echarts.init(document.getElementById('chart1'));
-    //   const chart2 = echarts.init(document.getElementById('chart2'));
-    //   const chart3 = echarts.init(document.getElementById('chart3'));
-
-    //   chart1.clear(); 
-    //   chart2.clear(); 
-    //   chart3.clear();
-
-    //   loadDataFromCSV('df_select.csv').then(allRows => {
-    //     const filtered = (regionName === 'nacional') ? allRows : allRows.filter(r => r.region === regionName);
-
-    //     if (!filtered.length) {
-    //       console.log(`No hay datos para la región: ${regionName}`);
-    //       return;
-    //     }
-
-    //     const generoData = preparePieData(filtered, 'genero');
-    //     const tipoData = prepareBarData(filtered, 'tipo_empresa');
-    //     const cadenaData = preparePieData(filtered, 'cadena_productiva');
-
-    //     chart1.setOption(createPieChartOption('Género', regionName, generoData));
-    //     chart2.setOption(createBarChartOption('Tipo de Empresa', regionName, tipoData));
-    //     chart3.setOption(createPieChartOption('Cadena Productiva', regionName, cadenaData));
-
-    //     chart1.resize();
-    //     chart2.resize();
-    //     chart3.resize();
-    //   }).catch(err => console.error('Error CSV:', err));
-    // }
-    // Función para transformar la primera letra en mayúscula
+ // Función para transformar la primera letra en mayúscula
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
@@ -698,14 +689,17 @@ function prepareBarDataWithColors(data, variable) {
 // Función para crear la configuración del gráfico de pastel con porcentaje calculado manualmente
 function createPieChartOption(title, regionName, data) {
   const formattedRegionName = capitalizeFirstLetter(regionName);
-  // Se ajusta el título en caso de "Género"
   const formattedTitle = title === 'Género' ? 'Género Persona\nEncuestada' : title;
 
   // Se calcula el total para mostrar porcentajes en el tooltip si se desea
   const total = data.reduce((sum, item) => sum + item.value, 0);
 
   return {
-    title: { text: `${formattedTitle}\n${formattedRegionName}`, left: 'left' },
+    title: { 
+      text: `${formattedTitle}\n${formattedRegionName}`, 
+      left: 'left',
+      top: '2%'  // 🔹 Mueve el título más arriba
+    },
     tooltip: { 
       trigger: 'item', 
       formatter: function(params) {
@@ -715,24 +709,23 @@ function createPieChartOption(title, regionName, data) {
     },
     series: [{
       type: 'pie',
-      radius: ['30%', '70%'],
-      center: ['50%', '50%'],
+      radius: ['30%', '60%'],
+      center: ['60%', '60%'], // 🔹 Baja el gráfico
       data: data,
       label: {
         formatter: '{b}:\n{d}%',
-        fontSize: 12,            // Tamaño de fuente mayor
-        backgroundColor: '#cbd2d3',   // Fondo blanco para la etiqueta
-        //borderColor: '#333',       // Borde gris oscuro
-        borderWidth: 1,            // Ancho del borde
-        borderRadius: 4,           // Bordes redondeados
-        padding: [5, 10]           // Espaciado interno (vertical, horizontal)
+        fontSize: 12,
+        backgroundColor: '#cbd2d3',
+        borderWidth: 1,
+        borderRadius: 4,
+        padding: [5, 10]
       },
-
       itemStyle: { borderRadius: 5 },
       emphasis: { disabled: true }
     }]
   };
 }
+
 
 // Función para crear la configuración del gráfico de barras con porcentajes
 function createBarChartOption(title, regionName, data) {

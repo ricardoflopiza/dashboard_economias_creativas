@@ -177,8 +177,8 @@ body {
 
   /* Posición absoluta dentro del header */
   position: absolute;
-  top: -80px;      /* Ajusta para subirlo o bajarlo */
-  right: 20px;
+  top: -215px;      /* Ajusta para subirlo o bajarlo */
+  right: 15px;
   z-index: 999;   /* Asegura que el botón quede sobre el resto */
 }
 
@@ -225,6 +225,35 @@ body {
  *  4. Versión Móvil (max-width: 768px)
  ********************************************/
 @media (max-width: 768px) {
+.tab-content{
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .container-fluid.my-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .col-md-6,
+  .col-md-12,
+  .col-md-5,
+  .col-md-8,
+  .col-md-4 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
+
+
   /* Mostrar el botón hamburguesa en móviles */
   .nav-toggle {
     display: block;
@@ -235,7 +264,7 @@ body {
     display: none; 
     flex-direction: column;
     position: absolute;
-    top: 50px;           /* Justo debajo del botón (ajusta a tu gusto) */
+    top: -150px;           /* Justo debajo del botón (ajusta a tu gusto) */
     left: 0;
     width: 100%;
     background-color: rgba(44, 2, 63, 0.9);
