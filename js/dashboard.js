@@ -181,10 +181,8 @@ resetButton.style.display = "none";
                     borderRadius: 4,
                     padding: [5, 10],
                     position: "right",  // Etiquetas a la derecha de cada barra
-                    formatter: function(params) {
-                      const count = params.value;
-                      const percent = ((count / total) * 100).toFixed(2) + '%';
-                      return count + " (" + percent + ")";
+                    formatter: function(value) {
+                      return wrapText(value, 10);
                     }
                   }
                 },
@@ -247,6 +245,7 @@ resetButton.style.display = "none";
               ],
             };
           }
+        //// graficos nivel no nacional
         } else {
       
           if (variable === "exportaciones_porc_ingreso") {
@@ -317,7 +316,14 @@ resetButton.style.display = "none";
             },
             legend: { top: "bottom", data: subCategories },
             xAxis: { type: "value", name: "Cantidad" },
-            yAxis: { type: "category", data: categories, name: "", inverse: true },
+            yAxis: { type: "category", data: categories, name: "", inverse: true,
+              axisLabel: {
+                textStyle: { color: "#000" }, // Color más oscuro
+                formatter: function(value) {
+                  return wrapText(value, 10);
+                }
+              }
+             },
             series: series,
           };
         }

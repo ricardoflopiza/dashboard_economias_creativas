@@ -352,3 +352,23 @@ function computeBoundingBox(feature) {
 
 const mapContainer = document.getElementById('map');
 
+
+
+// Función para insertar saltos de línea en los espacios cuando se supera maxLength
+function wrapText(text, maxLength = 10) {
+  const words = text.split(' ');
+  let result = '';
+  let line = '';
+
+  words.forEach(word => {
+    // Si al agregar la palabra la línea supera el maxLength, se hace un salto de línea
+    if ((line + (line ? ' ' : '') + word).length > maxLength) {
+      result += line + '\n';
+      line = word;
+    } else {
+      line += (line ? ' ' : '') + word;
+    }
+  });
+  result += line;
+  return result.trim();
+}

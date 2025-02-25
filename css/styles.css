@@ -408,3 +408,14 @@ body {
 .selectores {
   background-color: rgba(44, 2, 63, 0.4)!important;
 }
+
+@media (max-width: 768px) {
+  .selectores {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .selectores div {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
