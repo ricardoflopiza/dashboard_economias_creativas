@@ -6,52 +6,44 @@
     <div class="container-fluid my-3">
       <!-- Fila 1 -->
       <div class="row mb-4">
-        
         <!-- Columna Izquierda (Mapa) -->
-<div class="col-md-6">
-  <h2>Nacional</h2>
-  <div id="mapContainer" class="position-relative my-3" style="min-height: 600px;">
-    <!-- Contenedor del mapa y gráficos -->
-    <div class="row">
-      <!-- Mapa -->
-       
-      <div id="mapColumn" class="col-md-4 flex-grow-1 transparent-box  p-3 border rounded-3 mb-3 ">
-        <div id="map" style="width: 100%; height: 600px;" ></div>
-      </div>
+        <div class="col-md-6">
+          <h2>Nacional</h2>
+          <div id="mapContainer" class="position-relative my-3" style="min-height: 600px">
+            <!-- Contenedor del mapa y gráficos -->
+            <div class="row">
+              <!-- Mapa -->
 
-      <!-- Gráficos de detalle -->
-      <div 
-        id="detailsColumn" 
-        class="col-md-8" 
-        style="display: flex; flex-direction: column;"
-      >
-        <!-- Primera fila -->
-        <div class=" flex-grow-1 transparent-box  p-3 border rounded-3 mb-3">
-          <div id="chart1" style="width: 100%; height: 100%;"></div>
+              <div id="mapColumn" class="col-md-4 flex-grow-1 transparent-box p-3 border rounded-3 mb-3">
+                <div id="map" style="width: 100%; height: 600px"></div>
+              </div>
+
+              <!-- Gráficos de detalle -->
+              <div id="detailsColumn" class="col-md-8" style="display: flex; flex-direction: column">
+                <!-- Primera fila -->
+                <div class="flex-grow-1 transparent-box p-3 border rounded-3 mb-3">
+                  <div id="chart1" style="width: 100%; height: 100%"></div>
+                </div>
+
+                <!-- Segunda fila -->
+                <div class="flex-grow-1 transparent-box p-3 border rounded-3 mb-3">
+                  <div id="chart2" style="width: 100%; height: 100%"></div>
+                </div>
+
+                <!-- Tercera fila -->
+                <div class="flex-grow-1 transparent-box p-3 border rounded-3 mb-3">
+                  <div id="chart3" style="width: 100%; height: 100%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Botón de reseteo ahora debajo del mapa -->
+            <div class="text-center mt-3">
+              <button id="resetButton" class="btn btn-primary d-none"><i class="bi bi-globe"></i> Ver mapa nacional</button>
+            </div>
+          </div>
         </div>
 
-        <!-- Segunda fila -->
-        <div class=" flex-grow-1 transparent-box  p-3 border rounded-3 mb-3">
-          <div id="chart2" style="width: 100%; height: 100%;"></div>
-        </div>
-
-        <!-- Tercera fila -->
-        <div class=" flex-grow-1 transparent-box  p-3 border rounded-3 mb-3">
-          <div id="chart3" style="width: 100%; height: 100%;"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Botón de reseteo ahora debajo del mapa -->
-    <div class="text-center mt-3">
-      <button id="resetButton" class="btn btn-primary d-none">
-        <i class="bi bi-globe"></i> Ver mapa nacional
-      </button>
-    </div>
-  </div>
-</div>
-
-        
         <!-- Columna Derecha (Características Generales) -->
         <div class="col-md-6 d-flex flex-column">
           <h2>Características generales</h2>
@@ -59,13 +51,8 @@
           <div class="selectores text-white p-3 rounded-top-only">
             <!-- Variable de interés -->
             <div style="float: left; width: 48%; margin-right: 2%">
-              <label for="selectorGeneralesInteres" class="d-block">
-                Variable de interés:
-              </label>
-              <select
-                id="selectorGeneralesInteres"
-                class="form-select form-select-sm w-100"
-              >
+              <label for="selectorGeneralesInteres" class="d-block"> Variable de interés: </label>
+              <select id="selectorGeneralesInteres" class="form-select form-select-sm w-100">
                 <option value="genero">Género ¿Cuál es tu género?</option>
                 <option value="asociatividad">Asociatividad ¿Tú o tu empresa pertenecen a alguna comunidad o red de creativos o creativos tecnológicos?</option>
                 <option value="tamano_empresa_num_trab">Tamaño (N° trabajadores)</option>
@@ -73,19 +60,14 @@
                 <option value="exportaciones">Exportaciones ¿Tu negocio exporta productos o servicios?</option>
                 <option value="exportaciones_porc_ingreso">Ingreso por exportaciones (%) ¿cuál es el porcentaje de ingresos provenientes de exportaciones?</option>
                 <option value="financiamiento">Financiamiento ¿Cuál es la principal fuente de financiamiento para capital de trabajo o proyectos principal de tu negocio?</option>
-                <option value="internacionalizacion">Internacionalización ¿Tu empresa o negocio tiene presencia permanente en mercados internacionales? </option>
+                <option value="internacionalizacion">Internacionalización ¿Tu empresa o negocio tiene presencia permanente en mercados internacionales?</option>
               </select>
             </div>
 
             <!-- Nivel de análisis (Generales) -->
             <div style="float: left; width: 48%">
-              <label for="selectorTecnoAnalisis" class="d-block">
-                Nivel de análisis:
-              </label>
-              <select
-                id="selectorTecnoAnalisis"
-                class="form-select form-select-sm w-100"
-              >
+              <label for="selectorTecnoAnalisis" class="d-block"> Nivel de análisis: </label>
+              <select id="selectorTecnoAnalisis" class="form-select form-select-sm w-100">
                 <option value="nacional">Nacional</option>
                 <option value="region" selected>Regiones</option>
                 <option value="cadena_productiva">Cadena Productiva</option>
@@ -93,90 +75,63 @@
               </select>
             </div>
           </div>
-          <button
-          id="resetButton1"
-          class="btn btn-secondary mt-2"
-          style="display: none;"
-        >
-          Restablecer gráfico
-        </button>
+          <button id="resetButton1" class="btn btn-secondary mt-2" style="display: none">Restablecer gráfico</button>
           <!-- Contenedor del gráfico de características generales -->
-          <div class="  flex-grow-1 rounded-bottom-only p-3 transparent-box  p-3 border rounded-3 " style="min-height: 400px;">
-            <div 
-              id="chartContainer" 
-              class="w-100 h-100"
-              style="border: none;"
-            ></div>
-
+          <div class="flex-grow-1 rounded-bottom-only p-3 transparent-box p-3 border rounded-3" style="min-height: 400px">
+            <div id="chartContainer" class="w-100 h-100" style="border: none"></div>
           </div>
-        </div> <!-- .col-md-6 -->
-      </div> <!-- .row -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .row -->
 
       <!-- Fila 2: Características tecnocreativas -->
-<!-- Fila 2: Características tecnocreativas (con más altura) -->
-<div class="row" style="min-height: 900px;"> <!-- Ajustamos la altura de la fila -->
-  <div class="col-md-12 d-flex flex-column flex-grow-1">
-    <h2>Características tecnocreativas</h2>
+      <!-- Fila 2: Características tecnocreativas (con más altura) -->
+      <div class="row" style="min-height: 900px">
+        <!-- Ajustamos la altura de la fila -->
+        <div class="col-md-12 d-flex flex-column flex-grow-1">
+          <h2>Características tecnocreativas</h2>
 
-    <!-- Barra de selectores (tecnocreativas) -->
-    <div class="selectores text-white p-3 rounded-top-only">
-      <div class="row">
-        <!-- Variable de interés -->
-        <div class="col-md-5">
-          <label for="selector2b" class="d-block">
-            Variable de interés:
-          </label>
-          <select
-            id="selector2b"
-            class="form-select form-select-sm w-100"
-          >
-            <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa ¿En cuál de las siguientes agrupaciones tecnocreactivas habita mejor tu negocio?</option>
-            <option value="tecnologias">Uso de tecnología ¿Cuáles de las siguientes herramientas tecnológicas utilizan habitualmente en tu negocio? </option>
-            <option value="herramientas_diferenciacion">Herramientas de diferenciación ¿Tu negocio gestiona herramientas de diferenciación como las siguientes? </option>
-            <option value="genero">Género ¿Cuál es tu género?</option>
-            <option value="asociatividad">Asociatividad ¿Tú o tu empresa pertenecen a alguna comunidad o red de creativos o creativos tecnológicos?</option>
-            <option value="interaccion">Interacción ¿Con qué sectores no creativos de la economía interactúa tu empresa o tú como profesional? </option>
-            <option value="tendencias">Tendencias tecnocreativas ¿Tu negocio habita alguna de las tendencias tecnocreativas?</option>
-            <option value="brechas">Brechas ¿Cuál o cuáles son las principales brechas de la industria tecnocreativa en Chile que afectan a tu negocio? </option>
-          </select>
-        </div>
+          <!-- Barra de selectores (tecnocreativas) -->
+          <div class="selectores text-white p-3 rounded-top-only">
+            <div class="row">
+              <!-- Variable de interés -->
+              <div class="col-md-5">
+                <label for="selector2b" class="d-block"> Variable de interés: </label>
+                <select id="selector2b" class="form-select form-select-sm w-100">
+                  <option value="agrupacion_tecnocreativa">Agrupación tecnocreativa ¿En cuál de las siguientes agrupaciones tecnocreactivas habita mejor tu negocio?</option>
+                  <option value="tecnologias">Uso de tecnología ¿Cuáles de las siguientes herramientas tecnológicas utilizan habitualmente en tu negocio?</option>
+                  <option value="herramientas_diferenciacion">Herramientas de diferenciación ¿Tu negocio gestiona herramientas de diferenciación como las siguientes?</option>
+                  <option value="asociatividad">Asociatividad ¿Tú o tu empresa pertenecen a alguna comunidad o red de creativos o creativos tecnológicos?</option>
+                  <option value="interaccion">Interacción ¿Con qué sectores no creativos de la economía interactúa tu empresa o tú como profesional?</option>
+                  <option value="tendencias">Tendencias tecnocreativas ¿Tu negocio habita alguna de las tendencias tecnocreativas?</option>
+                  <option value="brechas">Brechas ¿Cuál o cuáles son las principales brechas de la industria tecnocreativa en Chile que afectan a tu negocio?</option>
+                </select>
+              </div>
 
-        <!-- Nivel de análisis (Tecnocreativas) -->
-        <div class="col-md-5">
-          <label for="selector1b" class="d-block">
-            Nivel de análisis:
-          </label>
-          <select
-            id="selector1b"
-            class="form-select form-select-sm w-100"
-          >
-            <option value="nacional">Nacional</option>
-            <option value="region">Regiones</option>
-            <option value="cadena_productiva">Cadena Productiva</option>
-            <option value="tipo_empresa">Tipo de emprendimiento</option>
-          </select>
+              <!-- Nivel de análisis (Tecnocreativas) -->
+              <div class="col-md-5">
+                <label for="selector1b" class="d-block"> Nivel de análisis: </label>
+                <select id="selector1b" class="form-select form-select-sm w-100">
+                  <option value="nacional">Nacional</option>
+                  <option value="region">Regiones</option>
+                  <option value="cadena_productiva">Cadena Productiva</option>
+                  <option value="tipo_empresa">Tipo de emprendimiento</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contenedor del segundo gráfico con más altura -->
+          <div id="container_caract_tecno_grafico" class="flex-grow-1 rounded-bottom-only p-3 transparent-box" style="min-height: 900px">
+            <button id="resetButton2" class="btn btn-secondary mt-2" style="display: none">Restablecer gráfico</button>
+            <div id="chartContainer2" class="w-100 h-100" style="border: none; min-height: 550px"></div>
+          </div>
         </div>
       </div>
+      <!-- .row -->
     </div>
-
-    <!-- Contenedor del segundo gráfico con más altura -->
-    <div id ="container_caract_tecno_grafico" class="flex-grow-1 rounded-bottom-only p-3 transparent-box" style="min-height: 900px;">
-      <button
-        id="resetButton2"
-        class="btn btn-secondary mt-2"
-        style="display: none;"
-      >
-        Restablecer gráfico
-      </button>
-      <div 
-        id="chartContainer2" 
-        class="w-100 h-100"
-        style="border: none; min-height: 550px;"
-      ></div>
-    </div>
+    <!-- .container-fluid -->
   </div>
-</div> <!-- .row -->
-</div> <!-- .container-fluid -->
-
-  </div> <!-- #tab1 -->
+  <!-- #tab1 -->
 </body>
